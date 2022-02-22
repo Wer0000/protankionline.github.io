@@ -1,24 +1,66 @@
-﻿﻿<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru"><head>
-    <title>Error</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="description" content="Error">
-    <style type="text/css">
-        body {font-size:24px; color:#777777; font-family:arial; text-align:center;}
-        h1 {font-size:77px; color:#99A7AF; margin: 70px 0 0 0;}
-        h2 {color: #DE6C5D; font-family: arial; font-size: 40px; font-weight: bold; letter-spacing: -1px; margin: -3px 0 39px;}
-h3 {font-size:20px; color:#99A7AF; margin: 2px 0 0 0;}
-        p {width:375px; text-align:center; margin-left:auto;margin-right:auto; margin-top: 30px }
-        div {width:375px; text-align:center; margin-left:auto;margin-right:auto;}
-        a:link {color: #34536A;}
-        a:visited {color: #34536A;}
-        a:active {color: #34536A;}
-        a:hover {color: #34536A;}
-    </style>
+﻿<html>
+<head>
+	<title>Tankionline Flash client</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<style type="text/css" media="screen">
+		html, body {
+			height: 100%;
+		}
+
+		body {
+			margin: 0px;
+			padding: 0px;
+			color: #fff;
+		}
+
+		a {
+			color: #fff;
+		}
+
+		#AlternativaLoader {
+			text-align: center;
+			min-width: 970px;
+			min-height: 580px;
+			width: expression(document.body.clientWidth < 970? "970px": document.body.clientWidth );
+			height: expression(document.body.clientHeight < 580? "580px": document.body.clientHeight );
+		}
+	</style>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/common.js"></script>
+	<script src="js/swfobject.js"></script>
+	<script src="js/swfaddress.js"></script>
+
+	<script>
+		var flashvars = {};
+		var params = {};
+		var attributes = {};
+		var getparams = "";
+		params['menu'] = false;
+		params['wmode'] = "direct";
+		params['seamlesstabbing'] = false;
+		params['allowscriptaccess'] = "always";
+		params['allowFullScreen'] = true;
+		params['allowFullScreenInteractive'] = true;
+		params['wmode'] = "direct";
+		flashvars['allowFullScreenInteractive'] = true;
+		var hostname = window.location.hostname;
+		getparams = "config=true";
+		jQuery.extend(flashvars, getParams(1));
+
+		//getparams += "&console=show:2,w:30,h:100,va:2,ha:2,alpha:0.9&showlog=CHAT";
+		//getparams += "&console=show:1,w:50,h:100,va:1,alpha:0.6&showlog=test11";
+		swfobject.embedSWF("http://png-drift.ml/play/Loader.swf", "AlternativaLoader", "100%", "100%", "10.0.22.87",
+			"expressInstall.swf", flashvars, params, attributes);
+	</script>
 </head>
 <body>
-<h1>Технические работы</h1>
-    <h2>Unlocker FPS временно не доступен :(</h2>
-    <h3>За подробностями пишите в дискорд Aivaz#9559</h2>
 
+<div id="AlternativaLoader"></div>
 
-</body></html>
+<script src="../js/platform.js"></script>
+<script src="js/facebook-login.js"></script>
+<script src="js/google-login.js"></script>
+
+</body>
+</html>
