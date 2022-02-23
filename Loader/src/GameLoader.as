@@ -82,7 +82,7 @@ package
 		
 		private function createDishonestProgressBar():void
 		{
-			this._dishonestProgressBar = new DishonestProgressBar("RU", this.progressBarFinished);
+			this._dishonestProgressBar = new DishonestProgressBar(loaderInfo.parameters["lang"].toUpperCase(), this.progressBarFinished);
 			stage.addChild(this._dishonestProgressBar);
 			this._dishonestProgressBar.start();
 		}
