@@ -1,95 +1,95 @@
 package mx.utils
 {
-   import flash.display.DisplayObject;
-   import flash.utils.getQualifiedClassName;
-   import mx.core.IRepeaterClient;
-   import mx.core.mx_internal;
-   
-   use namespace mx_internal;
-   
-   public class NameUtil
-   {
-      
-      mx_internal static const VERSION:String = "4.6.0.23201";
-      
-      private static var counter:int = 0;
-       
-      
-      public function NameUtil()
-      {
-         super();
-      }
-      
-      public static function createUniqueName(param1:Object) : String
-      {
-         if(!param1)
-         {
-            return null;
-         }
-         var _loc2_:* = getQualifiedClassName(param1);
-         var _loc3_:int = _loc2_.indexOf("::");
-         if(_loc3_ != -1)
-         {
-            _loc2_ = _loc2_.substr(_loc3_ + 2);
-         }
-         var _loc4_:int;
-         if((_loc4_ = _loc2_.charCodeAt(_loc2_.length - 1)) >= 48 && _loc4_ <= 57)
-         {
-            _loc2_ += "_";
-         }
-         return _loc2_ + counter++;
-      }
-      
-      public static function displayObjectToString(param1:DisplayObject) : String
-      {
-         var _loc2_:String = null;
-         var _loc3_:DisplayObject = null;
-         var _loc4_:String = null;
-         var _loc5_:Array = null;
-         try
-         {
-            _loc3_ = param1;
-            while(_loc3_ != null)
-            {
-               if(_loc3_.parent && _loc3_.stage && _loc3_.parent == _loc3_.stage)
-               {
-                  break;
-               }
-               _loc4_ = "id" in _loc3_ && _loc3_["id"] ? _loc3_["id"] : _loc3_.name;
-               if(_loc3_ is IRepeaterClient)
-               {
-                  if(_loc5_ = IRepeaterClient(_loc3_).instanceIndices)
-                  {
-                     _loc4_ += "[" + _loc5_.join("][") + "]";
-                  }
-               }
-               _loc2_ = _loc2_ == null ? _loc4_ : _loc4_ + "." + _loc2_;
-               _loc3_ = _loc3_.parent;
-            }
-         }
-         catch(e:SecurityError)
-         {
-         }
-         return _loc2_;
-      }
-      
-      public static function getUnqualifiedClassName(param1:Object) : String
-      {
-         var _loc2_:String = null;
-         if(param1 is String)
-         {
-            _loc2_ = param1 as String;
-         }
-         else
-         {
-            _loc2_ = getQualifiedClassName(param1);
-         }
-         var _loc3_:int = _loc2_.indexOf("::");
-         if(_loc3_ != -1)
-         {
-            _loc2_ = _loc2_.substr(_loc3_ + 2);
-         }
-         return _loc2_;
-      }
-   }
-}
+	import mx.core.mx_internal;
+	import flash.utils.getQualifiedClassName;
+	import flash.display.DisplayObject;
+	import mx.core.IRepeaterClient;
+	use namespace mx_internal;
+	
+	public class NameUtil
+	{
+		
+		mx_internal static const VERSION:String = "4.6.0.23201";
+		private static var counter:int = 0;
+		
+		public static function createUniqueName(_arg_1:Object):String
+		{
+			if (!_arg_1)
+			{
+				return (null);
+			}
+			;
+			var _local_2:String = getQualifiedClassName(_arg_1);
+			var _local_3:int = _local_2.indexOf("::");
+			if (_local_3 != -1)
+			{
+				_local_2 = _local_2.substr((_local_3 + 2));
+			}
+			;
+			var _local_4:int = _local_2.charCodeAt((_local_2.length - 1));
+			if (((_local_4 >= 48) && (_local_4 <= 57)))
+			{
+				_local_2 = (_local_2 + "_");
+			}
+			;
+			return (_local_2 + counter++);
+		}
+		
+		public static function displayObjectToString(_arg_1:DisplayObject):String
+		{
+			var _local_2:String;
+			var _local_3:DisplayObject;
+			var _local_4:String;
+			var _local_5:Array;
+			try
+			{
+				_local_3 = _arg_1;
+				while (_local_3 != null)
+				{
+					if ((((_local_3.parent) && (_local_3.stage)) && (_local_3.parent == _local_3.stage))) break;
+					_local_4 = ((("id" in _local_3) && (_local_3["id"])) ? _local_3["id"] : _local_3.name);
+					if ((_local_3 is IRepeaterClient))
+					{
+						_local_5 = IRepeaterClient(_local_3).instanceIndices;
+						if (_local_5)
+						{
+							_local_4 = (_local_4 + (("[" + _local_5.join("][")) + "]"));
+						}
+						;
+					}
+					;
+					_local_2 = ((_local_2 == null) ? _local_4 : ((_local_4 + ".") + _local_2));
+					_local_3 = _local_3.parent;
+				}
+				;
+			}
+			catch (e:SecurityError)
+			{
+			}
+			;
+			return (_local_2);
+		}
+		
+		public static function getUnqualifiedClassName(_arg_1:Object):String
+		{
+			var _local_2:String;
+			if ((_arg_1 is String))
+			{
+				_local_2 = (_arg_1 as String);
+			}
+			else
+			{
+				_local_2 = getQualifiedClassName(_arg_1);
+			}
+			;
+			var _local_3:int = _local_2.indexOf("::");
+			if (_local_3 != -1)
+			{
+				_local_2 = _local_2.substr((_local_3 + 2));
+			}
+			;
+			return (_local_2);
+		}
+	
+	}
+}//package mx.utils

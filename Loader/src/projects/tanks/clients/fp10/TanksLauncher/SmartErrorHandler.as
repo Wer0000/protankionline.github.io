@@ -26,7 +26,7 @@ package projects.tanks.clients.fp10.TanksLauncher
       
       private var errorCode:String;
       
-      private var tanksErrorMessage;
+      private var tanksErrorMessage:*;
       
       public function SmartErrorHandler(param1:String, param2:String)
       {
