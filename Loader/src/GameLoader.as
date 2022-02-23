@@ -1,6 +1,5 @@
 package
 {
-   import flash.desktop.NativeApplication;
    import flash.display.Loader;
    import flash.display.LoaderInfo;
    import flash.display.Sprite;
@@ -18,15 +17,18 @@ package
    import flash.utils.ByteArray;
    import projects.tanks.clients.fp10.TanksLauncher.SmartErrorHandler;
    import projects.tanks.clients.fp10.TanksLauncher.background.Background;
+   import projects.tanks.clients.fp10.TanksLauncher.service.LocaleService;
    import projects.tanks.clients.tankslauncershared.dishonestprogressbar.DishonestProgressBar;
    
    public class GameLoader extends Sprite
    {
       
-      private static var GAME_URL:String = "http://93.78.105.80:8080/resource/";
-      
       private static const ENTRANCE_MODEL_OBJECT_LOADED_EVENT:String = "EntranceModel.objectLoaded";
        
+      
+      private const SERVER_STATUS_OVERLOADED:String = "overloaded";
+      
+      private const SERVER_STATUS_UNAVAILABLE:String = "unavailable";
       
       private var loader:Loader;
       
@@ -37,6 +39,8 @@ package
       private var _dishonestProgressBar:DishonestProgressBar;
       
       private var _background:Background;
+      
+      private var configLoader:URLLoader;
       
       public function GameLoader()
       {
@@ -49,20 +53,19 @@ package
          return Class(ApplicationDomain.currentDomain.getDefinition(param1));
       }
       
-      private function init(e:Event = null) : void
+      private function init(param1:Event = null) : void
       {
-         trace("AIR SDK Version: ",NativeApplication.nativeApplication.runtimeVersion);
          removeEventListener(Event.ADDED_TO_STAGE,this.init);
+         new IncludedLibrary();
          this.configureStage();
          this.createBackground();
-		   this.createDishonestProgressBar();
+         LocaleService.updateCurrentLocale(loaderInfo.parameters["lang"]);
          try
          {
-            this.loadLibrary();
+            this.startLoadServerConfiguration();
          }
          catch(e:Error)
          {
-            this.handleLoadingError(e.getStackTrace(),"0");
          }
       }
       
@@ -85,7 +88,7 @@ package
       
       private function createDishonestProgressBar() : void
       {
-         this._dishonestProgressBar = new DishonestProgressBar(loaderInfo.parameters["lang"].toUpperCase(),this.progressBarFinished);
+         this._dishonestProgressBar = new DishonestProgressBar("RU",this.progressBarFinished);
          stage.addChild(this._dishonestProgressBar);
          this._dishonestProgressBar.start();
       }
@@ -112,59 +115,92 @@ package
          }
       }
       
-      private function onEntranceModelObjectLoaded(event:Event) : void
+      private function onEntranceModelObjectLoaded(param1:Event) : void
       {
-         trace("entrance model obj loaded");
          stage.removeEventListener(ENTRANCE_MODEL_OBJECT_LOADED_EVENT,this.onEntranceModelObjectLoaded);
-         
-         this._dishonestProgressBar.forciblyFinish();
+         this.removeFromStageBackground();
       }
       
       private function loadLibrary() : void
       {
-         var context:LoaderContext = new LoaderContext(false,ApplicationDomain.currentDomain);
-         var flashvars:URLVariables = new URLVariables();
-         flashvars["locale"] = loaderInfo.parameters["lang"];
-         flashvars["rnd"] = Math.random();
-         var urlReq:URLRequest = new URLRequest(loaderInfo.parameters["swf"]);
-         var urlLoader:URLLoader = new URLLoader();
-         urlLoader.dataFormat = URLLoaderDataFormat.BINARY;
-         urlLoader.addEventListener(Event.COMPLETE,this.byteArrayLoadComplete);
-         urlLoader.load(urlReq);
+         var _loc1_:LoaderContext = new LoaderContext(false,ApplicationDomain.currentDomain);
+         var _loc2_:URLVariables = new URLVariables();
+         _loc2_["locale"] = loaderInfo.parameters["lang"];
+         _loc2_["rnd"] = Math.random();
+         var _loc3_:URLRequest = new URLRequest(loaderInfo.parameters["swf"]);
+         var _loc4_:URLLoader;
+         (_loc4_ = new URLLoader()).dataFormat = URLLoaderDataFormat.BINARY;
+         _loc4_.addEventListener(Event.COMPLETE,this.byteArrayLoadComplete);
+         _loc4_.load(_loc3_);
       }
       
-      private function byteArrayLoadComplete(event:Event) : void
+      private function startLoadServerConfiguration() : void
       {
-         var bytes:ByteArray = URLLoader(event.target).data as ByteArray;
+         this.configLoader = new URLLoader();
+         this.configLoader.addEventListener(Event.COMPLETE,this.onServerConfigLoadingComplete);
+         this.configLoader.load(new URLRequest("http://s2.protanki-online.com/config.xml" + "?rnd=" + Math.random()));
+      }
+      
+      private function onServerConfigLoadingComplete(param1:Event) : void
+      {
+         var _loc2_:XML = XML(this.configLoader.data);
+         this.configLoader = null;
+         var _loc3_:Namespace = _loc2_.namespace();
+         var _loc4_:String = _loc2_._loc3_::status.toString();
+         switch(_loc4_)
+         {
+            case this.SERVER_STATUS_OVERLOADED:
+               this.onServerOverloaded();
+               return;
+            case this.SERVER_STATUS_UNAVAILABLE:
+               this.onServerUnavailable();
+               return;
+            default:
+               this.loadLibrary();
+               return;
+         }
+      }
+      
+      public function onServerUnavailable() : void
+      {
+         this.handleLoadingError("Server is unavailable",SmartErrorHandler.NOTAVAILABLE_ERROR);
+      }
+      
+      public function onServerOverloaded() : void
+      {
+         this.handleLoadingError("Server is overloaded",SmartErrorHandler.OVERLOADED_ERROR);
+      }
+      
+      private function byteArrayLoadComplete(param1:Event) : void
+      {
+         var _loc2_:ByteArray = URLLoader(param1.target).data as ByteArray;
          this.loader = new Loader();
-         var loaderContext:LoaderContext = new LoaderContext(false,new ApplicationDomain(ApplicationDomain.currentDomain));
-         var loaderInfo:LoaderInfo = this.loader.contentLoaderInfo;
-         loaderInfo.addEventListener(Event.COMPLETE,this.onComplete,false,0,true);
-         loaderContext.allowCodeImport = true;
-         this.loader.loadBytes(bytes,loaderContext);
+         var _loc3_:LoaderContext = new LoaderContext(false,new ApplicationDomain(ApplicationDomain.currentDomain));
+         var _loc4_:LoaderInfo;
+         (_loc4_ = this.loader.contentLoaderInfo).addEventListener(Event.COMPLETE,this.onComplete,false,0,true);
+         _loc3_.allowCodeImport = true;
+         this.loader.loadBytes(_loc2_,_loc3_);
       }
       
-      public function logEvent(entry:String) : void
+      public function logEvent(param1:String) : void
       {
-         this.log.appendText(entry + "\n");
-         trace(entry);
+         this.log.appendText(param1 + "\n");
       }
       
-      private function onComplete(e:Event) : void
+      private function onComplete(param1:Event) : void
       {
          this.loader.removeEventListener(Event.COMPLETE,this.onComplete);
-         var mainClass:Class = Class(this.loader.contentLoaderInfo.applicationDomain.getDefinition("Game"));
-         var obj:* = new mainClass();
-         obj.SUPER(stage,this,loaderInfo);
-         addChild(obj);
-		          this.progressBarFinished();
+         var _loc2_:Class = Class(this.loader.contentLoaderInfo.applicationDomain.getDefinition("Game"));
+         var _loc3_:* = new _loc2_();
+         addChild(_loc3_);
+         _loc3_.SUPER(stage,this,loaderInfo);
       }
       
-      private function handleLoadingError(errorMessage:String, errorCode:String) : void
+      private function handleLoadingError(param1:String, param2:String) : void
       {
-         var seh:SmartErrorHandler = new SmartErrorHandler(errorMessage,errorCode);
-         stage.addChild(seh);
-         seh.handleLoadingError();
+         var _loc3_:SmartErrorHandler = new SmartErrorHandler(param1,param2);
+         stage.addChild(_loc3_);
+         _loc3_.handleLoadingError();
       }
    }
 }

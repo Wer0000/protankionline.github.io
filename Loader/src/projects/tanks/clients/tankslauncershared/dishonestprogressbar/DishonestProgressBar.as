@@ -73,11 +73,11 @@ package projects.tanks.clients.tankslauncershared.dishonestprogressbar
       
       private var _locale:String;
       
-      public function DishonestProgressBar(locale:String, complete:Function)
+      public function DishonestProgressBar(param1:String, param2:Function)
       {
          super();
-         this._locale = locale;
-         this._complete = complete;
+         this._locale = param1;
+         this._complete = param2;
          this.init();
       }
       
@@ -115,16 +115,16 @@ package projects.tanks.clients.tankslauncershared.dishonestprogressbar
          this._bgdCenterIcon.graphics.drawRect(0,0,DEFAULT_WIDTH - this._bgdLeftIcon.width - this._bgdRightIcon.width,DEFAULT_HEIGHT);
          this._bgdCenterIcon.x = this._bgdLeftIcon.width;
          this._bgdRightIcon.x = this._bgdCenterIcon.x + this._bgdCenterIcon.width;
-         var threeDotsWidth:int = 26;
+         var _loc1_:int = 26;
          if(this._locale == Locale.CN)
          {
-            threeDotsWidth = 22;
+            _loc1_ = 22;
          }
-         this._loadingLabel.x = DEFAULT_WIDTH - (this._loadingLabel.width - threeDotsWidth) >> 1;
+         this._loadingLabel.x = DEFAULT_WIDTH - (this._loadingLabel.width - _loc1_) >> 1;
          this._loadingLabel.y = -this._loadingLabel.height - 17;
       }
       
-      private function onAddedToStage(event:Event) : void
+      private function onAddedToStage(param1:Event) : void
       {
          removeEventListener(Event.ADDED_TO_STAGE,this.onAddedToStage);
          this.align();
@@ -132,7 +132,7 @@ package projects.tanks.clients.tankslauncershared.dishonestprogressbar
          addEventListener(Event.REMOVED_FROM_STAGE,this.onRemoveToStage);
       }
       
-      private function onResize(event:Event) : void
+      private function onResize(param1:Event) : void
       {
          this.align();
       }
@@ -143,7 +143,7 @@ package projects.tanks.clients.tankslauncershared.dishonestprogressbar
          this.y = stage.stageHeight - DEFAULT_HEIGHT >> 1;
       }
       
-      private function onRemoveToStage(event:Event) : void
+      private function onRemoveToStage(param1:Event) : void
       {
          removeEventListener(Event.REMOVED_FROM_STAGE,this.onRemoveToStage);
          stage.removeEventListener(Event.RESIZE,this.onResize);
@@ -161,7 +161,7 @@ package projects.tanks.clients.tankslauncershared.dishonestprogressbar
          addEventListener(Event.ENTER_FRAME,this.onEnterFrame);
       }
       
-      private function onEnterFrame(e:Event) : void
+      private function onEnterFrame(param1:Event) : void
       {
          if(this._isForciblyFinish)
          {
@@ -205,12 +205,12 @@ package projects.tanks.clients.tankslauncershared.dishonestprogressbar
          this._complete.apply();
       }
       
-      private function redrawProgressLineAndBlick(w:int) : void
+      private function redrawProgressLineAndBlick(param1:int) : void
       {
-         this._progressLine.width = w;
+         this._progressLine.width = param1;
          this._progressLineBlick.graphics.clear();
          this._progressLineBlick.graphics.beginBitmapFill(blickBitmapData,this._blickMatrix,true,false);
-         this._progressLineBlick.graphics.drawRect(0,0,w,this._progressLine.height);
+         this._progressLineBlick.graphics.drawRect(0,0,param1,this._progressLine.height);
       }
       
       public function stop() : void

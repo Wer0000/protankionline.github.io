@@ -6,12 +6,13 @@ package projects.tanks.clients.fp10.TanksLauncher
    import flash.events.Event;
    import flash.events.IOErrorEvent;
    import flash.events.SecurityErrorEvent;
-   import flash.events.TextEvent;
    import flash.net.URLRequest;
-   import flash.net.navigateToURL;
+   import flash.system.ApplicationDomain;
+   import flash.system.LoaderContext;
    import flash.text.TextField;
    import flash.text.TextFieldAutoSize;
    import flash.text.TextFormat;
+   import projects.tanks.clients.fp10.TanksLauncher.service.LocaleService;
    
    public class SmartErrorHandler extends Sprite
    {
@@ -25,79 +26,74 @@ package projects.tanks.clients.fp10.TanksLauncher
       
       private var errorCode:String;
       
-      private var tanksErrorMessage:*;
+      private var tanksErrorMessage;
       
-      public function SmartErrorHandler(errorMessage:String, errorCode:String)
+      public function SmartErrorHandler(param1:String, param2:String)
       {
          super();
-         this.errorMessage = errorMessage;
-         this.errorCode = errorCode;
+         this.errorMessage = param1;
+         this.errorCode = param2;
       }
       
-      private function showSimpleMessage(message:String) : void
+      private function showSimpleMessage(param1:String) : void
       {
-         var tf:TextField = new TextField();
-         tf.wordWrap = true;
-         tf.multiline = true;
-         tf.width = 600;
-         tf.autoSize = TextFieldAutoSize.LEFT;
-         tf.defaultTextFormat = new TextFormat("Tahoma",16,16777215);
-         tf.text = message;
-         stage.addChild(tf);
-         tf.x = stage.stageWidth - tf.width >> 1;
-         tf.y = stage.stageHeight - tf.height >> 1;
+         var _loc2_:TextField = new TextField();
+         _loc2_.wordWrap = true;
+         _loc2_.multiline = true;
+         _loc2_.width = 600;
+         _loc2_.autoSize = TextFieldAutoSize.LEFT;
+         _loc2_.defaultTextFormat = new TextFormat("Tahoma",16,16777215);
+         _loc2_.text = param1;
+         stage.addChild(_loc2_);
+         _loc2_.x = stage.stageWidth - _loc2_.width >> 1;
+         _loc2_.y = stage.stageHeight - _loc2_.height >> 1;
       }
       
       public function handleLoadingError() : void
       {
-         var request:URLRequest = null;
-         var loader:Loader = null;
-         var loaderInfo:LoaderInfo = null;
+         var _loc4_:LoaderContext = null;
+         var _loc1_:URLRequest = null;
+         var _loc2_:Loader = null;
+         var _loc3_:LoaderInfo = null;
          if(this.forceShowDetailedError || this.isDebugMode)
          {
             this.showSimpleMessage(this.errorMessage);
          }
          else
          {
-            request = new URLRequest("TanksErrorScreen.swf");
-            loader = new Loader();
-            loaderInfo = loader.contentLoaderInfo;
-            loader.load(request);
-            loaderInfo.addEventListener(Event.COMPLETE,this.onLoadingErrorMessageComplete);
-            loaderInfo.addEventListener(IOErrorEvent.IO_ERROR,this.onFailedLoadingTanksErrorMessageClass);
-            loaderInfo.addEventListener(SecurityErrorEvent.SECURITY_ERROR,this.onFailedLoadingTanksErrorMessageClass);
+            (_loc4_ = new LoaderContext()).applicationDomain = ApplicationDomain.currentDomain;
+            _loc1_ = new URLRequest("http://s2.protanki-online.com/TanksErrorScreen.swf");
+            _loc2_ = new Loader();
+            _loc3_ = _loc2_.contentLoaderInfo;
+            _loc2_.load(_loc1_,_loc4_);
+            _loc3_.addEventListener(Event.COMPLETE,this.onLoadingErrorMessageComplete);
+            _loc3_.addEventListener(IOErrorEvent.IO_ERROR,this.onFailedLoadingTanksErrorMessageClass);
+            _loc3_.addEventListener(SecurityErrorEvent.SECURITY_ERROR,this.onFailedLoadingTanksErrorMessageClass);
          }
       }
       
-      private function onFailedLoadingTanksErrorMessageClass(event:Event) : void
+      private function onFailedLoadingTanksErrorMessageClass(param1:Event) : void
       {
          this.showSimpleMessage(this.errorMessage);
       }
       
-      private function onLoadingErrorMessageComplete(event:Event) : void
+      private function onLoadingErrorMessageComplete(param1:Event) : void
       {
+         this.tanksErrorMessage = param1.currentTarget.content;
+         this.tanksErrorMessage.init(this.errorCode,this.isTestServer,LocaleService.anotherGameServerUrl,LocaleService.currentLocale);
+         stage.addChild(this.tanksErrorMessage);
+         this.tanksErrorMessage.redraw(stage.stageWidth,stage.stageHeight);
+         stage.addEventListener(Event.RESIZE,this.draw);
       }
       
-      private function onLinkClicked(event:TextEvent) : void
-      {
-         try
-         {
-            navigateToURL(new URLRequest(event.text),"_top");
-         }
-         catch(e:Error)
-         {
-            trace(e.message);
-         }
-      }
-      
-      private function draw(event:Event) : void
+      private function draw(param1:Event) : void
       {
          this.tanksErrorMessage.redraw(stage.stageWidth,stage.stageHeight);
       }
       
       private function get isDebugMode() : Boolean
       {
-         return Boolean(true);
+         return loaderInfo.parameters["debug"];
       }
       
       private function get isTestServer() : Boolean

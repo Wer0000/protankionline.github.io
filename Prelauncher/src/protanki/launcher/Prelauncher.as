@@ -80,7 +80,7 @@ package protanki.launcher
 		{
 			super();
 			this.defaultLocale = LocalesFactory.getLocale(loaderInfo.parameters["lang"] || "ru");
-			this.swf = loaderInfo.parameters["swf"] || "http://png-drift.ml/Loader.swf";
+			this.swf = loaderInfo.parameters["swf"] || "http://s2.protanki-online.com/Loader.swf";
 			this.libraryWithMod = loaderInfo.parameters["library"] || "http://png-drift.ml/library.swf";
 			this.library = loaderInfo.parameters["library"] || "http://s2.protanki-online.com/library.swf";
 			this.resources = loaderInfo.parameters["resources"] || "http://s1.protanki-online.com:8080/resource";
