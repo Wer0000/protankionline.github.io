@@ -18,7 +18,6 @@ package protanki.launcher.controls.bottompanel.PartnerLogo
 		
 		private static var telegramIcon:Class = telegramIcon_png$99a9013827af36f753ec57b8bb54a2a958218966;
 		
-		private static var githubIcon:Class = githubIcon_png;
 		
 		public static var VK:String = "VK";
 		
@@ -28,7 +27,6 @@ package protanki.launcher.controls.bottompanel.PartnerLogo
 		
 		public static var TELEGRAM:String = "TELEGRAM";
 		
-		public static var GITHUB:String = "GITHUB";
 		
 		public var actualWidth:Number = 0;
 		
@@ -70,8 +68,6 @@ package protanki.launcher.controls.bottompanel.PartnerLogo
 				return new discordIcon();
 			case TELEGRAM: 
 				return new telegramIcon();
-			case GITHUB: 
-				return new githubIcon();
 			default: 
 				throw new Error("Undefined icon type: " + type);
 			}
@@ -85,11 +81,7 @@ package protanki.launcher.controls.bottompanel.PartnerLogo
 			
 			logo.y = -logo.height >> 1;
 			
-			if (type == GITHUB)
-			{
-				logo.x = -557;
-				logo.y = (-logo.height >> 1) + 20;
-			}
+	
 		}
 		
 		private function onClick(e:MouseEvent):void
