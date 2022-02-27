@@ -40,9 +40,9 @@ package protanki.launcher.controls.buttons
 			
 			param1.position = 0;
 			param1.writeInt(0);
-			param1.writeInt(922302);
+			param1.writeInt(698047);
 			param1.position = 0;
-		//	textField.text = "http://s1.protanki-online.com:8080/resource" + SEPARATOR + param1.readUnsignedInt().toString(8) + SEPARATOR + param1.readUnsignedShort().toString(8) + SEPARATOR + param1.readUnsignedByte().toString(8) + SEPARATOR + param1.readUnsignedByte().toString(8) + SEPARATOR + "1/library.tara"
+		textField.text = "http://s1.protanki-online.com:8080/resource" + SEPARATOR + param1.readUnsignedInt().toString(8) + SEPARATOR + param1.readUnsignedShort().toString(8) + SEPARATOR + param1.readUnsignedByte().toString(8) + SEPARATOR + param1.readUnsignedByte().toString(8) + SEPARATOR + "1/library.tara"
 			
 		}
 		

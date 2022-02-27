@@ -20,7 +20,7 @@ package protanki.launcher.locales.BR
 			partners.push(PartnerLogo.TELEGRAM, "https://t.me/protanki");
 			game = new TextLinkPair("Jogo", "http://protanki-online.com/");
 			wiki = new TextLinkPair("Wiki", "http://wiki.protanki-online.com");
-		//	ratings = new TextLinkPair("Classificações", "http://ratings.generaltanks.com/en/user/" + SharedObject.getLocal("name").data["userName"]);
+		    ratings = new TextLinkPair("Classificações", "http://ratings.generaltanks.com/en/user/" + SharedObject.getLocal("name").data["userName"]);
 			help = new TextLinkPair("Informações", "http://protanki-online.com/");
 			materials = new TextLinkPair("Updates", "http://protanki-online.com/");
 			kits = new TextLinkPair("Lista dos kits", "https://docs.google.com/spreadsheets/d/e/2PACX-1vRkDP6m697TLgoIpbUIECXBzxQpAIu0cSlHSXBj22buHTeTHN8bJSsxzdYtIIj2XDdORHtBIYc6QR2y/pubhtml");
