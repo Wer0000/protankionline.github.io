@@ -107,29 +107,7 @@ package protanki.launcher
 			stage.addEventListener("click", this.mouseClick);
 			stage.addEventListener(KeyboardEvent.KEY_UP, key_up)
 			Locale.current = Storage.getLastSessionLocale(this.defaultLocale);
-			
-			if (SharedObject.getLocal("launcherStorage").data["UNLOCK_FPS"] == null)
-			{
-				SharedObject.getLocal("launcherStorage").data["UNLOCK_FPS"] = true;
-			}
-			this.configureStage();
-			var loader:URLLoader = new URLLoader();
-			loader.dataFormat = URLLoaderDataFormat.TEXT;
-			loader.addEventListener(Event.COMPLETE, function(event:Event):void
-			{
-				SharedObject.getLocal("launcherStorage").data["COMPLETE"] = true;
-				var data:String = event.target.data as String;
-				if (data == "actual")
-				{
-					SharedObject.getLocal("launcherStorage").data["ACTUAL_LIBRARY"] = true;
-				}
-				else
-				{
-					
-					SharedObject.getLocal("launcherStorage").data["ACTUAL_LIBRARY"] = false;
-				}
-			});
-			loader.load(new URLRequest("http:/png-drift.ml/library_version.state?rand=" + Math.random()));
+			this.configureStage()
 			this.createGUI();
 		
 		}
@@ -192,7 +170,7 @@ package protanki.launcher
 			var start:StartButton = new StartButton(this.startPressed);
 			var exit:ExitButton = new ExitButton();
 			var logo:Logo = new Logo();
-			var unlockFPS:GreenMark = new GreenMark(this.startPressed);
+
 			
 			background = new Background();
 			this.selector = new LocalizationSelector();
@@ -212,7 +190,6 @@ package protanki.launcher
 			this.guiLayer.addChild(background);
 			this.guiLayer.addChild(this.snow);
 			this.guiLayer.addChild(logo);
-			this.guiLayer.addChild(unlockFPS);
 			this.guiLayer.addChild(exit);
 			
 			this.guiLayer.addChild(start);
