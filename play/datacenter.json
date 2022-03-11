@@ -1,0 +1,12 @@
+{
+  "datacenters": {
+    "default": {
+      "balancer": "https://tankionline.com/s/status.js",
+      "config": "http://png-drift.ml/play/config.xml",
+      "expireDate": "2022-03-12T13:22:09.265Z",
+      "resources": "https://s.eu.tankionline.com/resources/",
+      "switchVersion": false
+    }
+  },
+  "versions": { }
+}
