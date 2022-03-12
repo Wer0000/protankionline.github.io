@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<tank>
+	<callsign>Aivaz</callsign>
+	<rank>21</rank>
+	<rankId>First Lieutenant</rankId>
+	<scores>309877</scores>
+	<position>hornet</position>
+	<tank>m2</tank>
+	<turret>railgun</turret>
+	<hull>hornet</hull>
+	<coloring>holiday</coloring>
+</tank>
