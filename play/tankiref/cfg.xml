@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <data>
-	<callsign>Aivaz</callsign>
-	<rankId>18</rankId>
-	<rank>First Lieutenant</rank>
-	<scores>309877</scores>
+	<callsign>Godmode_ON</callsign>
+	<rankId>20</rankId>
+	<rank>Majort</rank>
+	<scores>399877</scores>
 	<position>1</position>
 	<tank>
 		<turret>railgun</turret>
