@@ -7,9 +7,8 @@ package protanki.launcher.makeup
    public class MakeUp
    {
       
-      public static const ICON_COLOR_TRANSFORM:ColorTransform = new ColorTransform(0, 0, 0, 1, 27, 203, 253, 0);
 	  
-	   public static const ICON_COLOR_TRANSFORM_OLD:ColorTransform = new ColorTransform(0,0,0,1,128,203,8,0);
+	   public static const ICON_COLOR_TRANSFORM:ColorTransform = new ColorTransform(0,0,0,1,128,203,8,0);
       
       private static var myriadProBoldFont:Class = MyriadProBold_otf$c0d6be2a633d51960d15c1e0446295111882571688;
       

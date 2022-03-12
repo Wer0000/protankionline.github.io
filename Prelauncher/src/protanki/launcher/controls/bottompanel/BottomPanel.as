@@ -32,8 +32,8 @@ package protanki.launcher.controls.bottompanel
 		{
 			addPartners(locale);
 			
-			this.addLine(100, 10, 15, locale, LinkField.RULES, LinkField.KITS);
-			this.addLine(100, 40, 15, locale, LinkField.CONTACTS);
+			this.addLine(20, 40, 15, locale, LinkField.RULES, LinkField.KITS);
+			//this.addLine(10, 40, 15, locale, LinkField.CONTACTS);
 		
 		}
 		

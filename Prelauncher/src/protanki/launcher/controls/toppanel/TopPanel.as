@@ -11,11 +11,10 @@ package protanki.launcher.controls.toppanel
 	public class TopPanel extends LocalizedControl
 	{
 		
-		private static var topLine:Class = topLineWinter_png$6b339ef04e24fe7f05e58536013d53f4975211085;
 		
 		private static var topLineOld:Class = topLineOld_png;
 		
-		public static var topLineData:BitmapData = (new topLine() as Bitmap).bitmapData;
+		public static var topLineData:BitmapData = (new topLineOld() as Bitmap).bitmapData;
 		
 		private static var sharedObject:SharedObject = SharedObject.getLocal("launcherStorage");
 		
@@ -30,41 +29,14 @@ package protanki.launcher.controls.toppanel
 		
 		override protected function onResize(e:Event):void
 		{
-			if (sharedObject.data["LAST_THEME"] == "ny")
-			{
-				
-				var topLineData:BitmapData = (new topLine() as Bitmap).bitmapData;
-				
-			}
-			else
-			{
 				var topLineData:BitmapData = (new topLineOld() as Bitmap).bitmapData;
-				
-			}
 			graphics.clear();
 			graphics.beginBitmapFill(topLineData);
 			graphics.drawRect(-1000, 0, 3000, topLineData.height);
 			graphics.endFill();
 		}
 		
-		public function onChangeTheme():void
-		{
-			if (sharedObject.data["LAST_THEME"] == "ny")
-			{
-				
-				var topLineData:BitmapData = (new topLine() as Bitmap).bitmapData;
-				
-			}
-			else
-			{
-				var topLineData:BitmapData = (new topLineOld() as Bitmap).bitmapData;
-				
-			}
-			graphics.clear();
-			graphics.beginBitmapFill(topLineData);
-			graphics.drawRect(-1000, 0, 3000, topLineData.height);
-			graphics.endFill();
-		}
+
 		
 		override public function switchLocale(locale:Locale):void
 		{

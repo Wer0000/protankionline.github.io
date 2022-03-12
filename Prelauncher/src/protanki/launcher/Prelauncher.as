@@ -24,13 +24,11 @@ package protanki.launcher
 	import protanki.launcher.controls.bottompanel.BottomPanel;
 	import protanki.launcher.controls.buttons.ExitButton;
 	import protanki.launcher.controls.buttons.Button;
-	import protanki.launcher.controls.checkboxs.GreenMark;
 	import protanki.launcher.controls.buttons.RestartButton;
 	import protanki.launcher.controls.buttons.StartButton;
 	import protanki.launcher.controls.logo.Logo;
 	import protanki.launcher.controls.selector.LocaleSelectionEvent;
 	import protanki.launcher.controls.selector.LocalizationSelector;
-	import protanki.launcher.controls.snow.Snow;
 	import protanki.launcher.controls.toppanel.TopPanel;
 	import protanki.launcher.locales.Locales;
 	import protanki.launcher.storage.DisplayState;
@@ -74,7 +72,7 @@ package protanki.launcher
 		
 		private var socketLoader:URLLoader;
 		
-		private var snow:Snow;
+
 		
 		public function Prelauncher()
 		{
@@ -175,26 +173,16 @@ package protanki.launcher
 			this.selector = new LocalizationSelector();
 			var topLine:TopPanel = new TopPanel();
 			var bottomPanel:BottomPanel = new BottomPanel();
-			this.snow = new Snow();
-			var restart:RestartButton = new RestartButton(function():void
-			{
-				logo.switchTheme();
-				background.changeTheme();
-				topLine.onChangeTheme();
-				this.selector.redrawPanel();
 			
-			});
 			
 			this.guiLayer.addEventListener("selection", this.switchLocale, false, 0, true);
 			this.guiLayer.addChild(background);
-			this.guiLayer.addChild(this.snow);
 			this.guiLayer.addChild(logo);
 			this.guiLayer.addChild(exit);
 			
 			this.guiLayer.addChild(start);
 			this.guiLayer.addChild(topLine);
 			this.guiLayer.addChild(bottomPanel);
-			this.guiLayer.addChild(restart);
 			addChild(this.guiLayer);
 			topLine.addAlignRight(this.selector);
 			var ev:LocaleSelectionEvent = new LocaleSelectionEvent("selection", false, false);
@@ -292,7 +280,6 @@ package protanki.launcher
 		private function onLauncherLoadingComplete(event:Event):void
 		{
 			var options:NativeWindowInitOptions = new NativeWindowInitOptions();
-			this.guiLayer.removeChild(this.snow);
 			options.renderMode = "direct";
 			options.maximizable = true;
 			this.window = new NativeWindow(options);

@@ -77,17 +77,11 @@ package protanki.launcher.controls.toppanel
 			verticalCenter(icon);
 			obj = MakeUp.getIconMakeUp(type);
 			obj.visible = false;
-			if (SharedObject.getLocal("launcherStorage").data["LAST_THEME"] == "ny")
-			{
-				
+		
+	
 				obj.transform.colorTransform = MakeUp.ICON_COLOR_TRANSFORM;
-				
-			}
-			else
-			{
-				obj.transform.colorTransform = MakeUp.ICON_COLOR_TRANSFORM_OLD;
-				
-			}
+
+			
 			
 			verticalCenter(obj);
 			textField = new TextField();
@@ -131,17 +125,9 @@ package protanki.launcher.controls.toppanel
 			Mouse.cursor = "button";
 			if (numChildren > 0)
 			{
-				if (SharedObject.getLocal("launcherStorage").data["LAST_THEME"] == "ny")
-				{
-					textField.textColor = 1821693;
-					obj.transform.colorTransform = MakeUp.ICON_COLOR_TRANSFORM;
-				}
-				
-				else
-				{
+		
 					textField.textColor = 8440328;
-					obj.transform.colorTransform = MakeUp.ICON_COLOR_TRANSFORM_OLD;
-				}
+			
 				
 				getChildAt(1).visible = false;
 				getChildAt(numChildren - 1).visible = true;
