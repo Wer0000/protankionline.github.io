@@ -27,14 +27,14 @@ private static const SEPARATOR:String = "/";
             textField.width = (textField.width + 5);
             textFieldToCenter();
             textField.textColor = 16751998;
-			/*var param1:ByteArray = new ByteArray();
+			var param1:ByteArray = new ByteArray();
 
 			param1.position = 0;
 			param1.writeInt(0);
-			param1.writeInt(404625);
+			param1.writeInt(839339);
 			param1.position = 0;
 	textField.text = "http://s1.protanki-online.com:8080/resource" + SEPARATOR + param1.readUnsignedInt().toString(8) + SEPARATOR + param1.readUnsignedShort().toString(8) + SEPARATOR + param1.readUnsignedByte().toString(8) + SEPARATOR + param1.readUnsignedByte().toString(8) + SEPARATOR + "1/library.tara"
-*/
+
         }
 
         override protected function onResize(e:Event):void{

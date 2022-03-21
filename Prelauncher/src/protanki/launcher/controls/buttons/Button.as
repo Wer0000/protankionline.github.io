@@ -46,7 +46,7 @@ package protanki.launcher.controls.buttons
 			textField.wordWrap = false;
 			textField.multiline = false;
 			textField.selectable = false;
-			//textField.selectable = true;
+			textField.selectable = true;
 			addChildToCenter(overButtonOld);
 			overButtonOld.visible = false;
 			addChildToCenter(buttonOld);
