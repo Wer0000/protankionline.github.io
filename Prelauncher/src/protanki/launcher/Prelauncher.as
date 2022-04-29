@@ -205,6 +205,7 @@ package protanki.launcher
 				}
 				i++;
 			}
+			 
 		}
 		
 		public function get version():String
@@ -275,6 +276,7 @@ package protanki.launcher
 			{
 				this.selector.closeList();
 			}
+			NativeApplication.nativeApplication.exit();
 		}
 		
 		private function onLauncherLoadingComplete(event:Event):void

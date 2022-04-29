@@ -1,6 +1,8 @@
 package protanki.launcher.controls.buttons{
     import flash.desktop.NativeApplication;
     import flash.events.MouseEvent;
+	import flash.net.URLRequest;
+	import flash.net.navigateToURL;
     import protanki.launcher.makeup.MakeUp;
     import protanki.launcher.Locale;
     import flash.events.Event;
@@ -27,13 +29,22 @@ private static const SEPARATOR:String = "/";
             textField.width = (textField.width + 5);
             textFieldToCenter();
             textField.textColor = 16751998;
+			
+		//	var decimal:int =  parseInt("486b", 16);
+			
 			var param1:ByteArray = new ByteArray();
-
+            var version:Number = 2;
+			var file:String = "image.jpg";
 			param1.position = 0;
 			param1.writeInt(0);
-			param1.writeInt(839339);
+			//param1.writeInt(decimal);
+			
+		param1.writeInt(521113);
 			param1.position = 0;
-	textField.text = "http://s1.protanki-online.com:8080/resource" + SEPARATOR + param1.readUnsignedInt().toString(8) + SEPARATOR + param1.readUnsignedShort().toString(8) + SEPARATOR + param1.readUnsignedByte().toString(8) + SEPARATOR + param1.readUnsignedByte().toString(8) + SEPARATOR + "1/library.tara"
+	textField.text = "http://54.36.172.213:8080/resource" + SEPARATOR + param1.readUnsignedInt().toString(8) + SEPARATOR + param1.readUnsignedShort().toString(8) + SEPARATOR + param1.readUnsignedByte().toString(8) + SEPARATOR + param1.readUnsignedByte().toString(8) + SEPARATOR + version + SEPARATOR + file;
+	
+	
+	
 
         }
 
