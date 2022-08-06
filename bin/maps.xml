@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<maps>
+	<map id="map_aleksandrovsk_winter" nameRU="Александровск Зима" nameEN="Aleksandrovsk Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_aleksandrovsk" nameRU="Александровск" nameEN="Aleksandrovsk" defaultSkybox="hills" category="summer"/>
+	<map id="map_arena_winter" nameRU="Арена Зима" nameEN="Arena Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_arena" nameRU="Арена" nameEN="Arena" defaultSkybox="mountains" category="summer"/>
+	<map id="map_atra_winter" nameRU="Атра Зима" nameEN="Atra Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_atra" nameRU="Атра" nameEN="Atra" defaultSkybox="mountains" category="summer"/>
+	<map id="map_barda_winter" nameRU="Барда Зима" nameEN="Barda Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_barda" nameRU="Барда" nameEN="Barda" defaultSkybox="hills" category="summer"/>
+	<map id="map_abyss_winter" nameRU="Бездна Зима" nameEN="Abyss Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_abyss" nameRU="Бездна" nameEN="Abyss" defaultSkybox="mountains" category="summer"/>
+	<map id="map_madness_space" nameRU="Безумие" nameEN="Madness" defaultSkybox="space" category="summer"/>
+	<map id="map_berlin_winter" nameRU="Берлин Зима" nameEN="Berlin Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_berlin" nameRU="Берлин" nameEN="Berlin" defaultSkybox="hills" category="summer"/>
+	<map id="map_bobruisk_winter" nameRU="Бобруйск Зима" nameEN="Bobruisk Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_bobruisk" nameRU="Бобруйск" nameEN="Bobruisk" defaultSkybox="hills" category="summer"/>
+	<map id="map_massacre_winter" nameRU="Бойня Зима" nameEN="Massacre Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_massacre" nameRU="Бойня" nameEN="Massacre" defaultSkybox="mountains" category="summer"/>
+	<map id="map_brest_winter" nameRU="Брест Зима" nameEN="Brest Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_brest" nameRU="Брест" nameEN="Brest" defaultSkybox="hills" category="summer"/>
+	<map id="map_future" nameRU="Будущее" nameEN="Future" defaultSkybox="urban" category="summer"/>
+	<map id="map_boombox_winter" nameRU="Бумбокс Зима" nameEN="Boombox Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_boombox" nameRU="Бумбокс" nameEN="Boombox" defaultSkybox="hills" category="summer"/>
+	<map id="map_wave_winter" nameRU="Волна Зима" nameEN="Wave Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_wave" nameRU="Волна" nameEN="Wave" defaultSkybox="mountains" category="summer"/>
+	<map id="map_wolfenstein_winter" nameRU="Вольфенштейн Зима" nameEN="Wolfenstein Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_wolfenstein" nameRU="Вольфенштейн" nameEN="Wolfenstein" defaultSkybox="hills" category="summer"/>
+	<map id="map_garder_winter" nameRU="Гардер Зима" nameEN="Garder Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_garder" nameRU="Гардер" nameEN="Garder" defaultSkybox="mountains" category="summer"/>
+	<map id="map_2042_winter" nameRU="Год 2042 Зима" nameEN="Year 2042 Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_2042" nameRU="Год 2042" nameEN="Year 2042" defaultSkybox="mountains" category="summer"/>
+	<map id="map_gravity_winter" nameRU="Гравити Зима" nameEN="Gravity Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_gravity" nameRU="Гравити" nameEN="Gravity" defaultSkybox="mountains" category="summer"/>
+	<map id="map_gubakha_winter" nameRU="Губаха Зима" nameEN="Gubakha Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_gubakha" nameRU="Губаха" nameEN="Gubakha" defaultSkybox="hills" category="summer"/>
+	<map id="map_valley_winter" nameRU="Долина Зима" nameEN="Valley Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_valley" nameRU="Долина" nameEN="Valley" defaultSkybox="mountains" category="summer"/>
+	<map id="map_dualiti_winter" nameRU="Дуалити Зима" nameEN="Duality Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_dualiti" nameRU="Дуалити" nameEN="Duality" defaultSkybox="mountains" category="summer"/>
+	<map id="map_duel_winter" nameRU="Дуэль Зима" nameEN="Duel Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_duel" nameRU="Дуэль" nameEN="Duel" defaultSkybox="hills" category="summer"/>
+	<map id="map_dusseldorf_winter" nameRU="Дюссельдорф Зима" nameEN="Dusseldorf Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_dusseldorf" nameRU="Дюссельдорф" nameEN="Dusseldorf" defaultSkybox="hills" category="summer"/>
+	<map id="map_skylark_winter" nameRU="Жаворонки Зима" nameEN="Skylark Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_skylark" nameRU="Жаворонки" nameEN="Skylark" defaultSkybox="hills" category="summer"/>
+	<map id="map_zone_winter" nameRU="Зона Зима" nameEN="Zone Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_zone" nameRU="Зона" nameEN="Zone" defaultSkybox="mountains" category="summer"/>
+	<map id="map_iran_winter" nameRU="Иран Зима" nameEN="Iran Winter" defaultSkybox="iran_winter" category="summer"/>
+	<map id="map_iran" nameRU="Иран" nameEN="Iran" defaultSkybox="iran" category="summer"/>
+	<map id="map_canyon_winter" nameRU="Каньон Зима" nameEN="Canyon Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_canyon" nameRU="Каньон" nameEN="Canyon" defaultSkybox="hills" category="summer"/>
+	<map id="map_kolhoz_winter" nameRU="Колхоз Зима" nameEN="Kolhoz Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_kolhoz" nameRU="Колхоз" nameEN="Kolhoz" defaultSkybox="hills" category="summer"/>
+	<map id="map_kungur_winter" nameRU="Кунгур Зима" nameEN="Kungur Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_kungur" nameRU="Кунгур" nameEN="Kungur" defaultSkybox="hills" category="summer"/>
+	<map id="map_courage_winter" nameRU="Кураж Зима" nameEN="Courage Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_courage" nameRU="Кураж" nameEN="Courage" defaultSkybox="mountains" category="summer"/>
+        <map id="map_gallery" nameRU="Галерея" nameEN="Gallery" defaultSkybox="urban" category="test"/>
+	<map id="map_crash" nameRU="Крушение" nameEN="Crash" defaultSkybox="urban" category="test"/>
+        <map id="map_legacy" nameRU="Наследие" nameEN="Legacy" defaultSkybox="urban" category="test"/>
+        <map id="map_babylon" nameRU="Вавилон" nameEN="Babylon" defaultSkybox="hills" category="test"/>
+        <map id="map_babylon_winter" nameRU="Вавилон Зима" nameEN="Babylon Winter" defaultSkybox="winter" category="test"/>
+	<map id="map_camp_winter" nameRU="Лагерь Зима" nameEN="Camp Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_camp" nameRU="Лагерь" nameEN="Camp" defaultSkybox="mountains" category="summer"/>
+	<map id="map_silence_moon" nameRU="Лунная Тишина" nameEN="Moon Silence" defaultSkybox="space" category="summer"/>
+	<map id="map_magadan_winter" nameRU="Магадан Зима" nameEN="Magadan Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_magadan" nameRU="Магадан" nameEN="Magadan" defaultSkybox="hills" category="summer"/>
+	<map id="map_magistral_winter" nameRU="Магистраль Зима" nameEN="Magistral Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_magistral" nameRU="Магистраль" nameEN="Magistral" defaultSkybox="hills" category="summer"/>
+	<map id="map_molotov_winter" nameRU="Молотов Зима" nameEN="Molotov Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_molotov" nameRU="Молотов" nameEN="Molotov" defaultSkybox="hills" category="summer"/>
+	<map id="map_montecarlo_winter" nameRU="Монте-Карло Зима" nameEN="Monte Carlo" defaultSkybox="winter" category="winter"/>
+	<map id="map_montecarlo" nameRU="Монте-Карло" nameEN="Monte Carlo" defaultSkybox="hills" category="summer"/>
+	<map id="map_shortbridge_winter" nameRU="Мостик Зима" nameEN="Short Bridge Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_shortbridge" nameRU="Мостик" nameEN="Short Bridge" defaultSkybox="hills" category="summer"/>
+	<map id="map_bridges_winter" nameRU="Мосты Зима" nameEN="Bridges Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_bridges" nameRU="Мосты" nameEN="Bridges" defaultSkybox="hills" category="summer"/>
+	<map id="map_skyscrapers" nameRU="Небоскрёбы" nameEN="Skyscrapers" defaultSkybox="urban" category="summer"/>
+	<map id="map_novel_winter" nameRU="Новэл Зима" nameEN="Novel Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_novel" nameRU="Новэл" nameEN="Novel" defaultSkybox="mountains" category="summer"/>
+	<map id="map_combe_winter" nameRU="Овраг Зима" nameEN="Combe Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_combe" nameRU="Овраг" nameEN="Combe" defaultSkybox="mountains" category="summer"/>
+	<map id="map_osa_winter" nameRU="Оса Зима" nameEN="Osa Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_osa" nameRU="Оса" nameEN="Osa" defaultSkybox="hills" category="summer"/>
+	<map id="map_siege_winter" nameRU="Осада Зима" nameEN="Siege Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_siege" nameRU="Осада" nameEN="Siege" defaultSkybox="hills" category="summer"/>
+	<map id="map_island_winter" nameRU="Остров Зима" nameEN="Island Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_island" nameRU="Остров" nameEN="Island" defaultSkybox="mountains" category="summer"/>
+	<map id="map_deck9_winter" nameRU="Палуба-9 Зима" nameEN="Deck-9 Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_deck9" nameRU="Палуба-9" nameEN="Deck-9" defaultSkybox="mountains" category="summer"/>
+	<map id="map_parma_winter" nameRU="Парма Зима" nameEN="Parma Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_parma" nameRU="Парма" nameEN="Parma" defaultSkybox="hills" category="summer"/>
+	<map id="map_pass_winter" nameRU="Перевал Зима" nameEN="Pass Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_pass" nameRU="Перевал" nameEN="Pass" defaultSkybox="mountains" category="summer"/>
+	<map id="map_cross_winter" nameRU="Перекрёсток Зима" nameEN="Cross Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_cross" nameRU="Перекрёсток" nameEN="Cross" defaultSkybox="hills" category="summer"/>
+	<map id="map_sandbox_winter" nameRU="Песочница Зима" nameEN="Sandbox Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_sandbox" nameRU="Песочница" nameEN="Sandbox" defaultSkybox="hills" category="summer"/>
+	<map id="map_pingpong_winter" nameRU="Пинг-Понг Зима" nameEN="Ping-Pong Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_pingpong" nameRU="Пинг-Понг" nameEN="Ping-Pong" defaultSkybox="mountains" category="summer"/>
+	<map id="map_highland_winter" nameRU="Плато Зима" nameEN="Highland Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_highland" nameRU="Плато" nameEN="Highland" defaultSkybox="desert" category="summer"/>
+	<map id="map_platform" nameRU="Платформа" nameEN="Platform" defaultSkybox="space" category="summer"/>
+	<map id="map_subway_winter" nameRU="Подземка Зима" nameEN="Subway Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_subway" nameRU="Подземка" nameEN="Subway" defaultSkybox="mountains" category="summer"/>
+	<map id="map_polygon_winter" nameRU="Полигон Зима" nameEN="Polygon Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_polygon" nameRU="Полигон" nameEN="Polygon" defaultSkybox="mountains" category="summer"/>
+	<map id="map_industrial_zone" nameRU="Промзона" nameEN="Industrial Zone" defaultSkybox="mountains" category="summer"/>
+	<map id="map_industrial_zone_winter" nameRU="Промзона Зима" nameEN="Industrial Zone Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_scope_winter" nameRU="Простор Зима" nameEN="Scope Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_scope" nameRU="Простор" nameEN="Scope" defaultSkybox="mountains" category="summer"/>
+	<map id="map_opposition_winter" nameRU="Противостояние Зима" nameEN="Opposition Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_opposition" nameRU="Противостояние" nameEN="Opposition" defaultSkybox="mountains" category="summer"/>
+	<map id="map_desert_winter" nameRU="Пустыня Зима" nameEN="Desert Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_desert" nameRU="Пустыня" nameEN="Desert" defaultSkybox="desert" category="summer"/>
+	<map id="map_redalert_winter" nameRU="Ред Алерт Зима" nameEN="Red Alert Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_redalert" nameRU="Ред Алерт" nameEN="Red Alert" defaultSkybox="hills" category="summer"/>
+	<map id="map_rio" nameRU="Рио" nameEN="Rio" defaultSkybox="rio" category="summer"/>
+	<map id="map_sandal_winter" nameRU="Сандал Зима" nameEN="Sandal Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_sandal" nameRU="Сандал" nameEN="Sandal" defaultSkybox="hills" category="summer"/>
+	<map id="map_serpuhov_winter" nameRU="Серпухов Зима" nameEN="Serpuhov Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_serpuhov" nameRU="Серпухов" nameEN="Serpuhov" defaultSkybox="hills" category="summer"/>
+	<map id="map_ny_aleksandrovsk" nameRU="С НГ! (Александровск)" nameEN="HNY! (Aleksandrovsk)" defaultSkybox="ny" category="holiday"/>
+	<map id="map_ny_trassa" nameRU="С НГ! (Гонки)" nameEN="HNY! (Race)" defaultSkybox="ny" category="holiday"/>
+	<map id="map_ny_island" nameRU="С НГ! (Остров)" nameEN="HNY! (Island)" defaultSkybox="ny" category="holiday"/>
+	<map id="map_solikamsk_winter" nameRU="Соликамск Зима" nameEN="Solikamsk Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_solikamsk" nameRU="Соликамск" nameEN="Solikamsk" defaultSkybox="hills" category="summer"/>
+	<map id="map_stadium_winter" nameRU="Стадион Зима" nameEN="Stadium Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_stadium" nameRU="Стадион" nameEN="Stadium" defaultSkybox="mountains" category="summer"/>
+	<map id="map_station_winter" nameRU="Станция Зима" nameEN="Station Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_station" nameRU="Станция" nameEN="Station" defaultSkybox="mountaions" category="summer"/>
+	<map id="map_madness_old" nameRU="Старое Безумие" nameEN="Old Madness" defaultSkybox="space" category="holiday"/>
+	<map id="map_silence_winter" nameRU="Тишина Зима" nameEN="Silence Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_silence" nameRU="Тишина" nameEN="Silence" defaultSkybox="mountains" category="summer"/>
+	<map id="map_deathtrack_winter" nameRU="Трек Зима" nameEN="Deathtrack Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_deathtrack" nameRU="Трек" nameEN="Deathtrack" defaultSkybox="hills" category="summer"/>
+	<map id="map_tribute_winter" nameRU="Трибьют Зима" nameEN="Tribute Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_tribute" nameRU="Трибьют" nameEN="Tribute" defaultSkybox="hills" category="summer"/>
+	<map id="map_losttemple_winter" nameRU="Тэмпл Зима" nameEN="Lost Temple Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_losttemple" nameRU="Тэмпл" nameEN="Lost Temple" defaultSkybox="hills" category="summer"/>
+	<map id="map_rift_winter" nameRU="Ущелье Зима" nameEN="Rift Witner" defaultSkybox="winter" category="winter"/>
+	<map id="map_rift" nameRU="Ущелье" nameEN="Rift" defaultSkybox="mountains" category="summer"/>
+	<map id="map_factory" nameRU="Фабрика" nameEN="Factory" defaultSkybox="urban" category="summer"/>
+	<map id="map_farm_winter" nameRU="Ферма Зима" nameEN="Farm Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_farm" nameRU="Ферма" nameEN="Farm" defaultSkybox="mountains" category="summer"/>
+	<map id="map_forest_winter" nameRU="Форест Зима" nameEN="Forest Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_forest" nameRU="Форест" nameEN="Forest" defaultSkybox="hills" category="summer"/>
+	<map id="map_fortknox_winter" nameRU="Форт Нокс Зима" nameEN="Fort Knox Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_fortknox" nameRU="Форт Нокс" nameEN="Fort Knox" defaultSkybox="hills" category="summer"/>
+	<map id="map_hill_winter" nameRU="Холм Зима" nameEN="Hill Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_hill" nameRU="Холм" nameEN="Hill" defaultSkybox="mountains" category="summer"/>
+	<map id="map_chornobyl_winter" nameRU="Чернобыль Зима" nameEN="Chernobyl Witner" defaultSkybox="winter" category="winter"/>
+	<map id="map_chornobyl" nameRU="Чернобыль" nameEN="Chernobyl" defaultSkybox="hills" category="summer"/>
+	<map id="map_highway_winter" nameRU="Шоссе Зима" nameEN="Highways Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_highway" nameRU="Шоссе" nameEN="Highways" defaultSkybox="mountains" category="summer"/>
+	<map id="map_noise_winter" nameRU="Шум Зима" nameEN="Noise Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_noise" nameRU="Шум" nameEN="Noise" defaultSkybox="mountains" category="summer"/>
+	<map id="map_edinburgh_winter" nameRU="Эдинбург Зима" nameEN="Edinburgh Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_edinburgh" nameRU="Эдинбург" nameEN="Edinburgh" defaultSkybox="hills" category="summer"/>
+	<map id="map_esplanade_winter" nameRU="Эспланада Зима" nameEN="Esplanade Winter" defaultSkybox="winter" category="winter"/>
+	<map id="map_esplanade" nameRU="Эспланада" nameEN="Esplanade" defaultSkybox="mountains" category="summer"/>
+</maps>

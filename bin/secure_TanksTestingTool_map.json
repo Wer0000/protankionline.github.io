@@ -1,0 +1,5448 @@
+{
+  "mapping": [
+    {
+      "originalName": "BoxSphereCollider",
+      "newName": "_-J6"
+    },
+    {
+      "originalName": "_turret",
+      "newName": "_-Hu"
+    },
+    {
+      "originalName": "m_saturationMatrix",
+      "newName": "_-t"
+    },
+    {
+      "originalName": "fadeTime",
+      "newName": "_-GF"
+    },
+    {
+      "originalName": "imageLoader",
+      "newName": "_-EY"
+    },
+    {
+      "originalName": "PARTICLE_SPEED",
+      "newName": "_-Ax"
+    },
+    {
+      "originalName": "taskManager",
+      "newName": "_-8Q"
+    },
+    {
+      "originalName": "lClass",
+      "newName": "_-G1"
+    },
+    {
+      "originalName": "LibraryIterator",
+      "newName": "_-Fc"
+    },
+    {
+      "originalName": "DELTA",
+      "newName": "_-FV"
+    },
+    {
+      "originalName": "gold",
+      "newName": "_-4O"
+    },
+    {
+      "originalName": "flip",
+      "newName": "_-Q"
+    },
+    {
+      "originalName": "_signal",
+      "newName": "_-5Q"
+    },
+    {
+      "originalName": "PIERCING",
+      "newName": "_-CB"
+    },
+    {
+      "originalName": "SHAFT_WAVE_AMPLITUDE",
+      "newName": "_-6a"
+    },
+    {
+      "originalName": "ALPHA_FADE_DISTANCE",
+      "newName": "_-IF"
+    },
+    {
+      "originalName": "BigRankIcon",
+      "newName": "_-3w"
+    },
+    {
+      "originalName": "weaponStatus",
+      "newName": "_-IM"
+    },
+    {
+      "originalName": "alternativa.utils.textureutils",
+      "newName": "_-27"
+    },
+    {
+      "originalName": "turretSetters",
+      "newName": "_-2C"
+    },
+    {
+      "originalName": "valueDelta",
+      "newName": "_-D5"
+    },
+    {
+      "originalName": "startEffect",
+      "newName": "_-Jt"
+    },
+    {
+      "originalName": "accumImpulseN",
+      "newName": "_-5q"
+    },
+    {
+      "originalName": "activeTasks",
+      "newName": "_-DC"
+    },
+    {
+      "originalName": "BattleBonusState",
+      "newName": "_-GJ"
+    },
+    {
+      "originalName": "sPos",
+      "newName": "_-HP"
+    },
+    {
+      "originalName": "hpRightBgBlueCls",
+      "newName": "_-C4"
+    },
+    {
+      "originalName": "LightDataManager",
+      "newName": "_-Ke"
+    },
+    {
+      "originalName": "sparkBitmapDataNY",
+      "newName": "_-Gh"
+    },
+    {
+      "originalName": "ProgressBarSkin_weaponRightBgCls",
+      "newName": "_-6i"
+    },
+    {
+      "originalName": "colormapIds",
+      "newName": "_-70"
+    },
+    {
+      "originalName": "canFreeze",
+      "newName": "_-JO"
+    },
+    {
+      "originalName": "flatDirection",
+      "newName": "_-S"
+    },
+    {
+      "originalName": "hpLeftDmCls",
+      "newName": "_-Bl"
+    },
+    {
+      "originalName": "CAMERA",
+      "newName": "_-G6"
+    },
+    {
+      "originalName": "rightTipBg",
+      "newName": "_-Kx"
+    },
+    {
+      "originalName": "alternativa.tanks.config.loaders",
+      "newName": "_-7S"
+    },
+    {
+      "originalName": "_hull",
+      "newName": "_-Ju"
+    },
+    {
+      "originalName": "currentTask",
+      "newName": "_-AJ"
+    },
+    {
+      "originalName": "HEALTHBAR_BLUE",
+      "newName": "_-Kz"
+    },
+    {
+      "originalName": "barTipWidth",
+      "newName": "_-I1"
+    },
+    {
+      "originalName": "tmin",
+      "newName": "_-4I"
+    },
+    {
+      "originalName": "spriteSheetBitmap",
+      "newName": "_-ER"
+    },
+    {
+      "originalName": "paintMaterialHull",
+      "newName": "_-H1"
+    },
+    {
+      "originalName": "coneHalfAngleTan",
+      "newName": "_-Dt"
+    },
+    {
+      "originalName": "InputRightWrong",
+      "newName": "_-7W"
+    },
+    {
+      "originalName": "batchTextureBuilder",
+      "newName": "_-FJ"
+    },
+    {
+      "originalName": "XY_SCALE_SPEED",
+      "newName": "_-4p"
+    },
+    {
+      "originalName": "BOX",
+      "newName": "_-1Z"
+    },
+    {
+      "originalName": "reloadTime",
+      "newName": "_-1t"
+    },
+    {
+      "originalName": "m_finalMatrix",
+      "newName": "_-8n"
+    },
+    {
+      "originalName": "colorTranformPercentSpeed",
+      "newName": "_-5O"
+    },
+    {
+      "originalName": "callBack",
+      "newName": "_-56"
+    },
+    {
+      "originalName": "splitAxis",
+      "newName": "_-Ib"
+    },
+    {
+      "originalName": "ULTIMATE",
+      "newName": "_-5y"
+    },
+    {
+      "originalName": "currentTextureIndex",
+      "newName": "_-CR"
+    },
+    {
+      "originalName": "_buttonNormalState",
+      "newName": "_-At"
+    },
+    {
+      "originalName": "preloader",
+      "newName": "_-CI"
+    },
+    {
+      "originalName": "saveButton",
+      "newName": "_-1W"
+    },
+    {
+      "originalName": "BASE_WIDTH",
+      "newName": "_-BB"
+    },
+    {
+      "originalName": "alternativa.physics.collision.colliders",
+      "newName": "_-AW"
+    },
+    {
+      "originalName": "sparkBitmapData",
+      "newName": "_-DY"
+    },
+    {
+      "originalName": "lastMinDistanceTime",
+      "newName": "_-80"
+    },
+    {
+      "originalName": "cry",
+      "newName": "_-JY"
+    },
+    {
+      "originalName": "bonusEntries",
+      "newName": "_-28"
+    },
+    {
+      "originalName": "POW_WIDTH",
+      "newName": "_-A2"
+    },
+    {
+      "originalName": "cdClass",
+      "newName": "_-3F"
+    },
+    {
+      "originalName": "BonusConst",
+      "newName": "_-DV"
+    },
+    {
+      "originalName": "MIN_DISTANCE",
+      "newName": "_-2z"
+    },
+    {
+      "originalName": "MUZZLE_SPARK_SIZE",
+      "newName": "_-4M"
+    },
+    {
+      "originalName": "_rotation",
+      "newName": "_-Js"
+    },
+    {
+      "originalName": "barShadowCls",
+      "newName": "_-LD"
+    },
+    {
+      "originalName": "COLOR_DM",
+      "newName": "_-3l"
+    },
+    {
+      "originalName": "_turretId",
+      "newName": "_-81"
+    },
+    {
+      "originalName": "bottomBMP",
+      "newName": "_-Cj"
+    },
+    {
+      "originalName": "INVALID",
+      "newName": "_-6f"
+    },
+    {
+      "originalName": "alternativa.tanks.systems.timesystem",
+      "newName": "_-Ht"
+    },
+    {
+      "originalName": "FLASH_LIFE_TIME",
+      "newName": "_-1D"
+    },
+    {
+      "originalName": "screenMask",
+      "newName": "_-4Z"
+    },
+    {
+      "originalName": "DOWN_RAYS",
+      "newName": "_-2m"
+    },
+    {
+      "originalName": "ProgressBarSkin_hpLeftBgRedCls",
+      "newName": "_-FS"
+    },
+    {
+      "originalName": "IBodyCollisionFilter",
+      "newName": "_-HR"
+    },
+    {
+      "originalName": "WITHOUT_ROTATION",
+      "newName": "_-8d"
+    },
+    {
+      "originalName": "longBackgroundHeaderClass",
+      "newName": "_-Gp"
+    },
+    {
+      "originalName": "rootContainer",
+      "newName": "_-Lh"
+    },
+    {
+      "originalName": "ObjectPool",
+      "newName": "_-Iy"
+    },
+    {
+      "originalName": "ThumbTop",
+      "newName": "_-4f"
+    },
+    {
+      "originalName": "followCameraController",
+      "newName": "_-2f"
+    },
+    {
+      "originalName": "dynamicShadows",
+      "newName": "_-45"
+    },
+    {
+      "originalName": "ProgressBarSkin_hpLeftRedCls",
+      "newName": "_-C6"
+    },
+    {
+      "originalName": "interpolatedVector",
+      "newName": "_-Cn"
+    },
+    {
+      "originalName": "alternativa.tanks.systems.physicssystem",
+      "newName": "_-5m"
+    },
+    {
+      "originalName": "LABEL",
+      "newName": "_-76"
+    },
+    {
+      "originalName": "rightTipFg",
+      "newName": "_-CF"
+    },
+    {
+      "originalName": "extraPitch",
+      "newName": "_-B1"
+    },
+    {
+      "originalName": "COLOR_DM_BG",
+      "newName": "_-7c"
+    },
+    {
+      "originalName": "EffectIndicator_iconNitroCls",
+      "newName": "_-La"
+    },
+    {
+      "originalName": "_showBody",
+      "newName": "_-LX"
+    },
+    {
+      "originalName": "Renderer",
+      "newName": "_-Is"
+    },
+    {
+      "originalName": "hpRightRedCls",
+      "newName": "_-Hv"
+    },
+    {
+      "originalName": "_dynamicRayHit",
+      "newName": "_-CA"
+    },
+    {
+      "originalName": "ANGLE_SPEED",
+      "newName": "_-De"
+    },
+    {
+      "originalName": "SCORE",
+      "newName": "_-4j"
+    },
+    {
+      "originalName": "CHARGE_EFFECT_SIZE",
+      "newName": "_-8x"
+    },
+    {
+      "originalName": "NUM_FRAMES",
+      "newName": "_-9z"
+    },
+    {
+      "originalName": "skyCheckBox",
+      "newName": "_-1S"
+    },
+    {
+      "originalName": "localTank",
+      "newName": "_-2A"
+    },
+    {
+      "originalName": "plasmaShotListener",
+      "newName": "_-5u"
+    },
+    {
+      "originalName": "SHOW_TERMS",
+      "newName": "_-BP"
+    },
+    {
+      "originalName": "effectTypes",
+      "newName": "_-JD"
+    },
+    {
+      "originalName": "recoil",
+      "newName": "_-6W"
+    },
+    {
+      "originalName": "COLOR_WEAPON_BAR_BG",
+      "newName": "_-2G"
+    },
+    {
+      "originalName": "hullDescriptors",
+      "newName": "_-BA"
+    },
+    {
+      "originalName": "_currtProfileIndex",
+      "newName": "_-D"
+    },
+    {
+      "originalName": "_rays",
+      "newName": "_-7m"
+    },
+    {
+      "originalName": "IconImage",
+      "newName": "_-6I"
+    },
+    {
+      "originalName": "weaponClasses",
+      "newName": "_-49"
+    },
+    {
+      "originalName": "currentPosition",
+      "newName": "_-9o"
+    },
+    {
+      "originalName": "MAX_ADDITIVE_VALUE",
+      "newName": "_-6F"
+    },
+    {
+      "originalName": "EffectIndicator_iconHealthCls",
+      "newName": "_-18"
+    },
+    {
+      "originalName": "firePeriod",
+      "newName": "_-F4"
+    },
+    {
+      "originalName": "MIN_ALPHA",
+      "newName": "_-CQ"
+    },
+    {
+      "originalName": "maxPenetration",
+      "newName": "_-9G"
+    },
+    {
+      "originalName": "lightEffect",
+      "newName": "_-Kj"
+    },
+    {
+      "originalName": "mcHeader",
+      "newName": "_-E"
+    },
+    {
+      "originalName": "premium",
+      "newName": "_-7O"
+    },
+    {
+      "originalName": "INVITE_ONLY",
+      "newName": "_-HE"
+    },
+    {
+      "originalName": "_battleMode",
+      "newName": "_-CG"
+    },
+    {
+      "originalName": "KEY_BACKWARD",
+      "newName": "_-7k"
+    },
+    {
+      "originalName": "IBundleActivator",
+      "newName": "_-K3"
+    },
+    {
+      "originalName": "collisionIterations",
+      "newName": "_-Eo"
+    },
+    {
+      "originalName": "CollisionKdNode",
+      "newName": "_-Gz"
+    },
+    {
+      "originalName": "END_SPARK_SIZE",
+      "newName": "_-HI"
+    },
+    {
+      "originalName": "barWidth",
+      "newName": "_-An"
+    },
+    {
+      "originalName": "SHOW_RULES",
+      "newName": "_-Ha"
+    },
+    {
+      "originalName": "alternativa.tanks.vehicles.tank.weapons.isis",
+      "newName": "_-6U"
+    },
+    {
+      "originalName": "checked",
+      "newName": "_-7s"
+    },
+    {
+      "originalName": "KEYS_CAMERA_DOWN",
+      "newName": "_-9t"
+    },
+    {
+      "originalName": "format",
+      "newName": "_-EM"
+    },
+    {
+      "originalName": "maxPositionError",
+      "newName": "_-2c"
+    },
+    {
+      "originalName": "ListIterator",
+      "newName": "_-Jv"
+    },
+    {
+      "originalName": "CURRENT_BATTLES",
+      "newName": "_-3h"
+    },
+    {
+      "originalName": "_listener",
+      "newName": "_-9p"
+    },
+    {
+      "originalName": "checkPassword",
+      "newName": "_-4K"
+    },
+    {
+      "originalName": "beginScale",
+      "newName": "_-BV"
+    },
+    {
+      "originalName": "SUSPICIOUS",
+      "newName": "_-Gr"
+    },
+    {
+      "originalName": "WindowTopLeftCorner",
+      "newName": "_-Cw"
+    },
+    {
+      "originalName": "drugoeInner",
+      "newName": "_-Ji"
+    },
+    {
+      "originalName": "StringUtils",
+      "newName": "_-3L"
+    },
+    {
+      "originalName": "maxPenResolutionSpeed",
+      "newName": "_-4c"
+    },
+    {
+      "originalName": "aptechka",
+      "newName": "_-ET"
+    },
+    {
+      "originalName": "fadingDecalRenderer",
+      "newName": "_-AE"
+    },
+    {
+      "originalName": "poolTop",
+      "newName": "_-Bv"
+    },
+    {
+      "originalName": "velocity",
+      "newName": "_-Gj"
+    },
+    {
+      "originalName": "STATE_HIDING",
+      "newName": "_-Lc"
+    },
+    {
+      "originalName": "_attenuationEnd",
+      "newName": "_-C0"
+    },
+    {
+      "originalName": "boxMeshNitro",
+      "newName": "_-D0"
+    },
+    {
+      "originalName": "rotationDirection",
+      "newName": "_-LK"
+    },
+    {
+      "originalName": "GOList",
+      "newName": "_-Hs"
+    },
+    {
+      "originalName": "constraintsNum",
+      "newName": "_-CD"
+    },
+    {
+      "originalName": "weaponBar",
+      "newName": "_-FX"
+    },
+    {
+      "originalName": "SparkTextureNY",
+      "newName": "_-1l"
+    },
+    {
+      "originalName": "taskByTag",
+      "newName": "_-H5"
+    },
+    {
+      "originalName": "currScale",
+      "newName": "_-3D"
+    },
+    {
+      "originalName": "nitroButton",
+      "newName": "_-DQ"
+    },
+    {
+      "originalName": "targetPositon",
+      "newName": "_-4R"
+    },
+    {
+      "originalName": "dirtyFlags",
+      "newName": "_-5d"
+    },
+    {
+      "originalName": "HEALTHBAR_DM",
+      "newName": "_-5b"
+    },
+    {
+      "originalName": "bodies",
+      "newName": "_-Hz"
+    },
+    {
+      "originalName": "_gravity",
+      "newName": "_-JZ"
+    },
+    {
+      "originalName": "extraPitchFromTarget",
+      "newName": "_-HF"
+    },
+    {
+      "originalName": "LandingState",
+      "newName": "_-Hj"
+    },
+    {
+      "originalName": "turretMountPoint",
+      "newName": "_-Ki"
+    },
+    {
+      "originalName": "INTERVAL",
+      "newName": "_-3r"
+    },
+    {
+      "originalName": "closeBtn",
+      "newName": "_-M"
+    },
+    {
+      "originalName": "visualPhysicsTree",
+      "newName": "_-8Y"
+    },
+    {
+      "originalName": "modelLoader",
+      "newName": "_-Gg"
+    },
+    {
+      "originalName": "_chassis",
+      "newName": "_-e"
+    },
+    {
+      "originalName": "currentTankIndex",
+      "newName": "_-Ck"
+    },
+    {
+      "originalName": "ICameraController",
+      "newName": "_-8"
+    },
+    {
+      "originalName": "gunDirection",
+      "newName": "_-F"
+    },
+    {
+      "originalName": "invInertiaWorld",
+      "newName": "_-CN"
+    },
+    {
+      "originalName": "BATTLE_SUSPICIOUS_HIGH",
+      "newName": "_-2U"
+    },
+    {
+      "originalName": "acceleration",
+      "newName": "_-5R"
+    },
+    {
+      "originalName": "INVENTORY",
+      "newName": "_-2y"
+    },
+    {
+      "originalName": "SMOKE_LIFE_TIME",
+      "newName": "_-9E"
+    },
+    {
+      "originalName": "hpRightDmCls",
+      "newName": "_-3a"
+    },
+    {
+      "originalName": "nyRankUp",
+      "newName": "_-LJ"
+    },
+    {
+      "originalName": "meshes",
+      "newName": "_-JE"
+    },
+    {
+      "originalName": "info",
+      "newName": "_-LM"
+    },
+    {
+      "originalName": "ATTANTION",
+      "newName": "_-79"
+    },
+    {
+      "originalName": "beamBitmapDataNY",
+      "newName": "_-7"
+    },
+    {
+      "originalName": "ProgressBarSkin_barShadowRightCls",
+      "newName": "_-2K"
+    },
+    {
+      "originalName": "LevelUpEffectFactory_WaveTextureNY",
+      "newName": "_-Ez"
+    },
+    {
+      "originalName": "BAR_WIDTH",
+      "newName": "_-AV"
+    },
+    {
+      "originalName": "hpLeftBgRedCls",
+      "newName": "_-5I"
+    },
+    {
+      "originalName": "states",
+      "newName": "_-A7"
+    },
+    {
+      "originalName": "alternativa.tanks.animations",
+      "newName": "_-36"
+    },
+    {
+      "originalName": "alternativa.math",
+      "newName": "_-JH"
+    },
+    {
+      "originalName": "PARACHUTE_OFFSET_Z",
+      "newName": "_-I3"
+    },
+    {
+      "originalName": "looped",
+      "newName": "_-y"
+    },
+    {
+      "originalName": "interpolatedPosition",
+      "newName": "_-Ai"
+    },
+    {
+      "originalName": "SPRITE",
+      "newName": "_-Hk"
+    },
+    {
+      "originalName": "labelColor",
+      "newName": "_-1A"
+    },
+    {
+      "originalName": "MUZZLE_SHIFT",
+      "newName": "_-KK"
+    },
+    {
+      "originalName": "DEFAULT",
+      "newName": "_-H4"
+    },
+    {
+      "originalName": "OBJECT_CONTROLLERS",
+      "newName": "_-En"
+    },
+    {
+      "originalName": "lightMapBitmap",
+      "newName": "_-4P"
+    },
+    {
+      "originalName": "maxAngleError",
+      "newName": "_-GY"
+    },
+    {
+      "originalName": "paintMaterialTurret",
+      "newName": "_-E5"
+    },
+    {
+      "originalName": "pngdrift.forms.windowheaders.background",
+      "newName": "_-IQ"
+    },
+    {
+      "originalName": "hpLeftBlueCls",
+      "newName": "_-9q"
+    },
+    {
+      "originalName": "_rayAABB",
+      "newName": "_-Dn"
+    },
+    {
+      "originalName": "minPrimitivesPerNode",
+      "newName": "_-72"
+    },
+    {
+      "originalName": "field",
+      "newName": "_-9F"
+    },
+    {
+      "originalName": "CameraPositionData",
+      "newName": "_-9u"
+    },
+    {
+      "originalName": "BonusController",
+      "newName": "_-7Y"
+    },
+    {
+      "originalName": "bestAxisIndex",
+      "newName": "_-5c"
+    },
+    {
+      "originalName": "listeners",
+      "newName": "_-3"
+    },
+    {
+      "originalName": "closestPt",
+      "newName": "_-4F"
+    },
+    {
+      "originalName": "colorTarnsforms",
+      "newName": "_-GQ"
+    },
+    {
+      "originalName": "effectLevel",
+      "newName": "_-GT"
+    },
+    {
+      "originalName": "deltaTime",
+      "newName": "_-1g"
+    },
+    {
+      "originalName": "labelText",
+      "newName": "_-Jw"
+    },
+    {
+      "originalName": "vectorsOne",
+      "newName": "_-H2"
+    },
+    {
+      "originalName": "m_width",
+      "newName": "_-1K"
+    },
+    {
+      "originalName": "ALPHA_SPEED_COEFF",
+      "newName": "_-B8"
+    },
+    {
+      "originalName": "CollisionKdTree",
+      "newName": "_-CX"
+    },
+    {
+      "originalName": "barOffsetY",
+      "newName": "_-F5"
+    },
+    {
+      "originalName": "barOffsetX",
+      "newName": "_-K1"
+    },
+    {
+      "originalName": "borderContact",
+      "newName": "_-4w"
+    },
+    {
+      "originalName": "THICKNESS_TANK_INPUT_BASE",
+      "newName": "_-7j"
+    },
+    {
+      "originalName": "RANGE",
+      "newName": "_-LF"
+    },
+    {
+      "originalName": "LevelUpEffectFactory_SparkTextureNY",
+      "newName": "_-IP"
+    },
+    {
+      "originalName": "splitCoord",
+      "newName": "_-5F"
+    },
+    {
+      "originalName": "HEAL",
+      "newName": "_-8e"
+    },
+    {
+      "originalName": "drClass",
+      "newName": "_-2w"
+    },
+    {
+      "originalName": "PREMIUM_RANK_ICON_OFFSET_Y",
+      "newName": "_-Bm"
+    },
+    {
+      "originalName": "bgColor",
+      "newName": "_-7n"
+    },
+    {
+      "originalName": "COLOR_TEAM_RED_BG",
+      "newName": "_-HZ"
+    },
+    {
+      "originalName": "INITIAL_BLINK_INTERVAL",
+      "newName": "_-13"
+    },
+    {
+      "originalName": "_cameraT",
+      "newName": "_-HY"
+    },
+    {
+      "originalName": "maxScale",
+      "newName": "_-8H"
+    },
+    {
+      "originalName": "MIN_VALUE",
+      "newName": "_-EP"
+    },
+    {
+      "originalName": "onMouseEvent",
+      "newName": "_-IO"
+    },
+    {
+      "originalName": "bytes",
+      "newName": "_-Hx"
+    },
+    {
+      "originalName": "PARTICLE_END_SIZE",
+      "newName": "_-LH"
+    },
+    {
+      "originalName": "numSplitCoordsY",
+      "newName": "_-Ay"
+    },
+    {
+      "originalName": "numSplitCoordsX",
+      "newName": "_-2E"
+    },
+    {
+      "originalName": "RELOAD_TIME",
+      "newName": "_-8q"
+    },
+    {
+      "originalName": "LIST_LABEL_HINT",
+      "newName": "_-37"
+    },
+    {
+      "originalName": "boxVertex",
+      "newName": "_-1e"
+    },
+    {
+      "originalName": "numSplitCoordsZ",
+      "newName": "_-74"
+    },
+    {
+      "originalName": "character",
+      "newName": "_-Jm"
+    },
+    {
+      "originalName": "WEAPON_BAR_SPACING_Y",
+      "newName": "_-Gb"
+    },
+    {
+      "originalName": "RINGS_SIZE",
+      "newName": "_-83"
+    },
+    {
+      "originalName": "IDENTITY",
+      "newName": "_-Fp"
+    },
+    {
+      "originalName": "SMOKE_ACCELERATION",
+      "newName": "_-AX"
+    },
+    {
+      "originalName": "SHAFT_STREAM_SPEED",
+      "newName": "_-1C"
+    },
+    {
+      "originalName": "GameCamera",
+      "newName": "_-Go"
+    },
+    {
+      "originalName": "RANK_ICON_OFFSET_Y",
+      "newName": "_-5V"
+    },
+    {
+      "originalName": "linSpeedFreezeLimit",
+      "newName": "_-IC"
+    },
+    {
+      "originalName": "currInterval",
+      "newName": "_-Am"
+    },
+    {
+      "originalName": "TankCheckBox",
+      "newName": "_-FA"
+    },
+    {
+      "originalName": "middle",
+      "newName": "_-6e"
+    },
+    {
+      "originalName": "gameObjectById",
+      "newName": "_-4k"
+    },
+    {
+      "originalName": "ThumbMiddle",
+      "newName": "_-2R"
+    },
+    {
+      "originalName": "_streamWeaponGraphicEffect",
+      "newName": "_-9I"
+    },
+    {
+      "originalName": "WindowInnerTopLeftCorner",
+      "newName": "_-3R"
+    },
+    {
+      "originalName": "velByUnitImpulseN",
+      "newName": "_-He"
+    },
+    {
+      "originalName": "_leftTrack",
+      "newName": "_-Dr"
+    },
+    {
+      "originalName": "PropLibRegistry",
+      "newName": "_-Do"
+    },
+    {
+      "originalName": "weaponRight",
+      "newName": "_-D4"
+    },
+    {
+      "originalName": "parsingFunctions",
+      "newName": "_-D9"
+    },
+    {
+      "originalName": "_modelUrl",
+      "newName": "_-29"
+    },
+    {
+      "originalName": "flagMountPoint",
+      "newName": "_-L"
+    },
+    {
+      "originalName": "lastCollisionDistance",
+      "newName": "_-JC"
+    },
+    {
+      "originalName": "_buttonPressedState",
+      "newName": "_-9L"
+    },
+    {
+      "originalName": "sections",
+      "newName": "_-3Z"
+    },
+    {
+      "originalName": "SUPPORT_URL",
+      "newName": "_-L7"
+    },
+    {
+      "originalName": "bPos",
+      "newName": "_-6M"
+    },
+    {
+      "originalName": "interpolationCoefficient",
+      "newName": "_-K"
+    },
+    {
+      "originalName": "asIconClass",
+      "newName": "_-J9"
+    },
+    {
+      "originalName": "projects.tanks.client.battlefield.models.tankparts.sfx.lighting.entity",
+      "newName": "_-2N"
+    },
+    {
+      "originalName": "TaskAlreadyActiveError",
+      "newName": "_-b"
+    },
+    {
+      "originalName": "framesPerMs",
+      "newName": "_-Lw"
+    },
+    {
+      "originalName": "ObjectCache",
+      "newName": "_-2x"
+    },
+    {
+      "originalName": "PropObjectType",
+      "newName": "_-12"
+    },
+    {
+      "originalName": "emissionDelta",
+      "newName": "_-BO"
+    },
+    {
+      "originalName": "meshMatrix",
+      "newName": "_-LW"
+    },
+    {
+      "originalName": "ICollider",
+      "newName": "_-DF"
+    },
+    {
+      "originalName": "playButton",
+      "newName": "_-Df"
+    },
+    {
+      "originalName": "poolIndex",
+      "newName": "_-GL"
+    },
+    {
+      "originalName": "base",
+      "newName": "_-IV"
+    },
+    {
+      "originalName": "_header",
+      "newName": "_-2a"
+    },
+    {
+      "originalName": "isSkyboxWindow",
+      "newName": "_-69"
+    },
+    {
+      "originalName": "WindowRight",
+      "newName": "_-1E"
+    },
+    {
+      "originalName": "currFrame",
+      "newName": "_-55"
+    },
+    {
+      "originalName": "ANGULAR_SPEED",
+      "newName": "_-Di"
+    },
+    {
+      "originalName": "inventoryItemTypes",
+      "newName": "_-3k"
+    },
+    {
+      "originalName": "keboardListener",
+      "newName": "_-Iu"
+    },
+    {
+      "originalName": "KEY_FIRE_WEAPON",
+      "newName": "_-Lq"
+    },
+    {
+      "originalName": "skyBoxContainer",
+      "newName": "_-4m"
+    },
+    {
+      "originalName": "alternativa.tanks.library.hulls",
+      "newName": "_-Km"
+    },
+    {
+      "originalName": "skys",
+      "newName": "_-K8"
+    },
+    {
+      "originalName": "m_brightnessMatrix",
+      "newName": "_-EI"
+    },
+    {
+      "originalName": "tankPower",
+      "newName": "_-Co"
+    },
+    {
+      "originalName": "NORMAL_MEMORY",
+      "newName": "_-32"
+    },
+    {
+      "originalName": "postCollisionFilter",
+      "newName": "_-G0"
+    },
+    {
+      "originalName": "targetColorTransformOffset",
+      "newName": "_-2"
+    },
+    {
+      "originalName": "bmpLeft",
+      "newName": "_-AH"
+    },
+    {
+      "originalName": "HELP",
+      "newName": "_-8O"
+    },
+    {
+      "originalName": "pngdrift.font.bundle",
+      "newName": "_-5N"
+    },
+    {
+      "originalName": "rdClass",
+      "newName": "_-2l"
+    },
+    {
+      "originalName": "skyLabel",
+      "newName": "_-2V"
+    },
+    {
+      "originalName": "topVertices",
+      "newName": "_-9k"
+    },
+    {
+      "originalName": "HidableGraphicObject",
+      "newName": "_-FC"
+    },
+    {
+      "originalName": "weaponLeftBg",
+      "newName": "_-Ie"
+    },
+    {
+      "originalName": "collisionTree",
+      "newName": "_-KQ"
+    },
+    {
+      "originalName": "numParticles",
+      "newName": "_-30"
+    },
+    {
+      "originalName": "barShadow",
+      "newName": "_-FR"
+    },
+    {
+      "originalName": "getBitmapByName",
+      "newName": "_-FM"
+    },
+    {
+      "originalName": "bigRanks",
+      "newName": "_-DA"
+    },
+    {
+      "originalName": "VERY_HIGH_MEMORY",
+      "newName": "_-2e"
+    },
+    {
+      "originalName": "IsisEffectType",
+      "newName": "_-Kv"
+    },
+    {
+      "originalName": "bmpLeftWrong",
+      "newName": "_-4a"
+    },
+    {
+      "originalName": "currentController",
+      "newName": "_-8t"
+    },
+    {
+      "originalName": "dlClass",
+      "newName": "_-4N"
+    },
+    {
+      "originalName": "EFFECTS_SPACING_Y",
+      "newName": "_-Br"
+    },
+    {
+      "originalName": "MAX_TEMPORARY_DECALS",
+      "newName": "_-GA"
+    },
+    {
+      "originalName": "bmpCenter",
+      "newName": "_-KJ"
+    },
+    {
+      "originalName": "waveBitmapData",
+      "newName": "_-B3"
+    },
+    {
+      "originalName": "controllersActive",
+      "newName": "_-8z"
+    },
+    {
+      "originalName": "assets.scroller",
+      "newName": "_-EW"
+    },
+    {
+      "originalName": "flameEffect",
+      "newName": "_-JF"
+    },
+    {
+      "originalName": "COLOR_TEAM_RED",
+      "newName": "_-CE"
+    },
+    {
+      "originalName": "EFFECTS_SPACING_X",
+      "newName": "_-8l"
+    },
+    {
+      "originalName": "_turretTurnDirection",
+      "newName": "_-KB"
+    },
+    {
+      "originalName": "alphaTank",
+      "newName": "_-Jz"
+    },
+    {
+      "originalName": "initialPosition",
+      "newName": "_-1X"
+    },
+    {
+      "originalName": "distanceV",
+      "newName": "_-3U"
+    },
+    {
+      "originalName": "alternativa.tanks.config.parsers",
+      "newName": "_-35"
+    },
+    {
+      "originalName": "BIT_FORWARD",
+      "newName": "_-Bn"
+    },
+    {
+      "originalName": "readyTime",
+      "newName": "_-LL"
+    },
+    {
+      "originalName": "hpRightBlueCls",
+      "newName": "_-1V"
+    },
+    {
+      "originalName": "ProgressBarSkin_weaponLeftBgCls",
+      "newName": "_-ED"
+    },
+    {
+      "originalName": "pngdrift.background",
+      "newName": "_-Hd"
+    },
+    {
+      "originalName": "ANGLE_X_FREQ",
+      "newName": "_-KO"
+    },
+    {
+      "originalName": "ConfigUI",
+      "newName": "_-FG"
+    },
+    {
+      "originalName": "ALPHA_SPEED",
+      "newName": "_-Gq"
+    },
+    {
+      "originalName": "USER_TITLE_BLUE",
+      "newName": "_-IT"
+    },
+    {
+      "originalName": "AUTO_BALANCE",
+      "newName": "_-I6"
+    },
+    {
+      "originalName": "emptyPoint",
+      "newName": "_-Kw"
+    },
+    {
+      "originalName": "WindowBottom",
+      "newName": "_-I2"
+    },
+    {
+      "originalName": "typeBonus",
+      "newName": "_-LV"
+    },
+    {
+      "originalName": "nicknameInput",
+      "newName": "_-Fa"
+    },
+    {
+      "originalName": "density",
+      "newName": "_-G2"
+    },
+    {
+      "originalName": "penResolutionSteps",
+      "newName": "_-1T"
+    },
+    {
+      "originalName": "WindowInnerBlink",
+      "newName": "_-EE"
+    },
+    {
+      "originalName": "AABB",
+      "newName": "_-P"
+    },
+    {
+      "originalName": "trackFaces",
+      "newName": "_-3X"
+    },
+    {
+      "originalName": "fallOffStart",
+      "newName": "_-Jd"
+    },
+    {
+      "originalName": "HEALTH",
+      "newName": "_-8D"
+    },
+    {
+      "originalName": "_sprites",
+      "newName": "_-Jl"
+    },
+    {
+      "originalName": "itemsSpriteHeight",
+      "newName": "_-Jj"
+    },
+    {
+      "originalName": "assets.windowinner.bitmaps",
+      "newName": "_-HD"
+    },
+    {
+      "originalName": "DAMAGE",
+      "newName": "_-CL"
+    },
+    {
+      "originalName": "userTankController",
+      "newName": "_-AU"
+    },
+    {
+      "originalName": "MAX_KEYS",
+      "newName": "_-91"
+    },
+    {
+      "originalName": "alternativa.tanks.utils.list.errors",
+      "newName": "_-Bd"
+    },
+    {
+      "originalName": "LABEL_SPACING",
+      "newName": "_-4E"
+    },
+    {
+      "originalName": "tileClass",
+      "newName": "_-5P"
+    },
+    {
+      "originalName": "BodyList",
+      "newName": "_-Eb"
+    },
+    {
+      "originalName": "hideHint",
+      "newName": "_-HW"
+    },
+    {
+      "originalName": "pngdrift.preloader",
+      "newName": "_-KM"
+    },
+    {
+      "originalName": "_dispatcher",
+      "newName": "_-H"
+    },
+    {
+      "originalName": "currCameraController",
+      "newName": "_-C7"
+    },
+    {
+      "originalName": "DOWN_ANGLE",
+      "newName": "_-9n"
+    },
+    {
+      "originalName": "cpIconClass",
+      "newName": "_-7q"
+    },
+    {
+      "originalName": "effectTypeIndex",
+      "newName": "_-KT"
+    },
+    {
+      "originalName": "ISignal",
+      "newName": "_-1N"
+    },
+    {
+      "originalName": "orangeMaterial",
+      "newName": "_-Dj"
+    },
+    {
+      "originalName": "projects.tanks.client.battleservice.model.battle.team",
+      "newName": "_-IY"
+    },
+    {
+      "originalName": "FIRST_AID_WARNING_PERIOD",
+      "newName": "_-9s"
+    },
+    {
+      "originalName": "ANY_HEALTH",
+      "newName": "_-4Y"
+    },
+    {
+      "originalName": "KEY_FORWARD",
+      "newName": "_-G5"
+    },
+    {
+      "originalName": "SKIN_NORMAL",
+      "newName": "_-1b"
+    },
+    {
+      "originalName": "weapons",
+      "newName": "_-8i"
+    },
+    {
+      "originalName": "ldClass",
+      "newName": "_-53"
+    },
+    {
+      "originalName": "moveDistance",
+      "newName": "_-61"
+    },
+    {
+      "originalName": "alternativa.types",
+      "newName": "_-9S"
+    },
+    {
+      "originalName": "currentFrame",
+      "newName": "_-31"
+    },
+    {
+      "originalName": "SCALE_JITTER",
+      "newName": "_-FZ"
+    },
+    {
+      "originalName": "alternativa.tanks.sfx.christmas",
+      "newName": "_-94"
+    },
+    {
+      "originalName": "linearDamping",
+      "newName": "_-FF"
+    },
+    {
+      "originalName": "currentEffect",
+      "newName": "_-DL"
+    },
+    {
+      "originalName": "angularSpeed",
+      "newName": "_-Lf"
+    },
+    {
+      "originalName": "alternativa.tanks.utils.list",
+      "newName": "_-A0"
+    },
+    {
+      "originalName": "Task",
+      "newName": "_-7e"
+    },
+    {
+      "originalName": "interpolatedMatrix",
+      "newName": "_-3Q"
+    },
+    {
+      "originalName": "smallRanks",
+      "newName": "_-17"
+    },
+    {
+      "originalName": "Trigger",
+      "newName": "_-4A"
+    },
+    {
+      "originalName": "WindowInnerTopRightCorner",
+      "newName": "_-4L"
+    },
+    {
+      "originalName": "beamBitmapData",
+      "newName": "_-Ac"
+    },
+    {
+      "originalName": "settings",
+      "newName": "_-3j"
+    },
+    {
+      "originalName": "brButton",
+      "newName": "_-BQ"
+    },
+    {
+      "originalName": "BIT_SHIFT",
+      "newName": "_-LY"
+    },
+    {
+      "originalName": "hpLeftDm",
+      "newName": "_-As"
+    },
+    {
+      "originalName": "iconNitroCls",
+      "newName": "_-5B"
+    },
+    {
+      "originalName": "reload",
+      "newName": "_-42"
+    },
+    {
+      "originalName": "SHAFT_WIDTH",
+      "newName": "_-GP"
+    },
+    {
+      "originalName": "VALUE_OFFSET_X",
+      "newName": "_-5k"
+    },
+    {
+      "originalName": "SPHERE",
+      "newName": "_-Cc"
+    },
+    {
+      "originalName": "iconPowerCls",
+      "newName": "_-6S"
+    },
+    {
+      "originalName": "zAxis",
+      "newName": "_-6u"
+    },
+    {
+      "originalName": "rankIcon",
+      "newName": "_-Kh"
+    },
+    {
+      "originalName": "_valueClasses",
+      "newName": "_-1L"
+    },
+    {
+      "originalName": "baseMatrix",
+      "newName": "_-2M"
+    },
+    {
+      "originalName": "temporaryDecals",
+      "newName": "_-2P"
+    },
+    {
+      "originalName": "DEFAULT_MAX_DISTANCE",
+      "newName": "_-63"
+    },
+    {
+      "originalName": "framesPerTimeUnit",
+      "newName": "_-Au"
+    },
+    {
+      "originalName": "gamemodes",
+      "newName": "_-Ag"
+    },
+    {
+      "originalName": "_timeout",
+      "newName": "_-A9"
+    },
+    {
+      "originalName": "angleX",
+      "newName": "_-CS"
+    },
+    {
+      "originalName": "cache",
+      "newName": "_-5G"
+    },
+    {
+      "originalName": "angleZ",
+      "newName": "_-7G"
+    },
+    {
+      "originalName": "normalsCalculator",
+      "newName": "_-J3"
+    },
+    {
+      "originalName": "WindowBottomRightCorner",
+      "newName": "_-2X"
+    },
+    {
+      "originalName": "DeferredAction",
+      "newName": "_-Fh"
+    },
+    {
+      "originalName": "OFFSET_X",
+      "newName": "_-FD"
+    },
+    {
+      "originalName": "CollisionDetector",
+      "newName": "_-K9"
+    },
+    {
+      "originalName": "OFFSET_Y",
+      "newName": "_-FH"
+    },
+    {
+      "originalName": "propLibRegistry",
+      "newName": "_-Bh"
+    },
+    {
+      "originalName": "asIconBitmapData",
+      "newName": "_-BY"
+    },
+    {
+      "originalName": "rotationMatrix",
+      "newName": "_-3T"
+    },
+    {
+      "originalName": "changeColorLeft",
+      "newName": "_-1I"
+    },
+    {
+      "originalName": "wrappers",
+      "newName": "_-7t"
+    },
+    {
+      "originalName": "IPlasmaShotListener",
+      "newName": "_-4z"
+    },
+    {
+      "originalName": "alternativa.tanks.systems.gameobjectssystem",
+      "newName": "_-59"
+    },
+    {
+      "originalName": "PhysicsVisualisationBuilder",
+      "newName": "_-9c"
+    },
+    {
+      "originalName": "CAMERA_DISTANCE_COEF",
+      "newName": "_-C9"
+    },
+    {
+      "originalName": "ANGULAR_SPEED_Z",
+      "newName": "_-3g"
+    },
+    {
+      "originalName": "BonusCache",
+      "newName": "_-1o"
+    },
+    {
+      "originalName": "selRank",
+      "newName": "_-1Y"
+    },
+    {
+      "originalName": "chargeSpriteSize",
+      "newName": "_-2H"
+    },
+    {
+      "originalName": "tileBitmapData",
+      "newName": "_-5M"
+    },
+    {
+      "originalName": "changeCounter",
+      "newName": "_-Al"
+    },
+    {
+      "originalName": "leftTrackSkin",
+      "newName": "_-Ei"
+    },
+    {
+      "originalName": "segment",
+      "newName": "_-1m"
+    },
+    {
+      "originalName": "ARMOR",
+      "newName": "_-6V"
+    },
+    {
+      "originalName": "weaponRightBgCls",
+      "newName": "_-2t"
+    },
+    {
+      "originalName": "alternativa.tanks.utils.objectpool",
+      "newName": "_-8C"
+    },
+    {
+      "originalName": "prevDisplacement",
+      "newName": "_-4r"
+    },
+    {
+      "originalName": "currentMuzzle",
+      "newName": "_-Ix"
+    },
+    {
+      "originalName": "loginForm",
+      "newName": "_-J1"
+    },
+    {
+      "originalName": "DISBALANCE_BATTLE_COLOR_TRANSFORM",
+      "newName": "_-Ik"
+    },
+    {
+      "originalName": "fields",
+      "newName": "_-4v"
+    },
+    {
+      "originalName": "news",
+      "newName": "_-JL"
+    },
+    {
+      "originalName": "toys",
+      "newName": "_-Ir"
+    },
+    {
+      "originalName": "mapString",
+      "newName": "_-GO"
+    },
+    {
+      "originalName": "TIME",
+      "newName": "_-6Z"
+    },
+    {
+      "originalName": "mapData",
+      "newName": "_-n"
+    },
+    {
+      "originalName": "spawnMarkers",
+      "newName": "_-4"
+    },
+    {
+      "originalName": "langBg",
+      "newName": "_-FQ"
+    },
+    {
+      "originalName": "ProgressBarSkin_hpRightBgDmCls",
+      "newName": "_-7f"
+    },
+    {
+      "originalName": "regionsPosMax",
+      "newName": "_-3O"
+    },
+    {
+      "originalName": "BUG_REPORT",
+      "newName": "_-71"
+    },
+    {
+      "originalName": "beamMaterial",
+      "newName": "_-E6"
+    },
+    {
+      "originalName": "ADDITIVE_SPEED_DOWN",
+      "newName": "_-3A"
+    },
+    {
+      "originalName": "rendering",
+      "newName": "_-Iv"
+    },
+    {
+      "originalName": "excludedFaces",
+      "newName": "_-BT"
+    },
+    {
+      "originalName": "MATRIX_ORDER_APPEND",
+      "newName": "_-g"
+    },
+    {
+      "originalName": "CHAT",
+      "newName": "_-R"
+    },
+    {
+      "originalName": "skybox",
+      "newName": "_-I8"
+    },
+    {
+      "originalName": "lastCollided",
+      "newName": "_-BC"
+    },
+    {
+      "originalName": "greenMaterial",
+      "newName": "_-EC"
+    },
+    {
+      "originalName": "minTime",
+      "newName": "_-4o"
+    },
+    {
+      "originalName": "pressedStateClass",
+      "newName": "_-Bg"
+    },
+    {
+      "originalName": "blinker",
+      "newName": "_-E7"
+    },
+    {
+      "originalName": "mapsCombo",
+      "newName": "_-3I"
+    },
+    {
+      "originalName": "tracpng",
+      "newName": "_-Fq"
+    },
+    {
+      "originalName": "PhysicsControllers",
+      "newName": "_-24"
+    },
+    {
+      "originalName": "MAX_ACCUM_COUNTER",
+      "newName": "_-Ll"
+    },
+    {
+      "originalName": "skyboxRevolver",
+      "newName": "_-8b"
+    },
+    {
+      "originalName": "ICollisionFilter",
+      "newName": "_-1F"
+    },
+    {
+      "originalName": "iconImage",
+      "newName": "_-Bz"
+    },
+    {
+      "originalName": "dummyTextureClass",
+      "newName": "_-LA"
+    },
+    {
+      "originalName": "ANIMATION_FPS",
+      "newName": "_-1"
+    },
+    {
+      "originalName": "startPosition",
+      "newName": "_-4e"
+    },
+    {
+      "originalName": "SPEED_COEFF",
+      "newName": "_-4G"
+    },
+    {
+      "originalName": "turretAngularSpeed",
+      "newName": "_-5s"
+    },
+    {
+      "originalName": "_rightTrack",
+      "newName": "_-BE"
+    },
+    {
+      "originalName": "normalStateBitmapData",
+      "newName": "_-Ek"
+    },
+    {
+      "originalName": "BoxCollider",
+      "newName": "_-77"
+    },
+    {
+      "originalName": "inner",
+      "newName": "_-Lp"
+    },
+    {
+      "originalName": "marker",
+      "newName": "_-BF"
+    },
+    {
+      "originalName": "COIN_LABEL",
+      "newName": "_-4B"
+    },
+    {
+      "originalName": "barrelDirection",
+      "newName": "_-8a"
+    },
+    {
+      "originalName": "NewsIcons",
+      "newName": "_-Da"
+    },
+    {
+      "originalName": "XMLUtils",
+      "newName": "_-CC"
+    },
+    {
+      "originalName": "configFlags",
+      "newName": "_-LB"
+    },
+    {
+      "originalName": "alternativa.tanks.battle.gui",
+      "newName": "_-IL"
+    },
+    {
+      "originalName": "elevationAngles",
+      "newName": "_-IZ"
+    },
+    {
+      "originalName": "longBackgroundHeader",
+      "newName": "_-J"
+    },
+    {
+      "originalName": "parachuteCache",
+      "newName": "_-Em"
+    },
+    {
+      "originalName": "SMOKE_WIDTH",
+      "newName": "_-6C"
+    },
+    {
+      "originalName": "prevItem",
+      "newName": "_-Eg"
+    },
+    {
+      "originalName": "_f",
+      "newName": "_-3n"
+    },
+    {
+      "originalName": "distanceToDisable",
+      "newName": "_-Gy"
+    },
+    {
+      "originalName": "_hullId",
+      "newName": "_-67"
+    },
+    {
+      "originalName": "_speed",
+      "newName": "_-Gn"
+    },
+    {
+      "originalName": "_m",
+      "newName": "_-1O"
+    },
+    {
+      "originalName": "_o",
+      "newName": "_-4i"
+    },
+    {
+      "originalName": "_q",
+      "newName": "_-3e"
+    },
+    {
+      "originalName": "_r",
+      "newName": "_-LC"
+    },
+    {
+      "originalName": "_t",
+      "newName": "_-4J"
+    },
+    {
+      "originalName": "_v",
+      "newName": "_-5C"
+    },
+    {
+      "originalName": "forms.ranks",
+      "newName": "_-GB"
+    },
+    {
+      "originalName": "InputLeft",
+      "newName": "_-19"
+    },
+    {
+      "originalName": "currentRotation",
+      "newName": "_-L3"
+    },
+    {
+      "originalName": "aH",
+      "newName": "_-o"
+    },
+    {
+      "originalName": "BOUND_SPHERE_RADIUS",
+      "newName": "_-5K"
+    },
+    {
+      "originalName": "aW",
+      "newName": "_-9W"
+    },
+    {
+      "originalName": "BIT_CTRL",
+      "newName": "_-B5"
+    },
+    {
+      "originalName": "RANK_ICON_SIZE",
+      "newName": "_-CP"
+    },
+    {
+      "originalName": "Bonus",
+      "newName": "_-1i"
+    },
+    {
+      "originalName": "FORCE_HEALTH",
+      "newName": "_-Ku"
+    },
+    {
+      "originalName": "InputRight",
+      "newName": "_-6n"
+    },
+    {
+      "originalName": "MAX_IDS",
+      "newName": "_-I"
+    },
+    {
+      "originalName": "toCamera",
+      "newName": "_-2j"
+    },
+    {
+      "originalName": "PhysicsInterpolator",
+      "newName": "_-AB"
+    },
+    {
+      "originalName": "alternativa.tanks.sfx.levelup",
+      "newName": "_-KF"
+    },
+    {
+      "originalName": "bg",
+      "newName": "_-Bc"
+    },
+    {
+      "originalName": "bl",
+      "newName": "_-BD"
+    },
+    {
+      "originalName": "BASE_DIAGONAL",
+      "newName": "_-92"
+    },
+    {
+      "originalName": "MAX_VALUE",
+      "newName": "_-2L"
+    },
+    {
+      "originalName": "br",
+      "newName": "_-Hi"
+    },
+    {
+      "originalName": "TankConst",
+      "newName": "_-Cs"
+    },
+    {
+      "originalName": "Queue",
+      "newName": "_-68"
+    },
+    {
+      "originalName": "alternativa.tanks.display.usertitle",
+      "newName": "_-Cf"
+    },
+    {
+      "originalName": "cd",
+      "newName": "_-7H"
+    },
+    {
+      "originalName": "interpolatedOrientation",
+      "newName": "_-Fo"
+    },
+    {
+      "originalName": "MIN_SCALE",
+      "newName": "_-3E"
+    },
+    {
+      "originalName": "skData",
+      "newName": "_-Ff"
+    },
+    {
+      "originalName": "FLASH_SIZE",
+      "newName": "_-7C"
+    },
+    {
+      "originalName": "bodyWireBox",
+      "newName": "_-KY"
+    },
+    {
+      "originalName": "ctfIconClass",
+      "newName": "_-7v"
+    },
+    {
+      "originalName": "normalStateClass",
+      "newName": "_-Fg"
+    },
+    {
+      "originalName": "regionsPosMin",
+      "newName": "_-BG"
+    },
+    {
+      "originalName": "dc",
+      "newName": "_-Fx"
+    },
+    {
+      "originalName": "dl",
+      "newName": "_-3b"
+    },
+    {
+      "originalName": "overStateBitmapData",
+      "newName": "_-4l"
+    },
+    {
+      "originalName": "dr",
+      "newName": "_-B6"
+    },
+    {
+      "originalName": "SPEED",
+      "newName": "_-1s"
+    },
+    {
+      "originalName": "INPUT_DISABLED",
+      "newName": "_-Lo"
+    },
+    {
+      "originalName": "hpRightBgDmCls",
+      "newName": "_-3t"
+    },
+    {
+      "originalName": "_defaultPositionProvider",
+      "newName": "_-GU"
+    },
+    {
+      "originalName": "leftBMP",
+      "newName": "_-9j"
+    },
+    {
+      "originalName": "tankExplosionFactory",
+      "newName": "_-X"
+    },
+    {
+      "originalName": "hullsLibrary",
+      "newName": "_-1q"
+    },
+    {
+      "originalName": "SHOP_CRYSTALS_TEXT_LABEL_COLOR",
+      "newName": "_-Jy"
+    },
+    {
+      "originalName": "TANK",
+      "newName": "_-A6"
+    },
+    {
+      "originalName": "timeSystem",
+      "newName": "_-DD"
+    },
+    {
+      "originalName": "alert",
+      "newName": "_-8B"
+    },
+    {
+      "originalName": "SHOP_MONEY_TEXT_LABEL_COLOR",
+      "newName": "_-Bb"
+    },
+    {
+      "originalName": "YOUR_ITEMS",
+      "newName": "_-Jh"
+    },
+    {
+      "originalName": "forceAccum",
+      "newName": "_-Ky"
+    },
+    {
+      "originalName": "fragConst",
+      "newName": "_-DZ"
+    },
+    {
+      "originalName": "testMapsButton",
+      "newName": "_-4Q"
+    },
+    {
+      "originalName": "colormapSetters",
+      "newName": "_-Lk"
+    },
+    {
+      "originalName": "BattleRunner",
+      "newName": "_-4n"
+    },
+    {
+      "originalName": "MAX_CONTACTS",
+      "newName": "_-Fr"
+    },
+    {
+      "originalName": "alternativa.tanks.vehicles.tank.weapons.freeze",
+      "newName": "_-Cv"
+    },
+    {
+      "originalName": "hpRightBgDm",
+      "newName": "_-Ca"
+    },
+    {
+      "originalName": "_moveDirection",
+      "newName": "_-EZ"
+    },
+    {
+      "originalName": "UNKILLABLE_EFFECT_LEVEL",
+      "newName": "_-1B"
+    },
+    {
+      "originalName": "leftTipBg",
+      "newName": "_-6t"
+    },
+    {
+      "originalName": "HEADER_BACKGROUND_INNER_HEIGHT",
+      "newName": "_-HO"
+    },
+    {
+      "originalName": "powerCoeff",
+      "newName": "_-8k"
+    },
+    {
+      "originalName": "BIT_BACKWARD",
+      "newName": "_-5h"
+    },
+    {
+      "originalName": "onDestroy",
+      "newName": "_-JS"
+    },
+    {
+      "originalName": "_type",
+      "newName": "_-6v"
+    },
+    {
+      "originalName": "_refreshButton",
+      "newName": "_-8j"
+    },
+    {
+      "originalName": "s_arrayOfDeltaIndex",
+      "newName": "_-EK"
+    },
+    {
+      "originalName": "CHECK_SIGN",
+      "newName": "_-Cr"
+    },
+    {
+      "originalName": "boxMeshArmor",
+      "newName": "_-W"
+    },
+    {
+      "originalName": "ld",
+      "newName": "_-3V"
+    },
+    {
+      "originalName": "_cont",
+      "newName": "_-4b"
+    },
+    {
+      "originalName": "lh",
+      "newName": "_-96"
+    },
+    {
+      "originalName": "SMOKE_SIZE",
+      "newName": "_-BR"
+    },
+    {
+      "originalName": "oldState",
+      "newName": "_-GM"
+    },
+    {
+      "originalName": "PhysicsController",
+      "newName": "_-CO"
+    },
+    {
+      "originalName": "pools",
+      "newName": "_-6c"
+    },
+    {
+      "originalName": "NoSuchElementError",
+      "newName": "_-Lx"
+    },
+    {
+      "originalName": "BattleService",
+      "newName": "_-Jf"
+    },
+    {
+      "originalName": "PARTICLE_START_SIZE",
+      "newName": "_-6k"
+    },
+    {
+      "originalName": "fadeSpeed",
+      "newName": "_-6A"
+    },
+    {
+      "originalName": "THICKNESS_LABEL_BASE",
+      "newName": "_-7x"
+    },
+    {
+      "originalName": "angularAcceleration",
+      "newName": "_-7N"
+    },
+    {
+      "originalName": "InputCenter",
+      "newName": "_-7l"
+    },
+    {
+      "originalName": "IRayCollisionFilter",
+      "newName": "_-Im"
+    },
+    {
+      "originalName": "maxValue",
+      "newName": "_-44"
+    },
+    {
+      "originalName": "WindowTop",
+      "newName": "_-7r"
+    },
+    {
+      "originalName": "PhysicsUtils",
+      "newName": "_-1P"
+    },
+    {
+      "originalName": "worldDir",
+      "newName": "_-j"
+    },
+    {
+      "originalName": "cameraAngle",
+      "newName": "_-7y"
+    },
+    {
+      "originalName": "armorButton",
+      "newName": "_-Kn"
+    },
+    {
+      "originalName": "LogicUnit",
+      "newName": "_-Bi"
+    },
+    {
+      "originalName": "leftTipFg",
+      "newName": "_-Cy"
+    },
+    {
+      "originalName": "_turretDirection",
+      "newName": "_-Gs"
+    },
+    {
+      "originalName": "keys",
+      "newName": "_-43"
+    },
+    {
+      "originalName": "MESH",
+      "newName": "_-Ec"
+    },
+    {
+      "originalName": "alternativa.proplib.types",
+      "newName": "_-Hq"
+    },
+    {
+      "originalName": "minOverlap",
+      "newName": "_-GS"
+    },
+    {
+      "originalName": "axisIndicator",
+      "newName": "_-9v"
+    },
+    {
+      "originalName": "_data",
+      "newName": "_-E3"
+    },
+    {
+      "originalName": "_triggers",
+      "newName": "_-97"
+    },
+    {
+      "originalName": "_title",
+      "newName": "_-Lb"
+    },
+    {
+      "originalName": "numVisibleIndicators",
+      "newName": "_-p"
+    },
+    {
+      "originalName": "IMG_FILE_NAME",
+      "newName": "_-9x"
+    },
+    {
+      "originalName": "indicatorsNeedsReset",
+      "newName": "_-IB"
+    },
+    {
+      "originalName": "dustSize",
+      "newName": "_-78"
+    },
+    {
+      "originalName": "activeAfterDeath",
+      "newName": "_-AF"
+    },
+    {
+      "originalName": "rd",
+      "newName": "_-IW"
+    },
+    {
+      "originalName": "rh",
+      "newName": "_-HA"
+    },
+    {
+      "originalName": "lightEffectPositionProvider",
+      "newName": "_-85"
+    },
+    {
+      "originalName": "_supportLink",
+      "newName": "_-C"
+    },
+    {
+      "originalName": "starting",
+      "newName": "_-Kr"
+    },
+    {
+      "originalName": "trackMaterial",
+      "newName": "_-Ak"
+    },
+    {
+      "originalName": "WindowInnerTop",
+      "newName": "_-8m"
+    },
+    {
+      "originalName": "REMOVAL_ALPHA_SPEED",
+      "newName": "_-JG"
+    },
+    {
+      "originalName": "skyButton",
+      "newName": "_-2Q"
+    },
+    {
+      "originalName": "maxHeight",
+      "newName": "_-9l"
+    },
+    {
+      "originalName": "origins",
+      "newName": "_-Lm"
+    },
+    {
+      "originalName": "downedStateBitmapData",
+      "newName": "_-JT"
+    },
+    {
+      "originalName": "pngdrift.settings",
+      "newName": "_-Dv"
+    },
+    {
+      "originalName": "plasmaGunData",
+      "newName": "_-J2"
+    },
+    {
+      "originalName": "started",
+      "newName": "_-8I"
+    },
+    {
+      "originalName": "regionsNum",
+      "newName": "_-Fn"
+    },
+    {
+      "originalName": "chClass",
+      "newName": "_-7u"
+    },
+    {
+      "originalName": "greenMarker",
+      "newName": "_-3s"
+    },
+    {
+      "originalName": "tl",
+      "newName": "_-Gu"
+    },
+    {
+      "originalName": "WEAPON",
+      "newName": "_-Hm"
+    },
+    {
+      "originalName": "tr",
+      "newName": "_-Jr"
+    },
+    {
+      "originalName": "WindowInnerBottomRightCorner",
+      "newName": "_-6g"
+    },
+    {
+      "originalName": "LoginFormEvent",
+      "newName": "_-3P"
+    },
+    {
+      "originalName": "FRIEND_COLOR",
+      "newName": "_-HB"
+    },
+    {
+      "originalName": "INIT_COMPLETE",
+      "newName": "_-9V"
+    },
+    {
+      "originalName": "ul",
+      "newName": "_-16"
+    },
+    {
+      "originalName": "BodyState",
+      "newName": "_-r"
+    },
+    {
+      "originalName": "ur",
+      "newName": "_-2Z"
+    },
+    {
+      "originalName": "_checked",
+      "newName": "_-2s"
+    },
+    {
+      "originalName": "SCALE_SPEED",
+      "newName": "_-Fz"
+    },
+    {
+      "originalName": "alternativa.tanks.vehicles.tank.weapons.railgun",
+      "newName": "_-Z"
+    },
+    {
+      "originalName": "REFERALS",
+      "newName": "_-5X"
+    },
+    {
+      "originalName": "libs",
+      "newName": "_-Cu"
+    },
+    {
+      "originalName": "oldvalue",
+      "newName": "_-HH"
+    },
+    {
+      "originalName": "TankPart",
+      "newName": "_-Ka"
+    },
+    {
+      "originalName": "preview",
+      "newName": "_-8f"
+    },
+    {
+      "originalName": "alternativa.tanks.vehicles.tank.controllers",
+      "newName": "_-9O"
+    },
+    {
+      "originalName": "lastBodyId",
+      "newName": "_-6z"
+    },
+    {
+      "originalName": "_time",
+      "newName": "_-9a"
+    },
+    {
+      "originalName": "BATTERY",
+      "newName": "_-DH"
+    },
+    {
+      "originalName": "MyriadProB",
+      "newName": "_-9D"
+    },
+    {
+      "originalName": "TankWindow",
+      "newName": "_-9C"
+    },
+    {
+      "originalName": "visiblePrimitives",
+      "newName": "_-7T"
+    },
+    {
+      "originalName": "HIT_MARK_LIFE_TIME",
+      "newName": "_-4t"
+    },
+    {
+      "originalName": "alternativa.tanks.vehicles.tank.skin",
+      "newName": "_-A"
+    },
+    {
+      "originalName": "bestDir",
+      "newName": "_-DK"
+    },
+    {
+      "originalName": "renderGroup",
+      "newName": "_-6l"
+    },
+    {
+      "originalName": "_occluders",
+      "newName": "_-2r"
+    },
+    {
+      "originalName": "props",
+      "newName": "_-Bs"
+    },
+    {
+      "originalName": "RADIUS",
+      "newName": "_-8M"
+    },
+    {
+      "originalName": "_state",
+      "newName": "_-2F"
+    },
+    {
+      "originalName": "_currentProfile",
+      "newName": "_-3m"
+    },
+    {
+      "originalName": "cameraPosition",
+      "newName": "_-Fi"
+    },
+    {
+      "originalName": "centreTurret",
+      "newName": "_-6E"
+    },
+    {
+      "originalName": "DeferredCommand",
+      "newName": "_-F1"
+    },
+    {
+      "originalName": "turretAxisX",
+      "newName": "_-L5"
+    },
+    {
+      "originalName": "torqueAccum",
+      "newName": "_-6L"
+    },
+    {
+      "originalName": "rayIntersection",
+      "newName": "_-EJ"
+    },
+    {
+      "originalName": "oldTitle",
+      "newName": "_-O"
+    },
+    {
+      "originalName": "CommonTankController",
+      "newName": "_-BI"
+    },
+    {
+      "originalName": "currentAnimationIndex",
+      "newName": "_-5L"
+    },
+    {
+      "originalName": "nearestTank",
+      "newName": "_-DI"
+    },
+    {
+      "originalName": "TrackPNG",
+      "newName": "_-B4"
+    },
+    {
+      "originalName": "switchTime",
+      "newName": "_-K2"
+    },
+    {
+      "originalName": "weaponIndex",
+      "newName": "_-9m"
+    },
+    {
+      "originalName": "alternativa.tanks.bonuses",
+      "newName": "_-LG"
+    },
+    {
+      "originalName": "COLOR_TEAM_BLUE",
+      "newName": "_-BS"
+    },
+    {
+      "originalName": "ALPHA_DURATION",
+      "newName": "_-Gk"
+    },
+    {
+      "originalName": "COLOR_WEAPON_BAR",
+      "newName": "_-Dx"
+    },
+    {
+      "originalName": "TankSkin",
+      "newName": "_-l"
+    },
+    {
+      "originalName": "ProgressBarSkin_hpRightBgRedCls",
+      "newName": "_-1r"
+    },
+    {
+      "originalName": "_rootGroup",
+      "newName": "_-6D"
+    },
+    {
+      "originalName": "meshUvThreshold",
+      "newName": "_-6w"
+    },
+    {
+      "originalName": "fpsValue",
+      "newName": "_-HC"
+    },
+    {
+      "originalName": "iconArmorCls",
+      "newName": "_-3W"
+    },
+    {
+      "originalName": "colormapsLibrary",
+      "newName": "_-Ia"
+    },
+    {
+      "originalName": "rankVisible",
+      "newName": "_-JI"
+    },
+    {
+      "originalName": "bottomV",
+      "newName": "_-2b"
+    },
+    {
+      "originalName": "topBMP",
+      "newName": "_-7w"
+    },
+    {
+      "originalName": "IconImageEn",
+      "newName": "_-D8"
+    },
+    {
+      "originalName": "TrackSkin",
+      "newName": "_-86"
+    },
+    {
+      "originalName": "headerLang",
+      "newName": "_-7J"
+    },
+    {
+      "originalName": "assets.window.bitmaps",
+      "newName": "_-9B"
+    },
+    {
+      "originalName": "DEFAULT_FOV",
+      "newName": "_-6B"
+    },
+    {
+      "originalName": "globalPosition",
+      "newName": "_-3p"
+    },
+    {
+      "originalName": "GREEN_LABEL",
+      "newName": "_-q"
+    },
+    {
+      "originalName": "groups",
+      "newName": "_-7R"
+    },
+    {
+      "originalName": "winterMapsButton",
+      "newName": "_-4C"
+    },
+    {
+      "originalName": "TaskManager",
+      "newName": "_-1y"
+    },
+    {
+      "originalName": "minInterval",
+      "newName": "_-Cx"
+    },
+    {
+      "originalName": "MAX_WIDTH",
+      "newName": "_-38"
+    },
+    {
+      "originalName": "effectIndex",
+      "newName": "_-3d"
+    },
+    {
+      "originalName": "STATIC",
+      "newName": "_-5j"
+    },
+    {
+      "originalName": "tankConstructor",
+      "newName": "_-L6"
+    },
+    {
+      "originalName": "EffectIndicator_iconArmorCls",
+      "newName": "_-FP"
+    },
+    {
+      "originalName": "EPSILON",
+      "newName": "_-Cd"
+    },
+    {
+      "originalName": "EXPLOSION_SPRITE_SIZE",
+      "newName": "_-Ex"
+    },
+    {
+      "originalName": "effectIndicators",
+      "newName": "_-Ii"
+    },
+    {
+      "originalName": "hullSetters",
+      "newName": "_-2I"
+    },
+    {
+      "originalName": "WIDE_SCREEN",
+      "newName": "_-4V"
+    },
+    {
+      "originalName": "_icon",
+      "newName": "_-6s"
+    },
+    {
+      "originalName": "SHOT_GRAPHIC_EFFECT_LIFE_TIME",
+      "newName": "_-Hw"
+    },
+    {
+      "originalName": "aabb",
+      "newName": "_-GE"
+    },
+    {
+      "originalName": "_paused",
+      "newName": "_-88"
+    },
+    {
+      "originalName": "weaponLeftCls",
+      "newName": "_-By"
+    },
+    {
+      "originalName": "NEWS_DATE",
+      "newName": "_-Du"
+    },
+    {
+      "originalName": "onTankCollision",
+      "newName": "_-GK"
+    },
+    {
+      "originalName": "DIVIDER",
+      "newName": "_-Hl"
+    },
+    {
+      "originalName": "alternativa.tanks.models.inventory",
+      "newName": "_-KG"
+    },
+    {
+      "originalName": "interpolatedState",
+      "newName": "_-GZ"
+    },
+    {
+      "originalName": "TARAParser",
+      "newName": "_-6T"
+    },
+    {
+      "originalName": "ProgressBarSkin_weaponRightCls",
+      "newName": "_-Be"
+    },
+    {
+      "originalName": "MinMax",
+      "newName": "_-9J"
+    },
+    {
+      "originalName": "healthBurButton",
+      "newName": "_-Hb"
+    },
+    {
+      "originalName": "nullRankIcon",
+      "newName": "_-8y"
+    },
+    {
+      "originalName": "downedStateClass",
+      "newName": "_-Ev"
+    },
+    {
+      "originalName": "_attenuationBegin",
+      "newName": "_-1k"
+    },
+    {
+      "originalName": "verticalBackgroundHeader",
+      "newName": "_-3o"
+    },
+    {
+      "originalName": "FRIENDLY_FIRE",
+      "newName": "_-Ls"
+    },
+    {
+      "originalName": "_params",
+      "newName": "_-Bp"
+    },
+    {
+      "originalName": "searchButton",
+      "newName": "_-B0"
+    },
+    {
+      "originalName": "SHADOW_FILTER",
+      "newName": "_-AG"
+    },
+    {
+      "originalName": "nonEmpty",
+      "newName": "_-5w"
+    },
+    {
+      "originalName": "initialInterval",
+      "newName": "_-L9"
+    },
+    {
+      "originalName": "modelLibrary",
+      "newName": "_-It"
+    },
+    {
+      "originalName": "CameraFovCalculator",
+      "newName": "_-LU"
+    },
+    {
+      "originalName": "_bb",
+      "newName": "_-Ks"
+    },
+    {
+      "originalName": "WHITE",
+      "newName": "_-47"
+    },
+    {
+      "originalName": "ultimateCls",
+      "newName": "_-T"
+    },
+    {
+      "originalName": "FIRST_AID",
+      "newName": "_-5S"
+    },
+    {
+      "originalName": "DEFAULT_NAME",
+      "newName": "_-LR"
+    },
+    {
+      "originalName": "WindowTopRightCorner",
+      "newName": "_-H8"
+    },
+    {
+      "originalName": "ListItem",
+      "newName": "_-4X"
+    },
+    {
+      "originalName": "ProgressBarSkin_hpLeftBlueCls",
+      "newName": "_-FB"
+    },
+    {
+      "originalName": "animationTrack",
+      "newName": "_-7A"
+    },
+    {
+      "originalName": "ProgressBarSkin_hpLeftBgBlueCls",
+      "newName": "_-Ej"
+    },
+    {
+      "originalName": "maxHealth",
+      "newName": "_-7P"
+    },
+    {
+      "originalName": "TankTurretParser",
+      "newName": "_-14"
+    },
+    {
+      "originalName": "colormapDescriptors",
+      "newName": "_-8L"
+    },
+    {
+      "originalName": "PHYSICS_MATERIAL",
+      "newName": "_-46"
+    },
+    {
+      "originalName": "WindowInnerLeft",
+      "newName": "_-3i"
+    },
+    {
+      "originalName": "isSuspicious",
+      "newName": "_-4d"
+    },
+    {
+      "originalName": "alternativa.tanks.vehicles.tank.weapons.flamethrower",
+      "newName": "_-6p"
+    },
+    {
+      "originalName": "CHANCE",
+      "newName": "_-Dk"
+    },
+    {
+      "originalName": "contactIterations",
+      "newName": "_-IS"
+    },
+    {
+      "originalName": "yAxis",
+      "newName": "_-9e"
+    },
+    {
+      "originalName": "SMOKE_MOVE_DISTANCE",
+      "newName": "_-7F"
+    },
+    {
+      "originalName": "minSepVel",
+      "newName": "_-Gl"
+    },
+    {
+      "originalName": "_rayWorkLength",
+      "newName": "_-A5"
+    },
+    {
+      "originalName": "velAccum",
+      "newName": "_-41"
+    },
+    {
+      "originalName": "KEY_MOVE_BY",
+      "newName": "_-CK"
+    },
+    {
+      "originalName": "KEY_MOVE_BX",
+      "newName": "_-9Y"
+    },
+    {
+      "originalName": "KEY_MOVE_BZ",
+      "newName": "_-7D"
+    },
+    {
+      "originalName": "MAX_HEIGHT",
+      "newName": "_-v"
+    },
+    {
+      "originalName": "FADE_TIME",
+      "newName": "_-7z"
+    },
+    {
+      "originalName": "bmpRight",
+      "newName": "_-6j"
+    },
+    {
+      "originalName": "MapLoader_dummyTextureClass",
+      "newName": "_-F8"
+    },
+    {
+      "originalName": "TankHull",
+      "newName": "_-9r"
+    },
+    {
+      "originalName": "_rayHit",
+      "newName": "_-40"
+    },
+    {
+      "originalName": "alternativa.tanks.vehicles.tank.loaders",
+      "newName": "_-E0"
+    },
+    {
+      "originalName": "_id",
+      "newName": "_-IJ"
+    },
+    {
+      "originalName": "addListeners",
+      "newName": "_-1a"
+    },
+    {
+      "originalName": "CHARGE_FRAME_SIZE",
+      "newName": "_-3K"
+    },
+    {
+      "originalName": "RECT",
+      "newName": "_-2v"
+    },
+    {
+      "originalName": "WindowInnerBottomLeftCorner",
+      "newName": "_-11"
+    },
+    {
+      "originalName": "ranksCombo",
+      "newName": "_-9"
+    },
+    {
+      "originalName": "baseElevation",
+      "newName": "_-CW"
+    },
+    {
+      "originalName": "EFFECT_WARNING_PERIOD",
+      "newName": "_-7d"
+    },
+    {
+      "originalName": "interpolators",
+      "newName": "_-Ic"
+    },
+    {
+      "originalName": "SPHERE_SIZE",
+      "newName": "_-8U"
+    },
+    {
+      "originalName": "christmasTree",
+      "newName": "_-JP"
+    },
+    {
+      "originalName": "PICKUP_ANIMATION_TIME",
+      "newName": "_-8P"
+    },
+    {
+      "originalName": "WindowLeft",
+      "newName": "_-7U"
+    },
+    {
+      "originalName": "penetration",
+      "newName": "_-K5"
+    },
+    {
+      "originalName": "spriteSheetResource",
+      "newName": "_-L8"
+    },
+    {
+      "originalName": "exitButton",
+      "newName": "_-6P"
+    },
+    {
+      "originalName": "visibleHeight",
+      "newName": "_-I9"
+    },
+    {
+      "originalName": "iconRect",
+      "newName": "_-Gc"
+    },
+    {
+      "originalName": "INACTIVE_TRACK",
+      "newName": "_-8g"
+    },
+    {
+      "originalName": "cClass",
+      "newName": "_-26"
+    },
+    {
+      "originalName": "_hint",
+      "newName": "_-3M"
+    },
+    {
+      "originalName": "_once",
+      "newName": "_-JM"
+    },
+    {
+      "originalName": "KEY_MOVE_FY",
+      "newName": "_-9M"
+    },
+    {
+      "originalName": "chassisId",
+      "newName": "_-2O"
+    },
+    {
+      "originalName": "POSITION",
+      "newName": "_-EB"
+    },
+    {
+      "originalName": "KEY_MOVE_FX",
+      "newName": "_-JJ"
+    },
+    {
+      "originalName": "KEY_MOVE_FZ",
+      "newName": "_-9Q"
+    },
+    {
+      "originalName": "validValue",
+      "newName": "_-Gx"
+    },
+    {
+      "originalName": "sfxParams",
+      "newName": "_-5E"
+    },
+    {
+      "originalName": "ProgressBarSkin_barShadowCls",
+      "newName": "_-KR"
+    },
+    {
+      "originalName": "RESISTANCE_ICON_SPACING_X",
+      "newName": "_-GR"
+    },
+    {
+      "originalName": "blinkingStartTime",
+      "newName": "_-6N"
+    },
+    {
+      "originalName": "_detailsUrl",
+      "newName": "_-2n"
+    },
+    {
+      "originalName": "hpLeftRedCls",
+      "newName": "_-E2"
+    },
+    {
+      "originalName": "numCollisionPrimitives",
+      "newName": "_-B9"
+    },
+    {
+      "originalName": "rankID",
+      "newName": "_-Fj"
+    },
+    {
+      "originalName": "pcount",
+      "newName": "_-7L"
+    },
+    {
+      "originalName": "drugoeLabel",
+      "newName": "_-DP"
+    },
+    {
+      "originalName": "rankId",
+      "newName": "_-Kq"
+    },
+    {
+      "originalName": "handlers",
+      "newName": "_-6q"
+    },
+    {
+      "originalName": "changeState",
+      "newName": "_-1w"
+    },
+    {
+      "originalName": "Hint",
+      "newName": "_-Dw"
+    },
+    {
+      "originalName": "rotationalDamping",
+      "newName": "_-Fw"
+    },
+    {
+      "originalName": "alternativa.tanks.vehicles.tank.weapons.sfx",
+      "newName": "_-Jo"
+    },
+    {
+      "originalName": "TaskAlreadyScheduledError",
+      "newName": "_-Ft"
+    },
+    {
+      "originalName": "weightValue",
+      "newName": "_-G8"
+    },
+    {
+      "originalName": "ACCOUNT",
+      "newName": "_-Aa"
+    },
+    {
+      "originalName": "BitmapUtils",
+      "newName": "_-z"
+    },
+    {
+      "originalName": "hpRightBgRedCls",
+      "newName": "_-HX"
+    },
+    {
+      "originalName": "idTurret",
+      "newName": "_-KV"
+    },
+    {
+      "originalName": "barHeight",
+      "newName": "_-C2"
+    },
+    {
+      "originalName": "GAP",
+      "newName": "_-D1"
+    },
+    {
+      "originalName": "_low",
+      "newName": "_-Jn"
+    },
+    {
+      "originalName": "iconUnkillableBitmapData",
+      "newName": "_-2o"
+    },
+    {
+      "originalName": "currGroupIndex",
+      "newName": "_-Ch"
+    },
+    {
+      "originalName": "killedTasks",
+      "newName": "_-s"
+    },
+    {
+      "originalName": "wave",
+      "newName": "_-6H"
+    },
+    {
+      "originalName": "explMaterial",
+      "newName": "_-7b"
+    },
+    {
+      "originalName": "SHOP",
+      "newName": "_-52"
+    },
+    {
+      "originalName": "DEFAULT_TEXTURE",
+      "newName": "_-L4"
+    },
+    {
+      "originalName": "_collisionPrimitives",
+      "newName": "_-c"
+    },
+    {
+      "originalName": "GREEN",
+      "newName": "_-4u"
+    },
+    {
+      "originalName": "angularVelocity",
+      "newName": "_-Ge"
+    },
+    {
+      "originalName": "dcClass",
+      "newName": "_-7B"
+    },
+    {
+      "originalName": "headerBackground",
+      "newName": "_-6x"
+    },
+    {
+      "originalName": "powMaterial",
+      "newName": "_-22"
+    },
+    {
+      "originalName": "chargeAnimation",
+      "newName": "_-3S"
+    },
+    {
+      "originalName": "weightDistance",
+      "newName": "_-EU"
+    },
+    {
+      "originalName": "currentDistance",
+      "newName": "_-Ko"
+    },
+    {
+      "originalName": "tankShadow",
+      "newName": "_-1R"
+    },
+    {
+      "originalName": "stateDOWN",
+      "newName": "_-Kl"
+    },
+    {
+      "originalName": "combo_BG",
+      "newName": "_-73"
+    },
+    {
+      "originalName": "USER_TITLE_RED",
+      "newName": "_-C8"
+    },
+    {
+      "originalName": "ProgressBarSkin_hpRightRedCls",
+      "newName": "_-Ld"
+    },
+    {
+      "originalName": "LOGIN",
+      "newName": "_-7I"
+    },
+    {
+      "originalName": "Z_SCALE_SPEED",
+      "newName": "_-FW"
+    },
+    {
+      "originalName": "rayHit",
+      "newName": "_-EA"
+    },
+    {
+      "originalName": "COS_ONE_DEGREE",
+      "newName": "_-K6"
+    },
+    {
+      "originalName": "COLLISION_OFFSET",
+      "newName": "_-Cl"
+    },
+    {
+      "originalName": "fallController",
+      "newName": "_-6"
+    },
+    {
+      "originalName": "battleBonusData",
+      "newName": "_-8W"
+    },
+    {
+      "originalName": "ROTATION",
+      "newName": "_-9T"
+    },
+    {
+      "originalName": "changeTurretLeft",
+      "newName": "_-6K"
+    },
+    {
+      "originalName": "END_POSITION_OFFSET",
+      "newName": "_-IN"
+    },
+    {
+      "originalName": "freezeSteps",
+      "newName": "_-3x"
+    },
+    {
+      "originalName": "nextEmissionTime",
+      "newName": "_-Ea"
+    },
+    {
+      "originalName": "iconImageEn",
+      "newName": "_-7M"
+    },
+    {
+      "originalName": "LOGIC",
+      "newName": "_-In"
+    },
+    {
+      "originalName": "currMapObjectIndex",
+      "newName": "_-5o"
+    },
+    {
+      "originalName": "MAX_POINTS",
+      "newName": "_-h"
+    },
+    {
+      "originalName": "MAX_PARTICLES",
+      "newName": "_-7Q"
+    },
+    {
+      "originalName": "alternativa.tanks.battle.objects.tank",
+      "newName": "_-8K"
+    },
+    {
+      "originalName": "TANK_PARAMS_PRINTER",
+      "newName": "_-H7"
+    },
+    {
+      "originalName": "beam",
+      "newName": "_-8v"
+    },
+    {
+      "originalName": "lastId",
+      "newName": "_-Jq"
+    },
+    {
+      "originalName": "skyName",
+      "newName": "_-Aw"
+    },
+    {
+      "originalName": "lastIntersection",
+      "newName": "_-I7"
+    },
+    {
+      "originalName": "rightBMP",
+      "newName": "_-Fv"
+    },
+    {
+      "originalName": "objectMatrix",
+      "newName": "_-FI"
+    },
+    {
+      "originalName": "teamType",
+      "newName": "_-EX"
+    },
+    {
+      "originalName": "SMOKE_BEGIN_SCALE",
+      "newName": "_-7Z"
+    },
+    {
+      "originalName": "speedCoeff",
+      "newName": "_-Y"
+    },
+    {
+      "originalName": "minValue",
+      "newName": "_-DW"
+    },
+    {
+      "originalName": "iconEn",
+      "newName": "_-Af"
+    },
+    {
+      "originalName": "CHANGEPASSWORD",
+      "newName": "_-75"
+    },
+    {
+      "originalName": "_high",
+      "newName": "_-Il"
+    },
+    {
+      "originalName": "healthBarSkin",
+      "newName": "_-5g"
+    },
+    {
+      "originalName": "loopAnimation",
+      "newName": "_-DT"
+    },
+    {
+      "originalName": "rankUp",
+      "newName": "_-F2"
+    },
+    {
+      "originalName": "SHOP_ITEM_NAME_LABEL_COLOR",
+      "newName": "_-Je"
+    },
+    {
+      "originalName": "SHADOW_ON_OVER_FILTERS",
+      "newName": "_-66"
+    },
+    {
+      "originalName": "RAY_OFFSET",
+      "newName": "_-DN"
+    },
+    {
+      "originalName": "STATE_VISIBLE",
+      "newName": "_-Li"
+    },
+    {
+      "originalName": "m_matrix",
+      "newName": "_-AY"
+    },
+    {
+      "originalName": "rootNode",
+      "newName": "_-Bx"
+    },
+    {
+      "originalName": "HEALTHBAR_RED",
+      "newName": "_-CY"
+    },
+    {
+      "originalName": "ConcurrentModificationError",
+      "newName": "_-HU"
+    },
+    {
+      "originalName": "active",
+      "newName": "_-9h"
+    },
+    {
+      "originalName": "interpolatedTurretDirection",
+      "newName": "_-2q"
+    },
+    {
+      "originalName": "_bonusId",
+      "newName": "_-8S"
+    },
+    {
+      "originalName": "TankWindowInner",
+      "newName": "_-Gf"
+    },
+    {
+      "originalName": "turretDescriptors",
+      "newName": "_-6G"
+    },
+    {
+      "originalName": "isNY",
+      "newName": "_-4D"
+    },
+    {
+      "originalName": "tankCollisionBox",
+      "newName": "_-CH"
+    },
+    {
+      "originalName": "spark",
+      "newName": "_-BJ"
+    },
+    {
+      "originalName": "ownAlpha",
+      "newName": "_-8J"
+    },
+    {
+      "originalName": "AnimatedValue",
+      "newName": "_-Dq"
+    },
+    {
+      "originalName": "angSpeedFreezeLimit",
+      "newName": "_-BX"
+    },
+    {
+      "originalName": "effectIndicatorsY",
+      "newName": "_-1n"
+    },
+    {
+      "originalName": "chargeLightEffect",
+      "newName": "_-GG"
+    },
+    {
+      "originalName": "PAY",
+      "newName": "_-8o"
+    },
+    {
+      "originalName": "ACCESS_LABEL",
+      "newName": "_-7a"
+    },
+    {
+      "originalName": "rotAccum",
+      "newName": "_-J7"
+    },
+    {
+      "originalName": "RESISTANCE_MAX_TEXT_WIDTH",
+      "newName": "_-1j"
+    },
+    {
+      "originalName": "trail",
+      "newName": "_-U"
+    },
+    {
+      "originalName": "COLOR",
+      "newName": "_-Cm"
+    },
+    {
+      "originalName": "_url",
+      "newName": "_-LS"
+    },
+    {
+      "originalName": "InputCenterWrong",
+      "newName": "_-Eh"
+    },
+    {
+      "originalName": "IsisEffect",
+      "newName": "_-Fm"
+    },
+    {
+      "originalName": "currPosition",
+      "newName": "_-A4"
+    },
+    {
+      "originalName": "count",
+      "newName": "_-GC"
+    },
+    {
+      "originalName": "userTitleSettings",
+      "newName": "_-C5"
+    },
+    {
+      "originalName": "inited",
+      "newName": "_-D2"
+    },
+    {
+      "originalName": "billboards",
+      "newName": "_-Bo"
+    },
+    {
+      "originalName": "changeHullRight",
+      "newName": "_-6Y"
+    },
+    {
+      "originalName": "landingController",
+      "newName": "_-3v"
+    },
+    {
+      "originalName": "STATE_PREPARED",
+      "newName": "_-8N"
+    },
+    {
+      "originalName": "MAX_SCALE",
+      "newName": "_-AM"
+    },
+    {
+      "originalName": "freeCameraController",
+      "newName": "_-IA"
+    },
+    {
+      "originalName": "MAX_COLOR_TRANSFORM",
+      "newName": "_-1f"
+    },
+    {
+      "originalName": "_profiles",
+      "newName": "_-1G"
+    },
+    {
+      "originalName": "_priority",
+      "newName": "_-Jp"
+    },
+    {
+      "originalName": "TankWindowHeader",
+      "newName": "_-Ab"
+    },
+    {
+      "originalName": "nextReadyTime",
+      "newName": "_-2S"
+    },
+    {
+      "originalName": "_lightmapUrl",
+      "newName": "_-If"
+    },
+    {
+      "originalName": "WindowInnerBGTile",
+      "newName": "_-KH"
+    },
+    {
+      "originalName": "onPickup",
+      "newName": "_-8u"
+    },
+    {
+      "originalName": "pngdrift.buttons",
+      "newName": "_-AZ"
+    },
+    {
+      "originalName": "INITIAL_POOL_SIZE",
+      "newName": "_-7K"
+    },
+    {
+      "originalName": "ColorButton",
+      "newName": "_-34"
+    },
+    {
+      "originalName": "makeCT",
+      "newName": "_-BL"
+    },
+    {
+      "originalName": "health",
+      "newName": "_-Bq"
+    },
+    {
+      "originalName": "materialUsersRegistry",
+      "newName": "_-F7"
+    },
+    {
+      "originalName": "ScrollThumbSkin",
+      "newName": "_-FL"
+    },
+    {
+      "originalName": "cordsMaterial",
+      "newName": "_-Fb"
+    },
+    {
+      "originalName": "dynamicLight",
+      "newName": "_-Ds"
+    },
+    {
+      "originalName": "greenMarkerOnTank",
+      "newName": "_-8w"
+    },
+    {
+      "originalName": "Weapons",
+      "newName": "_-Cb"
+    },
+    {
+      "originalName": "totalDistance",
+      "newName": "_-9w"
+    },
+    {
+      "originalName": "alternativa.physics.collision.primitives",
+      "newName": "_-DE"
+    },
+    {
+      "originalName": "turretMatrix",
+      "newName": "_-3N"
+    },
+    {
+      "originalName": "CollisionGroup",
+      "newName": "_-LI"
+    },
+    {
+      "originalName": "_color",
+      "newName": "_-d"
+    },
+    {
+      "originalName": "healthBar",
+      "newName": "_-IG"
+    },
+    {
+      "originalName": "ambientLight",
+      "newName": "_-Ef"
+    },
+    {
+      "originalName": "renderers",
+      "newName": "_-Bj"
+    },
+    {
+      "originalName": "header",
+      "newName": "_-Iz"
+    },
+    {
+      "originalName": "_numRays",
+      "newName": "_-Db"
+    },
+    {
+      "originalName": "SHAFT_NUM_SEGMENTS",
+      "newName": "_-3B"
+    },
+    {
+      "originalName": "spawnMarker",
+      "newName": "_-Cp"
+    },
+    {
+      "originalName": "blinking",
+      "newName": "_-Kt"
+    },
+    {
+      "originalName": "ISlot",
+      "newName": "_-k"
+    },
+    {
+      "originalName": "EXPLOSION_SIZE",
+      "newName": "_-CT"
+    },
+    {
+      "originalName": "processes",
+      "newName": "_-9d"
+    },
+    {
+      "originalName": "IGameObjectController",
+      "newName": "_-6b"
+    },
+    {
+      "originalName": "lightColor",
+      "newName": "_-EF"
+    },
+    {
+      "originalName": "SHAFT_AMPLITUDE_FADE",
+      "newName": "_-G9"
+    },
+    {
+      "originalName": "_taskSequence",
+      "newName": "_-8A"
+    },
+    {
+      "originalName": "meshConvexThreshold",
+      "newName": "_-FN"
+    },
+    {
+      "originalName": "PHYSICS",
+      "newName": "_-1v"
+    },
+    {
+      "originalName": "tankMass",
+      "newName": "_-Fe"
+    },
+    {
+      "originalName": "TankHullParser",
+      "newName": "_-23"
+    },
+    {
+      "originalName": "CONGRATULATIONS",
+      "newName": "_-51"
+    },
+    {
+      "originalName": "_name",
+      "newName": "_-Ho"
+    },
+    {
+      "originalName": "pressedStateBitmapData",
+      "newName": "_-Hc"
+    },
+    {
+      "originalName": "lightMapResource",
+      "newName": "_-5H"
+    },
+    {
+      "originalName": "WindowInnerRight",
+      "newName": "_-7V"
+    },
+    {
+      "originalName": "assets.icons",
+      "newName": "_-B"
+    },
+    {
+      "originalName": "particles",
+      "newName": "_-9N"
+    },
+    {
+      "originalName": "FIRST_AID_BLINK_INTERVAL_DECREMENT",
+      "newName": "_-Ba"
+    },
+    {
+      "originalName": "PREMIUM_RANK_ICON_SIZE",
+      "newName": "_-Hr"
+    },
+    {
+      "originalName": "HIT_MARK_RADIUS",
+      "newName": "_-Gv"
+    },
+    {
+      "originalName": "LIB_FILE_NAME",
+      "newName": "_-2J"
+    },
+    {
+      "originalName": "hpLeftBgDmCls",
+      "newName": "_-G"
+    },
+    {
+      "originalName": "boxCaches",
+      "newName": "_-DB"
+    },
+    {
+      "originalName": "linearSpeed",
+      "newName": "_-Er"
+    },
+    {
+      "originalName": "startMarker",
+      "newName": "_-F0"
+    },
+    {
+      "originalName": "rClass",
+      "newName": "_-3f"
+    },
+    {
+      "originalName": "RayHit",
+      "newName": "_-9U"
+    },
+    {
+      "originalName": "boxMeshDamage",
+      "newName": "_-w"
+    },
+    {
+      "originalName": "coeff",
+      "newName": "_-5T"
+    },
+    {
+      "originalName": "camSpeedThreshold",
+      "newName": "_-Bf"
+    },
+    {
+      "originalName": "HIGH_MEMORY",
+      "newName": "_-5a"
+    },
+    {
+      "originalName": "ratio",
+      "newName": "_-IX"
+    },
+    {
+      "originalName": "ZERO",
+      "newName": "_-Lj"
+    },
+    {
+      "originalName": "colliders",
+      "newName": "_-21"
+    },
+    {
+      "originalName": "_gravityMagnitude",
+      "newName": "_-ES"
+    },
+    {
+      "originalName": "numDecals",
+      "newName": "_-4H"
+    },
+    {
+      "originalName": "bgBMP",
+      "newName": "_-DO"
+    },
+    {
+      "originalName": "gravitationCombo",
+      "newName": "_-5U"
+    },
+    {
+      "originalName": "ProgressBarSkin_hpRightBlueCls",
+      "newName": "_-Aj"
+    },
+    {
+      "originalName": "finishTime",
+      "newName": "_-3C"
+    },
+    {
+      "originalName": "addedTasks",
+      "newName": "_-Lg"
+    },
+    {
+      "originalName": "_enable",
+      "newName": "_-KI"
+    },
+    {
+      "originalName": "WindowInnerBottom",
+      "newName": "_-K0"
+    },
+    {
+      "originalName": "fadeDistance",
+      "newName": "_-7E"
+    },
+    {
+      "originalName": "greenMine",
+      "newName": "_-H6"
+    },
+    {
+      "originalName": "_prevTurretDirection",
+      "newName": "_-EL"
+    },
+    {
+      "originalName": "changeHullLeft",
+      "newName": "_-65"
+    },
+    {
+      "originalName": "cameraDistance",
+      "newName": "_-4h"
+    },
+    {
+      "originalName": "softParticles",
+      "newName": "_-Kp"
+    },
+    {
+      "originalName": "bonusLifeTime",
+      "newName": "_-EV"
+    },
+    {
+      "originalName": "icons",
+      "newName": "_-Dg"
+    },
+    {
+      "originalName": "DECAL_FADING_TIME_MS",
+      "newName": "_-CZ"
+    },
+    {
+      "originalName": "inputLocked",
+      "newName": "_-Kk"
+    },
+    {
+      "originalName": "HIT_MARK_FADE_TIME",
+      "newName": "_-Ga"
+    },
+    {
+      "originalName": "textInputHandler",
+      "newName": "_-Ee"
+    },
+    {
+      "originalName": "canRemove",
+      "newName": "_-Ij"
+    },
+    {
+      "originalName": "creationProcessCallbacks",
+      "newName": "_-BH"
+    },
+    {
+      "originalName": "weaponLeftBgCls",
+      "newName": "_-Eq"
+    },
+    {
+      "originalName": "colNormal",
+      "newName": "_-8F"
+    },
+    {
+      "originalName": "_rayRestLength",
+      "newName": "_-9R"
+    },
+    {
+      "originalName": "OBJECTS",
+      "newName": "_-EQ"
+    },
+    {
+      "originalName": "prevState",
+      "newName": "_-Ap"
+    },
+    {
+      "originalName": "TouchedPrimitives",
+      "newName": "_-Eu"
+    },
+    {
+      "originalName": "onTimeOut",
+      "newName": "_-3G"
+    },
+    {
+      "originalName": "alternativa.tanks.systems.rendersystem",
+      "newName": "_-I5"
+    },
+    {
+      "originalName": "BASE_SIZE",
+      "newName": "_-L2"
+    },
+    {
+      "originalName": "SFXUtils",
+      "newName": "_-5W"
+    },
+    {
+      "originalName": "trackedBody",
+      "newName": "_-BK"
+    },
+    {
+      "originalName": "SHARPNESS_LABEL_BASE",
+      "newName": "_-5"
+    },
+    {
+      "originalName": "localPosition",
+      "newName": "_-5e"
+    },
+    {
+      "originalName": "isLocal",
+      "newName": "_-5n"
+    },
+    {
+      "originalName": "urClass",
+      "newName": "_-E9"
+    },
+    {
+      "originalName": "_colormap",
+      "newName": "_-1z"
+    },
+    {
+      "originalName": "firstAidButton",
+      "newName": "_-84"
+    },
+    {
+      "originalName": "REMOVAL_WARNING_THRESHOLD",
+      "newName": "_-Kb"
+    },
+    {
+      "originalName": "fading",
+      "newName": "_-Dl"
+    },
+    {
+      "originalName": "SMOKE_SPEED_DELTA",
+      "newName": "_-Hy"
+    },
+    {
+      "originalName": "_intensity",
+      "newName": "_-I0"
+    },
+    {
+      "originalName": "CHAT_LABEL",
+      "newName": "_-Dd"
+    },
+    {
+      "originalName": "Config",
+      "newName": "_-CU"
+    },
+    {
+      "originalName": "splitIndices",
+      "newName": "_-Bk"
+    },
+    {
+      "originalName": "STATE_HIDDEN",
+      "newName": "_-2h"
+    },
+    {
+      "originalName": "CameraTarget",
+      "newName": "_-2W"
+    },
+    {
+      "originalName": "charging",
+      "newName": "_-2u"
+    },
+    {
+      "originalName": "barShadowRight",
+      "newName": "_-5p"
+    },
+    {
+      "originalName": "_buttonOverState",
+      "newName": "_-4U"
+    },
+    {
+      "originalName": "alternativa.utils.filters",
+      "newName": "_-AR"
+    },
+    {
+      "originalName": "ctfFlags",
+      "newName": "_-25"
+    },
+    {
+      "originalName": "EXPLOSION_OFFSET_TO_CAMERA",
+      "newName": "_-AD"
+    },
+    {
+      "originalName": "basePath",
+      "newName": "_-x"
+    },
+    {
+      "originalName": "IDLE",
+      "newName": "_-JX"
+    },
+    {
+      "originalName": "verticalBackgroundHeaderClass",
+      "newName": "_-Ah"
+    },
+    {
+      "originalName": "meshDistanceThreshold",
+      "newName": "_-1H"
+    },
+    {
+      "originalName": "objectAxis",
+      "newName": "_-DM"
+    },
+    {
+      "originalName": "alternativa.physics.collision.types",
+      "newName": "_-1h"
+    },
+    {
+      "originalName": "turretIds",
+      "newName": "_-KD"
+    },
+    {
+      "originalName": "nodeBoundBoxThreshold",
+      "newName": "_-3u"
+    },
+    {
+      "originalName": "bits_left",
+      "newName": "_-9i"
+    },
+    {
+      "originalName": "needRedraw",
+      "newName": "_-HT"
+    },
+    {
+      "originalName": "intervalDecrement",
+      "newName": "_-KL"
+    },
+    {
+      "originalName": "weaponRightBg",
+      "newName": "_-8h"
+    },
+    {
+      "originalName": "MIN_BLINK_INTERVAL",
+      "newName": "_-KU"
+    },
+    {
+      "originalName": "COLOR_TEAM_BLUE_BG",
+      "newName": "_-LO"
+    },
+    {
+      "originalName": "GOLD",
+      "newName": "_-Gm"
+    },
+    {
+      "originalName": "ulClass",
+      "newName": "_-ID"
+    },
+    {
+      "originalName": "boundSphereRadius",
+      "newName": "_-FK"
+    },
+    {
+      "originalName": "MAX_BLINK_INTERVAL",
+      "newName": "_-9y"
+    },
+    {
+      "originalName": "BIT_FIRE_WEAPON",
+      "newName": "_-J5"
+    },
+    {
+      "originalName": "movable",
+      "newName": "_-KN"
+    },
+    {
+      "originalName": "sizePerDistance",
+      "newName": "_-N"
+    },
+    {
+      "originalName": "MAX_BATCH_SIZE",
+      "newName": "_-6r"
+    },
+    {
+      "originalName": "onRemove",
+      "newName": "_-Kg"
+    },
+    {
+      "originalName": "ACTIVE_TRACK",
+      "newName": "_-8p"
+    },
+    {
+      "originalName": "oldtime",
+      "newName": "_-Cq"
+    },
+    {
+      "originalName": "explosionAnimations",
+      "newName": "_-HL"
+    },
+    {
+      "originalName": "Triggers",
+      "newName": "_-3z"
+    },
+    {
+      "originalName": "rightTrackSkin",
+      "newName": "_-IR"
+    },
+    {
+      "originalName": "HitInfo",
+      "newName": "_-Dm"
+    },
+    {
+      "originalName": "controlPanel",
+      "newName": "_-CV"
+    },
+    {
+      "originalName": "currentLoopTime",
+      "newName": "_-Dh"
+    },
+    {
+      "originalName": "bmpRightWrong",
+      "newName": "_-5x"
+    },
+    {
+      "originalName": "keyActionMap",
+      "newName": "_-2k"
+    },
+    {
+      "originalName": "detailmapUrl",
+      "newName": "_-6Q"
+    },
+    {
+      "originalName": "HEADER_COLOR",
+      "newName": "_-1c"
+    },
+    {
+      "originalName": "alternativa.tanks.display.controllers",
+      "newName": "_-Bt"
+    },
+    {
+      "originalName": "labeg",
+      "newName": "_-3c"
+    },
+    {
+      "originalName": "PartsLibrary",
+      "newName": "_-4T"
+    },
+    {
+      "originalName": "particleVelocity",
+      "newName": "_-7g"
+    },
+    {
+      "originalName": "toppng",
+      "newName": "_-Jk"
+    },
+    {
+      "originalName": "PhysicsInterpolators",
+      "newName": "_-IK"
+    },
+    {
+      "originalName": "PositionProvider",
+      "newName": "_-BU"
+    },
+    {
+      "originalName": "ctfIconBitmapData",
+      "newName": "_-F6"
+    },
+    {
+      "originalName": "LevelUpEffectFactory_BeamTextureNY",
+      "newName": "_-u"
+    },
+    {
+      "originalName": "midpng",
+      "newName": "_-57"
+    },
+    {
+      "originalName": "RESISTANCE_ICON_WIDTH",
+      "newName": "_-Fk"
+    },
+    {
+      "originalName": "waveBitmapDataNY",
+      "newName": "_-Lr"
+    },
+    {
+      "originalName": "turretsLibrary",
+      "newName": "_-LN"
+    },
+    {
+      "originalName": "RESOLUTION",
+      "newName": "_-Gt"
+    },
+    {
+      "originalName": "textureLibrary",
+      "newName": "_-9b"
+    },
+    {
+      "originalName": "FLASH_OFFSET",
+      "newName": "_-I4"
+    },
+    {
+      "originalName": "pivotZ",
+      "newName": "_-39"
+    },
+    {
+      "originalName": "SHADOW_FILTERS",
+      "newName": "_-2i"
+    },
+    {
+      "originalName": "SHADOW_ON_OVER_FILTER",
+      "newName": "_-JW"
+    },
+    {
+      "originalName": "initSkin",
+      "newName": "_-5D"
+    },
+    {
+      "originalName": "boundBoxWithThreshold",
+      "newName": "_-H9"
+    },
+    {
+      "originalName": "animationTime",
+      "newName": "_-Id"
+    },
+    {
+      "originalName": "pitchSpeed",
+      "newName": "_-FE"
+    },
+    {
+      "originalName": "SYSTEM_MESSAGE",
+      "newName": "_-EO"
+    },
+    {
+      "originalName": "overStateClass",
+      "newName": "_-m"
+    },
+    {
+      "originalName": "_normal",
+      "newName": "_-AK"
+    },
+    {
+      "originalName": "timeStamp",
+      "newName": "_-Ae"
+    },
+    {
+      "originalName": "FLASH_FADE_TIME",
+      "newName": "_-Es"
+    },
+    {
+      "originalName": "YOUR_TANK",
+      "newName": "_-EN"
+    },
+    {
+      "originalName": "weaponLeft",
+      "newName": "_-Lv"
+    },
+    {
+      "originalName": "cordsCache",
+      "newName": "_-4g"
+    },
+    {
+      "originalName": "stateOFF",
+      "newName": "_-A1"
+    },
+    {
+      "originalName": "_nodeBB",
+      "newName": "_-Ao"
+    },
+    {
+      "originalName": "screenSize",
+      "newName": "_-33"
+    },
+    {
+      "originalName": "langLabel",
+      "newName": "_-9P"
+    },
+    {
+      "originalName": "NITRO",
+      "newName": "_-AQ"
+    },
+    {
+      "originalName": "EFFECTS",
+      "newName": "_-Jx"
+    },
+    {
+      "originalName": "BONUS_HALF_SIZE",
+      "newName": "_-DR"
+    },
+    {
+      "originalName": "vectorsTwo",
+      "newName": "_-6d"
+    },
+    {
+      "originalName": "smokeMaterial",
+      "newName": "_-2D"
+    },
+    {
+      "originalName": "_turnDirection",
+      "newName": "_-D7"
+    },
+    {
+      "originalName": "EXPLOSION_FIRE_OFFSET_TO_CAMERA",
+      "newName": "_-1u"
+    },
+    {
+      "originalName": "cameraController",
+      "newName": "_-B2"
+    },
+    {
+      "originalName": "iconHealthCls",
+      "newName": "_-i"
+    },
+    {
+      "originalName": "barShadowLeft",
+      "newName": "_-5A"
+    },
+    {
+      "originalName": "fpsIndicator",
+      "newName": "_-A3"
+    },
+    {
+      "originalName": "ProgressBarSkin_barShadowLeftCls",
+      "newName": "_-J4"
+    },
+    {
+      "originalName": "RankIcon",
+      "newName": "_-9H"
+    },
+    {
+      "originalName": "propNames",
+      "newName": "_-AC"
+    },
+    {
+      "originalName": "boxLocalPoint",
+      "newName": "_-62"
+    },
+    {
+      "originalName": "alternativa.tanks.library.colormaps",
+      "newName": "_-2Y"
+    },
+    {
+      "originalName": "scaleVelocity",
+      "newName": "_-BW"
+    },
+    {
+      "originalName": "positionDelta",
+      "newName": "_-BZ"
+    },
+    {
+      "originalName": "SKIN_DISPLACEMENT_Z",
+      "newName": "_-5J"
+    },
+    {
+      "originalName": "splitCost",
+      "newName": "_-93"
+    },
+    {
+      "originalName": "closeButton",
+      "newName": "_-Ep"
+    },
+    {
+      "originalName": "AnimatedColorTransform",
+      "newName": "_-Aq"
+    },
+    {
+      "originalName": "NOTHING",
+      "newName": "_-Et"
+    },
+    {
+      "originalName": "ProgressBarSkin_hpLeftDmCls",
+      "newName": "_-FO"
+    },
+    {
+      "originalName": "SHARPNESS_TANK_INPUT_BASE",
+      "newName": "_-JV"
+    },
+    {
+      "originalName": "SystemTags",
+      "newName": "_-7o"
+    },
+    {
+      "originalName": "_progress",
+      "newName": "_-Iq"
+    },
+    {
+      "originalName": "lastBonusId",
+      "newName": "_-89"
+    },
+    {
+      "originalName": "WEAPONBAR",
+      "newName": "_-L0"
+    },
+    {
+      "originalName": "CONE_ANGLE",
+      "newName": "_-DX"
+    },
+    {
+      "originalName": "MAX_FPS",
+      "newName": "_-6h"
+    },
+    {
+      "originalName": "USE_RANDOM_ROTATION",
+      "newName": "_-EH"
+    },
+    {
+      "originalName": "fpsLabel",
+      "newName": "_-AP"
+    },
+    {
+      "originalName": "Constraint",
+      "newName": "_-L1"
+    },
+    {
+      "originalName": "ALPHA",
+      "newName": "_-Dz"
+    },
+    {
+      "originalName": "NARROW_SCREEN",
+      "newName": "_-GI"
+    },
+    {
+      "originalName": "SMOKE_END_SCALE",
+      "newName": "_-2g"
+    },
+    {
+      "originalName": "BeamTextureNY",
+      "newName": "_-Fu"
+    },
+    {
+      "originalName": "bmpCenterWrong",
+      "newName": "_-IU"
+    },
+    {
+      "originalName": "overlay",
+      "newName": "_-6m"
+    },
+    {
+      "originalName": "alternativa.tanks.battle.triggers",
+      "newName": "_-5f"
+    },
+    {
+      "originalName": "m_height",
+      "newName": "_-C1"
+    },
+    {
+      "originalName": "description",
+      "newName": "_-64"
+    },
+    {
+      "originalName": "mapButton",
+      "newName": "_-GX"
+    },
+    {
+      "originalName": "positiveNode",
+      "newName": "_-98"
+    },
+    {
+      "originalName": "glowFilter",
+      "newName": "_-Io"
+    },
+    {
+      "originalName": "visuals",
+      "newName": "_-AI"
+    },
+    {
+      "originalName": "Y_AXIS",
+      "newName": "_-7i"
+    },
+    {
+      "originalName": "particlePosition",
+      "newName": "_-1Q"
+    },
+    {
+      "originalName": "boxMeshCry",
+      "newName": "_-87"
+    },
+    {
+      "originalName": "BONUS_WITH_TANK",
+      "newName": "_-FT"
+    },
+    {
+      "originalName": "renderSystem",
+      "newName": "_-D6"
+    },
+    {
+      "originalName": "procentHP",
+      "newName": "_-HN"
+    },
+    {
+      "originalName": "REGISTER",
+      "newName": "_-Ln"
+    },
+    {
+      "originalName": "removeListeners",
+      "newName": "_-Fs"
+    },
+    {
+      "originalName": "chargeTime",
+      "newName": "_-E4"
+    },
+    {
+      "originalName": "_effectId",
+      "newName": "_-Cg"
+    },
+    {
+      "originalName": "_skin",
+      "newName": "_-Ey"
+    },
+    {
+      "originalName": "normalVel",
+      "newName": "_-V"
+    },
+    {
+      "originalName": "_wid",
+      "newName": "_-HJ"
+    },
+    {
+      "originalName": "DiscreteSprite",
+      "newName": "_-EG"
+    },
+    {
+      "originalName": "sendFuckingEvent",
+      "newName": "_-LP"
+    },
+    {
+      "originalName": "selItem",
+      "newName": "_-6O"
+    },
+    {
+      "originalName": "uvFrames",
+      "newName": "_-HQ"
+    },
+    {
+      "originalName": "_lods",
+      "newName": "_-El"
+    },
+    {
+      "originalName": "PHYSICS_FRAME_SAMPLES",
+      "newName": "_-Az"
+    },
+    {
+      "originalName": "assets.input",
+      "newName": "_-Av"
+    },
+    {
+      "originalName": "RenderGroup",
+      "newName": "_-Ci"
+    },
+    {
+      "originalName": "BONUS_OBJECT_ID",
+      "newName": "_-6X"
+    },
+    {
+      "originalName": "_text",
+      "newName": "_-2p"
+    },
+    {
+      "originalName": "sfxParamsIndex",
+      "newName": "_-II"
+    },
+    {
+      "originalName": "BONUS_OFFSET_Z",
+      "newName": "_-7h"
+    },
+    {
+      "originalName": "SMOOTH",
+      "newName": "_-1x"
+    },
+    {
+      "originalName": "mishin870.gui.ComboBox.list",
+      "newName": "_-5i"
+    },
+    {
+      "originalName": "keyMapper",
+      "newName": "_-GV"
+    },
+    {
+      "originalName": "LABEL_HEIGHT",
+      "newName": "_-48"
+    },
+    {
+      "originalName": "image_value",
+      "newName": "_-DG"
+    },
+    {
+      "originalName": "_background",
+      "newName": "_-95"
+    },
+    {
+      "originalName": "_showCollisionPrimitives",
+      "newName": "_-F9"
+    },
+    {
+      "originalName": "LUMINANCER",
+      "newName": "_-1J"
+    },
+    {
+      "originalName": "changeColorRight",
+      "newName": "_-3q"
+    },
+    {
+      "originalName": "LUMINANCEB",
+      "newName": "_-3Y"
+    },
+    {
+      "originalName": "LUMINANCEG",
+      "newName": "_-1M"
+    },
+    {
+      "originalName": "_buttonDownState",
+      "newName": "_-3H"
+    },
+    {
+      "originalName": "PLANE_LENGTH",
+      "newName": "_-8X"
+    },
+    {
+      "originalName": "hpLeftBgBlueCls",
+      "newName": "_-GD"
+    },
+    {
+      "originalName": "particleDistance",
+      "newName": "_-GH"
+    },
+    {
+      "originalName": "plane",
+      "newName": "_-50"
+    },
+    {
+      "originalName": "loopsCount",
+      "newName": "_-AT"
+    },
+    {
+      "originalName": "omni",
+      "newName": "_-G3"
+    },
+    {
+      "originalName": "currentTime",
+      "newName": "_-a"
+    },
+    {
+      "originalName": "regionsRot",
+      "newName": "_-Ad"
+    },
+    {
+      "originalName": "bbs",
+      "newName": "_-6o"
+    },
+    {
+      "originalName": "framesPerMillisecond",
+      "newName": "_-6J"
+    },
+    {
+      "originalName": "changeTurretRight",
+      "newName": "_-4S"
+    },
+    {
+      "originalName": "WeaponUtils",
+      "newName": "_-5l"
+    },
+    {
+      "originalName": "negativeNode",
+      "newName": "_-AO"
+    },
+    {
+      "originalName": "nextItem",
+      "newName": "_-6y"
+    },
+    {
+      "originalName": "dead",
+      "newName": "_-90"
+    },
+    {
+      "originalName": "BattleBonusData",
+      "newName": "_-JN"
+    },
+    {
+      "originalName": "ContactPoint",
+      "newName": "_-3y"
+    },
+    {
+      "originalName": "m_contrastMatrix",
+      "newName": "_-Ja"
+    },
+    {
+      "originalName": "BAR_HEIGHT",
+      "newName": "_-Ed"
+    },
+    {
+      "originalName": "sel",
+      "newName": "_-A8"
+    },
+    {
+      "originalName": "HALL_OF_FAME",
+      "newName": "_-8R"
+    },
+    {
+      "originalName": "alternativa.tanks.models.battlefield.skybox",
+      "newName": "_-H0"
+    },
+    {
+      "originalName": "readyColormaps",
+      "newName": "_-E8"
+    },
+    {
+      "originalName": "MINE",
+      "newName": "_-Kf"
+    },
+    {
+      "originalName": "ProgressBarSkin_hpRightBgBlueCls",
+      "newName": "_-G4"
+    },
+    {
+      "originalName": "hpRightDm",
+      "newName": "_-58"
+    },
+    {
+      "originalName": "CHANGE_STATE",
+      "newName": "_-Fy"
+    },
+    {
+      "originalName": "DELTA_LINE",
+      "newName": "_-AS"
+    },
+    {
+      "originalName": "targetProvider",
+      "newName": "_-8V"
+    },
+    {
+      "originalName": "freeIds",
+      "newName": "_-7p"
+    },
+    {
+      "originalName": "colorCombo",
+      "newName": "_-HV"
+    },
+    {
+      "originalName": "_value",
+      "newName": "_-Ih"
+    },
+    {
+      "originalName": "timeout",
+      "newName": "_-f"
+    },
+    {
+      "originalName": "Listeners",
+      "newName": "_-FU"
+    },
+    {
+      "originalName": "DECAL_RADIUS",
+      "newName": "_-KE"
+    },
+    {
+      "originalName": "turretSkinMountPoint",
+      "newName": "_-8s"
+    },
+    {
+      "originalName": "blinkingPeriod",
+      "newName": "_-J8"
+    },
+    {
+      "originalName": "FLASH_DURATION",
+      "newName": "_-2T"
+    },
+    {
+      "originalName": "tankSpeed",
+      "newName": "_-Dc"
+    },
+    {
+      "originalName": "ProgressBarSkin_weaponLeftCls",
+      "newName": "_-G7"
+    },
+    {
+      "originalName": "MAX_ANGLE_X",
+      "newName": "_-Gi"
+    },
+    {
+      "originalName": "WindowBottomLeftCorner",
+      "newName": "_-2B"
+    },
+    {
+      "originalName": "_track",
+      "newName": "_-Lu"
+    },
+    {
+      "originalName": "targetingSystem",
+      "newName": "_-Jc"
+    },
+    {
+      "originalName": "tasks",
+      "newName": "_-LQ"
+    },
+    {
+      "originalName": "loopTime",
+      "newName": "_-J0"
+    },
+    {
+      "originalName": "_ugli",
+      "newName": "_-Gd"
+    },
+    {
+      "originalName": "DEFAULT_MATERIAL",
+      "newName": "_-LE"
+    },
+    {
+      "originalName": "satisfied",
+      "newName": "_-1d"
+    },
+    {
+      "originalName": "HEADER_BACKGROUND_HEIGHT",
+      "newName": "_-F3"
+    },
+    {
+      "originalName": "ITextureConstructorListener",
+      "newName": "_-2d"
+    },
+    {
+      "originalName": "newsList",
+      "newName": "_-Jg"
+    },
+    {
+      "originalName": "alive",
+      "newName": "_-4q"
+    },
+    {
+      "originalName": "suspiciousTitle",
+      "newName": "_-4W"
+    },
+    {
+      "originalName": "ScrollTrackSkin",
+      "newName": "_-GW"
+    },
+    {
+      "originalName": "world",
+      "newName": "_-Ip"
+    },
+    {
+      "originalName": "_valide",
+      "newName": "_-JQ"
+    },
+    {
+      "originalName": "alternativa.tanks.taskmanager",
+      "newName": "_-6R"
+    },
+    {
+      "originalName": "accumCounter",
+      "newName": "_-54"
+    },
+    {
+      "originalName": "lifeTimeMs",
+      "newName": "_-1U"
+    },
+    {
+      "originalName": "usePrediction",
+      "newName": "_-Hp"
+    },
+    {
+      "originalName": "barShadowLeftCls",
+      "newName": "_-9Z"
+    },
+    {
+      "originalName": "typeChek",
+      "newName": "_-KZ"
+    },
+    {
+      "originalName": "meshAngleThreshold",
+      "newName": "_-Ew"
+    },
+    {
+      "originalName": "_size",
+      "newName": "_-5r"
+    },
+    {
+      "originalName": "TankTurret",
+      "newName": "_-CM"
+    },
+    {
+      "originalName": "SHOCKWAVE_SIZE",
+      "newName": "_-HK"
+    },
+    {
+      "originalName": "upDirection",
+      "newName": "_-HS"
+    },
+    {
+      "originalName": "_shadowTextureUrl",
+      "newName": "_-15"
+    },
+    {
+      "originalName": "PropState",
+      "newName": "_-Ig"
+    },
+    {
+      "originalName": "textureRect",
+      "newName": "_-5v"
+    },
+    {
+      "originalName": "THRESHOLD",
+      "newName": "_-KW"
+    },
+    {
+      "originalName": "TEXTURE_MARGIN",
+      "newName": "_-Bu"
+    },
+    {
+      "originalName": "ButtonState",
+      "newName": "_-DU"
+    },
+    {
+      "originalName": "splitTree",
+      "newName": "_-JB"
+    },
+    {
+      "originalName": "_colormapId",
+      "newName": "_-AN"
+    },
+    {
+      "originalName": "SPRITE_SIZE",
+      "newName": "_-5Y"
+    },
+    {
+      "originalName": "loadRef",
+      "newName": "_-Hh"
+    },
+    {
+      "originalName": "MIN_SMOKE_SPEED",
+      "newName": "_-BN"
+    },
+    {
+      "originalName": "control",
+      "newName": "_-60"
+    },
+    {
+      "originalName": "ProgressBarSkin_hpLeftBgDmCls",
+      "newName": "_-Ct"
+    },
+    {
+      "originalName": "VISUALIZATION_SPEED",
+      "newName": "_-3J"
+    },
+    {
+      "originalName": "MathUtils",
+      "newName": "_-LZ"
+    },
+    {
+      "originalName": "weaponRightCls",
+      "newName": "_-DS"
+    },
+    {
+      "originalName": "ownMapButton",
+      "newName": "_-4x"
+    },
+    {
+      "originalName": "scene",
+      "newName": "_-Ar"
+    },
+    {
+      "originalName": "freezeCounter",
+      "newName": "_-8T"
+    },
+    {
+      "originalName": "MIN_INTERVAL",
+      "newName": "_-GN"
+    },
+    {
+      "originalName": "CREATE_BATTLE",
+      "newName": "_-BM"
+    },
+    {
+      "originalName": "effectPosition",
+      "newName": "_-IH"
+    },
+    {
+      "originalName": "buf",
+      "newName": "_-Jb"
+    },
+    {
+      "originalName": "themeCombo",
+      "newName": "_-AA"
+    },
+    {
+      "originalName": "alphaSpeed",
+      "newName": "_-KA"
+    },
+    {
+      "originalName": "TEXT_CHANGED",
+      "newName": "_-KX"
+    },
+    {
+      "originalName": "_debug",
+      "newName": "_-JU"
+    },
+    {
+      "originalName": "BIG_VALUE",
+      "newName": "_-82"
+    },
+    {
+      "originalName": "iconUnkillableCls",
+      "newName": "_-Kd"
+    },
+    {
+      "originalName": "heightSpeed",
+      "newName": "_-9g"
+    },
+    {
+      "originalName": "hint",
+      "newName": "_-Dy"
+    },
+    {
+      "originalName": "ROTATION_SPEED",
+      "newName": "_-AL"
+    },
+    {
+      "originalName": "DELTA_ALPHA",
+      "newName": "_-Fl"
+    },
+    {
+      "originalName": "userTitle",
+      "newName": "_-1p"
+    },
+    {
+      "originalName": "colorTransformOffset",
+      "newName": "_-9f"
+    },
+    {
+      "originalName": "SystemPriority",
+      "newName": "_-Cz"
+    },
+    {
+      "originalName": "NUM_STRAPS",
+      "newName": "_-D3"
+    },
+    {
+      "originalName": "mapContainer",
+      "newName": "_-7X"
+    },
+    {
+      "originalName": "MATRIX_ORDER_PREPEND",
+      "newName": "_-DJ"
+    },
+    {
+      "originalName": "SELL_CRYSTALS",
+      "newName": "_-Lt"
+    },
+    {
+      "originalName": "EffectIndicator_iconPowerCls",
+      "newName": "_-Hg"
+    },
+    {
+      "originalName": "BASE_IMPACT_FORCE",
+      "newName": "_-JK"
+    },
+    {
+      "originalName": "rhClass",
+      "newName": "_-4y"
+    },
+    {
+      "originalName": "alternativa.tanks.models.battlefield.decals",
+      "newName": "_-KS"
+    },
+    {
+      "originalName": "WaveTextureNY",
+      "newName": "_-E1"
+    },
+    {
+      "originalName": "actualPosition",
+      "newName": "_-B7"
+    },
+    {
+      "originalName": "barShadowRightCls",
+      "newName": "_-K7"
+    },
+    {
+      "originalName": "lhClass",
+      "newName": "_-IE"
+    },
+    {
+      "originalName": "additiveValue",
+      "newName": "_-FY"
+    },
+    {
+      "originalName": "worldPos",
+      "newName": "_-Bw"
+    },
+    {
+      "originalName": "_alphaUrl",
+      "newName": "_-10"
+    },
+    {
+      "originalName": "boxMeshAptechka",
+      "newName": "_-JR"
+    },
+    {
+      "originalName": "_visible",
+      "newName": "_-C3"
+    },
+    {
+      "originalName": "alternativa.tanks.systems.touchedprimitivestracking",
+      "newName": "_-Dp"
+    },
+    {
+      "originalName": "SKIN_DOWN",
+      "newName": "_-Hn"
+    },
+    {
+      "originalName": "DISBALANCE_BATTLE",
+      "newName": "_-HG"
+    },
+    {
+      "originalName": "SCALE_COEFFICIENT",
+      "newName": "_-4s"
+    },
+    {
+      "originalName": "alternativa.tanks.systems.objectcontrollers",
+      "newName": "_-K4"
+    },
+    {
+      "originalName": "hpLeftBgDm",
+      "newName": "_-5Z"
+    },
+    {
+      "originalName": "hullIds",
+      "newName": "_-9K"
+    },
+    {
+      "originalName": "GraphicEffect",
+      "newName": "_-99"
+    },
+    {
+      "originalName": "EFFECTS_ICON_SIZE",
+      "newName": "_-5t"
+    },
+    {
+      "originalName": "org1.osflash.signals",
+      "newName": "_-Gw"
+    },
+    {
+      "originalName": "decalFactory",
+      "newName": "_-8E"
+    },
+    {
+      "originalName": "GREEN_TEXT",
+      "newName": "_-KP"
+    },
+    {
+      "originalName": "timeToLive",
+      "newName": "_-Ce"
+    },
+    {
+      "originalName": "m_hueMatrix",
+      "newName": "_-Kc"
+    },
+    {
+      "originalName": "_isPressed",
+      "newName": "_-HM"
+    },
+    {
+      "originalName": "turretName",
+      "newName": "_-Fd"
+    },
+    {
+      "originalName": "collisionNormal",
+      "newName": "_-Iw"
+    },
+    {
+      "originalName": "PLANE_WIDTH",
+      "newName": "_-8c"
+    },
+    {
+      "originalName": "InputLeftWrong",
+      "newName": "_-Hf"
+    },
+    {
+      "originalName": "newState",
+      "newName": "_-CJ"
+    },
+    {
+      "originalName": "_collisionGroup",
+      "newName": "_-LT"
+    },
+    {
+      "originalName": "ProgressBarSkin_hpRightDmCls",
+      "newName": "_-JA"
+    },
+    {
+      "originalName": "CAPTURE_THE_FLAG",
+      "newName": "_-9X"
+    },
+    {
+      "originalName": "PLAY_PRESSED",
+      "newName": "_-H3"
+    },
+    {
+      "originalName": "ANGLE_LIMIT",
+      "newName": "_-KC"
+    },
+    {
+      "originalName": "targetAxisZ",
+      "newName": "_-20"
+    },
+    {
+      "originalName": "HEALTH_BAR_SPACING_Y",
+      "newName": "_-8r"
+    },
+    {
+      "originalName": "cpIconBitmapData",
+      "newName": "_-5z"
+    },
+    {
+      "originalName": "assets.scroller.color",
+      "newName": "_-9A"
+    },
+    {
+      "originalName": "baseScale",
+      "newName": "_-8G"
+    },
+    {
+      "originalName": "RESTORE_PRESSED",
+      "newName": "_-Le"
+    },
+    {
+      "originalName": "viewport",
+      "newName": "_-8Z"
+    }
+  ]
+}
