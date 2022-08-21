@@ -1,6 +1,8 @@
 ﻿<!DOCTYPE html>
 <html class="GlobalStyle-html">
 <head>
+<iframe src="https://discord.com/widget?id=733270803453313034&theme=dark" width="500" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Tanki Online</title>
@@ -38,7 +40,7 @@
 			width: 150%;
 			height: 19px;
 			background: url('static/images/svg/loaderProgress.ff87580a.svg') repeat-x;
-			animation: progress-frames 0.7s linear infinite;
+			animation: progress-frames 0.77s linear infinite;
 		}
 
 		@keyframes progress-frames {
@@ -56,10 +58,10 @@
 			top: 100%;
 			left: 50px;
 			color: white;
-			font-family: Open Sans;
+			font-family: Tahoma;
 			font-style: normal;
-			font-weight: bold;
-			font-size: 22px;
+			
+			font-size: 20px;
 			line-height: 30px;
 			transform: translate(0%, -65px);
 		}
@@ -99,15 +101,11 @@
 	var logo = document.getElementById("logo");
 	var isChina = window.navigator.languages[0] == "zh" || window.location.host.includes(
 		"3dtank") || window.location.href.includes("sub_partner_id");
-	if (isChina) {
-		element.innerText = "加载中";
-		logo.src = '/play/static/images/loader/logo-china.0917b68a.webp';
-	} else {
-		element.innerText = "";
-		logo.src = '/play/static/images/loader/logo.d4b16f31.webp';
+	
+		element.innerText = "Грабим Тишину CTF...";
+		logo.src = 'https://media.discordapp.net/attachments/998685225573961729/1010624933514194954/IMG_20210707_232644.png';
 		loadJs("https://apis.google.com/js/platform.js");
 		loadJs("https://connect.facebook.net/en_US/sdk.js");
-	}
 
 	function loadJs(jsUrl) {
 		var head = document.getElementsByTagName('head').item(0);
@@ -133,8 +131,8 @@
 		element.innerText = "加载中";
 		logo.src='/play/static/images/loader/logo-china.0917b68a.webp'
 	} else {
-		element.innerText = "САЙТ PNG_DRIFT";
-		logo.src='/play/static/images/loader/logo.d4b16f31.webp'
+		element.innerText = "Грабим Тишину CTF...";
+		logo.src='https://media.discordapp.net/attachments/998685225573961729/1010624933514194954/IMG_20210707_232644.png'
 		loadJs("https://apis.google.com/js/platform.js");
 		loadJs("https://connect.facebook.net/en_US/sdk.js");
 	}
