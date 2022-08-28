@@ -1,0 +1,1372 @@
+{
+	"data": [{
+			"turret": "Смоки М0_muzzle",
+			"animation": [{
+					"attenuationBegin": 150,
+					"attenuationEnd": 450,
+					"color": 16571766,
+					"intensity": 0.9,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 1,
+					"attenuationEnd": 2,
+					"color": 16571766,
+					"intensity": 0,
+					"time": 300
+				}
+			]
+		},
+		{
+			"turret": "Смоки М0_explosion",
+			"animation": [{
+					"attenuationBegin": 100,
+					"attenuationEnd": 300,
+					"color": 16760576,
+					"intensity": 0.7,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 100,
+					"attenuationEnd": 300,
+					"color": 16760576,
+					"intensity": 0,
+					"time": 400
+				}
+			]
+		},
+		{
+			"turret": "Смоки М1_muzzle",
+			"animation": [{
+					"attenuationBegin": 150,
+					"attenuationEnd": 450,
+					"color": 16571766,
+					"intensity": 0.9,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 1,
+					"attenuationEnd": 2,
+					"color": 16571766,
+					"intensity": 0,
+					"time": 300
+				}
+			]
+		},
+		{
+			"turret": "Смоки М1_explosion",
+			"animation": [{
+					"attenuationBegin": 100,
+					"attenuationEnd": 300,
+					"color": 16760576,
+					"intensity": 0.7,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 100,
+					"attenuationEnd": 300,
+					"color": 16760576,
+					"intensity": 0,
+					"time": 400
+				}
+			]
+		},
+		{
+			"turret": "Смоки М2_muzzle",
+			"animation": [{
+					"attenuationBegin": 150,
+					"attenuationEnd": 450,
+					"color": 16571766,
+					"intensity": 0.9,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 1,
+					"attenuationEnd": 2,
+					"color": 16571766,
+					"intensity": 0,
+					"time": 300
+				}
+			]
+		},
+		{
+			"turret": "Смоки М2_explosion",
+			"animation": [{
+					"attenuationBegin": 100,
+					"attenuationEnd": 300,
+					"color": 16760576,
+					"intensity": 0.7,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 100,
+					"attenuationEnd": 300,
+					"color": 16760576,
+					"intensity": 0,
+					"time": 400
+				}
+			]
+		},
+		{
+			"turret": "Смоки М3_muzzle",
+			"animation": [{
+					"attenuationBegin": 150,
+					"attenuationEnd": 450,
+					"color": 16571766,
+					"intensity": 0.9,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 1,
+					"attenuationEnd": 2,
+					"color": 16571766,
+					"intensity": 0,
+					"time": 300
+				}
+			]
+		},
+		{
+			"turret": "Смоки М3_explosion",
+			"animation": [{
+					"attenuationBegin": 100,
+					"attenuationEnd": 300,
+					"color": 16760576,
+					"intensity": 0.7,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 100,
+					"attenuationEnd": 300,
+					"color": 16760576,
+					"intensity": 0,
+					"time": 400
+				}
+			]
+		},
+		{
+			"turret": "Твинс М0_muzzle",
+			"animation": [{
+					"attenuationBegin": 300,
+					"attenuationEnd": 500,
+					"color": 65535,
+					"intensity": 0.3,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 1,
+					"attenuationEnd": 2,
+					"color": 65535,
+					"intensity": 0,
+					"time": 300
+				}
+			]
+		},
+		{
+			"turret": "Твинс М0_shot",
+			"animation": [{
+				"attenuationBegin": 100,
+				"attenuationEnd": 300,
+				"color": 65535,
+				"intensity": 0.5,
+				"time": 0
+			}]
+		},
+		{
+			"turret": "Твинс М0_explosion",
+			"animation": [{
+					"attenuationBegin": 200,
+					"attenuationEnd": 400,
+					"color": 65535,
+					"intensity": 0.3,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 1,
+					"attenuationEnd": 2,
+					"color": 65535,
+					"intensity": 0,
+					"time": 300
+				}
+			]
+		},
+		{
+			"turret": "Твинс М1_muzzle",
+			"animation": [{
+					"attenuationBegin": 300,
+					"attenuationEnd": 500,
+					"color": 6700287,
+					"intensity": 0.3,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 1,
+					"attenuationEnd": 2,
+					"color": 6700287,
+					"intensity": 0,
+					"time": 300
+				}
+			]
+		},
+		{
+			"turret": "Твинс М1_shot",
+			"animation": [{
+				"attenuationBegin": 100,
+				"attenuationEnd": 300,
+				"color": 6700287,
+				"intensity": 0.5,
+				"time": 0
+			}]
+		},
+		{
+			"turret": "Твинс М1_explosion",
+			"animation": [{
+					"attenuationBegin": 200,
+					"attenuationEnd": 400,
+					"color": 6700287,
+					"intensity": 0.3,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 1,
+					"attenuationEnd": 2,
+					"color": 6700287,
+					"intensity": 0,
+					"time": 300
+				}
+			]
+		},
+		{
+			"turret": "Твинс М2_muzzle",
+			"animation": [{
+					"attenuationBegin": 300,
+					"attenuationEnd": 500,
+					"color": 7694305,
+					"intensity": 0.3,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 1,
+					"attenuationEnd": 2,
+					"color": 7694305,
+					"intensity": 0,
+					"time": 300
+				}
+			]
+		},
+		{
+			"turret": "Твинс М2_shot",
+			"animation": [{
+				"attenuationBegin": 100,
+				"attenuationEnd": 300,
+				"color": 14742338,
+				"intensity": 0.5,
+				"time": 0
+			}]
+		},
+		{
+			"turret": "Твинс М2_explosion",
+			"animation": [{
+					"attenuationBegin": 200,
+					"attenuationEnd": 400,
+					"color": 14742338,
+					"intensity": 0.3,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 1,
+					"attenuationEnd": 2,
+					"color": 14742338,
+					"intensity": 0,
+					"time": 300
+				}
+			]
+		},
+		{
+			"turret": "Твинс М3_muzzle",
+			"animation": [{
+					"attenuationBegin": 300,
+					"attenuationEnd": 500,
+					"color": 7241215,
+					"intensity": 0.3,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 1,
+					"attenuationEnd": 2,
+					"color": 7241215,
+					"intensity": 0,
+					"time": 300
+				}
+			]
+		},
+		{
+			"turret": "Твинс М3_shot",
+			"animation": [{
+				"attenuationBegin": 100,
+				"attenuationEnd": 300,
+				"color": 65280,
+				"intensity": 0.5,
+				"time": 0
+			}]
+		},
+		{
+			"turret": "Твинс М3_explosion",
+			"animation": [{
+					"attenuationBegin": 200,
+					"attenuationEnd": 400,
+					"color": 65280,
+					"intensity": 0.3,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 1,
+					"attenuationEnd": 2,
+					"color": 65280,
+					"intensity": 0,
+					"time": 300
+				}
+			]
+		},
+		{
+			"turret": "Рельса М0_shot",
+			"animation": [{
+					"attenuationBegin": 100,
+					"attenuationEnd": 500,
+					"color": 5883129,
+					"intensity": 0.5,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 1,
+					"attenuationEnd": 2,
+					"color": 5883129,
+					"intensity": 0,
+					"time": 1800
+				}
+			]
+		},
+		{
+			"turret": "Рельса М0_explosion",
+			"animation": [{
+					"attenuationBegin": 200,
+					"attenuationEnd": 600,
+					"color": 5883129,
+					"intensity": 0.7,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 1,
+					"attenuationEnd": 2,
+					"color": 5883129,
+					"intensity": 0,
+					"time": 300
+				}
+			]
+		},
+		{
+			"turret": "Рельса М0_muzzle",
+			"animation": [{
+					"attenuationBegin": 200,
+					"attenuationEnd": 200,
+					"color": 5883129,
+					"intensity": 0.7,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 200,
+					"attenuationEnd": 800,
+					"color": 5883129,
+					"intensity": 0.3,
+					"time": 600
+				}
+			]
+		},
+		{
+			"turret": "Рельса М1_shot",
+			"animation": [{
+					"attenuationBegin": 100,
+					"attenuationEnd": 500,
+					"color": 5286399,
+					"intensity": 0.5,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 1,
+					"attenuationEnd": 2,
+					"color": 5286399,
+					"intensity": 0,
+					"time": 1800
+				}
+			]
+		},
+		{
+			"turret": "Рельса М1_explosion",
+			"animation": [{
+					"attenuationBegin": 200,
+					"attenuationEnd": 600,
+					"color": 5286399,
+					"intensity": 0.7,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 1,
+					"attenuationEnd": 2,
+					"color": 5286399,
+					"intensity": 0,
+					"time": 300
+				}
+			]
+		},
+		{
+			"turret": "Рельса М1_muzzle",
+			"animation": [{
+					"attenuationBegin": 200,
+					"attenuationEnd": 200,
+					"color": 5286399,
+					"intensity": 0.7,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 200,
+					"attenuationEnd": 800,
+					"color": 5286399,
+					"intensity": 0.3,
+					"time": 600
+				}
+			]
+		},
+		{
+			"turret": "Рельса М2_shot",
+			"animation": [{
+					"attenuationBegin": 100,
+					"attenuationEnd": 500,
+					"color": 13597945,
+					"intensity": 0.5,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 1,
+					"attenuationEnd": 2,
+					"color": 13597945,
+					"intensity": 0,
+					"time": 1800
+				}
+			]
+		},
+		{
+			"turret": "Рельса М2_explosion",
+			"animation": [{
+					"attenuationBegin": 200,
+					"attenuationEnd": 600,
+					"color": 13597945,
+					"intensity": 0.7,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 1,
+					"attenuationEnd": 2,
+					"color": 13597945,
+					"intensity": 0,
+					"time": 300
+				}
+			]
+		},
+		{
+			"turret": "Рельса М2_muzzle",
+			"animation": [{
+					"attenuationBegin": 200,
+					"attenuationEnd": 200,
+					"color": 13597945,
+					"intensity": 0.7,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 200,
+					"attenuationEnd": 800,
+					"color": 13597945,
+					"intensity": 0.3,
+					"time": 600
+				}
+			]
+		},
+		{
+			"turret": "Рельса М3_shot",
+			"animation": [{
+					"attenuationBegin": 100,
+					"attenuationEnd": 500,
+					"color": 16765017,
+					"intensity": 0.5,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 1,
+					"attenuationEnd": 2,
+					"color": 16765017,
+					"intensity": 0,
+					"time": 1800
+				}
+			]
+		},
+		{
+			"turret": "Рельса М3_explosion",
+			"animation": [{
+					"attenuationBegin": 200,
+					"attenuationEnd": 600,
+					"color": 16765017,
+					"intensity": 0.7,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 1,
+					"attenuationEnd": 2,
+					"color": 16765017,
+					"intensity": 0,
+					"time": 300
+				}
+			]
+		},
+		{
+			"turret": "Рельса М3_muzzle",
+			"animation": [{
+					"attenuationBegin": 200,
+					"attenuationEnd": 200,
+					"color": 16765017,
+					"intensity": 0.7,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 200,
+					"attenuationEnd": 800,
+					"color": 16765017,
+					"intensity": 0.3,
+					"time": 600
+				}
+			]
+		},
+		{
+			"turret": "Фриз М0-М3_muzzle",
+			"animation": [{
+					"attenuationBegin": 1,
+					"attenuationEnd": 2,
+					"color": 65535,
+					"intensity": 0,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 50,
+					"attenuationEnd": 1500,
+					"color": 65535,
+					"intensity": 0.3,
+					"time": 200
+				}
+			]
+		},
+		{
+			"turret": "Фриз М0-М3_shot",
+			"animation": [{
+					"attenuationBegin": 50,
+					"attenuationEnd": 1500,
+					"color": 65535,
+					"intensity": 0.3,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 150,
+					"attenuationEnd": 1000,
+					"color": 65535,
+					"intensity": 0.3,
+					"time": 200
+				},
+				{
+					"attenuationBegin": 100,
+					"attenuationEnd": 1500,
+					"color": 65535,
+					"intensity": 0.3,
+					"time": 400
+				},
+				{
+					"attenuationBegin": 150,
+					"attenuationEnd": 1000,
+					"color": 65535,
+					"intensity": 0.3,
+					"time": 600
+				},
+				{
+					"attenuationBegin": 50,
+					"attenuationEnd": 1500,
+					"color": 65535,
+					"intensity": 0.3,
+					"time": 800
+				}
+			]
+		},
+		{
+			"turret": "Огнемёт М0_muzzle",
+			"animation": [{
+					"attenuationBegin": 1,
+					"attenuationEnd": 2,
+					"color": 16746496,
+					"intensity": 0,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 100,
+					"attenuationEnd": 1000,
+					"color": 16746496,
+					"intensity": 1,
+					"time": 200
+				}
+			]
+		},
+		{
+			"turret": "Огнемёт М0_shot",
+			"animation": [{
+					"attenuationBegin": 50,
+					"attenuationEnd": 1000,
+					"color": 16746496,
+					"intensity": 1,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 150,
+					"attenuationEnd": 800,
+					"color": 16746496,
+					"intensity": 1,
+					"time": 100
+				},
+				{
+					"attenuationBegin": 100,
+					"attenuationEnd": 1500,
+					"color": 16746496,
+					"intensity": 1,
+					"time": 200
+				},
+				{
+					"attenuationBegin": 150,
+					"attenuationEnd": 800,
+					"color": 16746496,
+					"intensity": 1,
+					"time": 300
+				},
+				{
+					"attenuationBegin": 50,
+					"attenuationEnd": 1000,
+					"color": 16746496,
+					"intensity": 1,
+					"time": 400
+				}
+			]
+		},
+		{
+			"turret": "Огнемёт М1_muzzle",
+			"animation": [{
+					"attenuationBegin": 1,
+					"attenuationEnd": 2,
+					"color": 16746496,
+					"intensity": 0,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 100,
+					"attenuationEnd": 1000,
+					"color": 16746496,
+					"intensity": 1,
+					"time": 200
+				}
+			]
+		},
+		{
+			"turret": "Огнемёт М1_shot",
+			"animation": [{
+					"attenuationBegin": 50,
+					"attenuationEnd": 1000,
+					"color": 16746496,
+					"intensity": 1,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 150,
+					"attenuationEnd": 800,
+					"color": 16746496,
+					"intensity": 1,
+					"time": 100
+				},
+				{
+					"attenuationBegin": 100,
+					"attenuationEnd": 1500,
+					"color": 16746496,
+					"intensity": 1,
+					"time": 200
+				},
+				{
+					"attenuationBegin": 150,
+					"attenuationEnd": 800,
+					"color": 16746496,
+					"intensity": 1,
+					"time": 300
+				},
+				{
+					"attenuationBegin": 50,
+					"attenuationEnd": 1000,
+					"color": 16746496,
+					"intensity": 1,
+					"time": 400
+				}
+			]
+		},
+		{
+			"turret": "Огнемёт М2_muzzle",
+			"animation": [{
+					"attenuationBegin": 1,
+					"attenuationEnd": 2,
+					"color": 16746496,
+					"intensity": 0,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 100,
+					"attenuationEnd": 1000,
+					"color": 16746496,
+					"intensity": 1,
+					"time": 200
+				}
+			]
+		},
+		{
+			"turret": "Огнемёт М2_shot",
+			"animation": [{
+					"attenuationBegin": 50,
+					"attenuationEnd": 1000,
+					"color": 16746496,
+					"intensity": 1,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 150,
+					"attenuationEnd": 800,
+					"color": 16746496,
+					"intensity": 1,
+					"time": 100
+				},
+				{
+					"attenuationBegin": 100,
+					"attenuationEnd": 1500,
+					"color": 16746496,
+					"intensity": 1,
+					"time": 200
+				},
+				{
+					"attenuationBegin": 150,
+					"attenuationEnd": 800,
+					"color": 16746496,
+					"intensity": 1,
+					"time": 300
+				},
+				{
+					"attenuationBegin": 50,
+					"attenuationEnd": 1000,
+					"color": 16746496,
+					"intensity": 1,
+					"time": 400
+				}
+			]
+		},
+		{
+			"turret": "Огнемёт М3_muzzle",
+			"animation": [{
+					"attenuationBegin": 1,
+					"attenuationEnd": 2,
+					"color": 16746496,
+					"intensity": 0,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 100,
+					"attenuationEnd": 1000,
+					"color": 16746496,
+					"intensity": 1,
+					"time": 200
+				}
+			]
+		},
+		{
+			"turret": "Огнемёт М3_shot",
+			"animation": [{
+					"attenuationBegin": 50,
+					"attenuationEnd": 1000,
+					"color": 16746496,
+					"intensity": 1,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 150,
+					"attenuationEnd": 800,
+					"color": 16746496,
+					"intensity": 1,
+					"time": 100
+				},
+				{
+					"attenuationBegin": 100,
+					"attenuationEnd": 1500,
+					"color": 16746496,
+					"intensity": 1,
+					"time": 200
+				},
+				{
+					"attenuationBegin": 150,
+					"attenuationEnd": 800,
+					"color": 16746496,
+					"intensity": 1,
+					"time": 300
+				},
+				{
+					"attenuationBegin": 50,
+					"attenuationEnd": 1000,
+					"color": 16746496,
+					"intensity": 1,
+					"time": 400
+				}
+			]
+		},
+		{
+			"turret": "Рикошет М0_muzzle",
+			"animation": [{
+					"attenuationBegin": 200,
+					"attenuationEnd": 500,
+					"color": 16754944,
+					"intensity": 0.5,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 1,
+					"attenuationEnd": 2,
+					"color": 16754944,
+					"intensity": 0,
+					"time": 600
+				}
+			]
+		},
+		{
+			"turret": "Рикошет М0_shot",
+			"animation": [{
+				"attenuationBegin": 100,
+				"attenuationEnd": 350,
+				"color": 16754944,
+				"intensity": 0.5,
+				"time": 0
+			}]
+		},
+		{
+			"turret": "Рикошет М0_explosion",
+			"animation": [{
+					"attenuationBegin": 300,
+					"attenuationEnd": 600,
+					"color": 16754944,
+					"intensity": 0.5,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 300,
+					"attenuationEnd": 600,
+					"color": 16754944,
+					"intensity": 0,
+					"time": 600
+				}
+			]
+		},
+		{
+			"turret": "Рикошет М1_muzzle",
+			"animation": [{
+					"attenuationBegin": 200,
+					"attenuationEnd": 500,
+					"color": 16741656,
+					"intensity": 0.5,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 1,
+					"attenuationEnd": 2,
+					"color": 16741656,
+					"intensity": 0,
+					"time": 600
+				}
+			]
+		},
+		{
+			"turret": "Рикошет М1_shot",
+			"animation": [{
+				"attenuationBegin": 100,
+				"attenuationEnd": 350,
+				"color": 16741656,
+				"intensity": 0.5,
+				"time": 0
+			}]
+		},
+		{
+			"turret": "Рикошет М1_explosion",
+			"animation": [{
+					"attenuationBegin": 300,
+					"attenuationEnd": 600,
+					"color": 16741656,
+					"intensity": 0.5,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 300,
+					"attenuationEnd": 600,
+					"color": 16741656,
+					"intensity": 0,
+					"time": 600
+				}
+			]
+		},
+		{
+			"turret": "Рикошет М2_muzzle",
+			"animation": [{
+					"attenuationBegin": 200,
+					"attenuationEnd": 500,
+					"color": 16750336,
+					"intensity": 0.5,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 1,
+					"attenuationEnd": 2,
+					"color": 16750336,
+					"intensity": 0,
+					"time": 600
+				}
+			]
+		},
+		{
+			"turret": "Рикошет М2_shot",
+			"animation": [{
+				"attenuationBegin": 100,
+				"attenuationEnd": 350,
+				"color": 16750336,
+				"intensity": 0.5,
+				"time": 0
+			}]
+		},
+		{
+			"turret": "Рикошет М2_explosion",
+			"animation": [{
+					"attenuationBegin": 300,
+					"attenuationEnd": 600,
+					"color": 16750336,
+					"intensity": 0.5,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 300,
+					"attenuationEnd": 600,
+					"color": 16750336,
+					"intensity": 0,
+					"time": 600
+				}
+			]
+		},
+		{
+			"turret": "Рикошет М3_muzzle",
+			"animation": [{
+					"attenuationBegin": 200,
+					"attenuationEnd": 500,
+					"color": 16741656,
+					"intensity": 0.5,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 1,
+					"attenuationEnd": 2,
+					"color": 16741656,
+					"intensity": 0,
+					"time": 600
+				}
+			]
+		},
+		{
+			"turret": "Рикошет М3_shot",
+			"animation": [{
+				"attenuationBegin": 100,
+				"attenuationEnd": 350,
+				"color": 16741656,
+				"intensity": 0.5,
+				"time": 0
+			}]
+		},
+		{
+			"turret": "Рикошет М3_explosion",
+			"animation": [{
+					"attenuationBegin": 300,
+					"attenuationEnd": 600,
+					"color": 16741656,
+					"intensity": 0.5,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 300,
+					"attenuationEnd": 600,
+					"color": 16741656,
+					"intensity": 0,
+					"time": 600
+				}
+			]
+		},
+		{
+			"turret": "Гром М0_muzzle",
+			"animation": [{
+					"attenuationBegin": 100,
+					"attenuationEnd": 500,
+					"color": 16741656,
+					"intensity": 0.9,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 1,
+					"attenuationEnd": 2,
+					"color": 16741656,
+					"intensity": 0,
+					"time": 250
+				}
+			]
+		},
+		{
+			"turret": "Гром М0_explosion",
+			"animation": [{
+					"attenuationBegin": 200,
+					"attenuationEnd": 800,
+					"color": 16741656,
+					"intensity": 0.8,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 200,
+					"attenuationEnd": 800,
+					"color": 16741656,
+					"intensity": 0,
+					"time": 700
+				}
+			]
+		},
+		{
+			"turret": "Гром М1_muzzle",
+			"animation": [{
+					"attenuationBegin": 100,
+					"attenuationEnd": 500,
+					"color": 16741656,
+					"intensity": 0.9,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 1,
+					"attenuationEnd": 2,
+					"color": 16741656,
+					"intensity": 0,
+					"time": 250
+				}
+			]
+		},
+		{
+			"turret": "Гром М1_explosion",
+			"animation": [{
+					"attenuationBegin": 200,
+					"attenuationEnd": 800,
+					"color": 16741656,
+					"intensity": 0.8,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 200,
+					"attenuationEnd": 800,
+					"color": 16741656,
+					"intensity": 0,
+					"time": 700
+				}
+			]
+		},
+		{
+			"turret": "Гром М2_muzzle",
+			"animation": [{
+					"attenuationBegin": 100,
+					"attenuationEnd": 500,
+					"color": 16741656,
+					"intensity": 0.9,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 1,
+					"attenuationEnd": 2,
+					"color": 16741656,
+					"intensity": 0,
+					"time": 250
+				}
+			]
+		},
+		{
+			"turret": "Гром М2_explosion",
+			"animation": [{
+					"attenuationBegin": 200,
+					"attenuationEnd": 800,
+					"color": 16741656,
+					"intensity": 0.8,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 200,
+					"attenuationEnd": 800,
+					"color": 16741656,
+					"intensity": 0,
+					"time": 700
+				}
+			]
+		},
+		{
+			"turret": "Гром М3_muzzle",
+			"animation": [{
+					"attenuationBegin": 100,
+					"attenuationEnd": 500,
+					"color": 16741656,
+					"intensity": 0.9,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 1,
+					"attenuationEnd": 2,
+					"color": 16741656,
+					"intensity": 0,
+					"time": 250
+				}
+			]
+		},
+		{
+			"turret": "Гром М3_explosion",
+			"animation": [{
+					"attenuationBegin": 200,
+					"attenuationEnd": 800,
+					"color": 16741656,
+					"intensity": 0.8,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 200,
+					"attenuationEnd": 800,
+					"color": 16741656,
+					"intensity": 0,
+					"time": 700
+				}
+			]
+		},
+		{
+			"turret": "isida_idle_loop",
+			"animation": [{
+					"attenuationBegin": 250,
+					"attenuationEnd": 700,
+					"color": 4308715,
+					"intensity": 0.3,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 100,
+					"attenuationEnd": 600,
+					"color": 4308715,
+					"intensity": 0.2,
+					"time": 200
+				},
+				{
+					"attenuationBegin": 250,
+					"attenuationEnd": 700,
+					"color": 4308715,
+					"intensity": 0.3,
+					"time": 400
+				}
+			]
+		},
+		{
+			"turret": "isida_idle_start",
+			"animation": [{
+					"attenuationBegin": 1,
+					"attenuationEnd": 2,
+					"color": 4308715,
+					"intensity": 0,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 250,
+					"attenuationEnd": 700,
+					"color": 4308715,
+					"intensity": 0.2,
+					"time": 200
+				}
+			]
+		},
+		{
+			"turret": "Шафт М0_muzzle",
+			"animation": [{
+					"attenuationBegin": 200,
+					"attenuationEnd": 600,
+					"color": 15772719,
+					"intensity": 0.5,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 1,
+					"attenuationEnd": 2,
+					"color": 15772719,
+					"intensity": 0,
+					"time": 600
+				}
+			]
+		},
+		{
+			"turret": "Шафт М0_explosion",
+			"animation": [{
+					"attenuationBegin": 300,
+					"attenuationEnd": 700,
+					"color": 15772719,
+					"intensity": 0.5,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 1,
+					"attenuationEnd": 2,
+					"color": 15772719,
+					"intensity": 0,
+					"time": 600
+				}
+			]
+		},
+		{
+			"turret": "Шафт М1_muzzle",
+			"animation": [{
+					"attenuationBegin": 200,
+					"attenuationEnd": 600,
+					"color": 16756480,
+					"intensity": 0.5,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 1,
+					"attenuationEnd": 2,
+					"color": 16756480,
+					"intensity": 0,
+					"time": 600
+				}
+			]
+		},
+		{
+			"turret": "Шафт М1_explosion",
+			"animation": [{
+					"attenuationBegin": 300,
+					"attenuationEnd": 700,
+					"color": 16756480,
+					"intensity": 0.5,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 1,
+					"attenuationEnd": 2,
+					"color": 16756480,
+					"intensity": 0,
+					"time": 600
+				}
+			]
+		},
+		{
+			"turret": "Шафт М2_muzzle",
+			"animation": [{
+					"attenuationBegin": 200,
+					"attenuationEnd": 600,
+					"color": 16741376,
+					"intensity": 0.5,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 1,
+					"attenuationEnd": 2,
+					"color": 16741376,
+					"intensity": 0,
+					"time": 600
+				}
+			]
+		},
+		{
+			"turret": "Шафт М2_explosion",
+			"animation": [{
+					"attenuationBegin": 300,
+					"attenuationEnd": 700,
+					"color": 16741376,
+					"intensity": 0.5,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 1,
+					"attenuationEnd": 2,
+					"color": 16741376,
+					"intensity": 0,
+					"time": 600
+				}
+			]
+		},
+		{
+			"turret": "Шафт М3_muzzle",
+			"animation": [{
+					"attenuationBegin": 200,
+					"attenuationEnd": 600,
+					"color": 16719390,
+					"intensity": 0.5,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 1,
+					"attenuationEnd": 2,
+					"color": 16719390,
+					"intensity": 0,
+					"time": 600
+				}
+			]
+		},
+		{
+			"turret": "Шафт М3_explosion",
+			"animation": [{
+					"attenuationBegin": 300,
+					"attenuationEnd": 700,
+					"color": 16719390,
+					"intensity": 0.5,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 1,
+					"attenuationEnd": 2,
+					"color": 16719390,
+					"intensity": 0,
+					"time": 600
+				}
+			]
+		},
+		{
+			"turret": "tank_explosion",
+			"animation": [{
+					"attenuationBegin": 1,
+					"attenuationEnd": 2,
+					"color": 13411640,
+					"intensity": 0,
+					"time": 0
+				},
+				{
+					"attenuationBegin": 500,
+					"attenuationEnd": 1500,
+					"color": 13411640,
+					"intensity": 1.2,
+					"time": 100
+				},
+				{
+					"attenuationBegin": 1,
+					"attenuationEnd": 2,
+					"color": 13411640,
+					"intensity": 0,
+					"time": 1200
+				}
+			]
+		}
+	]
+}
