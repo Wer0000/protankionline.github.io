@@ -95,128 +95,113 @@
 	<models baseUrl="data/images/">
 		<model id="gold_box" url="boxes/gold.3ds" />
 	</models>
+	<skyboxes baseUrl="data/images/skyboxes/">
+		<skybox id="skybox_1_hills" url="hills/01.jpg" />
+		<skybox id="skybox_2_hills" url="hills/02.jpg" />
+		<skybox id="skybox_3_hills" url="hills/03.jpg" />
+		<skybox id="skybox_4_hills" url="hills/04.jpg" />
+		<skybox id="skybox_5_hills" url="hills/05.jpg" />
+		<skybox id="skybox_6_hills" url="hills/06.jpg" />
+		<skybox id="skybox_1_hills_night" url="hills_night/01.jpg" />
+		<skybox id="skybox_2_hills_night" url="hills_night/02.jpg" />
+		<skybox id="skybox_3_hills_night" url="hills_night/03.jpg" />
+		<skybox id="skybox_4_hills_night" url="hills_night/04.jpg" />
+		<skybox id="skybox_5_hills_night" url="hills_night/05.jpg" />
+		<skybox id="skybox_6_hills_night" url="hills_night/06.jpg" />
+		<skybox id="skybox_1_mountains" url="mountains/01.jpg" />
+		<skybox id="skybox_2_mountains" url="mountains/02.jpg" />
+		<skybox id="skybox_3_mountains" url="mountains/03.jpg" />
+		<skybox id="skybox_4_mountains" url="mountains/04.jpg" />
+		<skybox id="skybox_5_mountains" url="mountains/05.jpg" />
+		<skybox id="skybox_6_mountains" url="mountains/06.jpg" />
+		<skybox id="skybox_1_mountains_night" url="mountains_night/01.jpg" />
+		<skybox id="skybox_2_mountains_night" url="mountains_night/02.jpg" />
+		<skybox id="skybox_3_mountains_night" url="mountains_night/03.jpg" />
+		<skybox id="skybox_4_mountains_night" url="mountains_night/04.jpg" />
+		<skybox id="skybox_5_mountains_night" url="mountains_night/05.jpg" />
+		<skybox id="skybox_6_mountains_night" url="mountains_night/06.jpg" />
+		<skybox id="skybox_1_desert" url="desert/01.jpg" />
+		<skybox id="skybox_2_desert" url="desert/02.jpg" />
+		<skybox id="skybox_3_desert" url="desert/03.jpg" />
+		<skybox id="skybox_4_desert" url="desert/04.jpg" />
+		<skybox id="skybox_5_desert" url="desert/05.jpg" />
+		<skybox id="skybox_6_desert" url="desert/06.jpg" />
+		<skybox id="skybox_1_desert_night" url="desert_night/01.jpg" />
+		<skybox id="skybox_2_desert_night" url="desert_night/02.jpg" />
+		<skybox id="skybox_3_desert_night" url="desert_night/03.jpg" />
+		<skybox id="skybox_4_desert_night" url="desert_night/04.jpg" />
+		<skybox id="skybox_5_desert_night" url="desert_night/05.jpg" />
+		<skybox id="skybox_6_desert_night" url="desert_night/06.jpg" />
+		<skybox id="skybox_1_cologne" url="cologne/01.jpg" />
+		<skybox id="skybox_2_cologne" url="cologne/02.jpg" />
+		<skybox id="skybox_3_cologne" url="cologne/03.jpg" />
+		<skybox id="skybox_4_cologne" url="cologne/04.jpg" />
+		<skybox id="skybox_5_cologne" url="cologne/05.jpg" />
+		<skybox id="skybox_6_cologne" url="cologne/06.jpg" />
+		<skybox id="skybox_1_winter" url="winter/01.jpg" />
+		<skybox id="skybox_2_winter" url="winter/02.jpg" />
+		<skybox id="skybox_3_winter" url="winter/03.jpg" />
+		<skybox id="skybox_4_winter" url="winter/04.jpg" />
+		<skybox id="skybox_5_winter" url="winter/05.jpg" />
+		<skybox id="skybox_6_winter" url="winter/06.jpg" />
+		<skybox id="skybox_1_iran" url="iran/01.jpg" />
+		<skybox id="skybox_2_iran" url="iran/02.jpg" />
+		<skybox id="skybox_3_iran" url="iran/03.jpg" />
+		<skybox id="skybox_4_iran" url="iran/04.jpg" />
+		<skybox id="skybox_5_iran" url="iran/05.jpg" />
+		<skybox id="skybox_6_iran" url="iran/06.jpg" />
+		<skybox id="skybox_1_iran_winter" url="iran_winter/01.jpg" />
+		<skybox id="skybox_2_iran_winter" url="iran_winter/02.jpg" />
+		<skybox id="skybox_3_iran_winter" url="iran_winter/03.jpg" />
+		<skybox id="skybox_4_iran_winter" url="iran_winter/04.jpg" />
+		<skybox id="skybox_5_iran_winter" url="iran_winter/05.jpg" />
+		<skybox id="skybox_6_iran_winter" url="iran_winter/06.jpg" />
+		<skybox id="skybox_1_urban" url="urban/01.jpg" />
+		<skybox id="skybox_2_urban" url="urban/02.jpg" />
+		<skybox id="skybox_3_urban" url="urban/03.jpg" />
+		<skybox id="skybox_4_urban" url="urban/04.jpg" />
+		<skybox id="skybox_5_urban" url="urban/05.jpg" />
+		<skybox id="skybox_6_urban" url="urban/06.jpg" />
+		<skybox id="skybox_1_urban_night" url="urban_night/01.jpg" />
+		<skybox id="skybox_2_urban_night" url="urban_night/02.jpg" />
+		<skybox id="skybox_3_urban_night" url="urban_night/03.jpg" />
+		<skybox id="skybox_4_urban_night" url="urban_night/04.jpg" />
+		<skybox id="skybox_5_urban_night" url="urban_night/05.jpg" />
+		<skybox id="skybox_6_urban_night" url="urban_night/06.jpg" />
+		<skybox id="skybox_1_rio" url="rio/01.jpg" />
+		<skybox id="skybox_2_rio" url="rio/02.jpg" />
+		<skybox id="skybox_3_rio" url="rio/03.jpg" />
+		<skybox id="skybox_4_rio" url="rio/04.jpg" />
+		<skybox id="skybox_5_rio" url="rio/05.jpg" />
+		<skybox id="skybox_6_rio" url="rio/06.jpg" />
+		<skybox id="skybox_1_rio_night" url="rio_night/01.jpg" />
+		<skybox id="skybox_2_rio_night" url="rio_night/02.jpg" />
+		<skybox id="skybox_3_rio_night" url="rio_night/03.jpg" />
+		<skybox id="skybox_4_rio_night" url="rio_night/04.jpg" />
+		<skybox id="skybox_5_rio_night" url="rio_night/05.jpg" />
+		<skybox id="skybox_6_rio_night" url="rio_night/06.jpg" />
+		<skybox id="skybox_1_space" url="space/01.jpg" />
+		<skybox id="skybox_2_space" url="space/02.jpg" />
+		<skybox id="skybox_3_space" url="space/03.jpg" />
+		<skybox id="skybox_4_space" url="space/04.jpg" />
+		<skybox id="skybox_5_space" url="space/05.jpg" />
+		<skybox id="skybox_6_space" url="space/06.jpg" />
+		<skybox id="skybox_1_ny" url="ny/01.jpg" />
+		<skybox id="skybox_2_ny" url="ny/02.jpg" />
+		<skybox id="skybox_3_ny" url="ny/03.jpg" />
+		<skybox id="skybox_4_ny" url="ny/04.jpg" />
+		<skybox id="skybox_5_ny" url="ny/05.jpg" />
+		<skybox id="skybox_6_ny" url="ny/06.jpg" />
+		<skybox id="skybox_1_halloween" url="halloween/01.jpg" />
+		<skybox id="skybox_2_halloween" url="halloween/02.jpg" />
+		<skybox id="skybox_3_halloween" url="halloween/03.jpg" />
+		<skybox id="skybox_4_halloween" url="halloween/04.jpg" />
+		<skybox id="skybox_5_halloween" url="halloween/05.jpg" />
+		<skybox id="skybox_6_halloween" url="halloween/06.jpg" />
+	</skyboxes>
 	<textures baseUrl="data/images/">
 		<texture id="dust" alpha="dust/dust_alpha.jpg" url="dust/dust.jpg" />
 		<texture id="dust_winter" alpha="dust/dust_winter_alpha.jpg" url="dust/dust_winter.jpg" />
-		<texture id="skybox_1_hills" alpha="NO" url="skyboxes/hills/01.jpg" />
-		<texture id="skybox_2_hills" alpha="NO" url="skyboxes/hills/02.jpg" />
-		<texture id="skybox_3_hills" alpha="NO" url="skyboxes/hills/03.jpg" />
-		<texture id="skybox_4_hills" alpha="NO" url="skyboxes/hills/04.jpg" />
-		<texture id="skybox_5_hills" alpha="NO" url="skyboxes/hills/05.jpg" />
-		<texture id="skybox_6_hills" alpha="NO" url="skyboxes/hills/06.jpg" />
-		<texture id="skybox_6_hills" alpha="NO" url="skyboxes/hills/06.jpg" />
-		<texture id="skybox_1_hills_night" alpha="NO" url="skyboxes/hills_night/01.jpg" />
-		<texture id="skybox_2_hills_night" alpha="NO" url="skyboxes/hills_night/02.jpg" />
-		<texture id="skybox_3_hills_night" alpha="NO" url="skyboxes/hills_night/03.jpg" />
-		<texture id="skybox_4_hills_night" alpha="NO" url="skyboxes/hills_night/04.jpg" />
-		<texture id="skybox_5_hills_night" alpha="NO" url="skyboxes/hills_night/05.jpg" />
-		<texture id="skybox_6_hills_night" alpha="NO" url="skyboxes/hills_night/06.jpg" />
-		<texture id="skybox_6_hills_night" alpha="NO" url="skyboxes/hills_night/06.jpg" />
-		<texture id="skybox_1_mountains" alpha="NO" url="skyboxes/mountains/01.jpg" />
-		<texture id="skybox_2_mountains" alpha="NO" url="skyboxes/mountains/02.jpg" />
-		<texture id="skybox_3_mountains" alpha="NO" url="skyboxes/mountains/03.jpg" />
-		<texture id="skybox_4_mountains" alpha="NO" url="skyboxes/mountains/04.jpg" />
-		<texture id="skybox_5_mountains" alpha="NO" url="skyboxes/mountains/05.jpg" />
-		<texture id="skybox_6_mountains" alpha="NO" url="skyboxes/mountains/06.jpg" />
-		<texture id="skybox_6_mountains" alpha="NO" url="skyboxes/mountains/06.jpg" />
-		<texture id="skybox_1_mountains_night" alpha="NO" url="skyboxes/mountains_night/01.jpg" />
-		<texture id="skybox_2_mountains_night" alpha="NO" url="skyboxes/mountains_night/02.jpg" />
-		<texture id="skybox_3_mountains_night" alpha="NO" url="skyboxes/mountains_night/03.jpg" />
-		<texture id="skybox_4_mountains_night" alpha="NO" url="skyboxes/mountains_night/04.jpg" />
-		<texture id="skybox_5_mountains_night" alpha="NO" url="skyboxes/mountains_night/05.jpg" />
-		<texture id="skybox_6_mountains_night" alpha="NO" url="skyboxes/mountains_night/06.jpg" />
-		<texture id="skybox_6_mountains_night" alpha="NO" url="skyboxes/mountains_night/06.jpg" />
-		<texture id="skybox_1_desert" alpha="NO" url="skyboxes/desert/01.jpg" />
-		<texture id="skybox_2_desert" alpha="NO" url="skyboxes/desert/02.jpg" />
-		<texture id="skybox_3_desert" alpha="NO" url="skyboxes/desert/03.jpg" />
-		<texture id="skybox_4_desert" alpha="NO" url="skyboxes/desert/04.jpg" />
-		<texture id="skybox_5_desert" alpha="NO" url="skyboxes/desert/05.jpg" />
-		<texture id="skybox_6_desert" alpha="NO" url="skyboxes/desert/06.jpg" />
-		<texture id="skybox_6_desert" alpha="NO" url="skyboxes/desert/06.jpg" />
-		<texture id="skybox_1_desert_night" alpha="NO" url="skyboxes/desert_night/01.jpg" />
-		<texture id="skybox_2_desert_night" alpha="NO" url="skyboxes/desert_night/02.jpg" />
-		<texture id="skybox_3_desert_night" alpha="NO" url="skyboxes/desert_night/03.jpg" />
-		<texture id="skybox_4_desert_night" alpha="NO" url="skyboxes/desert_night/04.jpg" />
-		<texture id="skybox_5_desert_night" alpha="NO" url="skyboxes/desert_night/05.jpg" />
-		<texture id="skybox_6_desert_night" alpha="NO" url="skyboxes/desert_night/06.jpg" />
-		<texture id="skybox_6_desert_night" alpha="NO" url="skyboxes/desert_night/06.jpg" />
-		<texture id="skybox_1_cologne" alpha="NO" url="skyboxes/cologne/01.jpg" />
-		<texture id="skybox_2_cologne" alpha="NO" url="skyboxes/cologne/02.jpg" />
-		<texture id="skybox_3_cologne" alpha="NO" url="skyboxes/cologne/03.jpg" />
-		<texture id="skybox_4_cologne" alpha="NO" url="skyboxes/cologne/04.jpg" />
-		<texture id="skybox_5_cologne" alpha="NO" url="skyboxes/cologne/05.jpg" />
-		<texture id="skybox_6_cologne" alpha="NO" url="skyboxes/cologne/06.jpg" />
-		<texture id="skybox_6_cologne" alpha="NO" url="skyboxes/cologne/06.jpg" />
-		<texture id="skybox_1_winter" alpha="NO" url="skyboxes/winter/01.jpg" />
-		<texture id="skybox_2_winter" alpha="NO" url="skyboxes/winter/02.jpg" />
-		<texture id="skybox_3_winter" alpha="NO" url="skyboxes/winter/03.jpg" />
-		<texture id="skybox_4_winter" alpha="NO" url="skyboxes/winter/04.jpg" />
-		<texture id="skybox_5_winter" alpha="NO" url="skyboxes/winter/05.jpg" />
-		<texture id="skybox_6_winter" alpha="NO" url="skyboxes/winter/06.jpg" />
-		<texture id="skybox_6_winter" alpha="NO" url="skyboxes/winter/06.jpg" />
-		<texture id="skybox_1_iran" alpha="NO" url="skyboxes/iran/01.jpg" />
-		<texture id="skybox_2_iran" alpha="NO" url="skyboxes/iran/02.jpg" />
-		<texture id="skybox_3_iran" alpha="NO" url="skyboxes/iran/03.jpg" />
-		<texture id="skybox_4_iran" alpha="NO" url="skyboxes/iran/04.jpg" />
-		<texture id="skybox_5_iran" alpha="NO" url="skyboxes/iran/05.jpg" />
-		<texture id="skybox_6_iran" alpha="NO" url="skyboxes/iran/06.jpg" />
-		<texture id="skybox_6_iran" alpha="NO" url="skyboxes/iran/06.jpg" />
-		<texture id="skybox_1_iran_winter" alpha="NO" url="skyboxes/iran_winter/01.jpg" />
-		<texture id="skybox_2_iran_winter" alpha="NO" url="skyboxes/iran_winter/02.jpg" />
-		<texture id="skybox_3_iran_winter" alpha="NO" url="skyboxes/iran_winter/03.jpg" />
-		<texture id="skybox_4_iran_winter" alpha="NO" url="skyboxes/iran_winter/04.jpg" />
-		<texture id="skybox_5_iran_winter" alpha="NO" url="skyboxes/iran_winter/05.jpg" />
-		<texture id="skybox_6_iran_winter" alpha="NO" url="skyboxes/iran_winter/06.jpg" />
-		<texture id="skybox_6_iran_winter" alpha="NO" url="skyboxes/iran_winter/06.jpg" />
-		<texture id="skybox_1_urban" alpha="NO" url="skyboxes/urban/01.jpg" />
-		<texture id="skybox_2_urban" alpha="NO" url="skyboxes/urban/02.jpg" />
-		<texture id="skybox_3_urban" alpha="NO" url="skyboxes/urban/03.jpg" />
-		<texture id="skybox_4_urban" alpha="NO" url="skyboxes/urban/04.jpg" />
-		<texture id="skybox_5_urban" alpha="NO" url="skyboxes/urban/05.jpg" />
-		<texture id="skybox_6_urban" alpha="NO" url="skyboxes/urban/06.jpg" />
-		<texture id="skybox_6_urban" alpha="NO" url="skyboxes/urban/06.jpg" />
-		<texture id="skybox_1_urban_night" alpha="NO" url="skyboxes/urban_night/01.jpg" />
-		<texture id="skybox_2_urban_night" alpha="NO" url="skyboxes/urban_night/02.jpg" />
-		<texture id="skybox_3_urban_night" alpha="NO" url="skyboxes/urban_night/03.jpg" />
-		<texture id="skybox_4_urban_night" alpha="NO" url="skyboxes/urban_night/04.jpg" />
-		<texture id="skybox_5_urban_night" alpha="NO" url="skyboxes/urban_night/05.jpg" />
-		<texture id="skybox_6_urban_night" alpha="NO" url="skyboxes/urban_night/06.jpg" />
-		<texture id="skybox_6_urban_night" alpha="NO" url="skyboxes/urban_night/06.jpg" />
-		<texture id="skybox_1_rio" alpha="NO" url="skyboxes/rio/01.jpg" />
-		<texture id="skybox_2_rio" alpha="NO" url="skyboxes/rio/02.jpg" />
-		<texture id="skybox_3_rio" alpha="NO" url="skyboxes/rio/03.jpg" />
-		<texture id="skybox_4_rio" alpha="NO" url="skyboxes/rio/04.jpg" />
-		<texture id="skybox_5_rio" alpha="NO" url="skyboxes/rio/05.jpg" />
-		<texture id="skybox_6_rio" alpha="NO" url="skyboxes/rio/06.jpg" />
-		<texture id="skybox_6_rio" alpha="NO" url="skyboxes/rio/06.jpg" />
-		<texture id="skybox_1_rio_night" alpha="NO" url="skyboxes/rio_night/01.jpg" />
-		<texture id="skybox_2_rio_night" alpha="NO" url="skyboxes/rio_night/02.jpg" />
-		<texture id="skybox_3_rio_night" alpha="NO" url="skyboxes/rio_night/03.jpg" />
-		<texture id="skybox_4_rio_night" alpha="NO" url="skyboxes/rio_night/04.jpg" />
-		<texture id="skybox_5_rio_night" alpha="NO" url="skyboxes/rio_night/05.jpg" />
-		<texture id="skybox_6_rio_night" alpha="NO" url="skyboxes/rio_night/06.jpg" />
-		<texture id="skybox_6_rio_night" alpha="NO" url="skyboxes/rio_night/06.jpg" />
-		<texture id="skybox_1_space" alpha="NO" url="skyboxes/space/01.jpg" />
-		<texture id="skybox_2_space" alpha="NO" url="skyboxes/space/02.jpg" />
-		<texture id="skybox_3_space" alpha="NO" url="skyboxes/space/03.jpg" />
-		<texture id="skybox_4_space" alpha="NO" url="skyboxes/space/04.jpg" />
-		<texture id="skybox_5_space" alpha="NO" url="skyboxes/space/05.jpg" />
-		<texture id="skybox_6_space" alpha="NO" url="skyboxes/space/06.jpg" />
-		<texture id="skybox_6_space" alpha="NO" url="skyboxes/space/06.jpg" />
-		<texture id="skybox_1_ny" alpha="NO" url="skyboxes/ny/01.jpg" />
-		<texture id="skybox_2_ny" alpha="NO" url="skyboxes/ny/02.jpg" />
-		<texture id="skybox_3_ny" alpha="NO" url="skyboxes/ny/03.jpg" />
-		<texture id="skybox_4_ny" alpha="NO" url="skyboxes/ny/04.jpg" />
-		<texture id="skybox_5_ny" alpha="NO" url="skyboxes/ny/05.jpg" />
-		<texture id="skybox_6_ny" alpha="NO" url="skyboxes/ny/06.jpg" />
-		<texture id="skybox_6_ny" alpha="NO" url="skyboxes/ny/06.jpg" />
-		<texture id="skybox_1_halloween" alpha="NO" url="skyboxes/halloween/01.jpg" />
-		<texture id="skybox_2_halloween" alpha="NO" url="skyboxes/halloween/02.jpg" />
-		<texture id="skybox_3_halloween" alpha="NO" url="skyboxes/halloween/03.jpg" />
-		<texture id="skybox_4_halloween" alpha="NO" url="skyboxes/halloween/04.jpg" />
-		<texture id="skybox_5_halloween" alpha="NO" url="skyboxes/halloween/05.jpg" />
-		<texture id="skybox_6_halloween" alpha="NO" url="skyboxes/halloween/06.jpg" />
-		<texture id="skybox_6_halloween" alpha="NO" url="skyboxes/halloween/06.jpg" />
 		<texture id="smoky_decal" alpha="decals/smoky_alpha.jpg" url="decals/smoky.jpg" />
 		<texture id="thunder_decal" alpha="decals/thunder_alpha.jpg" url="decals/thunder.jpg" />
 		<texture id="shaft_decal" alpha="decals/shaft_alpha.jpg" url="decals/shaft.jpg" />
@@ -231,7 +216,7 @@
 		<texture id="nitro_box" alpha="NO" url="boxes/nitro.jpg" />
 		<texture id="cry_box" alpha="NO" url="boxes/cry.jpg" />
 		<texture id="gold_box" alpha="NO" url="boxes/gold.jpg" />
-		<texture id="green_mine" alpha="NO" url="mines/green.png" />
+		<texture id="green_mine" alpha="NO" url="mines/green.jpg" />
 		<texture id="red_square" alpha="NO" url="collision/red_square.gif" />
 		<texture id="green_square" alpha="NO" url="collision/green_square.gif" />
 		<texture id="teal_triangle" alpha="NO" url="collision/teal_triangle.gif" />
