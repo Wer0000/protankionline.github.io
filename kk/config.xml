@@ -92,10 +92,12 @@
 		<effect id="Рельса М2" maxBeamScale="10" beamLifeTime="2000" rm="1" gm="1" bm="1" am="1" />
 		<effect id="Рельса М3" maxBeamScale="10" beamLifeTime="2000" rm="1" gm="1" bm="1" am="1" />
 	</railgun>
-	<models baseUrl="data/images/">
+	<models baseUrl="data/assets/">
+		<model id="flag_stand_red" url="ctf/flag_stand_red.3ds" />
+		<model id="flag_stand_blue" url="ctf/flag_stand_blue.3ds" />
 		<model id="gold_box" url="boxes/gold.3ds" />
 	</models>
-	<skyboxes baseUrl="data/images/skyboxes/">
+	<skyboxes baseUrl="data/assets/skyboxes/">
 		<skybox id="skybox_1_hills" url="hills/01.jpg" />
 		<skybox id="skybox_2_hills" url="hills/02.jpg" />
 		<skybox id="skybox_3_hills" url="hills/03.jpg" />
@@ -199,7 +201,7 @@
 		<skybox id="skybox_5_halloween" url="halloween/05.jpg" />
 		<skybox id="skybox_6_halloween" url="halloween/06.jpg" />
 	</skyboxes>
-	<textures baseUrl="data/images/">
+	<textures baseUrl="data/assets/">
 		<texture id="dust" alpha="dust/dust_alpha.jpg" url="dust/dust.jpg" />
 		<texture id="dust_winter" alpha="dust/dust_winter_alpha.jpg" url="dust/dust_winter.jpg" />
 		<texture id="smoky_decal" alpha="decals/smoky_alpha.jpg" url="decals/smoky.jpg" />
@@ -256,18 +258,18 @@
 		<texture id="Шафт М1" alpha="smoky/shaft_explosion_alpha.jpg" url="smoky/shaft_explosion.jpg" brightness="18.053" contrast="-2.655" saturation="44.248" hue="339.29"/>
 		<texture id="Шафт М2" alpha="smoky/shaft_explosion_alpha.jpg" url="smoky/shaft_explosion.jpg" brightness="14.668" contrast="-5.31" saturation="61.947" hue="313.81"/>
 		<texture id="Шафт М3" alpha="smoky/shaft_explosion_alpha.jpg" url="smoky/shaft_explosion.jpg" brightness="11.283" contrast="-5.31" saturation="150.442" hue="302.65"/>
-		<texture id="Твинс М0_flash" alpha="plasma/twin/muzzle_flash_alpha.png" url="plasma/twin/muzzle_flash.png"  />
-		<texture id="Твинс М0" alpha="plasma/twin/charge_alpha.png" url="plasma/twin/charge.png" />
-		<texture id="Твинс М0_exp" alpha="plasma/twin/explosion_alpha.png" url="plasma/twin/explosion.png" />
-		<texture id="Твинс М1_flash" alpha="plasma/twin/muzzle_flash_alpha.png" url="plasma/twin/muzzle_flash.png" hue="46.19"/>
-		<texture id="Твинс М1" alpha="plasma/twin/charge_alpha.png" url="plasma/twin/charge.png" hue="46.19"/>
-		<texture id="Твинс М1_exp" alpha="plasma/twin/explosion_alpha.png" url="plasma/twin/explosion.png" hue="46.19"/>
-		<texture id="Твинс М2_flash" alpha="plasma/twin/muzzle_flash_alpha.png" url="plasma/twin/muzzle_flash.png" brightness="30.465" contrast="2.655" saturation="-17.699" hue="73.27"/>
-		<texture id="Твинс М2" alpha="plasma/twin/charge_alpha.png" url="plasma/twin/charge.png" brightness="30.465" contrast="2.655" saturation="-8.85" hue="226.19"/>
-		<texture id="Твинс М2_exp" alpha="plasma/twin/explosion_alpha.png" url="plasma/twin/explosion.png" brightness="30.465" contrast="2.655" saturation="-8.85" hue="226.19"/>
-		<texture id="Твинс М3_flash" alpha="plasma/twin/muzzle_flash_alpha.png" url="plasma/twin/muzzle_flash.png" brightness="10.155" contrast="2.655" saturation="-17.699" hue="73.27"/>
-		<texture id="Твинс М3" alpha="plasma/twin/charge_alpha.png" url="plasma/twin/charge.png" brightness="10.155" contrast="1.77" saturation="-8.85" hue="297.88"/>
-		<texture id="Твинс М3_exp" alpha="plasma/twin/explosion_alpha.png" url="plasma/twin/explosion.png" brightness="10.155" contrast="1.77" saturation="-8.85" hue="297.88"/>
+		<texture id="Твинс М0_flash" alpha="plasma/twin/muzzle_flash_alpha.jpg" url="plasma/twin/muzzle_flash.jpg"  />
+		<texture id="Твинс М0" alpha="plasma/twin/charge_alpha.jpg" url="plasma/twin/charge.jpg" />
+		<texture id="Твинс М0_exp" alpha="plasma/twin/explosion_alpha.jpg" url="plasma/twin/explosion.jpg" />
+		<texture id="Твинс М1_flash" alpha="plasma/twin/muzzle_flash_alpha.jpg" url="plasma/twin/muzzle_flash.jpg" hue="46.19"/>
+		<texture id="Твинс М1" alpha="plasma/twin/charge_alpha.jpg" url="plasma/twin/charge.jpg" hue="46.19"/>
+		<texture id="Твинс М1_exp" alpha="plasma/twin/explosion_alpha.jpg" url="plasma/twin/explosion.jpg" hue="46.19"/>
+		<texture id="Твинс М2_flash" alpha="plasma/twin/muzzle_flash_alpha.jpg" url="plasma/twin/muzzle_flash.jpg" brightness="30.465" contrast="2.655" saturation="-17.699" hue="73.27"/>
+		<texture id="Твинс М2" alpha="plasma/twin/charge_alpha.jpg" url="plasma/twin/charge.jpg" brightness="30.465" contrast="2.655" saturation="-8.85" hue="226.19"/>
+		<texture id="Твинс М2_exp" alpha="plasma/twin/explosion_alpha.jpg" url="plasma/twin/explosion.jpg" brightness="30.465" contrast="2.655" saturation="-8.85" hue="226.19"/>
+		<texture id="Твинс М3_flash" alpha="plasma/twin/muzzle_flash_alpha.jpg" url="plasma/twin/muzzle_flash.jpg" brightness="10.155" contrast="2.655" saturation="-17.699" hue="73.27"/>
+		<texture id="Твинс М3" alpha="plasma/twin/charge_alpha.jpg" url="plasma/twin/charge.jpg" brightness="10.155" contrast="1.77" saturation="-8.85" hue="297.88"/>
+		<texture id="Твинс М3_exp" alpha="plasma/twin/explosion_alpha.jpg" url="plasma/twin/explosion.jpg" brightness="10.155" contrast="1.77" saturation="-8.85" hue="297.88"/>
 		<texture id="Рикошет М0_flash" alpha="plasma/rico/muzzle_flash_alpha.jpg" url="plasma/rico/muzzle_flash.jpg" brightness="14.668" contrast="0" saturation="-8.85" hue="6.37"/>
 		<texture id="Рикошет М0" alpha="plasma/rico/shot_alpha.jpg" url="plasma/rico/shot.jpg"  brightness="14.668" contrast="0" saturation="-8.85" hue="6.37"/>
 		<texture id="Рикошет М0_exp" alpha="plasma/rico/explosion_alpha.jpg" url="plasma/rico/explosion.jpg"  brightness="14.668" contrast="0" saturation="-8.85" hue="6.37"/>
@@ -932,21 +934,22 @@
 		<colormap id="60" file="special\Devil.jpg" />
 		<colormap id="61" file="special\Moonwalker.jpg" />
 		<colormap id="62" file="special\Master_of_Parkour_22.jpg" />
-		<colormap id="63" file="special\Premium.jpg" />
-		<colormap id="64" file="holiday\Absent.jpg" />
-		<colormap id="65" file="holiday\21_12_NewYear.jpg" />
-		<colormap id="66" file="holiday\22_02_ValentinesDay.jpg" />
-		<colormap id="67" file="holiday\22_02_DefenderoftheFatherlandDay.jpg" />
-		<colormap id="68" file="holiday\22_04_AprilFoolsDay.jpg" />
-		<colormap id="69" file="holiday\22_04_CosmonauticsDay.jpg" />
-		<colormap id="70" file="holiday\22_04_EasterDay.jpg" />
-		<colormap id="71" file="holiday\22_05_VictoryDay.jpg" />
-		<colormap id="72" file="holiday\22_07_Birthday.jpg" />
-		<colormap id="73" file="holiday\22_08_RailwayWorkersDay.jpg" />
-		<colormap id="74" file="user\1.jpg" />
-		<colormap id="75" file="user\2.jpg" />
-		<colormap id="77" file="user\3.jpg" />
-		<colormap id="78" file="user\4.jpg" />
-		<colormap id="79" file="user\5.jpg" />
+		<colormap id="63" file="special\Spectator.jpg" />
+		<colormap id="64" file="special\Impulse.jpg" />
+		<colormap id="65" file="special\Premium.jpg" />
+		<colormap id="66" file="holiday\Absent.jpg" />
+		<colormap id="67" file="holiday\21_12_NewYear.jpg" />
+		<colormap id="68" file="holiday\22_02_ValentinesDay.jpg" />
+		<colormap id="69" file="holiday\22_02_DefenderoftheFatherlandDay.jpg" />
+		<colormap id="70" file="holiday\22_04_AprilFoolsDay.jpg" />
+		<colormap id="71" file="holiday\22_04_CosmonauticsDay.jpg" />
+		<colormap id="72" file="holiday\22_04_EasterDay.jpg" />
+		<colormap id="73" file="holiday\22_05_VictoryDay.jpg" />
+		<colormap id="74" file="holiday\22_07_Birthday.jpg" />
+		<colormap id="75" file="holiday\22_08_RailwayWorkersDay.jpg" />
+		<colormap id="76" file="holiday\22_09_TankersDay.jpg" />
+		<colormap id="77" file="user\1.jpg" />
+		<colormap id="78" file="user\2.jpg" />
+		<colormap id="79" file="user\3.jpg" />
 	</colormaps>
 </config>

@@ -161,5 +161,7 @@
 	<map id="map_edinburgh_winter" nameRU="Эдинбург Зима" nameEN="Edinburgh Winter" defaultSkybox="winter" category="winter"/>
 	<map id="map_edinburgh" nameRU="Эдинбург" nameEN="Edinburgh" defaultSkybox="hills" category="summer"/>
 	<map id="map_esplanade_winter" nameRU="Эспланада Зима" nameEN="Esplanade Winter" defaultSkybox="winter" category="winter"/>
-	<map id="map_esplanade" nameRU="Эспланада" nameEN="Esplanade" defaultSkybox="mountains" category="summer"/>
+        <map id="map_esplanade" nameRU="Эспланада" nameEN="Esplanade" defaultSkybox="mountains" category="summer"/>
+	<map id="map_baggage_test" nameRU="map_baggage_test" nameEN="map_baggage_test" defaultSkybox="urban" category="test"/>
+        <map id="map_ringnew_test" nameRU="map_ringnew_test" nameEN="map_ringnew_test" defaultSkybox="urban" category="test"/>
 </maps>
