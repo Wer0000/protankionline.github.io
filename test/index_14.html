@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/default.css?v=3">
+    <link href="favicon.ico?v=3" rel="shortcut icon" type="image/x-icon">
+    <link href="http://fonts.googleapis.com/css?family=PT+Sans&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
+    <title>Tanki Online - Test Server</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script>
+      var stat = {"total": 0, "nodes": {}};
+    </script>
+    <script type="text/javascript" src="js/mapping.js?v=1"></script>
+    <script type="text/javascript" src="site.js?v=13"></script>
+    <style>
+      #l {
+        width: 24px;
+        height: 10px;
+        position: absolute;
+        top: 338px;
+        left: 50%;
+        margin-left: -13px;
+        border-radius: 9px;
+        cursor: pointer;
+        transition: box-shadow 300ms;
+      }
+      #l:hover {
+        box-shadow: 0px 0px 20px 4px rgb(54, 139, 43);
+      }
+      #warnWindow {
+        position:absolute;
+        left:0;
+        top:0;
+        display:none;
+        z-index:9999;
+        width: 368px;
+        height: 96px;
+        padding-left: 20px;
+      }
+      #warnMask {
+        cursor: pointer;
+        position:absolute;
+        left:0;
+        top:0;
+        z-index:9000;
+        background-color: #000;
+        display:none;
+      }
+      #warnWindow a {
+        display: block;
+        width: 96px;
+        height: 96px;
+        opacity: 0.8;
+        float: left;
+        margin-right: 20px;
+        transition: opacity 300ms;
+      }
+      #warnWindow a:hover {
+        opacity: 1;
+      }
+      body {
+        background-image: none !important;
+
+      }
+      #container {
+        min-width:1000px;
+        min-height:730px;
+        width:expression(document.body.clientWidth < 1000? "1000px": document.body.clientWidth );
+        background: url('images/n_bg.jpg') no-repeat center 175px #201d18;
+      }
+    </style>
+    <!--[if lt IE 9]>
+    <script src="/js/png-fix.js"></script>
+    <![endif]-->
+    <!--[if gte IE 9]>
+    <style type="text/css">
+    .button { filter: none; }
+    </style>
+    <![endif]-->
+    <!--[if IE]>
+    <link rel="stylesheet" href="css/ie.css">
+    <![endif]-->
+  </head>
+  <body>
+    <div id="container">
+      <div id="left">
+        <div class="text-holder">
+          <p>
+            <img src="images/flag_rus.jpg" class="flag">
+            Ты оказался на тестовом сервере игры<br>«Танки Онлайн».
+          </p>
+          <p>
+            На нём работает тестовая группа и приглашённые ими игроки, у которых есть «Инвайт-код».
+            Иногда, при необходимости проведения нагрузочных исследований, тестовый сервер открыт для всех.
+          </p>
+          <p>
+            На тестовом сервере количество кристаллов и текущий ранг могут отличаться от того, что есть на основном сервере.
+            Всё, что ты заработаешь на тестовом сервере, никогда не попадёт на основной.
+          </p>
+        </div>
+
+        <div class="button-holder" id="holder_ru">
+          <div class="ext">
+            <p>
+              Серверы выключены
+            </p>
+          </div>
+        </div>
+        <!--div class="button-holder"><a href="n1-ru.html" class="button" id="">Тест новой физики</a></div-->
+      </div>
+      <div id="header">
+        <img class="logo" src="images/n_logo.png" alt="Tanki Online - Test Server">
+        <div class="subtext"></div>
+      </div>
+      <div id="right">
+        <div class="text-holder">
+          <p>
+            <img src="images/flag_eng.jpg" class="flag">
+            You are on the test server of<br>"Tanki Online".
+
+          </p>
+          <p>
+            It is available to a group of testers and players that were invited by them, all of which have "Invite Codes".
+            Sometimes, when there is a need for mass testing, the server is open for everyone.
+          </p>
+          <p>
+            The amount of crystals and your current rank on the test server may differ from the ones that you have on the main server.
+            Everything that you earn on the test server will never be added to your account on the main one.
+          </p>
+        </div>
+        <div class="button-holder" id="holder_en">
+          <div class="ext">
+            <p>
+              Servers are offline
+            </p>
+          </div>
+        </div>
+        <!--div class="button-holder"><a href="n1-en.html" class="button" id="">test of new physics</a></div-->
+      </div>
+    </div>
+
+  </body></html>

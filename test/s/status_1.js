@@ -1,0 +1,1 @@
+{"total":20565659,"nodes":{"vahrushev_euro_test.e2":{"online":96,"inbattles":0},"vahrushev_euro_test.e3":{"online":0,"inbattles":0}}}

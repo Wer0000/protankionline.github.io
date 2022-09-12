@@ -1,0 +1,1 @@
+{"total":21044036,"nodes":{"rc-test.e1":{"load":0,"online":97,"inbattles":0}}}

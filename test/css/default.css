@@ -1,0 +1,131 @@
+@import url('reset.css');
+* {
+  font: 13px/17px "Myriad Pro", "PT Sans", "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+  color: #d8d8d8;
+  font-weight: 400;
+}
+body {
+  background: url('../images/n_bg.jpg') no-repeat center 175px #201d18;
+
+}
+#container {
+  padding-top: 45px;
+  width: 1000px;
+  margin: 0 auto;
+}
+#left, #right {
+  width: 300px;
+  float: left;
+
+}
+#left {
+
+}
+#right {
+
+}
+.text-holder p {
+  clear: both;
+}
+#header {
+  float: left;
+  text-align: center;
+  width: 400px;
+}
+.subtext {
+  margin: 0 auto;
+  padding-top: 50px;
+  width: 185px;
+  height: 14px;
+  text-indent: -999999px;
+  background: url('../images/n_text.png') no-repeat bottom center transparent;
+}
+.flag {
+  float:left;
+  margin: 3px 17px 0px 0px;
+}
+.text-holder {
+  height: 244px;
+
+}
+.button-holder {
+  margin: 0 auto;
+  margin-right: -20px;
+
+}
+.button-holder a {
+  width: 134px;
+  float: left;
+  border-radius: 4px;
+  display: block;
+  height: 17px;
+  padding: 4px 5px;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px #000;
+  margin: 0 7px 7px 0;
+  text-align: left;
+  white-space: nowrap;
+
+}
+.button-holder .ext p {
+  font-size: 150%;
+  color: #ff7e7e;
+  margin-top: 0px;
+}
+.button-holder a span {
+  font-size: 12px;
+  text-transform: none;
+  white-space: nowrap;
+  text-shadow: 1px 1px 2px #000;
+}
+.button {
+  background: url('../images/n_btn.png') repeat-x center center #506930;
+  border: 2px solid #2d4210;
+  transition: border 300ms, background-color 250ms, box-shadow 500ms;
+  color: #c8c7c5;
+}
+.button:hover {
+  background-color: #7ad82d;
+  border-color: #49831a;
+  color: #fff;
+  box-shadow: 0 0 10px #49831a;/*#66A01E;*/
+}
+.button:hover span {
+  color: #fff;
+}
+.disabled {
+  cursor: default;
+  background: url('../images/n_btn.png') repeat-x center center #868686;
+  border: 2px solid #525252;
+}
+.overloaded {
+  background: url('../images/n_btn.png') repeat-x center center #c94218;
+  border: 2px solid #68200e;
+  transition: border 300ms, background-color 250ms, box-shadow 500ms;
+  color: #c8c7c5;
+}
+.overloaded:hover {
+  background-color: #f54711;
+  border-color: #91270A;
+  color: #fff;
+  box-shadow: 0 0 10px #9E2D0B;/*#66A01E;*/
+}
+.overloaded:hover span {
+  color: #fff;
+}
+.ext {
+  width: 300px;
+  clear: both;
+  text-align: center
+}
+.ext a {
+  color: #eee;
+  transition: color 200ms;
+}
+.ext a:hover {
+  color: #fff;
+}
