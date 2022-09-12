@@ -1,4 +1,4 @@
-function getPreferGameServerUrl() {
+﻿function getPreferGameServerUrl() {
   return 'http://test.tankionline.com/';
 }
 var nodeNames = {
