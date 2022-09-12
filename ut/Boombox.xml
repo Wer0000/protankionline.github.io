@@ -1,5 +1,5 @@
 <map version="1.0">
-<skybox val="1"/>
+<skybox val="2"/>
   <static-geometry>
     <prop library-name="Builds" group-name="Walls" name="Wall End 1">
       <rotation>
