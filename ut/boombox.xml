@@ -1,4 +1,5 @@
-<map version="1.0"><skybox val="3"/>
+<map version="1.0">
+<skybox val="3"/>
   <static-geometry>
     <prop library-name="peski" group-name="Grass Tiles" name="Grass">
       <rotation>
