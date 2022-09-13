@@ -114,6 +114,17 @@ h3 {
 h3.callsign {
     font-family: "StencilNormal", "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
+    color: #C0C0C0;
+    font-size: 16px;
+    line-height: 25px;
+    float: left;
+}
+h4 {
+    margin-top: 0px;
+}
+h4.callsign {
+    font-family: "StencilNormal", "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
     color: #900;
     font-size: 40px;
     line-height: 25px;
