@@ -108,17 +108,6 @@ p.rank-name-profile {
 p.rank-name-profile .label, p.rank-name-profile small {
     margin-left: 10px;
 }
-h4 {
-    margin-top: 0px;
-}
-h4.callsign {
-    font-family: "StencilNormal", "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-    color: #C0C0C0;
-    font-size: 16px;
-    line-height: 25px;
-    float: left;
-}
 h3 {
     margin-top: 0px;
 }
