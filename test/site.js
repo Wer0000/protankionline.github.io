@@ -49,22 +49,22 @@ var stat_1 = {"total": 0, "nodes": {}};
 var stat_2 = {"total": 0, "nodes": {}};
 var stat_3 = {"total": 0, "nodes": {}};
 function askBalancers() {
-  $.getJSON("s/status_0.js?rnd=" + Math.random(), function(data) {
+  $.getJSON("s/status_0.json?rnd=" + Math.random(), function(data) {
     stat_0 = data;
     nodesToHosts(stat_0.nodes);
     updateStat();
   });
-  $.getJSON("s/status_1.js?rnd=" + Math.random(), function(data) {
+  $.getJSON("s/status_1.json?rnd=" + Math.random(), function(data) {
     stat_1 = data;
     nodesToHosts(stat_1.nodes);
     updateStat();
   });
-  $.getJSON("s/status_2.js?rnd=" + Math.random(), function(data) {
+  $.getJSON("s/status_2.json?rnd=" + Math.random(), function(data) {
     stat_2 = data;
     nodesToHosts(stat_2.nodes);
     updateStat();
   });
-  $.getJSON("s/status_3.js?rnd=" + Math.random(), function(data) {
+  $.getJSON("s/status_3.json?rnd=" + Math.random(), function(data) {
     stat_3 = data;
     nodesToHosts(stat_3.nodes);
     updateStat();
