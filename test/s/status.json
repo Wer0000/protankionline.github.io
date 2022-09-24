@@ -1,1 +1,17 @@
-{"total":20565659,"nodes":{"protanki_euro_test.e2":{"online":1,"inbattles":0},"protanki_euro_test.e3":{"online":5,"inbattles":0}}}
+{
+    "total": 0,
+    "nodes": {
+       "protanki_euro_test.e1": {
+            "online": 0,
+            "inbattles": 0
+          },
+      "protanki_euro_test.e2": {
+        "online": 1,
+        "inbattles": 0
+      },
+      "protanki_euro_test.e3": {
+        "online": 2700,
+        "inbattles": 0
+      }
+    }
+  }

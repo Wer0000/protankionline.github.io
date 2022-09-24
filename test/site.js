@@ -45,9 +45,6 @@ $(document).ready(function() {
 
 });
 var stat = {"total": 0, "nodes": {}};
-var stat_1 = {"total": 0, "nodes": {}};
-var stat_2 = {"total": 0, "nodes": {}};
-var stat_3 = {"total": 0, "nodes": {}};
 function askBalancers() {
   $.getJSON("s/status.json?rnd=" + Math.random(), function(data) {
     stat = data;
@@ -61,15 +58,6 @@ function updateStat() {
     var node = nodeNames[i];
     if (stat.nodes[node.name]) {
       stat.nodes[node.name] = stat.nodes[node.name];
-    }
-    if (stat_1.nodes[node.name]) {
-      stat.nodes[node.name] = stat_1.nodes[node.name];
-    }
-    if (stat_2.nodes[node.name]) {
-      stat.nodes[node.name] = stat_2.nodes[node.name];
-    }
-    if (stat_3.nodes[node.name]) {
-      stat.nodes[node.name] = stat_3.nodes[node.name];
     }
   }
   update();
