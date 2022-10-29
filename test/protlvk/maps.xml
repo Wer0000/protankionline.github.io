@@ -24,8 +24,8 @@
 	<map id="map_boombox" nameRU="Бумбокс" nameEN="Boombox" defaultSkybox="hills" category="summer"/>
 	<map id="map_wave_winter" nameRU="Волна Зима" nameEN="Wave Winter" defaultSkybox="winter" category="winter"/>
 	<map id="map_wave" nameRU="Волна" nameEN="Wave" defaultSkybox="mountains" category="summer"/>
-        <map id="map_trains" nameRU="Вокзал" nameEN="Railway station" defaultSkybox="hills" category="holiday"/>
-        <map id="map_trains_winter" nameRU="Вокзал Зима" nameEN="Railway station Winter" defaultSkybox="winter" category="holiday"/>
+	<map id="map_trains" nameRU="Вокзал" nameEN="Railway station" defaultSkybox="hills" category="summer"/>
+	<map id="map_trains_winter" nameRU="Вокзал Зима" nameEN="Railway station Winter" defaultSkybox="winter" category="winter"/>
 	<map id="map_wolfenstein_winter" nameRU="Вольфенштейн Зима" nameEN="Wolfenstein Winter" defaultSkybox="winter" category="winter"/>
 	<map id="map_wolfenstein" nameRU="Вольфенштейн" nameEN="Wolfenstein" defaultSkybox="hills" category="summer"/>
 	<map id="map_garder_winter" nameRU="Гардер Зима" nameEN="Garder Winter" defaultSkybox="winter" category="winter"/>
@@ -58,11 +58,11 @@
 	<map id="map_kungur" nameRU="Кунгур" nameEN="Kungur" defaultSkybox="hills" category="summer"/>
 	<map id="map_courage_winter" nameRU="Кураж Зима" nameEN="Courage Winter" defaultSkybox="winter" category="winter"/>
 	<map id="map_courage" nameRU="Кураж" nameEN="Courage" defaultSkybox="mountains" category="summer"/>
-        <map id="map_gallery" nameRU="Галерея" nameEN="Gallery" defaultSkybox="urban" category="test"/>
+	<map id="map_gallery" nameRU="Галерея" nameEN="Gallery" defaultSkybox="urban" category="test"/>
 	<map id="map_crash" nameRU="Крушение" nameEN="Crash" defaultSkybox="urban" category="test"/>
-        <map id="map_legacy" nameRU="Наследие" nameEN="Legacy" defaultSkybox="urban" category="test"/>
-        <map id="map_babylon" nameRU="Вавилон" nameEN="Babylon" defaultSkybox="hills" category="test"/>
-        <map id="map_babylon_winter" nameRU="Вавилон Зима" nameEN="Babylon Winter" defaultSkybox="winter" category="test"/>
+	<map id="map_legacy" nameRU="Наследие" nameEN="Legacy" defaultSkybox="urban" category="test"/>
+	<map id="map_babylon" nameRU="Вавилон" nameEN="Babylon" defaultSkybox="hills" category="test"/>
+	<map id="map_babylon_winter" nameRU="Вавилон Зима" nameEN="Babylon Winter" defaultSkybox="winter" category="test"/>
 	<map id="map_camp_winter" nameRU="Лагерь Зима" nameEN="Camp Winter" defaultSkybox="winter" category="winter"/>
 	<map id="map_camp" nameRU="Лагерь" nameEN="Camp" defaultSkybox="mountains" category="summer"/>
 	<map id="map_silence_moon" nameRU="Лунная Тишина" nameEN="Moon Silence" defaultSkybox="space" category="summer"/>
@@ -161,7 +161,10 @@
 	<map id="map_edinburgh_winter" nameRU="Эдинбург Зима" nameEN="Edinburgh Winter" defaultSkybox="winter" category="winter"/>
 	<map id="map_edinburgh" nameRU="Эдинбург" nameEN="Edinburgh" defaultSkybox="hills" category="summer"/>
 	<map id="map_esplanade_winter" nameRU="Эспланада Зима" nameEN="Esplanade Winter" defaultSkybox="winter" category="winter"/>
-        <map id="map_esplanade" nameRU="Эспланада" nameEN="Esplanade" defaultSkybox="mountains" category="summer"/>
-	<map id="map_baggage_test" nameRU="map_baggage_test" nameEN="map_baggage_test" defaultSkybox="urban" category="test"/>
-        <map id="map_ringnew_test" nameRU="map_ringnew_test" nameEN="map_ringnew_test" defaultSkybox="urban" category="test"/>
+	<map id="map_esplanade" nameRU="Эспланада" nameEN="Esplanade" defaultSkybox="mountains" category="summer"/>
+	<!--<map id="map_baggage_test" nameRU="map_baggage_test" nameEN="map_baggage_test" defaultSkybox="urban" category="test"/>-->
+	<!--<map id="map_ringnew_test" nameRU="map_ringnew_test" nameEN="map_ringnew_test" defaultSkybox="urban" category="test"/>-->
+	<map id="map_hw_castle" nameRU="Хэллоуин (Замок)" nameEN="Haloween (Castle)" defaultSkybox="halloween" category="test"/>
+	<map id="map_hw_highland" nameRU="Хэллоуин (Плато)" nameEN="Halloween (Highland)" defaultSkybox="halloween" category="test"/>
+	<map id="map_hw_hills" nameRU="Halloween" nameEN="Halloween" defaultSkybox="halloween" category="holiday"/>
 </maps>

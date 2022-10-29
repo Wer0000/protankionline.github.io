@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <config>
+	<weaponsLighting url="data/weapons_lighting.json" />
+	<hullPhysics url="data/hull_physics.json" />
 	<smoky>
 		<animation frameSize="300" animationId="Смоки М0" />
 		<animation frameSize="300" animationId="Смоки М1" />
@@ -66,16 +68,46 @@
 		<animation frameSize="200" animationId="Рикошет М3" />
 	</twinsShot>
 	<railgun>
-		<effect id="Рельса М0" maxBeamScale="10" beamLifeTime="2000" rm="1" gm="1" bm="1" am="1" />
-		<effect id="Рельса М1" maxBeamScale="10" beamLifeTime="2000" rm="1" gm="1" bm="1" am="1" />
-		<effect id="Рельса М2" maxBeamScale="10" beamLifeTime="2000" rm="1" gm="1" bm="1" am="1" />
-		<effect id="Рельса М3" maxBeamScale="10" beamLifeTime="2000" rm="1" gm="1" bm="1" am="1" />
+		<effect id="Рельса М0" beamLifeTime="2000" />
+		<effect id="Рельса М1" beamLifeTime="2000"  />
+		<effect id="Рельса М2" beamLifeTime="2000" />
+		<effect id="Рельса М3" beamLifeTime="2000"/>
 	</railgun>
+	<garage baseUrl="data/assets/garage">
+		<asset id="model" url="garage.3ds" />
+		<asset id="texture" url="garage.jpg" />
+	</garage>
 	<models baseUrl="data/assets/">
 		<model id="flag_stand_red" url="ctf/flag_stand_red.3ds" />
 		<model id="flag_stand_blue" url="ctf/flag_stand_blue.3ds" />
 		<model id="gold_box" url="boxes/gold.3ds" />
 	</models>
+	<sounds baseUrl="data/assets/sounds">
+		<sound id="battle_ambience" url="battle_ambience.mp3" />
+		<sound id="battle_ambience_madness" url="battle_ambience_madness.mp3" />
+		<sound id="battle_ambience_halloween" url="battle_ambience_halloween.mp3" />
+		<sound id="engine_idle" url="engine_idle.mp3" />
+		<sound id="engine_accelerate" url="engine_accelerate.mp3" />
+		<sound id="engine_motion" url="engine_motion.mp3" />
+		<sound id="turret_rotate" url="turret_rotate.mp3" />
+		<sound id="rank_up" url="rank_up.mp3" />
+		<sound id="tank_explosion" url="tank_explosion.mp3" />
+		<sound id="railgun" url="railgun.mp3" />
+		<sound id="smoky_hit" url="smoky_hit.mp3" />
+		<sound id="shaft_hit" url="shaft_hit.mp3" />
+		<sound id="thunder_hit" url="thunder_hit.mp3" />
+		<sound id="smoky_shot" url="smoky_shot.mp3" />
+		<sound id="thunder_shot" url="thunder_shot.mp3" />
+		<sound id="shaft_shot" url="shaft_shot.mp3" />
+		<sound id="twins_shot" url="twins_shot.mp3" />
+		<sound id="ricochet_shot" url="ricochet_shot.mp3" />
+		<sound id="ricochet_hit" url="ricochet_hit.mp3" />
+		<sound id="firebird" url="firebird.mp3" />
+		<sound id="freeze" url="freeze.mp3" />
+		<sound id="isida" url="isida.mp3" />
+		<sound id="bonus" url="bonus.mp3" />
+		<sound id="goldbox_siren" url="goldbox_siren.mp3" />
+	</sounds>
 	<skyboxes baseUrl="data/assets/skyboxes/">
 		<skybox id="skybox_1_hills" url="hills/01.jpg" />
 		<skybox id="skybox_2_hills" url="hills/02.jpg" />
@@ -264,31 +296,31 @@
 		<texture id="tank_explosion/shockwave" alpha="tank_explosion/shock_wave_alpha.jpg" url="tank_explosion/shock_wave.jpg" />
 		<texture id="tank_explosion/explosion" alpha="tank_explosion/explosion_small_alpha.jpg" url="tank_explosion/explosion_small.jpg" />
 		<texture id="tank_explosion/smoke" alpha="tank_explosion/smoke_alpha.jpg" url="tank_explosion/smoke.jpg" />
-		<texture id="Рельса М0_smoke" alpha="railgun/smoke_alpha.png" url="railgun/smoke.png" />
-		<texture id="Рельса М0_part1" alpha="railgun/charge_part1_alpha.png" url="railgun/charge_part1.png" />
-		<texture id="Рельса М0_part2" alpha="railgun/charge_part2_alpha.png" url="railgun/charge_part2.png" />
-		<texture id="Рельса М0_part3" alpha="railgun/charge_part3_alpha.png" url="railgun/charge_part3.png" />
-		<texture id="Рельса М0_beam" alpha="railgun/beam_alpha.png" url="railgun/beam.png" />
-		<texture id="Рельса М0_expl" alpha="railgun/sphere_alpha.png" url="railgun/sphere.png" />
-		<texture id="Рельса М1_part1" alpha="railgun/charge_part1_alpha.png" url="railgun/charge_part1.png"  brightness="10.155" contrast="-2.655" saturation="44.248" hue="340.88"/>
-		<texture id="Рельса М1_part2" alpha="railgun/charge_part2_alpha.png" url="railgun/charge_part2.png"  brightness="10.155" contrast="-2.655" saturation="44.248" hue="340.88"/>
-		<texture id="Рельса М1_part3" alpha="railgun/charge_part3_alpha.png" url="railgun/charge_part3.png"  brightness="10.155" contrast="-2.655" saturation="44.248" hue="340.88"/>
-		<texture id="Рельса М1_beam" alpha="railgun/beam_alpha.png" url="railgun/beam.png" brightness="10.155" contrast="-2.655" saturation="61.947" hue="344.07"/>
-		<texture id="Рельса М1_expl" alpha="railgun/sphere_alpha.png" url="railgun/sphere.png" brightness="10.155" contrast="-2.655" saturation="61.947" hue="344.07"/>
-		<texture id="Рельса М1_smoke" alpha="railgun/smoke_alpha.png" url="railgun/smoke.png"   brightness="10.155" contrast="-2.655" saturation="61.947" hue="344.07"/>
-		<texture id="Рельса М2_part1" alpha="railgun/charge_part1_alpha.png" url="railgun/charge_part1.png" brightness="7.898" contrast="-2.655" saturation="35.398" hue="78.05"/>
-		<texture id="Рельса М2_part2" alpha="railgun/charge_part2_alpha.png" url="railgun/charge_part2.png" brightness="7.898" contrast="-2.655" saturation="35.398" hue="78.05"/>
-		<texture id="Рельса М2_part3" alpha="railgun/charge_part3_alpha.png" url="railgun/charge_part3.png"  brightness="7.898" contrast="-2.655" saturation="35.398" hue="78.05"/>
-		<texture id="Рельса М2_beam" alpha="railgun/beam_alpha.png" url="railgun/beam.png" brightness="7.898" contrast="-2.655" saturation="35.398" hue="78.05"/>
-		<texture id="Рельса М2_expl" alpha="railgun/sphere_alpha.png" url="railgun/sphere.png" brightness="7.898" contrast="-2.655" saturation="35.398" hue="78.05"/>
-		<texture id="Рельса М2_smoke" alpha="railgun/smoke_alpha.png" url="railgun/smoke.png"    brightness="7.898" contrast="-2.655" saturation="35.398" hue="78.05"/>
-		<texture id="Рельса М3_part1" alpha="railgun/charge_part1_alpha.png" url="railgun/charge_part1.png" brightness="9.027" contrast="-3.54" saturation="44.248" hue="208.67"/>
-		<texture id="Рельса М3_part2" alpha="railgun/charge_part2_alpha.png" url="railgun/charge_part2.png" brightness="9.027" contrast="-3.54" saturation="44.248" hue="208.67"/>
-		<texture id="Рельса М3_part3" alpha="railgun/charge_part3_alpha.png" url="railgun/charge_part3.png"  brightness="9.027" contrast="-3.54" saturation="44.248" hue="208.67"/>
-		<texture id="Рельса М3_expl" alpha="railgun/sphere_alpha.png" url="railgun/sphere.png"  brightness="9.027" contrast="-3.54" saturation="44.248" hue="208.67"/>
-		<texture id="Рельса М3_beam" alpha="railgun/beam_alpha.png" url="railgun/beam.png" brightness="9.027" contrast="-3.54" saturation="44.248" hue="208.67"/>
-		<texture id="Рельса М3_smoke" alpha="railgun/smoke_alpha.png" url="railgun/smoke.png"    brightness="9.027" contrast="-3.54" saturation="44.248" hue="208.67"/>
-		<texture id="railgun_pow" alpha="railgun/pow_alpha.png" url="railgun/pow.png" />
+		<texture id="Рельса М0_smoke" alpha="railgun/smoke_alpha.jpg" url="railgun/smoke.jpg" />
+		<texture id="Рельса М0_part1" alpha="railgun/charge_part1_alpha.jpg" url="railgun/charge_part1.jpg" />
+		<texture id="Рельса М0_part2" alpha="railgun/charge_part2_alpha.jpg" url="railgun/charge_part2.jpg" />
+		<texture id="Рельса М0_part3" alpha="railgun/charge_part3_alpha.jpg" url="railgun/charge_part3.jpg" />
+		<texture id="Рельса М0_beam" alpha="railgun/beam_alpha.jpg" url="railgun/beam.jpg" />
+		<texture id="Рельса М0_expl" alpha="railgun/sphere_alpha.jpg" url="railgun/sphere.jpg" />
+		<texture id="Рельса М1_part1" alpha="railgun/charge_part1_alpha.jpg" url="railgun/charge_part1.jpg"  brightness="10.155" contrast="-2.655" saturation="44.248" hue="340.88"/>
+		<texture id="Рельса М1_part2" alpha="railgun/charge_part2_alpha.jpg" url="railgun/charge_part2.jpg"  brightness="10.155" contrast="-2.655" saturation="44.248" hue="340.88"/>
+		<texture id="Рельса М1_part3" alpha="railgun/charge_part3_alpha.jpg" url="railgun/charge_part3.jpg"  brightness="10.155" contrast="-2.655" saturation="44.248" hue="340.88"/>
+		<texture id="Рельса М1_beam" alpha="railgun/beam_alpha.jpg" url="railgun/beam.jpg" brightness="10.155" contrast="-2.655" saturation="61.947" hue="344.07"/>
+		<texture id="Рельса М1_expl" alpha="railgun/sphere_alpha.jpg" url="railgun/sphere.jpg" brightness="10.155" contrast="-2.655" saturation="61.947" hue="344.07"/>
+		<texture id="Рельса М1_smoke" alpha="railgun/smoke_alpha.jpg" url="railgun/smoke.jpg"   brightness="10.155" contrast="-2.655" saturation="61.947" hue="344.07"/>
+		<texture id="Рельса М2_part1" alpha="railgun/charge_part1_alpha.jpg" url="railgun/charge_part1.jpg" brightness="7.898" contrast="-2.655" saturation="35.398" hue="78.05"/>
+		<texture id="Рельса М2_part2" alpha="railgun/charge_part2_alpha.jpg" url="railgun/charge_part2.jpg" brightness="7.898" contrast="-2.655" saturation="35.398" hue="78.05"/>
+		<texture id="Рельса М2_part3" alpha="railgun/charge_part3_alpha.jpg" url="railgun/charge_part3.jpg"  brightness="7.898" contrast="-2.655" saturation="35.398" hue="78.05"/>
+		<texture id="Рельса М2_beam" alpha="railgun/beam_alpha.jpg" url="railgun/beam.jpg" brightness="7.898" contrast="-2.655" saturation="35.398" hue="78.05"/>
+		<texture id="Рельса М2_expl" alpha="railgun/sphere_alpha.jpg" url="railgun/sphere.jpg" brightness="7.898" contrast="-2.655" saturation="35.398" hue="78.05"/>
+		<texture id="Рельса М2_smoke" alpha="railgun/smoke_alpha.jpg" url="railgun/smoke.jpg"    brightness="7.898" contrast="-2.655" saturation="35.398" hue="78.05"/>
+		<texture id="Рельса М3_part1" alpha="railgun/charge_part1_alpha.jpg" url="railgun/charge_part1.jpg" brightness="9.027" contrast="-3.54" saturation="44.248" hue="208.67"/>
+		<texture id="Рельса М3_part2" alpha="railgun/charge_part2_alpha.jpg" url="railgun/charge_part2.jpg" brightness="9.027" contrast="-3.54" saturation="44.248" hue="208.67"/>
+		<texture id="Рельса М3_part3" alpha="railgun/charge_part3_alpha.jpg" url="railgun/charge_part3.jpg"  brightness="9.027" contrast="-3.54" saturation="44.248" hue="208.67"/>
+		<texture id="Рельса М3_expl" alpha="railgun/sphere_alpha.jpg" url="railgun/sphere.jpg"  brightness="9.027" contrast="-3.54" saturation="44.248" hue="208.67"/>
+		<texture id="Рельса М3_beam" alpha="railgun/beam_alpha.jpg" url="railgun/beam.jpg" brightness="9.027" contrast="-3.54" saturation="44.248" hue="208.67"/>
+		<texture id="Рельса М3_smoke" alpha="railgun/smoke_alpha.jpg" url="railgun/smoke.jpg"    brightness="9.027" contrast="-3.54" saturation="44.248" hue="208.67"/>
+		<texture id="railgun_pow" alpha="railgun/pow_alpha.jpg" url="railgun/pow.jpg" />
 	</textures>
 	<textureAnimations>
 		<animation id="railgun_pow">
@@ -643,292 +675,162 @@
 		</animation>
 	</textureAnimations>
 	<hulls path="data/hulls">
-		<hull id="Wasp M0" path="wasp/m0">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</hull>
-		<hull id="Wasp M1" path="wasp/m1">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</hull>
-		<hull id="Wasp M2" path="wasp/m2">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</hull>
-		<hull id="Wasp M3" path="wasp/m3">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</hull>
-		<hull id="Hornet M0" path="hornet/m0">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</hull>
-		<hull id="Hornet M1" path="hornet/m1">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</hull>
-		<hull id="Hornet M2" path="hornet/m2">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</hull>
-		<hull id="Hornet M3" path="hornet/m3">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</hull>
-		<hull id="Hunter M0" path="hunter/m0">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</hull>
-		<hull id="Hunter M1" path="hunter/m1">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</hull>
-		<hull id="Hunter M2" path="hunter/m2">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</hull>
-		<hull id="Hunter M3" path="hunter/m3">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</hull>
-		<hull id="Viking M0" path="viking/m0">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</hull>
-		<hull id="Viking M1" path="viking/m1">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</hull>
-		<hull id="Viking M2" path="viking/m2">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</hull>
-		<hull id="Viking M3" path="viking/m3">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</hull>
-		<hull id="Dictator M0" path="dictator/m0">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</hull>
-		<hull id="Dictator M1" path="dictator/m1">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</hull>
-		<hull id="Dictator M2" path="dictator/m2">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</hull>
-		<hull id="Dictator M3" path="dictator/m3">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</hull>
-		<hull id="Titan M0" path="titan/m0">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</hull>
-		<hull id="Titan M1" path="titan/m1">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</hull>
-		<hull id="Titan M2" path="titan/m2">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</hull>
-		<hull id="Titan M3" path="titan/m3">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</hull>
-		<hull id="Mammoth M0" path="mammoth/m0">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</hull>
-		<hull id="Mammoth M1" path="mammoth/m1">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</hull>
-		<hull id="Mammoth M2" path="mammoth/m2">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</hull>
-		<hull id="Mammoth M3" path="mammoth/m3">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</hull>
+		<hull id="wasp"  modification="0" path="wasp/m0"/>
+		<hull id="wasp" modification="1" path="wasp/m1"/>
+		<hull id="wasp" modification="2" path="wasp/m2"/>
+		<hull id="wasp" modification="3" path="wasp/m3"/>
+		<hull id="hornet" modification="0" path="hornet/m0"/>
+		<hull id="hornet" modification="1" path="hornet/m1"/>
+		<hull id="hornet" modification="2" path="hornet/m2"/>
+		<hull id="hornet" modification="3" path="hornet/m3"/>
+		<hull id="hunter" modification="0" path="hunter/m0"/>
+		<hull id="hunter" modification="1" path="hunter/m1"/>
+		<hull id="hunter" modification="2" path="hunter/m2"/>
+		<hull id="hunter" modification="3" path="hunter/m3"/>
+		<hull id="viking" modification="0" path="viking/m0"/>
+		<hull id="viking" modification="1" path="viking/m1"/>
+		<hull id="viking" modification="2" path="viking/m2"/>
+		<hull id="viking" modification="3" path="viking/m3"/>
+		<hull id="dictator" modification="0" path="dictator/m0"/>
+		<hull id="dictator" modification="1" path="dictator/m1"/>
+		<hull id="dictator" modification="2" path="dictator/m2"/>
+		<hull id="dictator" modification="3" path="dictator/m3"/>
+		<hull id="titan" modification="0" path="titan/m0"/>
+		<hull id="titan" modification="1" path="titan/m1"/>
+		<hull id="titan" modification="2" path="titan/m2"/>
+		<hull id="titan" modification="3" path="titan/m3"/>
+		<hull id="mammoth" modification="0" path="mammoth/m0"/>
+		<hull id="mammoth" modification="1" path="mammoth/m1"/>
+		<hull id="mammoth" modification="2" path="mammoth/m2"/>
+		<hull id="mammoth" modification="3" path="mammoth/m3"/>
 	</hulls>
 	<turrets path="data/turrets">
-		<turret id="Smoky M0" path="smoky/m0">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</turret>
-		<turret id="Smoky M1" path="smoky/m1">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</turret>
-		<turret id="Smoky M2" path="smoky/m2">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</turret>
-		<turret id="Smoky M3" path="smoky/m3">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</turret>
-		<turret id="Flamethrower M0" path="flamethrower/m0">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</turret>
-		<turret id="Flamethrower M1" path="flamethrower/m1">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</turret>
-		<turret id="Flamethrower M2" path="flamethrower/m2">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</turret>
-		<turret id="Flamethrower M3" path="flamethrower/m3">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</turret>
-		<turret id="Twins M0" path="twins/m0">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</turret>
-		<turret id="Twins M1" path="twins/m1">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</turret>
-		<turret id="Twins M2" path="twins/m2">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</turret>
-		<turret id="Twins M3" path="twins/m3">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</turret>
-		<turret id="Railgun M0" path="railgun/m0">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</turret>
-		<turret id="Railgun M1" path="railgun/m1">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</turret>
-		<turret id="Railgun M2" path="railgun/m2">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</turret>
-		<turret id="Railgun M3" path="railgun/m3">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</turret>
-		<turret id="Isida M0" path="isida/m0">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</turret>
-		<turret id="Isida M1" path="isida/m1">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</turret>
-		<turret id="Isida M2" path="isida/m2">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</turret>
-		<turret id="Isida M3" path="isida/m3">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</turret>
-		<turret id="Freeze M0" path="freeze/m0">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</turret>
-		<turret id="Freeze M1" path="freeze/m1">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</turret>
-		<turret id="Freeze M2" path="freeze/m2">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</turret>
-		<turret id="Freeze M3" path="freeze/m3">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</turret>
-		<turret id="Ricochet M0" path="ricochet/m0">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</turret>
-		<turret id="Ricochet M1" path="ricochet/m1">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</turret>
-		<turret id="Ricochet M2" path="ricochet/m2">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</turret>
-		<turret id="Ricochet M3" path="ricochet/m3">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</turret>
-		<turret id="Thunder M0" path="thunder/m0">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</turret>
-		<turret id="Thunder M1" path="thunder/m1">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</turret>
-		<turret id="Thunder M2" path="thunder/m2">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</turret>
-		<turret id="Thunder M3" path="thunder/m3">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</turret>
-		<turret id="Shaft M0" path="shaft/m0">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</turret>
-		<turret id="Shaft M1" path="shaft/m1">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</turret>
-		<turret id="Shaft M2" path="shaft/m2">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</turret>
-		<turret id="Shaft M3" path="shaft/m3">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</turret>
-		<turret id="Hammer M0" path="shotgun/m0">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</turret>
-		<turret id="Hammer M1" path="shotgun/m1">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</turret>
-		<turret id="Hammer M2" path="shotgun/m2">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</turret>
-		<turret id="Hammer M3" path="shotgun/m3">
-			<model file="object.3ds" lightmap="lightmap.jpg" details="details.jpg" alpha="details_alpha.jpg" />
-		</turret>
+		<turret id="smoky" modification="0" rotationSpeed="71.5" turnAcceleration="133.0" path="smoky/m0"/>
+		<turret id="smoky" modification="1" rotationSpeed="87.1" turnAcceleration="153.2" path="smoky/m1"/>
+		<turret id="smoky" modification="2" rotationSpeed="102.6" turnAcceleration="173.4" path="smoky/m2"/>
+		<turret id="smoky" modification="3" rotationSpeed="122.6" turnAcceleration="199.4" path="smoky/m3"/>
+		<turret id="flamethrower" modification="0" rotationSpeed="95.3" turnAcceleration="169.5" path="flamethrower/m0"/>
+		<turret id="flamethrower" modification="1" rotationSpeed="116.9" turnAcceleration="190.1" path="flamethrower/m1"/>
+		<turret id="flamethrower" modification="2" rotationSpeed="138.4" turnAcceleration="210.7" path="flamethrower/m2"/>
+		<turret id="flamethrower" modification="3" rotationSpeed="166.2" turnAcceleration="237.2" path="flamethrower/m3"/>
+		<turret id="twins" modification="0" rotationSpeed="89.6" turnAcceleration="162.7" path="twins/m0"/>
+		<turret id="twins" modification="1" rotationSpeed="103.9" turnAcceleration="181.1" path="twins/m1"/>
+		<turret id="twins" modification="2" rotationSpeed="118.3" turnAcceleration="199.5" path="twins/m2"/>
+		<turret id="twins" modification="3" rotationSpeed="134.7" turnAcceleration="220.6" path="twins/m3"/>
+		<turret id="railgun" modification="0" rotationSpeed="56.2" turnAcceleration="69.6" path="railgun/m0"/>
+		<turret id="railgun" modification="1" rotationSpeed="70.0" turnAcceleration="80.0" path="railgun/m1"/>
+		<turret id="railgun" modification="2" rotationSpeed="78.5" turnAcceleration="90.4" path="railgun/m2"/>
+		<turret id="railgun" modification="3" rotationSpeed="97.4" turnAcceleration="100.8" path="railgun/m3"/>
+		<turret id="isida" modification="0" rotationSpeed="91.7" turnAcceleration="165.1" path="isida/m0"/>
+		<turret id="isida" modification="1" rotationSpeed="106.7" turnAcceleration="184.6" path="isida/m1"/>
+		<turret id="isida" modification="2" rotationSpeed="121.8" turnAcceleration="203.6" path="isida/m2"/>
+		<turret id="isida" modification="3" rotationSpeed="134.7" turnAcceleration="220.5" path="isida/m3"/>
+		<turret id="freeze" modification="0" rotationSpeed="125.1" turnAcceleration="197.9" path="freeze/m0"/>
+		<turret id="freeze" modification="1" rotationSpeed="151.2" turnAcceleration="218.7" path="freeze/m1"/>
+		<turret id="freeze" modification="2" rotationSpeed="177.3" turnAcceleration="239.5" path="freeze/m2"/>
+		<turret id="freeze" modification="3" rotationSpeed="196.0" turnAcceleration="254.3" path="freeze/m3"/>
+		<turret id="ricochet" modification="0" rotationSpeed="91.3" turnAcceleration="77.6" path="ricochet/m0"/>
+		<turret id="ricochet" modification="1" rotationSpeed="110.2" turnAcceleration="100.2" path="ricochet/m1"/>
+		<turret id="ricochet" modification="2" rotationSpeed="129.0" turnAcceleration="122.9" path="ricochet/m2"/>
+		<turret id="ricochet" modification="3" rotationSpeed="139.8" turnAcceleration="135.8" path="ricochet/m3"/>
+		<turret id="thunder" modification="0" rotationSpeed="77.0" turnAcceleration="111.7" path="thunder/m0"/>
+		<turret id="thunder" modification="1" rotationSpeed="94.6" turnAcceleration="129.7" path="thunder/m1"/>
+		<turret id="thunder" modification="2" rotationSpeed="112.3" turnAcceleration="147.6" path="thunder/m2"/>
+		<turret id="thunder" modification="3" rotationSpeed="124.9" turnAcceleration="160.4" path="thunder/m3"/>
+		<turret id="shaft" modification="0" rotationSpeed="71.5" turnAcceleration="76.0" path="shaft/m0"/>
+		<turret id="shaft" modification="1" rotationSpeed="86.8" turnAcceleration="87.2" path="shaft/m1"/>
+		<turret id="shaft" modification="2" rotationSpeed="102.1" turnAcceleration="98.3" path="shaft/m2"/>
+		<turret id="shaft" modification="3" rotationSpeed="108.7" turnAcceleration="103.1" path="shaft/m3"/>
+		<turret id="shotgun" modification="0" rotationSpeed="87.2" turnAcceleration="133.0" path="shotgun/m0"/>
+		<turret id="shotgun" modification="1" rotationSpeed="104.0" turnAcceleration="149.8" path="shotgun/m1"/>
+		<turret id="shotgun" modification="2" rotationSpeed="120.8" turnAcceleration="166.6" path="shotgun/m2"/>
+		<turret id="shotgun" modification="3" rotationSpeed="137.5" turnAcceleration="183.4" path="shotgun/m3"/>
 	</turrets>
 	<colormaps path="data/colormaps">
-		<colormap id="1" file="Green.jpg" />
-		<colormap id="2" file="Red.jpg" />
-		<colormap id="3" file="Blue.jpg" />
-		<colormap id="4" file="Black.jpg" />
-		<colormap id="5" file="White.jpg" />
-		<colormap id="6" file="Orange.jpg" />
-		<colormap id="7" file="Flora.jpg" />
-		<colormap id="8" file="Marine.jpg" />
-		<colormap id="9" file="Swamp.jpg" />
-		<colormap id="10" file="Forester.jpg" />
-		<colormap id="11" file="Metallic.jpg" />
-		<colormap id="12" file="Lava.jpg" />
-		<colormap id="13" file="Lead.jpg" />
-		<colormap id="14" file="Safari.jpg" />
-		<colormap id="15" file="Dragon.jpg" />
-		<colormap id="16" file="Mary.jpg" />
-		<colormap id="17" file="Storm.jpg" />
-		<colormap id="18" file="Carbon.jpg" />
-		<colormap id="19" file="In-Love.jpg" />
-		<colormap id="20" file="Alien.jpg" />
-		<colormap id="21" file="Dirty.jpg" />
-		<colormap id="22" file="Swash.jpg" />
-		<colormap id="23" file="Jaguar.jpg" />
-		<colormap id="24" file="Desert.jpg" />
-		<colormap id="25" file="Corrosion.jpg" />
-		<colormap id="26" file="Tundra.jpg" />
-		<colormap id="27" file="Roger.jpg" />
-		<colormap id="28" file="Cedar.jpg" />
-		<colormap id="29" file="Python.jpg" />
-		<colormap id="30" file="Electra.jpg" />
-		<colormap id="31" file="Sandstone.jpg" />
-		<colormap id="32" file="Spark.jpg" />
-		<colormap id="33" file="Digital.jpg" />
-		<colormap id="34" file="Rustle.jpg" />
-		<colormap id="35" file="Hohloma.jpg" />
-		<colormap id="36" file="Loam.jpg" />
-		<colormap id="37" file="Winter.jpg" />
-		<colormap id="38" file="Urban.jpg" />
-		<colormap id="39" file="Savanna.jpg" />
-		<colormap id="40" file="Irbis.jpg" />
-		<colormap id="41" file="Emerald.jpg" />
-		<colormap id="42" file="Inferno.jpg" />
-		<colormap id="43" file="Jade.jpg" />
-		<colormap id="44" file="Taiga.jpg" />
-		<colormap id="45" file="Prodigi.jpg" />
-		<colormap id="46" file="Rock.jpg" />
-		<colormap id="47" file="Needle.jpg" />
-		<colormap id="48" file="Picasso.jpg" />
-		<colormap id="49" file="Zeus.jpg" />
-		<colormap id="50" file="Clay.jpg" />
-		<colormap id="Dead" file="special\Dead.jpg" />
-		<colormap id="51" file="special\Acid.jpg" />
-		<colormap id="53" file="special\Alligator.jpg" />
-		<colormap id="54" file="special\Microchip.jpg" />
-		<colormap id="55" file="special\Engineer.jpg" />
-		<colormap id="56" file="special\Flame.jpg" />
-		<colormap id="57" file="special\Gladiator.jpg" />
-		<colormap id="58" file="special\Glide.jpg" />
-		<colormap id="59" file="special\Helios.jpg" />
-		<colormap id="60" file="special\Devil.jpg" />
-		<colormap id="61" file="special\Moonwalker.jpg" />
-		<colormap id="62" file="special\Master_of_Parkour_22.jpg" />
-		<colormap id="63" file="special\Spectator.jpg" />
-		<colormap id="64" file="special\Impulse.jpg" />
-		<colormap id="65" file="special\Premium.jpg" />
-		<colormap id="66" file="holiday\Absent.jpg" />
-		<colormap id="67" file="holiday\21_12_NewYear.jpg" />
-		<colormap id="68" file="holiday\22_02_ValentinesDay.jpg" />
-		<colormap id="69" file="holiday\22_02_DefenderoftheFatherlandDay.jpg" />
-		<colormap id="70" file="holiday\22_04_AprilFoolsDay.jpg" />
-		<colormap id="71" file="holiday\22_04_CosmonauticsDay.jpg" />
-		<colormap id="72" file="holiday\22_04_EasterDay.jpg" />
-		<colormap id="73" file="holiday\22_05_VictoryDay.jpg" />
-		<colormap id="74" file="holiday\22_07_Birthday.jpg" />
-		<colormap id="75" file="holiday\22_08_RailwayWorkersDay.jpg" />
-		<colormap id="76" file="holiday\22_09_TankersDay.jpg" />
-		<colormap id="77" file="user\1.jpg" />
-		<colormap id="78" file="user\2.jpg" />
-		<colormap id="79" file="user\3.jpg" />
+		<colormap id="green" file="Green.jpg" />
+		<colormap id="red" file="Red.jpg" />
+		<colormap id="blue" file="Blue.jpg" />
+		<colormap id="black" file="Black.jpg" />
+		<colormap id="white" file="White.jpg" />
+		<colormap id="orange" file="Orange.jpg" />
+		<colormap id="flora" file="Flora.jpg" />
+		<colormap id="marine" file="Marine.jpg" />
+		<colormap id="swamp" file="Swamp.jpg" />
+		<colormap id="forester" file="Forester.jpg" />
+		<colormap id="safari" file="Safari.jpg" />
+		<colormap id="metallic" file="Metallic.jpg" />
+		<colormap id="lava" file="Lava.jpg" />
+		<colormap id="dragon" file="Dragon.jpg" />
+		<colormap id="lead" file="Lead.jpg" />
+		<colormap id="mary" file="Mary.jpg" />
+		<colormap id="storm" file="Storm.jpg" />
+		<colormap id="carbon" file="Carbon.jpg" />
+		<colormap id="roger" file="Roger.jpg" />
+		<colormap id="corrosion" file="Corrosion.jpg" />
+		<colormap id="tundra" file="Tundra.jpg" />
+		<colormap id="alien" file="Alien.jpg" />
+		<colormap id="swash" file="Swash.jpg" />
+		<colormap id="cedar" file="Cedar.jpg" />
+		<colormap id="in_love" file="In-Love.jpg" />
+		<colormap id="desert" file="Desert.jpg" />
+		<colormap id="dirty" file="Dirty.jpg" />
+		<colormap id="jaguar" file="Jaguar.jpg" />
+		<colormap id="savanna" file="Savanna.jpg" />
+		<colormap id="loam" file="Loam.jpg" />
+		<colormap id="urban" file="Urban.jpg" />
+		<colormap id="digital" file="Digital.jpg" />
+		<colormap id="hohloma" file="Hohloma.jpg" />
+		<colormap id="electra" file="Electra.jpg" />
+		<colormap id="rustle" file="Rustle.jpg" />
+		<colormap id="python" file="Python.jpg" />
+		<colormap id="sandstone" file="Sandstone.jpg" />
+		<colormap id="spark" file="Spark.jpg" />
+		<colormap id="winter" file="Winter.jpg" />
+		<colormap id="needle" file="Needle.jpg" />
+		<colormap id="zeus" file="Zeus.jpg" />
+		<colormap id="rock" file="Rock.jpg" />
+		<colormap id="prodigi" file="Prodigi.jpg" />
+		<colormap id="irbis" file="Irbis.jpg" />
+		<colormap id="emerald" file="Emerald.jpg" />
+		<colormap id="inferno" file="Inferno.jpg" />
+		<colormap id="clay" file="Clay.jpg" />
+		<colormap id="taiga" file="Taiga.jpg" />
+		<colormap id="jade" file="Jade.jpg" />
+		<colormap id="picasso" file="Picasso.jpg" />
+		<colormap id="dead" file="special\Dead.jpg" />
+		<colormap id="acid" file="special\Acid.jpg" />
+		<colormap id="alligator" file="special\Alligator.jpg" />
+		<colormap id="microchip" file="special\Microchip.jpg" />
+		<colormap id="engineer" file="special\Engineer.jpg" />
+		<colormap id="flame" file="special\Flame.jpg" />
+		<colormap id="gladiator" file="special\Gladiator.jpg" />
+		<colormap id="glide" file="special\Glide.jpg" />
+		<colormap id="helios" file="special\Helios.jpg" />
+		<colormap id="devil" file="special\Devil.jpg" />
+		<colormap id="moonwalker" file="special\Moonwalker.jpg" />
+		<colormap id="parkour_master_2022" file="special\Master_of_Parkour_22.jpg" />
+		<colormap id="spectator" file="special\Spectator.jpg" />
+		<colormap id="neon" file="special\Neon.jpg" />
+		<colormap id="impulse" file="special\Impulse.jpg" />
+		<colormap id="aramid" file="special\Aramid.jpg" />
+		<colormap id="youtuber" file="special\Youtuber.jpg" />
+		<colormap id="cobalt" file="special\Cobalt.jpg" />
+		<colormap id="eternity" file="special\Eternity.jpg" />
+		<colormap id="premium" file="special\Premium.jpg" />
+		<colormap id="holiday" file="holiday\Absent.jpg" />
+		<colormap id="holiday_1" file="holiday\21_12_NewYear.jpg" />
+		<colormap id="holiday_2" file="holiday\22_02_ValentinesDay.jpg" />
+		<colormap id="holiday_3" file="holiday\22_02_DefenderOftheFatherlandDay.jpg" />
+		<colormap id="holiday_4" file="holiday\22_04_AprilFoolsDay.jpg" />
+		<colormap id="holiday_5" file="holiday\22_04_CosmonauticsDay.jpg" />
+		<colormap id="holiday_6" file="holiday\22_04_EasterDay.jpg" />
+		<colormap id="holiday_7" file="holiday\22_05_VictoryDay.jpg" />
+		<colormap id="holiday_8" file="holiday\22_07_Birthday.jpg" />
+		<colormap id="holiday_9" file="holiday\22_08_RailwayWorkersDay.jpg" />
+		<colormap id="holiday_10" file="holiday\22_09_TankersDay.jpg" />
+		<colormap id="holiday_11" file="holiday\22_10_Halloween.jpg" />
+		<colormap id="user_1" file="user\1.jpg" />
+		<colormap id="user_2" file="user\2.jpg" />
+		<colormap id="user_3" file="user\3.jpg" />
 	</colormaps>
 </config>
