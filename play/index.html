@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<html class="notranslate GlobalStyle-html" translate="no">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, viewport-fit=cover, initial-scale=1, user-scalable=no">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<title>Tanki Online</title>
+	<link rel="shortcut icon" href="https://tankionline.com/favicon.ico">
+	<meta name="google" content="notranslate"/>
+	<!-- for china -->
+	<meta name="renderer" content="webkit"/>
+	<script>
+		if (!/https/.test(window.location.protocol) && window.location.host.endsWith("3dtank.com")) {
+			window.location.href = window.location.href.replace(/^http:/, 'https:');
+		}
+	</script>
+
+	<meta http-equiv="Content-Security-Policy" content="default-src 'self' https://*.tankionline.com; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://www.google.com/recaptcha/ https://www.gstatic.com https://www.google-analytics.com https://mc.yandex.ru https://apis.google.com apps.googleusercontent.com https://*.apps.googleusercontent.com https://vk.com https://connect.facebook.net https://api.odnoklassniki.ru https://games.mail.ru https://store.my.games https://games.rambler.ru https://static.miniclipcdn.com https://www.googletagmanager.com; frame-src https://accounts.google.com/ https://staticxx.facebook.com/ https://www.google.com/recaptcha/ blob: https://mc.yandex.ru https://*.tankiforum.com https://tankionline.com/ https://*.tankionline.com/ https://www.youtube.com/ https://player.twitch.tv/; connect-src 'self' https://to-public-resources.hb.bizmrg.com https://tankionline.com https://tankionline.com https://*.tankionline.com wss://*.tankionline.com:* https://3dtank.com https://*.3dtank.com wss://*.3dtank.com:* https://www.google-analytics.com https://mc.yandex.ru https://login.vk.com https://facebook.com https://*.facebook.com https://www.gstatic.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://to-public-resources.hb.bizmrg.com https://tankionline.com https://*.tankionline.com https://3dtank.com https://www.google-analytics.com https://mc.yandex.ru https://facebook.com https://*.facebook.com; child-src 'self' blob: https://mc.yandex.ru https://*.apps.googleusercontent.com https://accounts.google.com/">
+
+	<style>
+		@font-face {
+			font-family: RubikRegular;
+			src: url('/play/static/fonts/Rubik-Regular.97387521.woff') format('woff2'),
+			url('/play/static/fonts/Rubik-Regular.97387521.woff') format('woff');
+		}
+
+		@font-face {
+			font-family: RubikBold;
+			src: url('/play/static/fonts/Rubik-Bold.39130534.woff') format('woff2'),
+			url('/play/static/fonts/Rubik-Bold.39130534.woff') format('woff');
+		}
+
+		@font-face {
+			font-family: RubikMedium;
+			src: url('/play/static/fonts/Rubik-Medium.5bbe7891.woff') format('woff2'),
+			url('/play/static/fonts/Rubik-Medium.5bbe7891.woff') format('woff');
+		}
+
+		.GlobalStyle-html, .GlobalStyle-body {
+			font-family: RubikMedium;
+			background: radial-gradient(50% 100% at 50% 100%, #395673 0%, #001926 100%);
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+			touch-action: none;
+			position: fixed;
+		}
+
+		.logo {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			width: 128px;
+			height: 124px;
+		}
+
+		.progress {
+			position: absolute;
+			bottom: 40px;
+			height: 30px;
+			width: 320px;
+			mix-blend-mode: lighten;
+			background: url('/play/static/images/loader/progress.0849fe46.webp') no-repeat;
+			background-size: contain;
+			transform: translateX(-50%);
+			left: 50%;
+		}
+
+		.loading-text {
+			position: absolute;
+			bottom: 60px;
+			left: 50%;
+			transform: translateX(-50%);
+			color: white;
+			font-family: RubikMedium;
+			font-style: normal;
+			line-height: 30px;
+			text-transform: uppercase;
+		}
+
+		#modal-root {
+			pointer-events: none;
+		}
+
+		img {
+			pointer-events: none;
+		}
+
+		#modal-root > div {
+			pointer-events: auto;
+		}
+	</style>
+	<style id="media" type="text/css"></style>
+<meta name="theme-color" content="#061825" /><link rel="manifest" href="/play/manifest.62954881ee07242ae46727a3bc5bd01d.json" /><link rel="apple-touch-icon" sizes="57x57" href="/play/static/icons-14c2cbb4b23a64196a80ea5bd85cc9e5/apple-touch-icon-57x57.png"><link rel="apple-touch-icon" sizes="60x60" href="/play/static/icons-14c2cbb4b23a64196a80ea5bd85cc9e5/apple-touch-icon-60x60.png"><link rel="apple-touch-icon" sizes="72x72" href="/play/static/icons-14c2cbb4b23a64196a80ea5bd85cc9e5/apple-touch-icon-72x72.png"><link rel="apple-touch-icon" sizes="76x76" href="/play/static/icons-14c2cbb4b23a64196a80ea5bd85cc9e5/apple-touch-icon-76x76.png"><link rel="apple-touch-icon" sizes="114x114" href="/play/static/icons-14c2cbb4b23a64196a80ea5bd85cc9e5/apple-touch-icon-114x114.png"><link rel="apple-touch-icon" sizes="120x120" href="/play/static/icons-14c2cbb4b23a64196a80ea5bd85cc9e5/apple-touch-icon-120x120.png"><link rel="apple-touch-icon" sizes="144x144" href="/play/static/icons-14c2cbb4b23a64196a80ea5bd85cc9e5/apple-touch-icon-144x144.png"><link rel="apple-touch-icon" sizes="152x152" href="/play/static/icons-14c2cbb4b23a64196a80ea5bd85cc9e5/apple-touch-icon-152x152.png"><link rel="apple-touch-icon" sizes="180x180" href="/play/static/icons-14c2cbb4b23a64196a80ea5bd85cc9e5/apple-touch-icon-180x180.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="client-Launcher"><link rel="icon" type="image/png" sizes="32x32" href="/play/static/icons-14c2cbb4b23a64196a80ea5bd85cc9e5/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/play/static/icons-14c2cbb4b23a64196a80ea5bd85cc9e5/favicon-16x16.png"><link rel="shortcut icon" href="/play/static/icons-14c2cbb4b23a64196a80ea5bd85cc9e5/favicon.ico"><meta name="mobile-web-app-capable" content="yes"><meta name="theme-color" content="#fff"><meta name="application-name" content="client-Launcher"><link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)" href="/play/static/icons-14c2cbb4b23a64196a80ea5bd85cc9e5/apple-touch-startup-image-320x460.png"><link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)" href="/play/static/icons-14c2cbb4b23a64196a80ea5bd85cc9e5/apple-touch-startup-image-640x920.png"><link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" href="/play/static/icons-14c2cbb4b23a64196a80ea5bd85cc9e5/apple-touch-startup-image-640x1096.png"><link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" href="/play/static/icons-14c2cbb4b23a64196a80ea5bd85cc9e5/apple-touch-startup-image-750x1294.png"><link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 736px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3)" href="/play/static/icons-14c2cbb4b23a64196a80ea5bd85cc9e5/apple-touch-startup-image-1182x2208.png"><link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 736px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)" href="/play/static/icons-14c2cbb4b23a64196a80ea5bd85cc9e5/apple-touch-startup-image-1242x2148.png"><link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 1)" href="/play/static/icons-14c2cbb4b23a64196a80ea5bd85cc9e5/apple-touch-startup-image-748x1024.png"><link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 1)" href="/play/static/icons-14c2cbb4b23a64196a80ea5bd85cc9e5/apple-touch-startup-image-768x1004.png"><link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)" href="/play/static/icons-14c2cbb4b23a64196a80ea5bd85cc9e5/apple-touch-startup-image-1496x2048.png"><link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" href="/play/static/icons-14c2cbb4b23a64196a80ea5bd85cc9e5/apple-touch-startup-image-1536x2008.png"></head>
+
+<body class="GlobalStyle-body">
+<div id="preloader">
+	<img class="logo" src='/play/static/images/loader/logo.4e84b164.svg'>
+	<div class="progress"></div>
+	<div class="loading-text" id="loading-text">&nbsp;</div>
+</div>
+<div id="modal-root"></div>
+<div id="root" class="GlobalStyle-wrapper"></div>
+
+
+<link rel="stylesheet" href="/play/static/css/main.bd1a1900.css">
+
+
+<noscript>
+	<div><img src="https://mc.yandex.ru/watch/10288858" style="position:absolute; left:-9999px;" alt=""/></div>
+</noscript>
+
+<script>
+	const isBuildForChina = "false" === "true";
+	window.isBuildForChina = isBuildForChina;
+	const loadingText = document.getElementById("loading-text");
+	loadingText.innerText = getLoadingText();
+	if (!isBuildForChina) {
+		loadJs("https://apis.google.com/js/platform.js");
+		//loadJs("https://connect.facebook.net/en_US/sdk.js");
+	}
+
+	function getLoadingText() {
+		const localized = {
+			"en": "Loading",
+			"zh": "加载中",
+			"ru": "Загрузка",
+			"pt": "Carregando",
+			"pl": "Ładowanie",
+			"hy": "Բեռնում",
+			"es": "Cargando",
+			"de": "Laden"
+		};
+		const foundLang = window.navigator.languages
+			.map((lang) => lang.substr(0, 2).toLowerCase())
+			.find((lang) => lang in localized);
+		return (foundLang != null) ? localized[foundLang] : localized["en"];
+	}
+
+	function loadJs(jsUrl) {
+		const head = document.getElementsByTagName('head').item(0);
+		const script = document.createElement('script');
+		script.src = jsUrl;
+		script.async = true;
+		head.appendChild(script);
+	}
+</script>
+
+
+<script defer type="text/javascript" src="/play/static/js/main.73bbeb2a.js"></script>
+
+
+</body>
+</html>
