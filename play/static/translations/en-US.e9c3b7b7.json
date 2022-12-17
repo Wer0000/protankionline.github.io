@@ -1,0 +1,1840 @@
+{
+  "loader": {
+    "loading": "Loading",
+    "nextTip": "Next hint",
+    "DOWNLOADED": "Loading"
+  },
+  "system": {
+    "time": {
+      "LABEL_DAY": "d",
+      "LABEL_HOUR": "h",
+      "LABEL_MINUTE": "m",
+      "LABEL_SECOND": "s"
+    },
+    "error": {
+      "TITLE": "System error",
+      "LINK_NAME": "Solution",
+      "RELOAD": "Restart",
+      "ERROR_UNKNOWN": "Unknown error",
+      "ERROR_LOADING_RESOURCE_MESSAGE": "Cannot load resources",
+      "ERROR_DISCONNECT_MESSAGE": "Lost server connection",
+      "ERROR_LOADING_RESOURCE_LINK": "https://en.tankiwiki.com/Server_connection_closed",
+      "ERROR_DISCONNECT_LINK": "https://en.tankiwiki.com/Server_connection_closed"
+    },
+    "message": {
+      "TITLE": "Attention",
+      "YOU_WERE_KICKED_LOGIN_TEXT": "You have been disconnected from the game.\nReason: {0}.\nYou can re-enter the game here {1}."
+    }
+  },
+  "dialog": {
+    "CANCEL_BUTTON": "Cancel",
+    "CLOSE_BUTTON": "Close",
+    "OK_BUTTON": "OK"
+  },
+  "lobby": {
+    "menu": {
+      "PLAY": "Play",
+      "BATTLE": "Battle Selection",
+      "GARAGE": "GARAGE",
+      "QUESTS": "MISSIONS",
+      "SHOP": "SHOP",
+      "WAR": "WAR",
+      "CONTAINERS": "CONTAINERS",
+      "CLANS": "CLANS",
+      "FRIENDS": "FRIENDS",
+      "NEWS": "NEWS",
+      "OPTIONS": "SETTINGS",
+      "CHAT": "CHAT"
+    },
+    "battle": {
+      "matchmaking": {
+        "TIMEOUT_MESSAGE": "matchmaking timeout"
+      },
+      "pick": {
+        "TITLE": "BATTLE MODES",
+        "TEAM_MODE_NAME": "QUICK BATTLE",
+        "TEAM_MODE_DESCRIPTION": "Play a battle with other tankers to beat the opposing team. The mode of the team battle will be chosen randomly",
+        "TDM_MODE_NAME": "TEAM DEATHMATCH",
+        "TDM_MODE_DESCRIPTION": "Destroy enemy tanks and protect your teammates. The team who makes the most kills, wins",
+        "JUGGERNAUT_NAME": "SOLO JUGGERNAUT",
+        "JUGGERNAUT_DESCRIPTION": "Destroy as many tanks as you can. The player who destroys most tanks, wins",
+        "TEAM_JUGGERNAUT_NAME": "JUGGERNAUT",
+        "TEAM_JUGGERNAUT_DESCRIPTION": "Attack the enemy team's Juggernaut and protect your own. The team that destroys the most enemy Juggernauts, wins.",
+        "SIEGE_NAME": "SIEGE",
+        "SIEGE_DESCRIPTION": "Hold control of a point and keep your enemies away from it. Once you've captured the point, move on to capture the next one. The team that has captured more points, wins.",
+        "CONTROL_POINTS_NAME": "CONTROL POINTS",
+        "CONTROL_POINTS_DESCRIPTION": "Capture enemy control points and stop the enemy from taking them back. The team with the highest score at the end of the match, wins",
+        "ASSAULT_NAME": "ASSAULT",
+        "ASSAULT_DESCRIPTION": "While playing in the defending team, protect your base from enemy attacks. While playing in the attacking team, try to place your flag in the enemy's base. The team with more points at the end of the match, wins.",
+        "DEATHMATCH_NAME": "DEATHMATCH",
+        "DEATHMATCH_DESCRIPTION": "Every player in the arena is your enemy. The player who destroys the most tanks, wins.",
+        "CAPTURE_THE_FLAG_NAME": "CAPTURE THE FLAG",
+        "CAPTURE_THE_FLAG_DESCRIPTION": "Attack the enemy base, capture their flag by bringing it back to your base, and protect your flag from the enemy team. The team that captures the most flags, wins.",
+        "RUGBY_NAME": "RUGBY",
+        "RUGBY_DESCRIPTION": "Capture the Ball in the middle of the map and bring it to the enemy base. Don't let the enemy team bring the ball to your base. The team with the bigger score, wins.",
+        "BATTLE_LIST_NAME": "BATTLE LIST",
+        "BATTLE_LIST_DESCRIPTION": "Create battles with your preferred settings, or join other custom battles.",
+        "NEED_RANK": "Minimum Rank of %0 required",
+        "MORE_KEYS": "More options",
+        "DISABLED_BUTTON_PLAY": "You are not the group leader",
+        "PlAYERS_ARENT_READY": "Players aren't ready",
+        "SEARCH_BATTLE": "Searching for a battle",
+        "CHOOSE_BATTLE": "Choose a battle",
+        "CURRENTLY_UNAVAILABLE": "Currently unavailable",
+        "ALL_MODES": "All modes",
+        "BATTLE_MODES": "Modes",
+        "PRO_BATTLES": "PRO battles"
+      },
+      "info": {
+        "JOIN_BATTLE_BUTTON_FULL": "Battle full - Unable to join",
+        "JOIN_BATTLE_BUTTON_INCORRECT_RANK": "Your rank is not appropriate for this battle",
+        "JOIN_BATTLE_BUTTON": "Join",
+        "JOIN_BATTLE_BUTTON_ALFA": "JOIN TEAM ALFA",
+        "JOIN_BATTLE_BUTTON_BRAVO": "JOIN TEAM BRAVO",
+        "EMPTY_CELL_IN_USERS_TABLE": "Empty",
+        "AVAILABLE_RANK": "Available ranks: ",
+        "BATTLE_LINK": "Battle link: ",
+        "BACK_BUTTON": "Back",
+        "NONE_CUSTOM_OPTIONS": "Custom options: none",
+        "KILLS": " kills",
+        "INVITE_FRIENDS": "Invite friends",
+        "CUSTOM_OPTIONS": "Custom options:",
+        "VIEW_LIST": "View list"
+      },
+      "list": {
+        "TITLE": "Battle List",
+        "VS": "VS",
+        "TABLE_TITLE_MODE": "mode",
+        "TABLE_TITLE_NAME": "name",
+        "TABLE_TITLE_PLAYERS": "players",
+        "TABLE_TITLE_TIME": "time",
+        "TABLE_TITLE_SCORE": "score",
+        "CREATE_BATTLE_BUTTON": "create",
+        "FILTER_ALL": "All",
+        "SEARCH_PLACEHOLDER": "Search",
+        "DIALOG_BUY_PROABONEMENT_TITLE": "Warning",
+        "DIALOG_BUY_PROABONEMENT_DESCRIPTION": "Sorry, you need to have a Premium account to create PRO Battles :-(",
+        "DIALOG_BUY_PROABONEMENT_BUY": "buy",
+        "BATTLES": "BATTLES",
+        "MAPS": "MAPS",
+        "EMPTY_BATTLES_LIST": "There are no battles available"
+      },
+      "option": {
+        "ICON_DESCRIPTION_AUTOBALANCE": "Keep a balance between the number of members in each team by preventing players from joining a team that has more members",
+        "ICON_DESCRIPTION_BONUSBOXES": "In this battle, supply boxes drop from the sky which you can pick up to strengthen and repair your tank",
+        "ICON_DESCRIPTION_CLANBATTLE": "Only players in a clan tag can participate in this battle - they can only play against players from another clan tag",
+        "ICON_DESCRIPTION_DEVICES": "In this battle, players are allowed to use augments which modify characteristics of hulls and turrets",
+        "ICON_DESCRIPTION_DRONES": "In this battle, you can use drones that modify the effects of supplies",
+        "ICON_DESCRIPTION_FRIENDFIRE": "In this battle, friendly fire is enabled",
+        "ICON_DESCRIPTION_GOOLDBOXES": "In this battle you can catch and drop gold boxes",
+        "ICON_DESCRIPTION_OVERDRIVES": "In this battle, you can use overdrives - the unique abilities of hulls",
+        "ICON_DESCRIPTION_SMARTSUPPLIES": "In this battle, smart cool-downs are enabled. This mechanism prevents the simultaneous activation of several supplies.",
+        "ICON_DESCRIPTION_SUPPLIES": "In this battle, you can use supplies from the garage. They temporarily boost your tank’s performance",
+        "ICON_DESCRIPTION_UPGRADES": "In this battle, micro-upgrades for turrets, hulls, drones and modules are enabled",
+        "ICON_DESCRIPTION_WEAPONCHANGES": "In this battle, weapon change is enabled",
+        "ICON_DESCRIPTION_PRIVATE": "Creates a Private Battle that is only accessible through a special link",
+        "DESCRIPTION_AUTOBALANCE": "AUTOBALANCE",
+        "DESCRIPTION_BONUSBOXES": "BONUS BOXES",
+        "DESCRIPTION_CLANBATTLE": "CLAN WAR",
+        "DESCRIPTION_DEVICES": "AUGMENTS",
+        "DESCRIPTION_DRONES": "DRONES",
+        "DESCRIPTION_FRIENDFIRE": "FRIENDLY FIRE",
+        "DESCRIPTION_GOOLDBOXES": "GOLD BOXES",
+        "DESCRIPTION_OVERDRIVES": "OVERDRIVES",
+        "DESCRIPTION_SMARTSUPPLIES": "SMART SUPPLIES",
+        "DESCRIPTION_SUPPLIES": "SUPPLIES",
+        "DESCRIPTION_UPGRADES": "UPGRADES",
+        "DESCRIPTION_WEAPONCHANGES": "WEAPON CHANGES",
+        "DESCRIPTION_PRIVATE": "PRIVATE",
+        "NO_SETTINGS": "There are no additional settings set for this battle",
+        "ICON_DESCRIPTION_NUCLEARSUPPLY": "In this battle, you can activate the Nuclear Energy supply",
+        "DESCRIPTION_NUCLEARSUPPLY": "«NUCLEAR ENERGY» SUPPLY"
+      },
+      "create": {
+        "TITLE": "Battle creation",
+        "BATTLE_OPTIONS": "Battle format",
+        "BATTLE_MODE": "Battle mode",
+        "NAME_PLACEHOLDER": "battle name",
+        "MIN_RANK": "Min rank",
+        "MAX_RANK": "Max rank",
+        "RESET_ALL": "reset all",
+        "TIME_LIMIT_FIELD": "time",
+        "MAX_PLAYERS_FIELD": "players",
+        "MAX_PLAYERS_IN_TEAM_FIELD": "Max players in team",
+        "SCORE_LIMIT_FIELD": "score",
+        "KILL_LIMIT_FIELD": "Kill limit",
+        "FLAG_LIMIT_FIELD": "Flag limit",
+        "CUSTOM_OPTIONS": "Custom options",
+        "SAVE_BUTTON": "save",
+        "RESET_BUTTON": "reset",
+        "MAP_FIELD": "Map",
+        "MAP_THEME_FIELD": "Theme",
+        "START": "Start",
+        "alert": {
+          "CREATE_DISABLED": "Battle Creation disabled",
+          "SERVER_IS_HALTING": "Server is stopping. Do not worry, it'll be back in no time :)",
+          "TOO_MANY_BATTLES_FROM_YOU": "You've created too many battles",
+          "YOU_ARE_BANNED": "YOU ARE BANNED. No, we're not mad at you... we're just... disappointed... so disappointed."
+        },
+        "FORMAT": "FORMAT",
+        "MAP": "MAP",
+        "GAME_MODE": "GAME MODE",
+        "IS_SELECT_FORMAT": "Choose",
+        "SELECTED_FORMAT": "Chosen",
+        "CREATE_BATTLE": "Create a battle"
+      },
+      "modes": {
+        "DM": "DM",
+        "TDM": "TDM",
+        "CTF": "CTF",
+        "CP": "CP",
+        "AS": "ASL",
+        "RUGBY": "RGB",
+        "SUR": "SUR",
+        "JGR": "SJG",
+        "TJR": "JGR",
+        "SGE": "SGE",
+        "AR": "AR",
+        "TAR": "TAR"
+      },
+      "themes": {
+        "SUMMER_DAY": "summer day",
+        "SUMMER_EVENING": "Summer evening",
+        "SUMMER_NIGHT": "summer night",
+        "WINTER_DAY": "winter day",
+        "WINTER_NIGHT": "winter night",
+        "SPACE": "space"
+      },
+      "matchmakingGroup": {
+        "SHOW_LABEL": "Show",
+        "ALL": "ALL",
+        "FRIENDS": "FRIENDS",
+        "CLAN": "CLAN",
+        "SELECT_ALL": "SELECT ALL",
+        "UNSELECT_ALL": "DESELECT ALL",
+        "INVITE": "INVITE",
+        "USER_NOT_READY": "Not ready",
+        "USER_INVITE_TO_GROUP": "%USERNAME% invites you to group",
+        "USER_ACCEPTED_GROUP_INVITE": "%USERNAME% joins the group",
+        "USER_REJECT_GROUP_INVITE": "%USERNAME% doesn't join the group",
+        "USER_OFFLINE_ON_GROUP_INVITE": "%USERNAME% this player is offline",
+        "USER_DISABLED_GROUP_INVITE": "%USERNAME% disabled invites.\nInvite cannot be sent.",
+        "USER_ALREADY_IN_GROUP": "%USERNAME% this player is already in a group",
+        "USER_IN_BATTLE_ON_GROUP_INVITE": "%USERNAME% this player is in a battle",
+        "USER_DATA_IS_LOADING": "loading...",
+        "READY": "Ready",
+        "NOT_READY": "In battle",
+        "LEADER": "leader",
+        "IN_GROUP": "In group",
+        "LEAVE_GROUP": "Leave group",
+        "KICK_FROM_GROUP": "Kick from the group",
+        "TITLE": "Group",
+        "OFF_LINE": "Offline",
+        "CREATE_GROUP": "Create Group",
+        "BATTLE_GROUP": "GROUP",
+        "YOU": "YOU"
+      },
+      "invite": {
+        "ACCEPTED": "%USERNAME% is joining the battle at your invitation",
+        "REJECTED": "%USERNAME% refused to join the battle at your invitation",
+        "REJECTED_BATTLE_NOT_FOUND": "Invite has not been sent\nBattle cannot be found",
+        "REJECTED_INVITATION_TO_BATTLE_DISABLED": "%USERNAME% disabled invites.\nInvite cannot be sent.",
+        "REJECTED_PANEL_NOT_LOADED": "Invite has not been sent\nYour friend is entering the game",
+        "REJECTED_USER_ALREADY_IN_BATTLE": "Invite has not been sent\nYour friend is already in this battle",
+        "REJECTED_USER_OFFLINE": "Invite has not been sent\nYour friend is offline",
+        "REJECTED_USER_IN_MATCH_BATTLE": "This player is in a Matchmaking Battle",
+        "INVITES_YOU_TO_A_BATTLE_LABEL": "Invites you to a battle",
+        "THERE_ARE_PLACES_AVAILABLE_LABEL": "There are places available",
+        "BATTLE_IS_UNAVAILABLE_AT_YOUR_RANK_LABEL": "Battle is unavailable at your rank",
+        "NO_PLACES_AVAILABLE_LABEL": "No places available",
+        "TITLE": "Invitations",
+        "USER_ALREADY_INVITED": "Your request is being processed. Please wait for an answer.",
+        "BATTLE_INVITE": "INVITATION"
+      },
+      "dialogs": {
+        "BATTLE_NOT_FOUND_TITLE": "Battle not found",
+        "BATTLE_NOT_FOUND_MESSAGE": "Battle has ended",
+        "ENTER_TO_BATTLE_FAILED_TITLE": "Error while joining battle",
+        "ENTER_TO_BATTLE_FAILED_MESSAGE": "Failed to join battle",
+        "EQUIPMENT_NOT_MATCH_CONSTRAINTS_TITLE": "Wrong equipment",
+        "EQUIPMENT_NOT_MATCH_CONSTRAINTS_MESSAGE": "This battle requires a specific set of equipment to join. Your tank does not comply with the format rules. <a href = 'https://en.tankiwiki.com/Format_Battles' target =' _ blank '><u>Details</u></a>.",
+        "FIGHT_FAILED_SERVER_IS_HALTING_TITLE": "Error entering battle",
+        "FIGHT_FAILED_SERVER_IS_HALTING_MESSAGE": "Server restart in progress. Battle creation and participation are temporarily unavailable.",
+        "PARKOUR_WARNING_TITLE": "Special format battle",
+        "PARKOUR_WARNING_MESSAGE": "Attention! You won't earn any crystals or experience points for playing in this battle due to its special format.",
+        "PARKOUR_WARNING_ENTER_BUTTON": "Join"
+      }
+    },
+    "friends": {
+      "TITLE": "Friends",
+      "menu": {
+        "FRIENDS": "FRIENDS",
+        "FRIEND_REQUEST": "Request",
+        "MY_CLAN": "My clan",
+        "REFERALUSERS": "Invited Users"
+      },
+      "list": {
+        "SEARCH_PLACEHOLDER": "search",
+        "FRIENDS_LIMIT_EXCEEDED": "Your Friends List has reached the maximum number of players.",
+        "FRIENDS_ONLINE": "friends online",
+        "USER_ONLINE": "online",
+        "USER_OFFLINE": "offline",
+        "NEW_USER": "new",
+        "PRO_BATTLE": "PRO",
+        "MM_BATTLE": "MM",
+        "SEARCH_FOR_ADDED_FRIEND": "Enter a nickname"
+      },
+      "request": {
+        "SEARCH_PLACEHOLDER": "search",
+        "DECLINE_ALL": "Decline All",
+        "FRIEND_USER_TABLE_NAME": "name",
+        "FRIEND_USER_TABLE_ACTIONS": "action",
+        "FRIEND_ACCEPT": "accept",
+        "FRIEND_DECLINE": "decline"
+      },
+      "invited": {
+        "COUNT_REGISTERED_FRIENDS": "All registered friends",
+        "TOTAL_BONUS": "Total bonus",
+        "COPY_LINK": "copy link",
+        "TABLE_TITLE_FRIEND": "friend",
+        "TABLE_TITLE_CRYSTALLS": "crystals earned",
+        "INVITE": "INVITE FRIENDS",
+        "LINK_COPIED": "Copied"
+      },
+      "notifications": {
+        "FRIEND_REQUEST_SENT": "A request has been sent.",
+        "ALREADY_IN_ACCEPTED_FRIENDS": "%USERNAME% is already in your friends list.",
+        "ALREADY_IN_ICOMING_FRIENDS": "You've already received a request from %USERNAME%. Accept it?",
+        "ALREADY_IN_OUTGOUNG_FRIENDS": "You've already sent a request to %USERNAME%.",
+        "INCOMING_LIMIT_EXCEEDED": "Unable to send request. This user's request inbox is full.",
+        "ACCEPTED_LIMIT_EXCEEDED": "Can not accept Friend request. Friends List of %USERNAME% has reached the maximum number of players.",
+        "YOUR_ACCEPTED_LIMIT_EXCEEDED": "Can not accept Friend request. Your Friends List has reached the maximum number of players."
+      },
+      "contextMenu": {
+        "FRIEND_BREAK_IT_OFF": "Remove from friends list",
+        "JOIN_TO_FRIEND_BATTLE": "Join the battle"
+      },
+      "expelMenu": {
+        "TITLE": "Remove from friends list",
+        "CONFIRM_TEXT": "Yes",
+        "CANCEL_TEXT": "No",
+        "TEXT": "Remove %user from your friends list?"
+      },
+      "searchMenu": {
+        "INVALID_NICK_NAME": "Invalid nickname"
+      }
+    },
+    "quests": {
+      "navigation": {
+        "HEADER": "Missions",
+        "MAIN": "Special",
+        "DAILY": "Daily",
+        "WEEKLY": "Weekly",
+        "CHALLENGES": "Challenges"
+      },
+      "daily": {
+        "MISSION": "Mission",
+        "REWARDS": "Reward",
+        "CHANGE_MISSION": "Change task",
+        "CLAIM_REWARD": "Collect reward"
+      },
+      "weekly": {
+        "NEXT_MISSION": "Next mission",
+        "PLAY": "Play"
+      },
+      "challenges": {
+        "TIER": "Level",
+        "TIERS": "Levels",
+        "STARS": "Stars",
+        "TIME_LEFT": "Left:",
+        "BUY_BATTLE_PASS": "Buy Battle Pass",
+        "BUY_BATTLE_PASS_DESCRIPTION": "The Gold Tier on the bottom contains even juicier rewards. Get a Battle Pass to unlock them!",
+        "BUY_PREMIUM": "Buy Premium",
+        "BUY_PREMIUM_DESCRIPTION": "Purchase Premium to get double Stars for every battle you complete",
+        "BUY_STARS": "Buy Stars",
+        "BUY_STARS_TIP": "Purchase extra Stars to complete your Challenge faster.",
+        "FINISH_DESCRIPTION": "You have reached the final stage and received all of the available rewards",
+        "STANDARD_PASS": "Silver Tier",
+        "PREMIUM_PASS": "Gold Tier",
+        "BATTLE_PASS": "Challenges",
+        "LOCKED": "Locked",
+        "AVAILABLE_SOON": "Available soon",
+        "CHALLENGE_REWARD_NOTIFICATION": "You have received the rewards for stage %number% of the challenge",
+        "COMPLETED": "Completed"
+      },
+      "main": {
+        "TITLE": "Primary Missions",
+        "REWARDS_TITLE": "Reward",
+        "PLAY_BUTTON_LABEL": "COMPLETE",
+        "PLAY_BUTTON_DISABLED_USER_IN_GROUP_LABEL": "You cannot go into battle because you are in a group!",
+        "UNLOCK_BUTTON_LABEL": "UNLOCK",
+        "COMPLETE_BUTTON_LABEL": "COLLECT",
+        "TASK_COMPLETED_BUTTON_LABEL": "COMPLETED",
+        "BUY_PREMIUM": "Buy premium",
+        "BUY_BATTLEPASS": "Buy Battle Pass",
+        "REMAINING_TIME": "time left:"
+      }
+    },
+    "clans": {
+      "select_action_menu": {
+        "CREATE_CLAN": "create clan",
+        "LICENSE": "Clan license",
+        "WITHOUT_LICENSE": "No clan license",
+        "BUY_LICENSE": "Buy license",
+        "DESCRIPTION_AWARD": "This is where you can create your own clan, team up with your friends and get access to special clan bonuses.",
+        "DESCRIPTION_GROWS": "Remember, as your clan grows in size, the bonuses for clan members will get bigger and better.",
+        "DESCRIPTION_PURCHASE_LICENSE": "To create your own clan, you must purchase a license.",
+        "DESCRIPTION_ALLOW_CREATE": "This license will allow you to create a single clan",
+        "CLOSE": "Close",
+        "NEXT": "Next",
+        "JOIN_ANOTHER": "Join another clan",
+        "CLAN_NAME": "Clan name",
+        "CLAN_TAG": "Clan tag",
+        "FLAG": "Flag",
+        "INCORRECT_NAME": "Incorrect clan name",
+        "INCORRECT_TAG": "Incorrect clan tag",
+        "NOT_UNIQUE_NAME": "Clan name already in use",
+        "NOT_UNIQUE_TAG": "Tag already in use",
+        "ALREADY_IN_CLAN": "You are already a member of a clan",
+        "CONFIRMATION": "Confirm that you are familiar with the %rules",
+        "RULES": "rules"
+      },
+      "menu": {
+        "CLAN": "Clan",
+        "INFO": "Info",
+        "MEMBERS": "Members",
+        "REQUESTS": "Requests",
+        "INVITATIONS": "Invitations"
+      },
+      "info": {
+        "FOUNDER": "Clan founder:",
+        "CLAN_MESSAGE": "Clan message:",
+        "EDIT_PROFILE": "Edit profile [P]",
+        "CREATED": "Created:",
+        "TAG": "Tag:",
+        "PLAYERS": "Players:",
+        "ONLINE": "Online:",
+        "TANKS_DESTROYED": "Tanks destroyed",
+        "TANKS_LOST": "Tanks lost",
+        "TANKS_DESTROY_LOST_RATIO": "K/D ratio",
+        "CANCEL": "Cancel",
+        "INVITATION_INCOMING": "This clan has sent you an invitation to join",
+        "INVITATION_OUTGOING": "You have sent a request to this clan",
+        "INVITATION_SEND": "You can send a request to this clan"
+      },
+      "requests": {
+        "SEARCH_PLACEHOLDER": "Nickname",
+        "INVITE": "Invite [I]",
+        "SEND": "Send [ENTER]",
+        "ACCEPT": "Accept",
+        "DECLINE": "Decline"
+      },
+      "self_requests": {
+        "NAME": "Clan name",
+        "TAG": "Tag",
+        "FOUNDER": "Founder",
+        "PLAYERS": "Players",
+        "CREATION_DATE": "Actions",
+        "SEARCH_PLACEHOLDER": "Send request to clan",
+        "INCOMING_REQUESTS_DISABLED": "This clan does not accept requests",
+        "LOW_RANK": "You rank is too low to join a clan",
+        "CLAN_BLOCKED": "This clan has been blocked",
+        "ALREADY_OUTGOING": "You have already requested to join clan %CLANNAME%",
+        "ALREADY_INCOMING": "Clan %CLANNAME% has already invited you to join",
+        "ALREADY_CLAN_OUTGOING": "You have already requested to join clan %CLANNAME%",
+        "ALREADY_IN_CLAN": "You are already a member of a clan",
+        "SEND_REQUESTS": "Send request",
+        "CANCEL_ALL": "Cancel all",
+        "PROMPT_TEXT_FOR_SEARCH_PART1": "Search for a clan by its name or tag.",
+        "PROMPT_TEXT_FOR_SEARCH_PART2": "If you want to search by tag, search for [%TAG%",
+        "PROMPT_TEXT_FOR_SEARCH_PART3": "tag_here"
+      },
+      "self_invitations": {
+        "NAME": "Clan name",
+        "TAG": "Tag",
+        "FOUNDER": "Founder",
+        "PLAYERS": "Players",
+        "CREATION_DATE": "Actions",
+        "SEARCH_PLACEHOLDER": "Clan name",
+        "CLAN_MENU": "Clan menu",
+        "DECLINE_ALL": "Decline all",
+        "DECLINE": "Decline",
+        "ACCEPT": "Accept"
+      },
+      "members": {
+        "NAME": "name",
+        "POSITION": "position",
+        "EXPERIENCE": "exp",
+        "DESTROYED": "d",
+        "LOST": "l",
+        "D_DIV_L": "d/l",
+        "GS": "gs",
+        "LAST_VISIT": "last visit",
+        "ACTIONS": "Actions",
+        "ONLINE": "Online",
+        "NEW": "New!",
+        "BUY_ADDITIONAL_PLACE_IN_CLAN_BUTTON": "Additional member slot",
+        "BUY_ADDITIONAL_PLACE_IN_CLAN_TITLE": "Additional member slot purchase",
+        "BUY_ADDITIONAL_PLACE_IN_CLAN_TEXT": "Are you sure that you want to purchase an additional member slot for %PRICE% Tankoins?",
+        "menu": {
+          "COPY_NAME": "Copy name",
+          "ADD_TO_FRIENDS": "Add to friends",
+          "PROFILE": "Profile",
+          "PRIVATE_MESSAGE": "Private message",
+          "KICK": "Kick from the clan",
+          "DISBAND": "Disband",
+          "LEAVE": "Leave",
+          "MAKE_OWNER": "Transfer clan ownership"
+        }
+      },
+      "expel_menu": {
+        "TITLE": "expel from clan",
+        "CANCEL_TEXT": "Cancel",
+        "CONFIRM_TEXT": "Expel",
+        "TEXT": "Are you sure you want to kick %user from the clan?"
+      },
+      "disband_menu": {
+        "TITLE": "Disband clan?",
+        "CANCEL_TEXT": "Cancel",
+        "CONFIRM_TEXT": "Disband",
+        "TEXT": "Warning!\nTo create a new clan, you will have to purchase a new clan license."
+      },
+      "leave_menu": {
+        "TITLE": "Leave clan?",
+        "CANCEL_TEXT": "Cancel",
+        "CONFIRM_TEXT": "Leave",
+        "TEXT": "Are you sure want to leave clan %clanName?\nWhen you leave a clan, you won't be able to join another clan for the next 24 hours"
+      },
+      "validation": {
+        "ALREADY_IN_ACCEPTED": "Player %USERNAME% is already a member of this clan",
+        "ALREADY_IN_CLAN": "Player %USERNAME% is already a member of a clan",
+        "ALREADY_IN_CLAN_INCOMING": "Player %USERNAME% has already requested to join the clan",
+        "ALREADY_IN_CLAN_OUTGOING": "Player %USERNAME% has already been invited",
+        "LOW_RANK": "Rank too low"
+      },
+      "join_restriction": {
+        "TITLE": "Restricted",
+        "CONFIRM_TEXT": "OK",
+        "TEXT": "You cannot join another clan for the next %time"
+      },
+      "permission": {
+        "SUPREME_COMMANDER": "Supreme Commander",
+        "COMMANDER": "Commander",
+        "OFFICER": "Officer",
+        "SERGEANT": "Sergeant",
+        "VETERAN": "Veteran",
+        "PRIVATE": "Private",
+        "NOVICE": "Novice"
+      },
+      "edit_profile": {
+        "DESCRIPTION_EDIT": "Clan message edit",
+        "CANCEL": "cancel",
+        "SAVE": "save",
+        "FLAG": "Flag",
+        "RECRUITMENT": "Recruitment",
+        "MIN_RECRUITMENT": "Minimal recruitment rank",
+        "OPEN": "open",
+        "CLOSE": "close",
+        "CONFIRM_SAVE_DIALOG_TITLE": "Editing clan profile",
+        "CONFIRM_SAVE_DIALOG_TEXT": "Are you sure that you want to confirm clan profile edit? This will cost %PRICE% Tankoins."
+      },
+      "level_up": {
+        "TITLE": "challenge tier %level lvl up!",
+        "FREE_REWARD": "Free reward",
+        "REWARD_EARNED": "Reward earned",
+        "BATTLEPASS_REWARD": "Battlepass reward",
+        "BUY_BATTLEPASS": "Buy Battlepass",
+        "BUY_BATTLEPASS_DESCRIPTION": "Buy a Battle Pass to unlock a new level of better and cooler rewards.",
+        "BUY_PREMIUM_DESCRIPTION": "Get a Premium account to get double stars, more experience points, and other benefits",
+        "OK": "OK",
+        "BUY_BATTLE_PASS_BUTTON": "buy Battlepass",
+        "BUY_PREMIUM_BUTTON": "buy Premium"
+      },
+      "clan_full": {
+        "TEXT": "Clan full"
+      },
+      "security": {
+        "NEED2FA_FOR_CREATE_TITLE": "Clan creation",
+        "NEED2FA_FOR_CREATE_TEXT": "In order to create a clan you need to set up two-factor authentication in Settings",
+        "NEED2FA_FOR_DISBAND_TITLE": "Clan disbanding",
+        "NEED2FA_FOR_DISBAND_TEXT": "In order to disband a clan you need to set up two-factor authentication in Settings",
+        "NEED2FA_FOR_CHANGE_OWNER_TITLE": "Transferring clan ownership",
+        "NEED2FA_FOR_CHANGE_OWNER_TEXT": "In order to transfer clan ownership you need to set up two-factor authentication in Settings"
+      },
+      "change_owner": {
+        "OK": "Transfer",
+        "NOT_ENOUGH_COINS_TITLE": "Not enough Tankoins",
+        "NOT_ENOUGH_COINS_TEXT": "In order to transfer clan ownership you need %PRICE% Tankoins",
+        "CHANGE_OWNER_TITLE": "Transferring clan ownership",
+        "CHANGE_OWNER_TEXT": "Are you sure that you want to transfer clan ownership to player %UID%? It will cost you %PRICE% Tankoins"
+      }
+    },
+    "garage": {
+      "TITLE": "GARAGE",
+      "GEAR_SCORE": "Gear score",
+      "TURRET": "Turret",
+      "DAMAGE": "Damage",
+      "IMPACT_FORCE": "Impact force",
+      "RANGE": "Range",
+      "HULL": "Hull",
+      "PROTECTION": "Protection",
+      "MAXIMUM_SPEED": "Maximum speed",
+      "POWER": "Power",
+      "SKINS": "Skins",
+      "SUPPLIES": "Supplies",
+      "BATTERIES": "Batteries",
+      "ALTERATION": "Augments",
+      "WEAPON": "Turrets",
+      "ARMOR": "Hulls",
+      "DRONE": "Drone",
+      "RESISTANCE": "Protection",
+      "PAINT": "Paint",
+      "INVENTORY": "Supplies",
+      "KIT": "Kit",
+      "GIVEN_PRESENTS": "Gifts received",
+      "SPECIAL": "Special",
+      "TOP_TIP_WEAPONS": "Your total gear score is the sum of all of your tank's parameters including drones, paints, supplies, etc.",
+      "UPGRADES": "Upgrades",
+      "OVERDRIVE": "Overdrive",
+      "PROTECTION_LABEL": "Protection",
+      "UNEQUIP_ALL_BUTTON": "unequip all",
+      "STATS_LABEL": "Stats",
+      "DAMAGE_REDUCTION": "Damage reduction",
+      "PROPERTIES": "Stats",
+      "BUY_BUTTON": "BUY",
+      "PAINTS": "PAINTS",
+      "EQUIPPED": "equipped",
+      "EQUIP_BUTTON": "equip",
+      "UNEQUIP_BUTTON": "unequip",
+      "ALL_PAINTS": "Show all",
+      "PAINTS_SPECIAL": "Special",
+      "PAINTS_LEGENDARY": "Legendary",
+      "PAINTS_EPIC": "Epic",
+      "PAINTS_RARE": "Rare",
+      "PAINTS_UNCOMMON": "Uncommon",
+      "PAINTS_COMMON": "Common",
+      "PAINTS_FAVORITE": "Favorite",
+      "BACK_BUTTON": "back",
+      "UPGRADE_LABEL": "Upgrade",
+      "UPGRADE_BUTTON": "UPGRADE",
+      "STANDARD_SETTINGS_NAME": "Standard settings",
+      "STANDARD_SETTINGS_DESCRIPTION": "Standard settings without any special effects",
+      "STANDARD_SKIN_NAME": "Standard settings",
+      "STANDARD_SKIN_DESCRIPTION": "Standard settings without any special effects",
+      "LABEL_VIDEO_PLAYER": "How it works",
+      "FULLSCREEN_BUTTON": "watch in fullscreen",
+      "HEADER_DIALOG_BUY_ITEM": "Buy the item",
+      "TEXT_DIALOG_BUY_ITEM": "You are about to buy %ITEM% for",
+      "DIALOG_BUY_ITEM_CANCEL_BUTTON": "Cancel",
+      "DIALOG_BUY_ITEM_BUY_BUTTON": "BUY",
+      "DIALOG_NOT_ENOUGH_CRYSTAL_HEADER": "not enough crystals",
+      "DIALOG_NOT_ENOUGH_CRYSTAL": "You do not have enough crystals (%CRYSTAL%)",
+      "DIALOG_NOT_ENOUGH_CRYSTAL_FOR_BUY_ITEM": "You do not have enough crystals (%CRYSTAL%) to buy this %ITEM%",
+      "DIALOG__NOT_ENOUGH_CRYSTAL_BUY_CRYSTAL_BUTTON": "Buy crystals",
+      "DIALOG_NOT_ENOUGH_COIN_HEADER": "Insufficient Tankoins",
+      "DIALOG_NOT_ENOUGH_COIN": "You don't have enough Tankoins (%COIN%)",
+      "DIALOG_NOT_ENOUGH_COIN_FOR_ITEM": "You don't have enough Tankoins (%COIN%) to buy %ITEM%",
+      "DIALOG__NOT_ENOUGH_COIN_BUY_COIN_BUTTON": "Buy Tankoins",
+      "SPEED_UP_BUTTON": "SPEED UP",
+      "NOT_AVAILABLE": "Not available",
+      "LEVEL": "lvl",
+      "NO_DRONE_EQUIPPED": "No drone equipped",
+      "RANK_IS_NEEDED": "%RANK_NAME% Rank needed",
+      "MAX_LEVEL": "MAX",
+      "READ_MORE": "Read more",
+      "PREMIUM_NEEDED": "Premium needed",
+      "RANK_AND_PREMIUM_NEEDED": "Premium and %RANK_NAME% Rank needed",
+      "NO_RESISTANCE": "No protection",
+      "INSTALL_HERE": "Install here",
+      "REMOVE_RESISTANCE": "Remove protection",
+      "EMPTY": "Empty",
+      "LOCKED": "Locked",
+      "BATTERY_PROPERTY": "One battery powers a drone for exactly one minute.",
+      "SLOT_LOCKED": "Locked",
+      "SLOT_UNLOCK": "Unlock",
+      "BUY_PAINT_DESCRIPTION": "Buy the paint",
+      "LOCK_PAINT_DESCRIPTION": "Paint is unavailable",
+      "EQUIP_PAINT_DESCRIPTION": "Equip the paint",
+      "ITEM_LOCKED": "Changes will be applied in",
+      "SELECT_SLOT_PROTECTION": "Select slot to equip protection",
+      "ALL": "All",
+      "GO_STORE": "Go to the Shop",
+      "properties": {
+        "HULL_ARMOR": "Armor",
+        "HULL_SPEED": "Max speed",
+        "HULL_POWER": "Power",
+        "DAMAGE": "Damage",
+        "DAMAGE_PER_SECOND": "Damage per second",
+        "WEAPON_IMPACT_FORCE": "Impact force",
+        "SHOTGUN_IMPACT_FORCE": "Impact force",
+        "SHOT_RANGE": "Shot range",
+        "SMOKY_RESISTANCE": "Smoky resistance",
+        "SCORPIO_RESISTANCE": "Scorpion resistance",
+        "FIREBIRD_RESISTANCE": "Firebird resistance",
+        "TWINS_RESISTANCE": "Twins resistance",
+        "RAILGUN_RESISTANCE": "Railgun resistance",
+        "ISIS_RESISTANCE": "Isida resistance",
+        "THUNDER_RESISTANCE": "Thunder resistance",
+        "FREEZE_RESISTANCE": "Freeze resistance",
+        "RICOCHET_RESISTANCE": "Ricochet resistance",
+        "GAUSS_RESISTANCE": "Gauss resistance",
+        "SHAFT_RESISTANCE": "Shaft resistance",
+        "SHOTGUN_RESISTANCE": "Hammer resistance",
+        "MACHINE_GUN_RESISTANCE": "Vulcan resistance",
+        "ROCKET_LAUNCHER_RESISTANCE": "Striker resistance",
+        "CRITICAL_RESISTANCE": "Critical resistance",
+        "ALL_RESISTANCE": "All resistance",
+        "MINE_RESISTANCE": "Mine resistance",
+        "ARTILLERY_RESISTANCE": "Magnum resistance",
+        "TESLA_RESISTANCE": "Tesla resistance",
+        "WEAPON_RELOAD_TIME": "Reload time",
+        "ISIS_HEALING_PER_PERIOD": "Healing",
+        "CRITICAL_HIT_DAMAGE": "Critical hit damage",
+        "CRITICAL_HEALING_HITS": "Critical heal",
+        "CRITICAL_HEALING_CHANCE": "Critical heal chance",
+        "MAX_SHELL_SPEED": "Max shell speed",
+        "WEAPON_WEAKENING_COEFF": "Penetration",
+        "IMPACT_FORCE": "Impact force",
+        "SHAFT_AIMING_MODE_DAMAGE": "Sniping mode damage",
+        "UNITS": "units",
+        "PERCENT": "%",
+        "SECONDS": "sec",
+        "METERS": "m",
+        "UNDEFINE": "Undefined",
+        "RADIUS_OF_MAX_SPLASH_DAMAGE": "Radius of maximum splash damage",
+        "MACHINE_GUN_WEAPON_TURN_DECELERATION_COEFF": "Turret slowdown",
+        "SPLASH_DAMAGE_RADIUS": "Splash damage radius",
+        "MAX_CRITICAL_HIT_CHANCE": "Max critical hit chance",
+        "TURRET_ROTATION_ACCELERATION": "Turret rotation acceleration",
+        "DAMAGE_TO": "Max damage",
+        "DAMAGE_FROM": "Min damage",
+        "ROCKET_ANGULAR_VELOCITY": "Rocket angular velocity",
+        "WEAPON_CHARGING_TIME": "Weapon charging time",
+        "SHAFT_AIMING_MODE_MAX_DAMAGE": "Sniper mode max damage",
+        "ELLIPTIC_CONE_HORIZONTAL_ANGLE": "Horizontal angle",
+        "WEAPON_MAX_DAMAGE_RADIUS": "Weapon max damage radius",
+        "ELLIPTIC_CONE_VERTICAL_ANGLE": "Vertical angle",
+        "DEVICE_HEAT_PER_PELLET": "Heat per pellet",
+        "WEAPON_ANGLE_DOWN": "Maximum angle for downward auto-targeting",
+        "CONE_ANGLE": "Cone angle",
+        "SHELL_GRAVITY_COEF": "Shell gravity coefficient",
+        "SHELL_SPEED": "Shell speed",
+        "SHAFT_FAST_SHOT_ENERGY": "Shaft fast shot energy",
+        "WEAPON_DISCHARGE_RATE": "Discharge rate",
+        "START_CRITICAL_HIT_CHANCE": "Starting critical hit chance",
+        "SHAFT_HORIZONTAL_TARGETING_SPEED": "Horizontal targeting speed",
+        "WEAPON_MIN_DAMAGE_RADIUS": "Weapon radius",
+        "INITIAL_TURRET_ANGLE": "Initial turret angle",
+        "SALVO_AIMING_TIME": "Salvo aiming time",
+        "SALVO_SIZE": "Missiles per salvo",
+        "TIME_BETWEEN_SHOTS_OF_SALVO": "Reload time",
+        "SHAFT_AIMING_MODE_MIN_DAMAGE": "Sniper mode min damage",
+        "CRITICAL_CHANCE_DELTA": "Critical chance delta",
+        "DAMAGE_PER_PERIOD": "Damage per period",
+        "WEAPON_ANGLE_UP": "Maximum angle for upward auto-targeting",
+        "WEAPON_KICKBACK": "Recoil",
+        "TURRET_TURN_SPEED": "Turning speed",
+        "HEAT_PER_PERIOD": "Heat per period",
+        "FLAME_TEMPERATURE_LIMIT": "Temperature limit",
+        "HULL_TURN_SPEED": "Turn speed",
+        "HULL_MASS": "Mass",
+        "WEAPON_COOLDOWN_TIME": "Cooldown time",
+        "AIMING_MODE_COOLDOWN_TIME": "Aiming mode cooldown time",
+        "CRITICAL_HIT_CHANCE": "Critical hit chance",
+        "AIMING_ERROR": "Aiming Error",
+        "SHOT_AREA": "Shot area",
+        "CHARGING_TIME": "Charging time",
+        "FIRE_DAMAGE": "Damage",
+        "ISIS_DAMAGE": "Damage",
+        "ISIS_HEALING_PER_SECOND": "Healing per second",
+        "AIMING_MODE_DAMAGE": "Aiming mode damage",
+        "AIMING_WEAPON_DISCHARGE_RATE": "Aiming discharge rate",
+        "SHAFT_AIMED_SHOT_IMPACT": "Sniper shot impact",
+        "SHAFT_TARGETING_SPEED": "Targeting speed",
+        "SHAFT_ARCADE_DAMAGE": "Normal shot damage",
+        "WEAPON_CHARGE_RATE": "Charge rate",
+        "WEAPON_MIN_DAMAGE_PERCENT": "Min damage percent",
+        "THUNDER_MIN_SPLASH_DAMAGE_PERCENT": "Min splash damage percent",
+        "DEPENDENCY_FIRST_AID_SEC": "Cooldown imposed on Repair Kit",
+        "DEPENDENCY_DOUBLE_ARMOR_SEC": "Cooldown imposed on Boosted Armor",
+        "DEPENDENCY_DOUBLE_DAMAGE_SEC": "Cooldown imposed on Boosted Damage",
+        "DEPENDENCY_NITRO_SEC": "Cooldown imposed on Speed Boost",
+        "DEPENDENCY_MINE_SEC": "Cooldown imposed on Mines",
+        "DEPENDENCY_DROPPABLE_GOLD_SEC": "Cooldown imposed on Droppable Gold",
+        "COOLDOWN_FIRST_AID_SEC": "Cooldown ",
+        "COOLDOWN_DOUBLE_ARMOR_SEC": "Cooldown ",
+        "COOLDOWN_DOUBLE_DAMAGE_SEC": "Cooldown ",
+        "COOLDOWN_NITRO_SEC": "Cooldown ",
+        "COOLDOWN_MINE_SEC": "Cooldown ",
+        "COOLDOWN_DROPPABLE_GOLD_SEC": "Cooldown ",
+        "COOLDOWN_NUCLEAR_RECHARGE": "Cooldown",
+        "DURATION_FIRST_AID_SEC": "Duration",
+        "DURATION_DOUBLE_ARMOR_SEC": "Duration",
+        "DURATION_DOUBLE_DAMAGE_SEC": "Duration",
+        "DURATION_NITRO_SEC": "Duration",
+        "ATTACK_EFFECT": "Boosts attack power by ",
+        "FIRST_AID_EFFECT_INSTANT": "Hit points restored upon activation",
+        "FIRST_AID_EFFECT": "Hitpoints repaired per second",
+        "PROTECTION_EFFECT": "Boosts defense by ",
+        "SPEED_EFFECT": "Boosts speed by ",
+        "DISCHARGE_SPEED": "Discharge speed",
+        "FREEZE_PER_TICK": "Freeze per tick",
+        "VERTICAL_ANGLES": "Vertical angles",
+        "DRONE_RELOAD": "Drone Recharge Time",
+        "DRONE_HP_BONUS": "HP Bonus",
+        "DRONE_INVENTORY": "Supply active time",
+        "DRONE_INVENTORY_ADD": "Supply effect duration for allies",
+        "DRONE_BONUS_ADD": "Increases Dropped Supplies active time by",
+        "DRONE_FIRST_AID_BONUS_ADD": "Increases Repair Kit active time by",
+        "DRONE_OVERDRIVE_BOOST": "Overdrive boost",
+        "DRONE_DEFEND": "Power up duration",
+        "DRONE_ARMOR_BOOST": "Defense Boost",
+        "DRONE_MINE": "Number of saved up mines",
+        "DRONE_ADDITIONAL_MINES": "Additional mines",
+        "DRONE_MINES_ACTIVATION_DELAY": "Mine activation delay",
+        "DRONE_MINES_PLACEMENT_RADIUS": "Mine placement radius",
+        "DRONE_INVENTORY_COOLDOWN_BOOST": "Supply reload speed increase in sec.",
+        "DRONE_POWER_BOOST": "Power boost",
+        "DRONE_POWER_DURATION": "Power duration",
+        "DRONE_CRITICAL_HEALTH": "Healing",
+        "DRONE_ACTION_RADIUS": "Area of effect radius",
+        "DRONE_CONSTANT_ARMOR_PERCENT": "Boosted Armor supply's effect increase",
+        "DRONE_CONSTANT_POWER_PERCENT": "Boosted Damage supply's effect increase",
+        "DRONE_DAMAGE_PERCENT": "Bonus damage",
+        "DRONE_ARMOR_PERCENT": "Bonus armour",
+        "DRONE_HULL_SPEED_PERCENT": "Bonus speed boost",
+        "DRONE_DEPENDENT_INVENTORY_COOLDOWN": "Switching speed",
+        "DRONE_INVENTORY_COOLDOWN_SUBTRACTION": "Supply reload speed increase in sec.",
+        "DRONE_INVENTORY_COOLDOWN_SUBTRACTION_ON_KILL": "Reduction of supply cooldowns",
+        "ULTIMATE_HEAL_HP": "Repair in hitpoints",
+        "ULTIMATE_CHARGE_PER_SEC": "Overdrive charge per second",
+        "ULTIMATE_CHARGE_PER_SCORE_POINT": "Overdrive charge per score point",
+        "ULTIMATE_SCORE_COOLDOWN_SEC": "Score cooldown",
+        "ULTIMATE_ACTIVATION_DISCHARGE_PER_SEC": "Overdrive activation discharge per second",
+        "SHOTGUN_MAGAZINE_SIZE": "Magazine size",
+        "SHOTGUN_PELLET_COUNT": "Pellet amount",
+        "MAGAZINE_RELOAD_TIME": "Magazine reload time",
+        "DAMAGE_PER_HIT": "Damage per hit",
+        "DEVICE_SMOKY_TEMPERATURE_DELTA_ON_CRITICAL": "Temperature on critical",
+        "DEVICE_TARGET_HEAT_DELTA_ON_SELF_OVERHEAT": "Heat dealt to enemy tanks while under the effect of self-overheating",
+        "MACHINE_GUN_TEMPERATURE_HITTING_TIME_SECOND": "Time till overheat",
+        "DEVICE_BONUS_ENERGY_ON_KILL": "Energy restored per kill",
+        "ISIS_DISCHARGE_SPEED_HEALING": "Energy consumption rate when repairing friendly tanks",
+        "ENERGY_PER_SHOT": "Energy per shot",
+        "MAX_RICOCHET_COUNT": "Maximum number of projectile bounces",
+        "GAUSS_AIMING_MODE_DAMAGE": "Damage in sniping mode"
+      },
+      "relativeProperties": {
+        "RELATIVE_PROPERTIES_BURST_DAMAGE": "Damage",
+        "RELATIVE_PROPERTIES_DPS": "Damage per second",
+        "RELATIVE_PROPERTIES_FIRE_RATE": "Firing rate",
+        "RELATIVE_PROPERTIES_RANGE": "Range",
+        "RELATIVE_PROPERTIES_COMPLEXITY": "Skill",
+        "RELATIVE_PROPERTIES_ARMOR": "Armor",
+        "RELATIVE_PROPERTIES_SPEED": "Speed",
+        "RELATIVE_PROPERTIES_HANDLING": "Turning speed",
+        "RELATIVE_PROPERTIES_MASS": "Weight",
+        "RELATIVE_PROPERTIES_SIZE": "Size"
+      },
+      "DIALOG_NOT_ENOUGH_CRYSTAL_FOR_UPDATE_ITEM": "You do not have enough crystals (%CRYSTAL%) to upgrade %ITEM%"
+    },
+    "notification": {
+      "INFO": "Info",
+      "WARNING": "Warning",
+      "BUTTON_YES": "Yes",
+      "BUTTON_NO": "No",
+      "ALERT": "Warning",
+      "BUTTON_OK": "OK"
+    },
+    "settings": {
+      "TITLE": "SETTINGS",
+      "menu": {
+        "GAME": "GAME",
+        "GRAPHIC": "GRAPHICS",
+        "SOUND": "SOUND",
+        "CONTROL": "CONTROL",
+        "ACCOUNT": "ACCOUNT",
+        "BATTLE": "BATTLE",
+        "SECURITY": "SECURITY"
+      },
+      "keyboard": {
+        "ROTATE_TURRET_LEFT": "Rotate turret left",
+        "ROTATE_TURRET_RIGHT": "Rotate turret right",
+        "CENTER_TURRET": "Center turret",
+        "TURN_TANK_LEFT": "Turn tank left",
+        "TURN_TANK_RIGHT": "Turn tank right",
+        "MOVE_TANK_FORWARD": "Move tank forward",
+        "MOVE_TANK_BACKWARDS": "Move tank backwards",
+        "MOVE_CAMERA_UP": "Move camera up",
+        "MOVE_CAMERA_DOWN": "Move camera down",
+        "DROP_FLAG": "Drop Flag",
+        "PAUSE": "Pause",
+        "INCREASE_BATTLE_SCREEN_SIZE": "Increase battle screen size",
+        "DECREASE_BATTLE_SCREEN_SIZE": "Decrease battle screen size",
+        "FULLSCREEN_COLLAPSE": "Fullscreen/collapse",
+        "STATISTICS": "Statistics",
+        "USE_FIRST_AID_SUPPLY": "Use First Aid supply",
+        "USE_DOUBLE_ARMOR_SUPPLY": "Use Boosted Armor supply",
+        "USE_DOUBLE_DAMAGE_SUPPLY": "Use Boosted Damage supply",
+        "USE_SPEED_BOOST_SUPPLY": "Use Speed Boost supply",
+        "DROP_MINE": "Drop Mine",
+        "USE_GOLD_BOX_SUPPLY": "Use Gold Box supply",
+        "SHOOT": "Shoot",
+        "OVERDRIVES": "Overdrives",
+        "QUICK_GARAGE": "Quick garage",
+        "SELF_DESTROY": "Self-destruction",
+        "RESET_ALL_KEYS": "Restore default buttons",
+        "SUPPLIES_ULTIMATE_HOTKEYS": "Overdrive and supplies"
+      },
+      "game": {
+        "LANGUAGE": "Language",
+        "SHOW_DROP_ZONES": "Show Drop Zones",
+        "SHOW_DROP_ZONES_DESCRIPTION": "Shows where supply boxes will drop in the map",
+        "ALTERNATE_CAMERA": "Alternate Camera",
+        "ALTERNATE_CAMERA_DESCRIPTION": "Enables the alternate camera function",
+        "SHOW_YOUR_DRONE": "Show your drone",
+        "SHOW_YOUR_DRONE_DESCRIPTION": "Shows your drone on screen",
+        "RECEIVE_PRESENTS_ENABLED": "Receive Gifts",
+        "RECEIVE_PRESENTS_ENABLED_DESCRIPTION": "Allows you to receive gifts from other players",
+        "RECEIVE_PM_FROM_FRIENDS_ONLY": "PMs from friends only",
+        "RECEIVE_PM_FROM_FRIENDS_ONLY_DESCRIPTION": "Only allows PMs from players in your friends list",
+        "SHOW_CHAT": "Show Chat",
+        "SHOW_CHAT_DESCRIPTION": "Shows the chat window",
+        "SHOW_NOTIFICATIONS": "Show notifications",
+        "SHOW_NOTIFICATIONS_DESCRIPTION": "Shows you notifications on your screen",
+        "SHOW_OTHER_DRONE": "Show other drone",
+        "SHOW_OTHER_DRONE_DESCRIPTION": "SHOW_OTHER_DRONE_DESCRIPTION",
+        "BACKGROUND_SOUND": "Background sounds",
+        "BACKGROUND_SOUND_DESCRIPTION": "Background sounds enabled",
+        "MASTER_VOLUME": "Master Volume",
+        "MUSIC_VOLUME": "Music Volume",
+        "AMBIENT_VOLUME": "Ambient Volume",
+        "SFX_VOLUME": "Sfx Volume",
+        "UI_VOLUME": "UI Volume",
+        "HITMARK_PLAYER_VOLUME": "Volume of sound when receiving damage from an opponent",
+        "HITMARK_ENEMY_VOLUME": "Volume of sound for dealing damage to an opponent",
+        "BLUR_MUTE": "Mute on background",
+        "BLUR_MUTE_DESCRIPTION": "Mute battle sounds when browser tab is out of focus",
+        "DISABLE_SHOWING_BATTLE_INVITES": "Disable showing invites",
+        "DISABLE_SHOWING_BATTLE_INVITES_DESCRIPTION": "Disable showing invites from your friends to join a battle or group",
+        "BROWSER_NOTIFICATIONS_TITLE": "Browser notifications",
+        "BROWSER_NOTIFICATIONS_ENABLED": "Browser notifications are enabled",
+        "BROWSER_NOTIFICATIONS_DISABLE_IN_SETTINGS": "You may disable them in your internet browser's settings",
+        "BROWSER_NOTIFICATIONS_DISABLED": "Browser notifications are blocked",
+        "BROWSER_NOTIFICATIONS_ENABLE_IN_SETTINGS": "You may enable them in your internet browser's settings",
+        "BROWSER_NOTIFICATIONS_DESCRIPTION": "Get messages from other players when the game is not the active window",
+        "BROWSER_NOTIFICATIONS_BUTTON": "Allow/Deny"
+      },
+      "buttons": {
+        "BACK": "Back [z]",
+        "RESET": "reset all"
+      },
+      "battle": {
+        "SHOW_AIM_HELPER_DOT": "Display a dot in the middle of the screen",
+        "SHOW_AIM_HELPER_DOT_DESCRIPTION": "Display a small dot-shaped cursor in the middle of the screen for easier camera orientation",
+        "SHOW_DAMAGE": "Show Damage",
+        "SHOW_DAMAGE_DESCRIPTION": "Shows how many hit points of damage you deal to your enemies",
+        "AUTO_SUICIDE_ON_OVERTURN": "Auto self-destruction",
+        "AUTO_SUICIDE_ON_OVERTURN_DESCRIPTION": "Your tank will automatically self-destruct if it lands on it's side or upside down.",
+        "SHOW_STATUS_NAME": "Text tips when a status effect appears",
+        "SHOW_STATUS_NAME_DESCRIPTION": "When you apply a status effect to an opponent or when a status effect is applied to your tank, a text will be shown.",
+        "IS_CENTERED_LAYOUT": "Battle interface in the center of the screen",
+        "IS_CENTERED_LAYOUT_DESCRIPTION": "More convenient for a quick assessment of the battlefield situation but overlaps your tank.",
+        "SHOW_GOLD_BOX_CREATOR": "Show who has dropped the Gold Box",
+        "SHOW_GOLD_BOX_CREATOR_DESCRIPTION": "",
+        "BATTLE_UI_SCALE": "Battle interface size"
+      },
+      "graphics": {
+        "SHOW_FPS_AND_PING": "Show FPS and Ping",
+        "SHOW_FPS_AND_PING_DESCRIPTION": "Shows you the FPS and Ping",
+        "SHOW_SKYBOX": "Show skybox",
+        "SHOW_SKYBOX_DESCRIPTION": "Shows the map's skybox",
+        "GRAPHICS_AUTO_QUALITY": "Auto graphics quality",
+        "GRAPHICS_AUTO_QUALITY_DESCRIPTION": "Automatically set the graphics quality",
+        "DYNAMIC_SHADOWS": "Dynamic shadows",
+        "DYNAMIC_SHADOWS_DESCRIPTION": "Enables dynamic shadows",
+        "DYNAMIC_LIGHTING": "Dynamic lighting",
+        "DYNAMIC_LIGHTING_DESCRIPTION": "Enables dynamic lighting",
+        "SHADOWS": "Shadows",
+        "SHADOWS_DESCRIPTION": "Enables shadows",
+        "SOFT_SHADOWS": "Soft shadows",
+        "SOFT_SHADOWS_DESCRIPTION": "Enables soft shadows",
+        "SOFT_PARTICLES": "Soft particles",
+        "SOFT_PARTICLES_DESCRIPTION": "Enables soft particles",
+        "ADAPTIVE_FPS": "Adaptive FPS",
+        "ADAPTIVE_FPS_DESCRIPTION": "Enables adaptive FPS",
+        "SSAO": "SSAO",
+        "SSAO_DESCRIPTION": "Enables SSAO",
+        "FOG": "Fog",
+        "FOG_DESCRIPTION": "Enables Fog",
+        "ANTIALIASING": "Antialiasing",
+        "ANTIALIASING_DESCRIPTION": "Enables antialiasing",
+        "DUST": "Show dust and cartridge cases",
+        "DUST_DESCRIPTION": "This setting enables showing cartridge cases and dust below the tracks of moving tanks.",
+        "ANISOTROPIC_FILTERING": "Anisotropic filtering",
+        "DECALS": "Number of decals left by shots and explosions",
+        "DECALS_KEY_OFF": "Off",
+        "DECALS_KEY_FEW": "Low",
+        "DECALS_KEY_MANY": "Medium",
+        "DECALS_KEY_TOO_MANY": "High",
+        "DECALS_KEY_MAXIMUM": "Maximum",
+        "TREES_QUALITY": "Quality of trees",
+        "TREES_QUALITY_SPRITES": "Sprites",
+        "TREES_QUALITY_LOW": "Low",
+        "TREES_QUALITY_MEDIUM": "Medium",
+        "TREES_QUALITY_HIGH": "High",
+        "GRAPHICS_RESOLUTION": "Image resolution",
+        "GRAPHICS_RESOLUTION_MAXIMAL": "Maximum",
+        "GRAPHICS_RESOLUTION_LOW": "Low",
+        "GRAPHICS_RESOLUTION_VERY_LOW": "Very low",
+        "GRAPHICS_RESOLUTION_MINIMAL": "Minimum"
+      },
+      "controls": {
+        "inputDevice": {
+          "INPUT_DEVICE": "Input device",
+          "MOUSE_KEYBOARD": "Mouse + Keyboard",
+          "KEYBOARD": "Keyboard",
+          "GAMEPAD": "Gamepad",
+          "TOUCHSCREEN": "Touchscreen",
+          "mouse": {
+            "CAMERA_SENSITIVITY": "Camera sensitivity"
+          },
+          "touchscreen": {
+            "CAMERA_SENSITIVITY": "Camera sensitivity"
+          }
+        },
+        "INVERT_SHAFT_VERTICAL_AXIS": "Invert Shaft vertical axis",
+        "INVERT_SHAFT_VERTICAL_AXIS_DESCRIPTION": "Inverts vertical axis in Shaft sniper mode",
+        "INVERSED_BACKWARD_MOVING": "Invert steering when reversing",
+        "INVERSED_BACKWARD_MOVING_DESCRIPTION": "Inverts steering direction when reversing"
+      },
+      "account": {
+        "YOUR_LOCATION": "Your location",
+        "CHANGE_COUNTRY_VIA_TECH_SUPPORT": "To change your billing country contact our customer support team via help@tankionline.com email address",
+        "CHANGE_PASSWORD_AND_EMAIL": "change password and e-mail",
+        "ENTER_CAPTCHA_TEXT": "Enter the text",
+        "CHANGE_BUTTON": "change",
+        "CONNECT_EMAIL_TITLE": "link your e-mail to protect your account!",
+        "EMAIL_INPUT_LABEL": "E-mail",
+        "CONNECT_BUTTON": "connect",
+        "CURRENT_PASSWORD": "Current password",
+        "NEW_PASSWORD": "New password",
+        "CONFIRM_PASSWORD": "Re-enter",
+        "LINK_ACCOUNT_TO_FACEBOOK": "Link your game account to facebook",
+        "EMAIL_NOT_VALID": "check email",
+        "NEED_CURRENT_PASSWORD": "enter current password",
+        "PASSWORD_SIMPLE": "password is too simple",
+        "PASSWORD_NOT_EQUALS": "passwords don't match",
+        "UPDATE_PASSWORD_ERROR": "Change password error",
+        "EMAIL_NOT_UNIQUE": "E-mail isn't unique",
+        "INCORRECT_EMAIL": "incorrect email",
+        "CONFIRM_EMAIL": "We have sent a confirmation letter to your email address.",
+        "CHANGE_PASSWORD": "Change password",
+        "CHANGED_PASSWORD": "Password has been successfully changed",
+        "CHANGE_EMAIL": "The letter with instructions was sent to your e-mail address.",
+        "NEW_UID": "New nickname",
+        "UID_RENAME_PURCHASE": "You will be charged:",
+        "AGREE_CHANGE_UID": "Do you agree to change",
+        "AGREE_CHANGE_UID_TO": "to",
+        "AGREE_CHANGE_UID_FOR": "for",
+        "USER_RENAME_TITLE": "Nickname change",
+        "INPUT_SHORT_STATE": "Nickname cannot be shorter than %number characters",
+        "INPUT_RESERVED_STATE": "Nickname already taken",
+        "INPUT_NOT_VALID_STATE": "Invalid nickname",
+        "INPUT_FORBIDDEN": "Nickname contains invalid characters",
+        "CREATOR_TAG_TITLE": "Creator tag",
+        "CURRENT_CREATOR_TAG": "Current creator tag:",
+        "SELECT_CREATOR_TAG": "Select creator tag",
+        "DESCRIPTION_CREATOR_TAG": "Choosing one of the creator tags allows you to support this creator. You can only choose one tag.",
+        "RESET_BUTTON": "Reset",
+        "ADD_CREATOR_TAG": "Add new tag",
+        "CHANGE_CREATOR_TAG": "Change",
+        "CREATOR_TAG_NOT_SET": "Not chosen",
+        "SELECT_TAG_BUTTON": "OK"
+      },
+      "graphics_settings_detect": {
+        "LOW_FPS_TITTLE": "Low FPS",
+        "LOW_FPS_INSTRUCTION": "For tips on how to improve your FPS <a href='https://en.tankiwiki.com/How_to_raise_FPS' target='_blank'>click here</a>\n"
+      },
+      "twitch": {
+        "DESCRIPTION": "Link your Twitch account to receive rewards for watching Tanki Online streams on Twitch.",
+        "LINKED_ACCOUNT": "Account %USERNAME% has been linked.",
+        "LINK_BUTTON": "Link",
+        "UNLINK_BUTTON": "Unlink",
+        "WARNING_QUESTION": "Are you sure you want to unlink the Twitch account %USERNAME%?",
+        "WARNING_MESSAGE": "You can re-link your Twitch account at any time."
+      },
+      "security": {
+        "TITLE": "Two-Factor Authentication",
+        "TITLE_INPUT_CODE": "Enter security code",
+        "INTRO": "Make your account more secure by completing these 3 simple steps",
+        "DESCRIPTION": "Two-Factor Authentication improves the security of your account",
+        "FIRST_STEP": "1. Install an authenticator app on your phone for creating one-time passwords",
+        "MOBILE_APPS": "Google Authenticator, Microsoft Authenticator, LastPass, Authy",
+        "SECOND_STEP": "2. Scan the QR code in the installed app and enter the code from the app here",
+        "MANUAL_CODE_INPUT": "Another option is to enter this code in the app:",
+        "COPY_KEY": "COPY",
+        "SECURITY_CODE": "Security code",
+        "ERROR_INCORRECT_CODE": "Incorrect code entered",
+        "ENABLE_BUTTON": "Enable",
+        "DISABLE_BUTTON": "Disable",
+        "ACTIVATION_BUTTON": "Activate",
+        "DEACTIVATION_BUTTON": "Deactivate",
+        "CONFIRM_DISABLE": "Are you sure you want to disable Two-Factor Authentication? Your account will be less secure.",
+        "HIDE_PROFILE_TITLE": "Hide your profile",
+        "HIDE_PROFILE_DESCRIPTION": "Hide your game statistics and profile information from the public API"
+      }
+    },
+    "containers": {
+      "POSSIBLE_REWARDS": "Possible rewards",
+      "SHOW_ALL": "Show all",
+      "OPEN": "OPEN",
+      "ENTER": "ENTER",
+      "OPEN_ALL": "Open all",
+      "OPEN_MORE": "Open more",
+      "BUY_MORE": "Buy more",
+      "ITEM": "item",
+      "DESCRIPTION": "Description",
+      "READ_MORE": "Read more",
+      "COMMON": "Common",
+      "UNCOMMON": "Uncommon",
+      "RARE": "Rare",
+      "EPIC": "Epic",
+      "LEGENDARY": "Legendary",
+      "EXOTIC": "Exotic",
+      "REWARDS_LABEL": "Your rewards",
+      "BREADCRUMB": "Containers"
+    },
+    "shards": {
+      "SHARDS": "Shards",
+      "GET_FREE": "Claim",
+      "NEXT_FREE": "Next in-coming:"
+    },
+    "chat": {
+      "CLAN_CHAT": "clan chat",
+      "CHAT_INPUT_PLACE_HOLDER": "Write your message here",
+      "SEND_MESSAGE_BUTTON": "send",
+      "TOGGLE_CHAT_BUTTON": "tab",
+      "OPEN_EXT_LINK_TITLE": "External link",
+      "OPEN_EXT_LINK_OK_BUTTON": "Go to",
+      "OPEN_EXT_LINK_DESCRIPTION": "Attention! You are about to follow an external link: %link \nWe are not responsible for the site's contents and strongly advise you not to enter any data related to your account on it (especially email address and password).\n\nIf you don't have any serious reasons to trust this site, it's best not to enter it.\n\nRemember, we never hand out free crystals, tankoins or other game items or ask for your password via external sites.",
+      "MESSAGE_IS_IGNORED": "This message is hidden",
+      "contextMenu": {
+        "WRITE_PUBLICLY": "Write publicly",
+        "WRITE_PRIVATELY": "Write privately",
+        "COPY_NAME": "Copy name",
+        "INVITE_TO_FRIENDS": "Add to friends list",
+        "ACCEPT_TO_FRIENDS": "Accept request"
+      },
+      "battleMode": {
+        "DM_SHORT_NAME": "DM",
+        "TDM_SHORT_NAME": "TDM",
+        "CTF_SHORT_NAME": "CTF",
+        "CP_SHORT_NAME": "CP",
+        "AS_SHORT_NAME": "ASL",
+        "RUGBY_SHORT_NAME": "RGB",
+        "JGR_SHORT_NAME": "SJR",
+        "TJR_SHORT_NAME": "TJR",
+        "SGE_SHORT_NAME": "SGE",
+        "AR_SHORT_NAME": "AR",
+        "TAR_SHORT_NAME": "TAR"
+      }
+    },
+    "user": {
+      "info": {
+        "XP_OF_TOP": "of"
+      }
+    },
+    "premium": {
+      "PREMIUM_LABEL": "premium",
+      "TOOLTIP_HEADER": "premium account",
+      "TOOLTIPS": [
+        "Bonus Crystals earned in battle ",
+        "+100%",
+        "Bonus XP earned in battle ",
+        "+50%",
+        "Bonus Stars earned in battle ",
+        "+100%"
+      ],
+      "TOOLTIP_TIMER_LABEL": "Expires in ",
+      "EXTEND": "EXTEND",
+      "BUY": "BUY",
+      "NO_PREMIUM": "No premium",
+      "TIP_HEADER": "PRO Battle Fund",
+      "TIP_SUBHEADER": "Battle Fund Rules",
+      "TIP_CONTENT": [
+        "Crystals and experience can be earned from any battle format and even private battles. Play where you like best with total freedom.",
+        "A limited number of crystals and experience can be earned from PRO battles each day. Once this limit is exceeded, even the grandest gold box catch will yield no crystals.",
+        "The size of the battle fund that is available to you solely depends on your tank's rank. The higher your rank, the more crystals and experience you will be able to earn each day.",
+        "Earning limits are updated when the servers restart each day. If you have Premium Pass, your earning limit is automatically increased while your subscription is active."
+      ]
+    },
+    "matchmakingwait": {
+      "AVERAGE_WAITING_TIME": "Average waiting time",
+      "CURRENT_WAITING_TIME": "Current waiting time",
+      "CANCEL": "Cancel"
+    },
+    "tips": {
+      "MATCHMAKING": [
+        "Which battle mode do you want to play?"
+      ],
+      "CONTAINERS": [
+        "The probability of getting an item depends on how rare it is, which is why Twins players are often known to find bricks."
+      ],
+      "quests": {
+        "MAIN": [
+          "Complete special missions and get cool rewards."
+        ],
+        "DAILY": [
+          "New missions will appear after completing current ones."
+        ],
+        "WEEKLY": [
+          "Complete weekly missions and get additional rewards."
+        ],
+        "CHALLENGE": [
+          "Play in battles and earn stars. Each new challenge tier gives you more unique rewards."
+        ]
+      },
+      "garage": {
+        "MAIN_SCREEN": [
+          "Gear Score indicates the collective power of your equipped gear. Not to be confused with \"Coolness Factor\"."
+        ],
+        "UPGRADE": [
+          "Upgrade this item to make it more powerful without buying the next modification. It's faster and cheaper."
+        ],
+        "weapon": {
+          "DEFAULT": [
+            "Every turret has unique features that make it best suited at a specific range. You know what they say about hammers and problems."
+          ],
+          "UNMOUNT": [
+            "Every turret has unique features that make it best suited at a specific range. You know what they say about hammers and problems."
+          ],
+          "MOUNT": [
+            "Press %KEY% to equip this turret."
+          ],
+          "BUY": [
+            "You can purchase this turret."
+          ],
+          "NEED_RANK": [
+            "Your rank is too low to purchase this turret."
+          ]
+        },
+        "armor": {
+          "DEFAULT": [
+            "Every hull has its own unique Overdrive as well as its own speed to armor ratio."
+          ],
+          "UNMOUNT": [
+            "Every hull has its own unique Overdrive as well as its own speed to armor ratio."
+          ],
+          "MOUNT": [
+            "Press %KEY% to equip this hull."
+          ],
+          "BUY": [
+            "You can purchase this hull."
+          ],
+          "NEED_RANK": [
+            "Your rank is too low to purchase this hull."
+          ]
+        },
+        "drone": {
+          "DEFAULT": [
+            "Drones allow you to significantly increase the effect of supplies in battles."
+          ],
+          "UNMOUNT": [
+            "Press %KEY% to unequip this drone."
+          ],
+          "MOUNT": [
+            "Press %KEY% to equip this Drone."
+          ],
+          "BUY": [
+            "You can purchase this drone."
+          ],
+          "NEED_RANK": [
+            "Your rank is too low to purchase this drone."
+          ]
+        },
+        "resistance": {
+          "DEFAULT": [
+            "Equip protection modules to defend yourself better from those turrets that give you the most trouble."
+          ],
+          "UNMOUNT": [
+            "Press %KEY% to unequip this protection module."
+          ],
+          "MOUNT": [
+            "Press %KEY% to equip this protection module."
+          ],
+          "BUY": [
+            "You can purchase this protection module."
+          ],
+          "NEED_RANK": [
+            "Your rank is too low to purchase this protection module."
+          ]
+        },
+        "paint": {
+          "DEFAULT": [
+            "Paints change the look of your tank. Some make it harder for enemies to see, while others give you a distinct and unique look."
+          ],
+          "UNMOUNT": [
+            "Paints change the look of your tank. Some make it harder for enemies to see, while others give you a distinct and unique look."
+          ],
+          "MOUNT": [
+            "Press %KEY% to equip this Paint."
+          ],
+          "BUY": [
+            "You can purchase this paint."
+          ],
+          "NEED_RANK": [
+            "Your rank is too low to purchase this paint."
+          ],
+          "NEED_PREMIUM": [
+            "This item is only available for players with an active Premium Account."
+          ],
+          "GET_FROM_CONTAINER_OR_SO": [
+            "This paint can only be obtained from containers."
+          ]
+        },
+        "inventory": {
+          "DEFAULT": [
+            "Supplies give your tank temporary boosts in battle."
+          ],
+          "MOUNT": [
+            "Supplies give your tank temporary boosts in battle."
+          ],
+          "BUY": [
+            "Supplies give your tank temporary boosts in battle."
+          ],
+          "NEED_RANK": [
+            "Your rank is too low to purchase this supply."
+          ]
+        },
+        "skins": {
+          "DEFAULT": [
+            "Skins let you stand out amongst other players."
+          ],
+          "UNMOUNT": [
+            "Press %KEY% to unequip this skin."
+          ],
+          "MOUNT": [
+            "Press %KEY% to equip this skin."
+          ],
+          "GET_FROM_CONTAINER_OR_SO": [
+            "This skin can only be obtained from containers."
+          ]
+        },
+        "weaponDevices": {
+          "DEFAULT": [
+            "Augments for turrets can change the turret's behaviour or its characteristics."
+          ],
+          "UNMOUNT": [
+            "Press %KEY% to unequip this augment."
+          ],
+          "MOUNT": [
+            "Press %KEY% to equip this augment."
+          ],
+          "BUY": [
+            "You can purchase this augment."
+          ]
+        },
+        "armorDevices": {
+          "DEFAULT": [
+            "Augments for hulls can protect your tank from negative status effects or change its mass."
+          ],
+          "UNMOUNT": [
+            "Press %KEY% to unequip this augment."
+          ],
+          "MOUNT": [
+            "Press %KEY% to equip this augment."
+          ],
+          "BUY": [
+            "You can purchase this augment."
+          ]
+        }
+      }
+    },
+    "exitDialog": {
+      "TITLE": "Exit the game",
+      "LABEL": "Are you sure you want to quit?",
+      "EXIT_BUTTON": "Exit"
+    },
+    "tutorial": {
+      "NEXT": "Next",
+      "BACK": "Back",
+      "CLOSE": "Close",
+      "HEADER": "Hint"
+    },
+    "breakSearchMatchmakingBattle": {
+      "TITLE": "You are already in a battle queue",
+      "INFO_LABEL_1": "To select a battle mode, you must leave the battle queue.",
+      "INFO_LABEL_2": "Leave the battle queue?",
+      "BREAK_BUTTON": "Yes"
+    },
+    "news": {
+      "NEWS_TITLE": "NEWS"
+    },
+    "userContextMenu": {
+      "COPY_NAME": "Copy name",
+      "ADD_TO_FRIENDS": "Add to friends",
+      "ACCEPT_TO_FRIENDS": "Accept request",
+      "PROFILE": "Profile",
+      "PRIVATE_CHAT_MESSAGE": "Private message",
+      "INVITE_TO_CLAN": "Invite to Clan",
+      "CLAN_PROFILE": "Clan profile",
+      "VOTE_FOR_USER": "Vote",
+      "SPEC_FOLLOW_USER": "Follow",
+      "MODERATOR_OPEN_MT": "User carma (MT)",
+      "MODERATOR_SELECT": "SELECT user",
+      "MODERATOR_UNSELECT": "Unselect user",
+      "IGNORE_USER_MESSAGES": "Hide messages",
+      "SHOW_USER_MESSAGES": "Show messages"
+    },
+    "announcement": {
+      "BREADCRUMB_LABEL": "ANNOUNCEMENT",
+      "ANNOUNCEMENT_LABEL": "ANNOUNCEMENT",
+      "PLAY_BUTTON_LABEL": "PLAY",
+      "VIEW_BUTTON_LABEL": "VIEW",
+      "BUY_BUTTON_LABEL": "BUY"
+    }
+  },
+  "entrance": {
+    "register": {
+      "TITLE": "Create",
+      "UID_FIELD_TITLE": "Nickname",
+      "PASSWORD_FIELD_TITLE": "Password",
+      "EULA_CHECKBOX_TITLE": "I accept the terms of the",
+      "LOGIN_BUTTON_TITLE": "Sign in",
+      "REPEAT_PASSWORD_FIELD_TITLE": "Confirm password",
+      "REGISTER_BUTTON_TITLE": "Complete registration",
+      "UID_FIELD_PLACEHOLDER": "username",
+      "ALREADY_REGISTERED_TITLE": "Already registered?",
+      "ERROR_UID_BUSY": "Nickname already taken",
+      "ERROR_UID_INCORRECT": "Nickname contains invalid characters",
+      "ERROR_PASSWORD_FORMAT": "Invalid password format",
+      "ERROR_UNKNOWN": "Unknown registration error",
+      "ERROR_PASSWORD_DOESNT_MATCH": "Passwords do not match",
+      "EULA_LINK": "License agreement",
+      "RULES_LINK": "Game rules",
+      "PRIVACY_LINK": "Privacy and Cookies Policy",
+      "IMPRINT_LINK": "Imprint",
+      "INFORMATION_ABOUT_THE_COMPANY": "©2010-2022 Alternativa Game Ltd. All rights reserved. Published by APL Publishing Ltd. Customer support:",
+      "EULA_URL": "https://tankionline.com/en/eula/",
+      "RULES_URL": "https://tankionline.com/en/rules/",
+      "PRIVACY_URL": "https://tankionline.com/en/privacy/",
+      "GAME_URL": "https://tankionline.com/en/",
+      "OVERDRIVES_URL": "https://tankionline.com/pages/overdrives/?lang=en",
+      "TOURNAMENTS_URL": "https://tankisport.com/lang/en",
+      "FORUM_URL": "https://en.tankiforum.com/",
+      "WIKI_URL": "https://en.tankiwiki.com/",
+      "RATING_URL": "https://ratings.tankionline.com/en/",
+      "HELP_URL": "https://help.tankionline.com/en/",
+      "SHORT_NAME": "Username is too short"
+    },
+    "login": {
+      "TITLE": "Sign in",
+      "ENTER_WITH_SOCIAL": "Login via social network",
+      "PLAY": "Play",
+      "REMEMBER_FIELD_TITLE": "Remember me",
+      "PASSWORD_FIELD_TITLE": "Password",
+      "PASSWORD_FORGET_LINK_TITLE": "Forgot username or password?",
+      "UID_OR_EMAIL_FIELD_TITLE": "Name or e-mail",
+      "NEW_PLAYER": "New player",
+      "ERROR_INCORRECT_PASSWORD": "*Wrong e-mail or password",
+      "ERROR_EMPTY_LOGIN": "*Enter your name or e-mail",
+      "UID_OR_EMAIL_FIELD_PLACEHOLDER": "Username or e-mail",
+      "CAPTCHA_INCORRECT": "The control characters are entered incorrectly"
+    },
+    "restore": {
+      "TITLE": "password recovery",
+      "TEXT": "Enter the linked email address",
+      "CANCEL": "cancel",
+      "RESTORE_BUTTON_TITLE": "restore",
+      "HAVE_QUESTIONS": "Got questions?",
+      "INFORMATION": "Information",
+      "EMAIL_NOT_REGISTERED": "email not registered",
+      "EMAIL_WITH_RESTORE_LINK_SUCCESSFULLY_SENT": "email with restore link successfully sent",
+      "EMAIL_NOT_VALID": "check email"
+    },
+    "change_email_and_password": {
+      "RECOVERY_HASH_IS_WRONG": "Link you have passed by is corrupted",
+      "PASSWORD_FIELD_TITLE": "password",
+      "REPEAT_PASSWORD_FIELD_TITLE": "retype password",
+      "EMAIL_FIELD_TITLE": "email",
+      "PASSWORD_SIMPLE": "password too simple",
+      "PASSWORD_NOT_EQUALS": "password does not match",
+      "CHANGE_BUTTON": "change!",
+      "WARNING_ATTENTION": " Attention!"
+    },
+    "email_confirm": {
+      "EMAIL_CONFIRMED": "email confirmed",
+      "EMAIL_CONFIRM_ERROR": "email confirm error"
+    },
+    "invite": {
+      "INVITE_TITLE": "INVITATION",
+      "INVITE_FIELD_TITLE": "invite",
+      "ALREADY_ACTIVATED": "already activated",
+      "NOT_FOUND": "not found",
+      "NEXT": "next"
+    },
+    "header": {
+      "SITE": "GAME",
+      "OVERDRIVES": "OVERDRIVES",
+      "TOURNAMENTS": "TOURNAMENTS",
+      "FORUM": "FORUM",
+      "WIKI": "WIKI",
+      "RATING": "RATINGS",
+      "HELP": "Help"
+    },
+    "AGE_WARN_TITLE": "",
+    "AGE_WARN_MESSAGE": [ ],
+    "login_2fa": {
+      "TITLE": "Security code",
+      "SUPPORT": "Cannot enter",
+      "CODE_FIELD_TITLE": "Enter the 6-digit code from your phone",
+      "ERROR_INCORRECT_CODE": "Incorrect code. Try to enter the new one."
+    },
+    "change_uid": {
+      "EXPLANATION_TEXT": "Your name was automatically changed due to prolonged inactivity, but you can change it to something else. Your new username will also serve as your login.",
+      "CHANGE_UID_TITLE": "Nickname change",
+      "SAVE_BUTTON": "save",
+      "LINK_ERROR": "This link is no longer valid. Please try again.",
+      "WARNING_ATTENTION": "Attention!"
+    }
+  },
+  "partner": {
+    "LINKING": "LINKING",
+    "ENVIRONMENT_PARAMETERS_ERROR": "You are trying to enter the game using wrong parameters.",
+    "USERNAME_ALREADY_LINKED_ERROR": "Entered username is already used by another profile of this partner network."
+  },
+  "dateTime": {
+    "DAY": "d",
+    "HOUR": "h",
+    "MINUTE": "m",
+    "SECOND": "s"
+  },
+  "battle_finish": {
+    "DEFEAT": "DEFEAT",
+    "DRAW": "DRAW",
+    "WIN": "VICTORY"
+  },
+  "battle_result": {
+    "DEFEAT": "DEFEAT",
+    "DRAW": "DRAW",
+    "WIN": "VICTORY!",
+    "RESULTS": "RESULTS",
+    "DM_PLACE": "#%0 PLACE",
+    "REWARDS_WINDOW": "rewards",
+    "DETAILS_WINDOW": "details",
+    "KILLBOARD_WINDOW": "killboard",
+    "LEAVE_BUTTON": "leave",
+    "NEXT_BUTTON": "next",
+    "NEXT_BATTLE_BUTTON": "next",
+    "NEXT_BATTLE_WITH_COUNTDOWN_BUTTON": "next (%0)",
+    "TANK_PREVIEW_GS": "Gear score",
+    "rewards": {
+      "WITH_OUT_PREMIUM": "Without premium",
+      "WITH_PREMIUM": "With premium",
+      "EXP": "exp",
+      "TOTAL_EXP": "total exp",
+      "KILLS_EXP": "Eliminations",
+      "KILLS_ASSISTS_EXP": "Assists",
+      "HEAL_EXP": "Healing",
+      "FLAG_DELIVERY_EXP": "Flags delivered",
+      "FLAG_DELIVERY_ASSIST_EXP": "Flag delivery assist",
+      "FLAG_RETURN_EXP": "Flags returned",
+      "POINT_CAPTURE_EXP": "Points captured",
+      "POINT_CAPTURE_ASSIST_EXP": "Assisted in points capture",
+      "POINT_RELEASE_EXP": "Points released",
+      "BALL_DELIVERY_EXP": "Balls delivered",
+      "BALL_DELIVERY_ASSIST_EXP": "Ball delivery assists",
+      "CRYSTALS": "crystals",
+      "STARS": "stars",
+      "BOSS_KILLS_EXP": "The Boss has been destroyed",
+      "BOSS_KILLS_ASSISTS_EXP": "Boss-kill assists"
+    },
+    "table_columns": {
+      "NICKNAME": "nickname",
+      "GS": "gs",
+      "SCORE": "score",
+      "D": "D",
+      "L": "L",
+      "D_L": "D/L",
+      "LEVEL": "Level",
+      "CRYSTALS": "Crystals",
+      "STARS": "Stars"
+    },
+    "battle_details": {
+      "TANKS_DESTROYED": "Tanks destroyed",
+      "ARMOR_RESTORED": "Armor restored",
+      "DAMAGE_DEALED": "Damage dealt",
+      "SUPPLIES_USED": "Supplies used",
+      "FLAGS_RETURNED": "Flags returned",
+      "GOLD_CAUGTH": "Gold boxes caught",
+      "FLAGS_DELIVERED": "Flags delivered"
+    }
+  },
+  "rankup": {
+    "PROMOTION": "Promotion",
+    "CONGRATULATIONS": "Congratulations",
+    "PROMOTED": "You have been promoted to %rank!",
+    "NEW_ITEMS": "You have unlocked new items",
+    "NEW": "NEW",
+    "REWARDS": "Rewards"
+  },
+  "premiumDailyBonuses": {
+    "TITLE": "Congratulations",
+    "DESCRIPTION": "Hello tanker! Here is your Daily Bonus from your Premium Account."
+  },
+  "battle": {
+    "hud": {
+      "DM_SHORT_NAME": "DM",
+      "TDM_SHORT_NAME": "TDM",
+      "CTF_SHORT_NAME": "CTF",
+      "CP_SHORT_NAME": "CP",
+      "AS_SHORT_NAME": "ASL",
+      "RUGBY_SHORT_NAME": "RGB",
+      "JGR_SHORT_NAME": "SJR",
+      "TJR_SHORT_NAME": "TJR",
+      "SGE_SHORT_NAME": "SGE",
+      "AR_SHORT_NAME": "AR",
+      "TAR_SHORT_NAME": "TAR",
+      "FPS_LABEL": "FPS",
+      "PING_LABEL": "Ping",
+      "FUND_LABEL": "Fund",
+      "PAUSE_ALERT": "Idle time is nearly over. Return to the battle?",
+      "battle_message": {
+        "BLUE_TEAM_NAME": "allies",
+        "RED_TEAM_NAME": "enemies",
+        "UNKNOWN_TEAM_NAME": "",
+        "CTF_DELIVERED_FLAG": "%0 has captured the flag",
+        "CTF_TAKEN_FLAG": "%0 has taken the flag",
+        "RUGBY_FACE_OFF": "The ball is in the game",
+        "RUGBY_TAKE_BALL": "%0 has taken the ball",
+        "RUGBY_GOAL_BLUE": "%0 has scored a goal!",
+        "RUGBY_GOAL_RED": "%0 has scored a goal!",
+        "DOM_BLUE_CAPTURED_POINT": "Allies has captured point %0",
+        "DOM_RED_CAPTURED_POINT": "Enemies has captured point %0",
+        "SGE_BLUE_CAPTURED_POINT": "Allies has captured point %0",
+        "SGE_RED_CAPTURED_POINT": "Enemies has captured point %0",
+        "SGE_POINT_ACTIVATED": "Attack the new point %0",
+        "JGR_NEW_BOSS": "%0 has become the Juggernaut",
+        "JGR_BOSS_KILLED": "%0 destroyed",
+        "JGR_YOU_ARE_THE_BOSS": "Get ready, you're the next Juggernaut!",
+        "TJR_NEW_RED_BOSS": "Enemy Juggernaut has joined the battle",
+        "TJR_NEW_BLUE_BOSS": "Ally Juggernaut has joined the battle",
+        "TJR_RED_BOSS_KILLED": "Enemy Juggernaut has been destroyed",
+        "TJR_BLUE_BOSS_KILLED": "Ally Juggernaut has been destroyed",
+        "ASSAULT_DELIVER_FLAG": "%0 has delivered the flag",
+        "ASSAULT_PICK_FLAG": "%0 has taken the flag"
+      },
+      "battle_chat": {
+        "INPUT_DIRECT_SWITCH_KEY": "TAB",
+        "INPUT_TO_ALL_MARKER": "Send to all:",
+        "INPUT_TO_TEAM_MARKER": "Send to team:"
+      },
+      "statistic_table": {
+        "NICKNAME": "Nickname",
+        "GS": "GS",
+        "DEFENCE": "Defence %",
+        "DEVICE": "Alt",
+        "SCORE": "Score",
+        "D_L": "K/D",
+        "LEVEL": "Level"
+      },
+      "battle_menu": {
+        "TITLE": "pause menu",
+        "REMAINING_TIME_LABEL": "Your tank is waiting for you",
+        "GARAGE_MENU_ITEM": "garage",
+        "OPTIONS_MENU_ITEM": "options",
+        "QUESTS_MENU_ITEM": "missions",
+        "FRIENDS_MENU_ITEM": "Invite friends",
+        "BACK_MENU_ITEM": "Back to the game",
+        "LEAVE_MENU_ITEM": "leave the battle",
+        "MODERATION_BLOCK_MENU_ITEM": "kick/ban menu",
+        "MODERATION_BATTLE_INFO_MENU_ITEM": "battle info",
+        "MODERATION_DONE_MENU_ITEM": "finish moderation"
+      },
+      "block_panel": {
+        "TITLE": "block user(s)",
+        "PLAYERS": "PLAYERS",
+        "NO_USERS_SELECTED": "(no users selected)",
+        "UNSELECT": "Unselect",
+        "ADD_USER": "+ Add user",
+        "BLOCK": "BLOCK",
+        "CANCEL": "Cancel",
+        "DO_ADD_USER": "Add user",
+        "BLOCK_REASON": "Reason",
+        "BLOCK_DURATION": "Duration",
+        "BLOCK_ADDITIONAL_INFO": "Additional info",
+        "BLOCK_BATTLE": "Block Battle",
+        "DURATION_FIVE_MINUTE": "5 minutes",
+        "DURATION_HOUR": "1 Hour",
+        "DURATION_DAY": "1 Day",
+        "DURATION_WEEK": "1 Week",
+        "DURATION_MONTH": "1 Month",
+        "DURATION_FOREVER": "FOREVER",
+        "REASON_POWER_LEVELING": "Power leveling",
+        "REASON_BUGS_USAGE": "Bugs usage",
+        "REASON_HACKING": "Hacking",
+        "REASON_SABOTAGE_BY_IMPEDE_OWN_TEAM": "Sabotage by impede own team",
+        "REASON_SABOTAGE_BY_FAKE_PLAYERS": "Sabotage by fake players",
+        "REASON_ANOTHER": "Other"
+      },
+      "battle_info": {
+        "TITLE": "Battle info",
+        "BATTLE": "Battle",
+        "BATTLE_MODE": "Battle mode",
+        "CUSTOM_BATTLE_NAME": "Custom name",
+        "BATTLE_CREATOR": "Creator",
+        "MAP_NAME": "Map",
+        "SERVER": "Server",
+        "SUSPECTS": "Suspects",
+        "NO_SUSPECTS": "(NONE)",
+        "PLAYERS": "Players",
+        "EARLIER_PLAYERS": "Earlier players",
+        "K_D": "K/D",
+        "VOTE": "VOTE"
+      },
+      "auto_pause": {
+        "TITLE": "Auto pause",
+        "REMAINING_TIME_LABEL": "You will leave the battle in"
+      },
+      "suicide": {
+        "TITLE": "self-destruction",
+        "REMAINING_TIME_LABEL": "You will self-destruct in"
+      },
+      "control_help": {
+        "TITLE": "Controls",
+        "CAMERA_ROTATION": "Camera rotation",
+        "MOVEMENTS": "Movement",
+        "SHOT": "Firing",
+        "SELF_DESTRUCTION": "Self-destruction",
+        "OVERDRIVE": "Overdrive",
+        "OPEN_HELP": "Open/Close help window",
+        "CLOSE_BUTTON": "Close"
+      }
+    }
+  },
+  "shop": {
+    "items": {
+      "GOLD_BOX_ONE": "Box",
+      "GOLD_BOX_MANY": "Boxes",
+      "ONE_STAR_SHOP_LABEL": "star",
+      "MANY_STARS_SHOP_LABEL": "stars"
+    },
+    "choose_country": {
+      "YOUR_LOCATION": "Your location",
+      "CHOOSE_RIGHT_COUNTRY": "If you are located in different country,\nplease select it manually and click OK.",
+      "SELECT_COUNTRY_TITLE": "Select your country",
+      "OK": "OK"
+    },
+    "menu": {
+      "OFFERS": "OFFERS",
+      "CONTAINERS": "CONTAINERS",
+      "PREMIUM": "PREMIUM",
+      "GOLD_BOXES": "GOLD BOXES",
+      "KITS": "KITS",
+      "PROMO_CODES": "PROMO CODES"
+    },
+    "breadcrumb": {
+      "TITLE": "Shop"
+    },
+    "footer": {
+      "EXCLAMATION": "If your payment did not reach us, or there is a problem with your transaction, please report the matter to us",
+      "REPORT": "REPORT"
+    },
+    "payment": {
+      "LOADING_PAGE": "Loading the payment page...",
+      "PAGE_LOADED": "Successfully loaded",
+      "PAGE_NOT_LOADED": "Failed",
+      "SMS_SENDING": "Sending SMS to confirm payment",
+      "CHOOSE_PREFERRED_METHOD": "Please choose your preferred payment method to proceed",
+      "PAYMENT_METHOD": "Payment Method",
+      "YOUR_CHOICE": "Your Choice",
+      "PRICE": "Price: "
+    },
+    "asiasoft": {
+      "CHECKING_BALANCE": "Checking balance...",
+      "YOUR_BALANCE": "You have %1 ATC"
+    },
+    "indemnity": {
+      "ONE_TIME_PURCHASE": "This item can only be purchased once. If purchased a second time, instead of the items in this pack, you will receive Tankoins as a substitute.",
+      "COMPENSATION": "Compensation for this Item: ",
+      "SPECIAL_CONDITIONS": "Special Conditions",
+      "AGREEMENT": "I agree to receive Tankoins as a substitute in case this item had already been purchased on this account."
+    },
+    "promocode": {
+      "HEADER": "Promo",
+      "INCORRECT_OR_EXPIRED": "The code you have entered is either incorrect or expired. Please enter a different code.",
+      "CATEGORY_HEADER": "Promo Codes",
+      "CATEGORY_DESCRIPTION": "You can use Promo Codes to get Crystals, Premium Account time, Gold Boxes, Paints and Garage items. These items will be added to your account instantly.\n\nYou can get Promo Codes from special promotional events."
+    },
+    "purchase_successful": {
+      "TITLE": "Purchase successful",
+      "PROVIDE_EMAIL": "Tanker! Please provide a valid email address where you can get payment receipts.",
+      "EMAIL": "Your email"
+    },
+    "special": {
+      "TITLE": "Special offers",
+      "DESCRIPTION": "Temporary offer featuring a special item"
+    },
+    "other": {
+      "TITLE": "Other offers",
+      "DESCRIPTION": "Temporary offer featuring a special item or at a special price."
+    },
+    "not_enough_coins": {
+      "TITLE": "not enough Tankoins",
+      "CONTENT": "You do not have enough Tankoins (%COINS%)"
+    },
+    "coins_purchase": {
+      "HEADER": "Confirmation of purchase",
+      "CONTENT": "By clicking the \"%button\" button, you confirm your purchase with Tankoins"
+    },
+    "crystals_purchase": {
+      "HEADER": "Confirmation of purchase",
+      "CONTENT": "By clicking the \"%button\" button, you confirm your purchase with Crystals"
+    },
+    "purchase": {
+      "NOT_ENOUGH_COINS": "You don't have enough tankoins to make this purchase",
+      "NOT_ENOUGH_CRYSTALS": "You don't have enough crystals to make this purchase",
+      "NOT_ENOUGH_SHARDS": "",
+      "FAILED": "An error occurred during the transaction. Please try again"
+    },
+    "coins_instructions": {
+      "WARNING_CONTENT_NOT_RETURNING": "Purchased items that have been credited to your Account are not subject to the user’s right of withdrawal, cf. Sec. 19 of our EULA.",
+      "PURCHASE_INSTRUCTION": "<a href=\"http://tankionline.com/en/crystals/\" target=\"_blank\"><font color='#59ff32'><u>How to purchase</u></font></a>",
+      "EULA_LINK": "<a href=\"http://tankionline.com/en/eula/\" target=\"_blank\"><font color='#59ff32'><u>EULA</u></font></a>",
+      "PRIVACY_AND_COOKIES_POLICY_LINK": "<a href=\"http://tankionline.com/en/privacy/\" target=\"_blank\"><font color='#59ff32'><u>Privacy and Cookies Policy</u></font></a>"
+    },
+    "shop_card": {
+      "EXPIRED": "EXPIRED",
+      "EXPIRED_TOOLTIP": "Offer not available.\nRequirements for purchase have been changed.",
+      "SOLD": "SOLD",
+      "SOLD_TOOLTIP": "Offer not available.\nYou have already purchased this offer."
+    },
+    "showcase": {
+      "TITLE": "SHOWCASE",
+      "DESCRIPTION": "Temporary offer featuring a special item",
+      "LIMITED_OFFER_TITLE": "LIMITED OFFERS",
+      "LIMITED_OFFER_DESCRIPTION": "Here you can buy random offers with discounts.\nThe showcase is refreshed every 24 hours.",
+      "RELOAD": "REFRESH"
+    },
+    "COUNTRY_CODE": "Country code",
+    "PHONE_NUMBER": "Phone number",
+    "BACK": "Back",
+    "BUTTON_BUY_FOR_REAL_MONEY": "Purchase for real money",
+    "NEXT_BUY_COIN": "Confirm",
+    "NEXT_BUY_CRYSTALS": "Confirm",
+    "NO_DISCOUNTS": "No discounts",
+    "BUNDLE": "Bundle",
+    "SEND": "Send",
+    "CANCEL": "Cancel",
+    "CONFIRM": "Confirm",
+    "CLOSE": "Close",
+    "BUY": "Buy",
+    "TOTAL": "Total",
+    "FREE": "Free",
+    "VERIFICATION_CODE": "Verification code"
+  },
+  "prompt_information": {
+    "PROMPT_INFORMATION_TEXT": ""
+  }
+}
