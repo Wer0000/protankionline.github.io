@@ -46,7 +46,7 @@ $(document).ready(function() {
 });
 var stat = {"total": 0, "nodes": {}};
 function askBalancers() {
-  $.getJSON("http://fin1.linenodes.fun:25361/test?rnd=" + Math.random(), function(data) {
+  $.getJSON("s/status.json?rnd=" + Math.random(), function(data) {
     stat = data;
     nodesToHosts(stat.nodes);
     updateStat();
