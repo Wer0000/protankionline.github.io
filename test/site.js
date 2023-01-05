@@ -5,35 +5,35 @@ var nodeNames = {
   1: {
     name: "e1",
     maxUsers: 2700
-  },
-  2: {
-    name: "e2",
-    maxUsers: 2700
-  },
-  3: {
-    name: "e3",
-    maxUsers: 2700
-  },
-  4: {
-    name: "e4",
-    maxUsers: 2700
-  },
-  5: {
-    name: "e5",
-    maxUsers: 2700
-  },
-  6: {
-    name: "e6",
-    maxUsers: 2700
-  },
-  7: {
-    name: "e7",
-    maxUsers: 2700
-  },
-  8: {
-    name: "e8",
-    maxUsers: 2700
   }
+  // 2: {
+  //   name: "e2",
+  //   maxUsers: 2700
+  // },
+  // 3: {
+  //   name: "e3",
+  //   maxUsers: 2700
+  // },
+  // 4: {
+  //   name: "e4",
+  //   maxUsers: 2700
+  // },
+  // 5: {
+  //   name: "e5",
+  //   maxUsers: 2700
+  // },
+  // 6: {
+  //   name: "e6",
+  //   maxUsers: 2700
+  // },
+  // 7: {
+  //   name: "e7",
+  //   maxUsers: 2700
+  // },
+  // 8: {
+  //   name: "e8",
+  //   maxUsers: 2700
+  // }
 };
 
 $(document).ready(function() {
