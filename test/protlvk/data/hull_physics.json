@@ -1,5 +1,6 @@
 {
-	"data": [{
+	"data": [
+		{
 			"hull": "wasp",
 			"modification": 0,
 			"physics": {
@@ -12,7 +13,7 @@
 				"reverseTurnAcceleration": 5.0204396,
 				"damping": 900,
 				"mass": 1376
-			  }
+			}
 		},
 		{
 			"hull": "wasp",
@@ -27,7 +28,7 @@
 				"reverseTurnAcceleration": 5.477716,
 				"damping": 900,
 				"mass": 1638
-			  }
+			}
 		},
 		{
 			"hull": "wasp",
@@ -42,7 +43,7 @@
 				"reverseTurnAcceleration": 5.935167,
 				"damping": 900,
 				"mass": 1901
-			  }
+			}
 		},
 		{
 			"hull": "wasp",
@@ -57,7 +58,7 @@
 				"reverseTurnAcceleration": 6.4577184,
 				"damping": 900,
 				"mass": 2200
-			  }
+			}
 		},
 		{
 			"hull": "hornet",
@@ -72,7 +73,7 @@
 				"reverseTurnAcceleration": 4.216192,
 				"damping": 1250,
 				"mass": 1616
-			  }
+			}
 		},
 		{
 			"hull": "hornet",
@@ -87,7 +88,7 @@
 				"reverseTurnAcceleration": 4.720592,
 				"damping": 1250,
 				"mass": 1905
-			  }
+			}
 		},
 		{
 			"hull": "hornet",
@@ -102,7 +103,7 @@
 				"reverseTurnAcceleration": 5.2248173,
 				"damping": 1250,
 				"mass": 2194
-			  }
+			}
 		},
 		{
 			"hull": "hornet",
@@ -117,7 +118,67 @@
 				"reverseTurnAcceleration": 5.5850534,
 				"damping": 1250,
 				"mass": 2400
-			  }
+			}
+		},
+		{
+			"hull": "hornet_xt",
+			"modification": 0,
+			"physics": {
+				"speed": 10.0,
+				"turnSpeed": 1.584759,
+				"acceleration": 10.41,
+				"reverseAcceleration": 17.77,
+				"sideAcceleration": 9.39,
+				"turnAcceleration": 2.864609,
+				"reverseTurnAcceleration": 4.216192,
+				"damping": 1250,
+				"mass": 1616
+			}
+		},
+		{
+			"hull": "hornet_xt",
+			"modification": 1,
+			"physics": {
+				"speed": 10.7,
+				"turnSpeed": 1.8360863,
+				"acceleration": 11.73,
+				"reverseAcceleration": 19.7,
+				"sideAcceleration": 10.35,
+				"turnAcceleration": 2.9024825,
+				"reverseTurnAcceleration": 4.720592,
+				"damping": 1250,
+				"mass": 1905
+			}
+		},
+		{
+			"hull": "hornet_xt",
+			"modification": 2,
+			"physics": {
+				"speed": 11.5,
+				"turnSpeed": 2.089159,
+				"acceleration": 13.05,
+				"reverseAcceleration": 21.62,
+				"sideAcceleration": 11.31,
+				"turnAcceleration": 2.9401817,
+				"reverseTurnAcceleration": 5.2248173,
+				"damping": 1250,
+				"mass": 2194
+			}
+		},
+		{
+			"hull": "hornet_xt",
+			"modification": 3,
+			"physics": {
+				"speed": 12.0,
+				"turnSpeed": 2.268928,
+				"acceleration": 14.0,
+				"reverseAcceleration": 23.0,
+				"sideAcceleration": 12.0,
+				"turnAcceleration": 2.9670596,
+				"reverseTurnAcceleration": 5.5850534,
+				"damping": 1250,
+				"mass": 2400
+			}
 		},
 		{
 			"hull": "hunter",
@@ -132,7 +193,7 @@
 				"reverseTurnAcceleration": 3.6576867,
 				"damping": 1500,
 				"mass": 1761
-			  }
+			}
 		},
 		{
 			"hull": "hunter",
@@ -147,7 +208,7 @@
 				"reverseTurnAcceleration": 4.031885,
 				"damping": 1500,
 				"mass": 2047
-			  }    
+			}
 		},
 		{
 			"hull": "hunter",
@@ -162,7 +223,7 @@
 				"reverseTurnAcceleration": 4.405909,
 				"damping": 1500,
 				"mass": 2333
-			  }
+			}
 		},
 		{
 			"hull": "hunter",
@@ -177,7 +238,7 @@
 				"reverseTurnAcceleration": 4.886922,
 				"damping": 1500,
 				"mass": 2700
-			  }
+			}
 		},
 		{
 			"hull": "viking",
@@ -192,7 +253,7 @@
 				"reverseTurnAcceleration": 3.3674383,
 				"damping": 2000,
 				"mass": 2235
-			  }
+			}
 		},
 		{
 			"hull": "viking",
@@ -207,7 +268,7 @@
 				"reverseTurnAcceleration": 3.7056832,
 				"damping": 2000,
 				"mass": 2550
-			  }
+			}
 		},
 		{
 			"hull": "viking",
@@ -222,7 +283,7 @@
 				"reverseTurnAcceleration": 4.0439277,
 				"damping": 2000,
 				"mass": 2865
-			  }
+			}
 		},
 		{
 			"hull": "viking",
@@ -237,7 +298,7 @@
 				"reverseTurnAcceleration": 4.1887903,
 				"damping": 2000,
 				"mass": 3000
-			  }
+			}
 		},
 		{
 			"hull": "dictator",
@@ -252,7 +313,7 @@
 				"reverseTurnAcceleration": 3.8030725,
 				"damping": 2500,
 				"mass": 2410
-			  }
+			}
 		},
 		{
 			"hull": "dictator",
@@ -267,7 +328,7 @@
 				"reverseTurnAcceleration": 4.30468,
 				"damping": 2500,
 				"mass": 2722
-			  }
+			}
 		},
 		{
 			"hull": "dictator",
@@ -282,7 +343,7 @@
 				"reverseTurnAcceleration": 4.8061132,
 				"damping": 2500,
 				"mass": 3033
-			  }
+			}
 		},
 		{
 			"hull": "dictator",
@@ -297,7 +358,7 @@
 				"reverseTurnAcceleration": 5.2359877,
 				"damping": 2500,
 				"mass": 3300
-			  }
+			}
 		},
 		{
 			"hull": "titan",
@@ -312,7 +373,7 @@
 				"reverseTurnAcceleration": 3.1909854,
 				"damping": 2100,
 				"mass": 3571
-			  }
+			}
 		},
 		{
 			"hull": "titan",
@@ -327,7 +388,7 @@
 				"reverseTurnAcceleration": 3.5236452,
 				"damping": 2100,
 				"mass": 4047
-			  }
+			}
 		},
 		{
 			"hull": "titan",
@@ -342,7 +403,7 @@
 				"reverseTurnAcceleration": 3.8561306,
 				"damping": 2100,
 				"mass": 4524
-			  }
+			}
 		},
 		{
 			"hull": "titan",
@@ -357,7 +418,7 @@
 				"reverseTurnAcceleration": 4.1887903,
 				"damping": 2100,
 				"mass": 5000
-			  }
+			}
 		},
 		{
 			"hull": "mammoth",
@@ -372,7 +433,7 @@
 				"reverseTurnAcceleration": 2.9503045,
 				"damping": 2000,
 				"mass": 4262
-			  }
+			}
 		},
 		{
 			"hull": "mammoth",
@@ -387,7 +448,7 @@
 				"reverseTurnAcceleration": 3.1604424,
 				"damping": 2000,
 				"mass": 4743
-			  }
+			}
 		},
 		{
 			"hull": "mammoth",
@@ -402,7 +463,7 @@
 				"reverseTurnAcceleration": 3.3705797,
 				"damping": 2000,
 				"mass": 5225
-			  }
+			}
 		},
 		{
 			"hull": "mammoth",
@@ -417,7 +478,7 @@
 				"reverseTurnAcceleration": 3.4906585,
 				"damping": 2000,
 				"mass": 5500
-			  }
+			}
 		}
 	]
 }

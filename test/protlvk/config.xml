@@ -2,30 +2,33 @@
 <config>
 	<weaponsLighting url="data/weapons_lighting.json" />
 	<hullPhysics url="data/hull_physics.json" />
+	<holidayLibrary path="data/holiday_libraries" />
 	<smoky>
 		<animation frameSize="300" animationId="Смоки М0" />
 		<animation frameSize="300" animationId="Смоки М1" />
 		<animation frameSize="300" animationId="Смоки М2" />
 		<animation frameSize="300" animationId="Смоки М3" />
-		<animation frameSize="1000" animationId="Гром М0" />
-		<animation frameSize="1000" animationId="Гром М1" />
-		<animation frameSize="1000" animationId="Гром М2" />
-		<animation frameSize="1000" animationId="Гром М3" />
 		<animation frameSize="200" animationId="Шафт М0" />
 		<animation frameSize="200" animationId="Шафт М1" />
 		<animation frameSize="200" animationId="Шафт М2" />
 		<animation frameSize="200" animationId="Шафт М3" />
 	</smoky>
+	<thunder>
+		<animation frameSize="1000" animationId="Гром М0" />
+		<animation frameSize="1000" animationId="Гром М1" />
+		<animation frameSize="1000" animationId="Гром М2" />
+		<animation frameSize="1000" animationId="Гром М3" />
+	</thunder>
 	<isis>
 		<effect>
 			<id>isida0</id>
-			<idleSpark frameSize="150" animationId="heal" rm="1" gm="1" bm="1" am="1" />
-			<healStart frameSize="150" animationId="heal" rm="1" gm="1" bm="1" am="1"/>
-			<healEnd frameSize="150" animationId="heal" rm="1" gm="1" bm="1" am="1"/>
-			<healShaft frameSize="200" animationId="heal_shaft" rm="1" gm="1" bm="1" am="1"/>
-			<damageStart frameSize="150" animationId="damage" rm="1" gm="1" bm="1" am="1"/>
-			<damageEnd frameSize="150" animationId="damage" rm="1" gm="1" bm="1" am="1"/>
-			<damageShaft frameSize="200" animationId="damage_shaft" rm="1" gm="1" bm="1" am="1"/>
+			<idleSpark frameSize="150" animationId="heal" />
+			<healStart frameSize="150" animationId="heal" />
+			<healEnd frameSize="150" animationId="heal" />
+			<healShaft frameSize="200" animationId="heal_shaft" />
+			<damageStart frameSize="150" animationId="damage" />
+			<damageEnd frameSize="150" animationId="damage" />
+			<damageShaft frameSize="200" animationId="damage_shaft" />
 		</effect>
 	</isis>
 	<flamethrower>
@@ -68,10 +71,11 @@
 		<animation frameSize="200" animationId="Рикошет М3" />
 	</twinsShot>
 	<railgun>
-		<effect id="Рельса М0" beamLifeTime="2000" />
-		<effect id="Рельса М1" beamLifeTime="2000"  />
-		<effect id="Рельса М2" beamLifeTime="2000" />
-		<effect id="Рельса М3" beamLifeTime="2000"/>
+		<effect id="Рельса М0" />
+		<effect id="Рельса М1" />
+		<effect id="Рельса М2" />
+		<effect id="Рельса М3" />
+		<effect id="Рельса XT" />
 	</railgun>
 	<garage baseUrl="data/assets/garage">
 		<asset id="model" url="garage.3ds" />
@@ -81,6 +85,7 @@
 		<model id="flag_stand_red" url="ctf/flag_stand_red.3ds" />
 		<model id="flag_stand_blue" url="ctf/flag_stand_blue.3ds" />
 		<model id="gold_box" url="boxes/gold.3ds" />
+		<model id="box" url="boxes/box.3ds" />
 	</models>
 	<sounds baseUrl="data/assets/sounds">
 		<sound id="battle_ambience" url="battle_ambience.mp3" />
@@ -245,81 +250,181 @@
 		<texture id="blue_flag" alpha="ctf/flag_alpha.jpg" url="ctf/blue_flag.jpg" />
 		<texture id="red_flag" alpha="ctf/flag_alpha.jpg" url="ctf/red_flag.jpg" />
 		<texture id="active_spawn_marker" alpha="NO" url="markers/green_triangle.gif" />
-		<texture id="smoky_muzzle_flash" alpha="smoky/smoky_shot_alpha.jpg" url="smoky/smoky_shot.jpg" />
+		<texture id="smoky_muzzle_flash" alpha="smoky/smoky_shot_alpha.jpg"
+			url="smoky/smoky_shot.jpg" />
 		<texture id="damage_shaft" alpha="isida/damage_shaft_alpha.jpg" url="isida/damage_shaft.jpg" />
 		<texture id="damage" alpha="isida/damage_alpha.jpg" url="isida/damage.jpg" />
 		<texture id="heal_shaft" alpha="isida/heal_shaft_alpha.jpg" url="isida/heal_shaft.jpg" />
 		<texture id="heal" alpha="isida/heal_alpha.jpg" url="isida/heal.jpg" />
-		<texture id="Смоки М0" alpha="smoky/smoky_explosion0_alpha.jpg" url="smoky/smoky_explosion0.jpg" />
-		<texture id="Смоки М1" alpha="smoky/smoky_explosion1_alpha.jpg" url="smoky/smoky_explosion1.jpg" />
-		<texture id="Смоки М2" alpha="smoky/smoky_explosion2_alpha.jpg" url="smoky/smoky_explosion2.jpg" />
-		<texture id="Смоки М3" alpha="smoky/smoky_explosion3_alpha.jpg" url="smoky/smoky_explosion3.jpg" />
-		<texture id="flamethrower/Огнемёт" alpha="flamethrower/fireball_alpha.jpg" url="flamethrower/fireball.jpg" />
-		<texture id="Огнемёт М0_muzzle" alpha="flamethrower/m0/muzzle_alpha.jpg" url="flamethrower/m0/muzzle.jpg" />
-		<texture id="Огнемёт М1_muzzle" alpha="flamethrower/m1/muzzle_alpha.jpg" url="flamethrower/m1/muzzle.jpg" />
-		<texture id="Огнемёт М2_muzzle" alpha="flamethrower/m2/muzzle_alpha.jpg" url="flamethrower/m2/muzzle.jpg" />
-		<texture id="Огнемёт М3_muzzle" alpha="flamethrower/m3/muzzle_alpha.jpg" url="flamethrower/m3/muzzle.jpg" />
+		<texture id="Смоки М0" alpha="smoky/smoky_explosion0_alpha.jpg"
+			url="smoky/smoky_explosion0.jpg" />
+		<texture id="Смоки М1" alpha="smoky/smoky_explosion1_alpha.jpg"
+			url="smoky/smoky_explosion1.jpg" />
+		<texture id="Смоки М2" alpha="smoky/smoky_explosion2_alpha.jpg"
+			url="smoky/smoky_explosion2.jpg" />
+		<texture id="Смоки М3" alpha="smoky/smoky_explosion3_alpha.jpg"
+			url="smoky/smoky_explosion3.jpg" />
+		<texture id="flamethrower/Огнемёт" alpha="flamethrower/fireball_alpha.jpg"
+			url="flamethrower/fireball.jpg" />
+		<texture id="Огнемёт М0_muzzle" alpha="flamethrower/m0/muzzle_alpha.jpg"
+			url="flamethrower/m0/muzzle.jpg" />
+		<texture id="Огнемёт М1_muzzle" alpha="flamethrower/m1/muzzle_alpha.jpg"
+			url="flamethrower/m1/muzzle.jpg" />
+		<texture id="Огнемёт М2_muzzle" alpha="flamethrower/m2/muzzle_alpha.jpg"
+			url="flamethrower/m2/muzzle.jpg" />
+		<texture id="Огнемёт М3_muzzle" alpha="flamethrower/m3/muzzle_alpha.jpg"
+			url="flamethrower/m3/muzzle.jpg" />
 		<texture id="freeze" alpha="freeze/freezeballs_alpha.jpg" url="freeze/freezeballs.jpg" />
 		<texture id="freeze_stream" alpha="freeze/muzzle_alpha.jpg" url="freeze/muzzle.jpg" />
-		<texture id="Гром М0" alpha="smoky/thunder_explosion0_alpha.jpg" url="smoky/thunder_explosion0.jpg" />
-		<texture id="Гром М1" alpha="smoky/thunder_explosion1_alpha.jpg" url="smoky/thunder_explosion1.jpg" />
-		<texture id="Гром М2" alpha="smoky/thunder_explosion2_alpha.jpg" url="smoky/thunder_explosion2.jpg" />
-		<texture id="Гром М3" alpha="smoky/thunder_explosion3_alpha.jpg" url="smoky/thunder_explosion3.jpg" />
-		<texture id="Шафт М0" alpha="smoky/shaft_explosion_alpha.jpg" url="smoky/shaft_explosion.jpg" />
-		<texture id="Шафт М1" alpha="smoky/shaft_explosion_alpha.jpg" url="smoky/shaft_explosion.jpg" brightness="18.053" contrast="-2.655" saturation="44.248" hue="339.29"/>
-		<texture id="Шафт М2" alpha="smoky/shaft_explosion_alpha.jpg" url="smoky/shaft_explosion.jpg" brightness="14.668" contrast="-5.31" saturation="61.947" hue="313.81"/>
-		<texture id="Шафт М3" alpha="smoky/shaft_explosion_alpha.jpg" url="smoky/shaft_explosion.jpg" brightness="11.283" contrast="-5.31" saturation="150.442" hue="302.65"/>
-		<texture id="Твинс М0_flash" alpha="plasma/twin/muzzle_flash_alpha.jpg" url="plasma/twin/muzzle_flash.jpg"  />
+		<texture id="Гром М0" alpha="thunder/thunder_explosion0_alpha.jpg"
+			url="thunder/thunder_explosion0.jpg" />
+		<texture id="Гром М1" alpha="thunder/thunder_explosion1_alpha.jpg"
+			url="thunder/thunder_explosion1.jpg" />
+		<texture id="Гром М2" alpha="thunder/thunder_explosion2_alpha.jpg"
+			url="thunder/thunder_explosion2.jpg" />
+		<texture id="Гром М3" alpha="thunder/thunder_explosion3_alpha.jpg"
+			url="thunder/thunder_explosion3.jpg" />
+		<texture id="thunder_shot" alpha="thunder/shot_alpha.jpg" url="thunder/shot.jpg" />
+		<texture id="Шафт М0" alpha="smoky/shaft_explosion_alpha.jpg"
+			url="smoky/shaft_explosion.jpg" />
+		<texture id="Шафт М1" alpha="smoky/shaft_explosion_alpha.jpg"
+			url="smoky/shaft_explosion.jpg" brightness="18.053" contrast="-2.655"
+			saturation="44.248" hue="339.29" />
+		<texture id="Шафт М2" alpha="smoky/shaft_explosion_alpha.jpg"
+			url="smoky/shaft_explosion.jpg" brightness="14.668" contrast="-5.31" saturation="61.947"
+			hue="313.81" />
+		<texture id="Шафт М3" alpha="smoky/shaft_explosion_alpha.jpg"
+			url="smoky/shaft_explosion.jpg" brightness="11.283" contrast="-5.31"
+			saturation="150.442" hue="302.65" />
+		<texture id="Твинс М0_flash" alpha="plasma/twin/muzzle_flash_alpha.jpg"
+			url="plasma/twin/muzzle_flash.jpg" />
 		<texture id="Твинс М0" alpha="plasma/twin/charge_alpha.jpg" url="plasma/twin/charge.jpg" />
-		<texture id="Твинс М0_exp" alpha="plasma/twin/explosion_alpha.jpg" url="plasma/twin/explosion.jpg" />
-		<texture id="Твинс М1_flash" alpha="plasma/twin/muzzle_flash_alpha.jpg" url="plasma/twin/muzzle_flash.jpg" hue="46.19"/>
-		<texture id="Твинс М1" alpha="plasma/twin/charge_alpha.jpg" url="plasma/twin/charge.jpg" hue="46.19"/>
-		<texture id="Твинс М1_exp" alpha="plasma/twin/explosion_alpha.jpg" url="plasma/twin/explosion.jpg" hue="46.19"/>
-		<texture id="Твинс М2_flash" alpha="plasma/twin/muzzle_flash_alpha.jpg" url="plasma/twin/muzzle_flash.jpg" brightness="30.465" contrast="2.655" saturation="-17.699" hue="73.27"/>
-		<texture id="Твинс М2" alpha="plasma/twin/charge_alpha.jpg" url="plasma/twin/charge.jpg" brightness="30.465" contrast="2.655" saturation="-8.85" hue="226.19"/>
-		<texture id="Твинс М2_exp" alpha="plasma/twin/explosion_alpha.jpg" url="plasma/twin/explosion.jpg" brightness="30.465" contrast="2.655" saturation="-8.85" hue="226.19"/>
-		<texture id="Твинс М3_flash" alpha="plasma/twin/muzzle_flash_alpha.jpg" url="plasma/twin/muzzle_flash.jpg" brightness="10.155" contrast="2.655" saturation="-17.699" hue="73.27"/>
-		<texture id="Твинс М3" alpha="plasma/twin/charge_alpha.jpg" url="plasma/twin/charge.jpg" brightness="10.155" contrast="1.77" saturation="-8.85" hue="297.88"/>
-		<texture id="Твинс М3_exp" alpha="plasma/twin/explosion_alpha.jpg" url="plasma/twin/explosion.jpg" brightness="10.155" contrast="1.77" saturation="-8.85" hue="297.88"/>
-		<texture id="Рикошет М0_flash" alpha="plasma/rico/muzzle_flash_alpha.jpg" url="plasma/rico/muzzle_flash.jpg" brightness="14.668" contrast="0" saturation="-8.85" hue="6.37"/>
-		<texture id="Рикошет М0" alpha="plasma/rico/shot_alpha.jpg" url="plasma/rico/shot.jpg"  brightness="14.668" contrast="0" saturation="-8.85" hue="6.37"/>
-		<texture id="Рикошет М0_exp" alpha="plasma/rico/explosion_alpha.jpg" url="plasma/rico/explosion.jpg"  brightness="14.668" contrast="0" saturation="-8.85" hue="6.37"/>
-		<texture id="Рикошет М1_flash" alpha="plasma/rico/muzzle_flash_alpha.jpg" url="plasma/rico/muzzle_flash.jpg" brightness="1.128" contrast="0" saturation="0" hue="345.66"/>
-		<texture id="Рикошет М1" alpha="plasma/rico/shot_alpha.jpg" url="plasma/rico/shot.jpg" brightness="1.128" contrast="0" saturation="0" hue="345.66"/>
-		<texture id="Рикошет М1_exp" alpha="plasma/rico/explosion_alpha.jpg" url="plasma/rico/explosion.jpg"  brightness="1.128" contrast="0" saturation="0" hue="345.66"/>
-		<texture id="Рикошет М2_flash" alpha="plasma/rico/muzzle_flash_alpha.jpg" url="plasma/rico/muzzle_flash.jpg" brightness="1.128" contrast="0" saturation="0" hue="1.59"/>
-		<texture id="Рикошет М2" alpha="plasma/rico/shot_alpha.jpg" url="plasma/rico/shot.jpg" brightness="1.128" contrast="0" saturation="0" hue="1.59"/>
-		<texture id="Рикошет М2_exp" alpha="plasma/rico/explosion_alpha.jpg" url="plasma/rico/explosion.jpg"  brightness="1.128" contrast="0" saturation="0" hue="1.59"/>
-		<texture id="Рикошет М3_flash" alpha="plasma/rico/muzzle_flash_alpha.jpg" url="plasma/rico/muzzle_flash.jpg" brightness="1.128" hue="353.63"/>
-		<texture id="Рикошет М3" alpha="plasma/rico/shot_alpha.jpg" url="plasma/rico/shot.jpg" brightness="1.128" hue="353.63"/>
-		<texture id="Рикошет М3_exp" alpha="plasma/rico/explosion_alpha.jpg" url="plasma/rico/explosion.jpg"  brightness="1.128" hue="353.63"/>
-		<texture id="tank_explosion/shockwave" alpha="tank_explosion/shock_wave_alpha.jpg" url="tank_explosion/shock_wave.jpg" />
-		<texture id="tank_explosion/explosion" alpha="tank_explosion/explosion_small_alpha.jpg" url="tank_explosion/explosion_small.jpg" />
-		<texture id="tank_explosion/smoke" alpha="tank_explosion/smoke_alpha.jpg" url="tank_explosion/smoke.jpg" />
+		<texture id="Твинс М0_exp" alpha="plasma/twin/explosion_alpha.jpg"
+			url="plasma/twin/explosion.jpg" />
+		<texture id="Твинс М1_flash" alpha="plasma/twin/muzzle_flash_alpha.jpg"
+			url="plasma/twin/muzzle_flash.jpg" hue="46.19" />
+		<texture id="Твинс М1" alpha="plasma/twin/charge_alpha.jpg" url="plasma/twin/charge.jpg"
+			hue="46.19" />
+		<texture id="Твинс М1_exp" alpha="plasma/twin/explosion_alpha.jpg"
+			url="plasma/twin/explosion.jpg" hue="46.19" />
+		<texture id="Твинс М2_flash" alpha="plasma/twin/muzzle_flash_alpha.jpg"
+			url="plasma/twin/muzzle_flash.jpg" brightness="30.465" contrast="2.655"
+			saturation="-17.699" hue="73.27" />
+		<texture id="Твинс М2" alpha="plasma/twin/charge_alpha.jpg" url="plasma/twin/charge.jpg"
+			brightness="30.465" contrast="2.655" saturation="-8.85" hue="226.19" />
+		<texture id="Твинс М2_exp" alpha="plasma/twin/explosion_alpha.jpg"
+			url="plasma/twin/explosion.jpg" brightness="30.465" contrast="2.655" saturation="-8.85"
+			hue="226.19" />
+		<texture id="Твинс М3_flash" alpha="plasma/twin/muzzle_flash_alpha.jpg"
+			url="plasma/twin/muzzle_flash.jpg" brightness="10.155" contrast="2.655"
+			saturation="-17.699" hue="73.27" />
+		<texture id="Твинс М3" alpha="plasma/twin/charge_alpha.jpg" url="plasma/twin/charge.jpg"
+			brightness="10.155" contrast="1.77" saturation="-8.85" hue="297.88" />
+		<texture id="Твинс М3_exp" alpha="plasma/twin/explosion_alpha.jpg"
+			url="plasma/twin/explosion.jpg" brightness="10.155" contrast="1.77" saturation="-8.85"
+			hue="297.88" />
+		<texture id="Рикошет М0_flash" alpha="plasma/rico/muzzle_flash_alpha.jpg"
+			url="plasma/rico/muzzle_flash.jpg" brightness="14.668" contrast="0" saturation="-8.85"
+			hue="6.37" />
+		<texture id="Рикошет М0" alpha="plasma/rico/shot_alpha.jpg" url="plasma/rico/shot.jpg"
+			brightness="14.668" contrast="0" saturation="-8.85" hue="6.37" />
+		<texture id="Рикошет М0_exp" alpha="plasma/rico/explosion_alpha.jpg"
+			url="plasma/rico/explosion.jpg" brightness="14.668" contrast="0" saturation="-8.85"
+			hue="6.37" />
+		<texture id="Рикошет М1_flash" alpha="plasma/rico/muzzle_flash_alpha.jpg"
+			url="plasma/rico/muzzle_flash.jpg" brightness="1.128" contrast="0" saturation="0"
+			hue="345.66" />
+		<texture id="Рикошет М1" alpha="plasma/rico/shot_alpha.jpg" url="plasma/rico/shot.jpg"
+			brightness="1.128" contrast="0" saturation="0" hue="345.66" />
+		<texture id="Рикошет М1_exp" alpha="plasma/rico/explosion_alpha.jpg"
+			url="plasma/rico/explosion.jpg" brightness="1.128" contrast="0" saturation="0"
+			hue="345.66" />
+		<texture id="Рикошет М2_flash" alpha="plasma/rico/muzzle_flash_alpha.jpg"
+			url="plasma/rico/muzzle_flash.jpg" brightness="1.128" contrast="0" saturation="0"
+			hue="1.59" />
+		<texture id="Рикошет М2" alpha="plasma/rico/shot_alpha.jpg" url="plasma/rico/shot.jpg"
+			brightness="1.128" contrast="0" saturation="0" hue="1.59" />
+		<texture id="Рикошет М2_exp" alpha="plasma/rico/explosion_alpha.jpg"
+			url="plasma/rico/explosion.jpg" brightness="1.128" contrast="0" saturation="0"
+			hue="1.59" />
+		<texture id="Рикошет М3_flash" alpha="plasma/rico/muzzle_flash_alpha.jpg"
+			url="plasma/rico/muzzle_flash.jpg" brightness="1.128" hue="353.63" />
+		<texture id="Рикошет М3" alpha="plasma/rico/shot_alpha.jpg" url="plasma/rico/shot.jpg"
+			brightness="1.128" hue="353.63" />
+		<texture id="Рикошет М3_exp" alpha="plasma/rico/explosion_alpha.jpg"
+			url="plasma/rico/explosion.jpg" brightness="1.128" hue="353.63" />
+		<texture id="tank_explosion/shockwave" alpha="tank_explosion/shock_wave_alpha.jpg"
+			url="tank_explosion/shock_wave.jpg" />
+		<texture id="tank_explosion/explosion" alpha="tank_explosion/explosion_small_alpha.jpg"
+			url="tank_explosion/explosion_small.jpg" />
+		<texture id="tank_explosion/smoke" alpha="tank_explosion/smoke_alpha.jpg"
+			url="tank_explosion/smoke.jpg" />
 		<texture id="Рельса М0_smoke" alpha="railgun/smoke_alpha.jpg" url="railgun/smoke.jpg" />
-		<texture id="Рельса М0_part1" alpha="railgun/charge_part1_alpha.jpg" url="railgun/charge_part1.jpg" />
-		<texture id="Рельса М0_part2" alpha="railgun/charge_part2_alpha.jpg" url="railgun/charge_part2.jpg" />
-		<texture id="Рельса М0_part3" alpha="railgun/charge_part3_alpha.jpg" url="railgun/charge_part3.jpg" />
+		<texture id="Рельса М0_part1" alpha="railgun/charge_part1_alpha.jpg"
+			url="railgun/charge_part1.jpg" />
+		<texture id="Рельса М0_part2" alpha="railgun/charge_part2_alpha.jpg"
+			url="railgun/charge_part2.jpg" />
+		<texture id="Рельса М0_part3" alpha="railgun/charge_part3_alpha.jpg"
+			url="railgun/charge_part3.jpg" />
 		<texture id="Рельса М0_beam" alpha="railgun/beam_alpha.jpg" url="railgun/beam.jpg" />
 		<texture id="Рельса М0_expl" alpha="railgun/sphere_alpha.jpg" url="railgun/sphere.jpg" />
-		<texture id="Рельса М1_part1" alpha="railgun/charge_part1_alpha.jpg" url="railgun/charge_part1.jpg"  brightness="10.155" contrast="-2.655" saturation="44.248" hue="340.88"/>
-		<texture id="Рельса М1_part2" alpha="railgun/charge_part2_alpha.jpg" url="railgun/charge_part2.jpg"  brightness="10.155" contrast="-2.655" saturation="44.248" hue="340.88"/>
-		<texture id="Рельса М1_part3" alpha="railgun/charge_part3_alpha.jpg" url="railgun/charge_part3.jpg"  brightness="10.155" contrast="-2.655" saturation="44.248" hue="340.88"/>
-		<texture id="Рельса М1_beam" alpha="railgun/beam_alpha.jpg" url="railgun/beam.jpg" brightness="10.155" contrast="-2.655" saturation="61.947" hue="344.07"/>
-		<texture id="Рельса М1_expl" alpha="railgun/sphere_alpha.jpg" url="railgun/sphere.jpg" brightness="10.155" contrast="-2.655" saturation="61.947" hue="344.07"/>
-		<texture id="Рельса М1_smoke" alpha="railgun/smoke_alpha.jpg" url="railgun/smoke.jpg"   brightness="10.155" contrast="-2.655" saturation="61.947" hue="344.07"/>
-		<texture id="Рельса М2_part1" alpha="railgun/charge_part1_alpha.jpg" url="railgun/charge_part1.jpg" brightness="7.898" contrast="-2.655" saturation="35.398" hue="78.05"/>
-		<texture id="Рельса М2_part2" alpha="railgun/charge_part2_alpha.jpg" url="railgun/charge_part2.jpg" brightness="7.898" contrast="-2.655" saturation="35.398" hue="78.05"/>
-		<texture id="Рельса М2_part3" alpha="railgun/charge_part3_alpha.jpg" url="railgun/charge_part3.jpg"  brightness="7.898" contrast="-2.655" saturation="35.398" hue="78.05"/>
-		<texture id="Рельса М2_beam" alpha="railgun/beam_alpha.jpg" url="railgun/beam.jpg" brightness="7.898" contrast="-2.655" saturation="35.398" hue="78.05"/>
-		<texture id="Рельса М2_expl" alpha="railgun/sphere_alpha.jpg" url="railgun/sphere.jpg" brightness="7.898" contrast="-2.655" saturation="35.398" hue="78.05"/>
-		<texture id="Рельса М2_smoke" alpha="railgun/smoke_alpha.jpg" url="railgun/smoke.jpg"    brightness="7.898" contrast="-2.655" saturation="35.398" hue="78.05"/>
-		<texture id="Рельса М3_part1" alpha="railgun/charge_part1_alpha.jpg" url="railgun/charge_part1.jpg" brightness="9.027" contrast="-3.54" saturation="44.248" hue="208.67"/>
-		<texture id="Рельса М3_part2" alpha="railgun/charge_part2_alpha.jpg" url="railgun/charge_part2.jpg" brightness="9.027" contrast="-3.54" saturation="44.248" hue="208.67"/>
-		<texture id="Рельса М3_part3" alpha="railgun/charge_part3_alpha.jpg" url="railgun/charge_part3.jpg"  brightness="9.027" contrast="-3.54" saturation="44.248" hue="208.67"/>
-		<texture id="Рельса М3_expl" alpha="railgun/sphere_alpha.jpg" url="railgun/sphere.jpg"  brightness="9.027" contrast="-3.54" saturation="44.248" hue="208.67"/>
-		<texture id="Рельса М3_beam" alpha="railgun/beam_alpha.jpg" url="railgun/beam.jpg" brightness="9.027" contrast="-3.54" saturation="44.248" hue="208.67"/>
-		<texture id="Рельса М3_smoke" alpha="railgun/smoke_alpha.jpg" url="railgun/smoke.jpg"    brightness="9.027" contrast="-3.54" saturation="44.248" hue="208.67"/>
+		<texture id="Рельса М1_part1" alpha="railgun/charge_part1_alpha.jpg"
+			url="railgun/charge_part1.jpg" brightness="10.155" contrast="-2.655" saturation="44.248"
+			hue="340.88" />
+		<texture id="Рельса М1_part2" alpha="railgun/charge_part2_alpha.jpg"
+			url="railgun/charge_part2.jpg" brightness="10.155" contrast="-2.655" saturation="44.248"
+			hue="340.88" />
+		<texture id="Рельса М1_part3" alpha="railgun/charge_part3_alpha.jpg"
+			url="railgun/charge_part3.jpg" brightness="10.155" contrast="-2.655" saturation="44.248"
+			hue="340.88" />
+		<texture id="Рельса М1_beam" alpha="railgun/beam_alpha.jpg" url="railgun/beam.jpg"
+			brightness="10.155" contrast="-2.655" saturation="61.947" hue="344.07" />
+		<texture id="Рельса М1_expl" alpha="railgun/sphere_alpha.jpg" url="railgun/sphere.jpg"
+			brightness="10.155" contrast="-2.655" saturation="61.947" hue="344.07" />
+		<texture id="Рельса М1_smoke" alpha="railgun/smoke_alpha.jpg" url="railgun/smoke.jpg"
+			brightness="10.155" contrast="-2.655" saturation="61.947" hue="344.07" />
+		<texture id="Рельса М2_part1" alpha="railgun/charge_part1_alpha.jpg"
+			url="railgun/charge_part1.jpg" brightness="7.898" contrast="-2.655" saturation="35.398"
+			hue="78.05" />
+		<texture id="Рельса М2_part2" alpha="railgun/charge_part2_alpha.jpg"
+			url="railgun/charge_part2.jpg" brightness="7.898" contrast="-2.655" saturation="35.398"
+			hue="78.05" />
+		<texture id="Рельса М2_part3" alpha="railgun/charge_part3_alpha.jpg"
+			url="railgun/charge_part3.jpg" brightness="7.898" contrast="-2.655" saturation="35.398"
+			hue="78.05" />
+		<texture id="Рельса М2_beam" alpha="railgun/beam_alpha.jpg" url="railgun/beam.jpg"
+			brightness="7.898" contrast="-2.655" saturation="35.398" hue="78.05" />
+		<texture id="Рельса М2_expl" alpha="railgun/sphere_alpha.jpg" url="railgun/sphere.jpg"
+			brightness="7.898" contrast="-2.655" saturation="35.398" hue="78.05" />
+		<texture id="Рельса М2_smoke" alpha="railgun/smoke_alpha.jpg" url="railgun/smoke.jpg"
+			brightness="7.898" contrast="-2.655" saturation="35.398" hue="78.05" />
+		<texture id="Рельса М3_part1" alpha="railgun/charge_part1_alpha.jpg"
+			url="railgun/charge_part1.jpg" brightness="9.027" contrast="-3.54" saturation="44.248"
+			hue="208.67" />
+		<texture id="Рельса М3_part2" alpha="railgun/charge_part2_alpha.jpg"
+			url="railgun/charge_part2.jpg" brightness="9.027" contrast="-3.54" saturation="44.248"
+			hue="208.67" />
+		<texture id="Рельса М3_part3" alpha="railgun/charge_part3_alpha.jpg"
+			url="railgun/charge_part3.jpg" brightness="9.027" contrast="-3.54" saturation="44.248"
+			hue="208.67" />
+		<texture id="Рельса М3_expl" alpha="railgun/sphere_alpha.jpg" url="railgun/sphere.jpg"
+			brightness="9.027" contrast="-3.54" saturation="44.248" hue="208.67" />
+		<texture id="Рельса М3_beam" alpha="railgun/beam_alpha.jpg" url="railgun/beam.jpg"
+			brightness="9.027" contrast="-3.54" saturation="44.248" hue="208.67" />
+		<texture id="Рельса М3_smoke" alpha="railgun/smoke_alpha.jpg" url="railgun/smoke.jpg"
+			brightness="9.027" contrast="-3.54" saturation="44.248" hue="208.67" />
+		<texture id="Рельса XT_part1" alpha="railgun/charge_part1_alpha.jpg"
+			url="railgun/charge_part1.jpg" brightness="255" contrast="0" saturation="0" hue="0" />
+		<texture id="Рельса XT_part2" alpha="railgun/charge_part2_alpha.jpg"
+			url="railgun/charge_part2.jpg" brightness="255" contrast="0" saturation="0" hue="0" />
+		<texture id="Рельса XT_part3" alpha="railgun/charge_part3_alpha.jpg"
+			url="railgun/charge_part3.jpg" brightness="255" contrast="0" saturation="0" hue="0" />
+		<texture id="Рельса XT_expl" alpha="railgun/sphere_alpha.jpg" url="railgun/sphere.jpg"
+			brightness="255" contrast="0" saturation="0" hue="0" />
+		<texture id="Рельса XT_beam" alpha="railgun/beam_alpha.jpg" url="railgun/beam.jpg"
+			brightness="255" contrast="0" saturation="0" hue="0" />
+		<texture id="Рельса XT_smoke" alpha="railgun/smoke_alpha.jpg" url="railgun/smoke.jpg"
+			brightness="255" contrast="0" saturation="0" hue="0" />
 		<texture id="railgun_pow" alpha="railgun/pow_alpha.jpg" url="railgun/pow.jpg" />
 	</textures>
 	<textureAnimations>
@@ -659,92 +764,130 @@
 			<numFrames>16</numFrames>
 			<fps>30</fps>
 		</animation>
-		<animation id="plasma/shot">
-			<textureId>plasma/shot</textureId>
-			<frameWidth>150</frameWidth>
-			<frameHeight>150</frameHeight>
-			<numFrames>10</numFrames>
-			<fps>25</fps>
-		</animation>
-		<animation id="plasma/explosion">
-			<textureId>plasma/explosion</textureId>
-			<frameWidth>200</frameWidth>
-			<frameHeight>200</frameHeight>
-			<numFrames>10</numFrames>
-			<fps>25</fps>
-		</animation>
 	</textureAnimations>
 	<hulls path="data/hulls">
-		<hull id="wasp"  modification="0" path="wasp/m0"/>
-		<hull id="wasp" modification="1" path="wasp/m1"/>
-		<hull id="wasp" modification="2" path="wasp/m2"/>
-		<hull id="wasp" modification="3" path="wasp/m3"/>
-		<hull id="hornet" modification="0" path="hornet/m0"/>
-		<hull id="hornet" modification="1" path="hornet/m1"/>
-		<hull id="hornet" modification="2" path="hornet/m2"/>
-		<hull id="hornet" modification="3" path="hornet/m3"/>
-		<hull id="hunter" modification="0" path="hunter/m0"/>
-		<hull id="hunter" modification="1" path="hunter/m1"/>
-		<hull id="hunter" modification="2" path="hunter/m2"/>
-		<hull id="hunter" modification="3" path="hunter/m3"/>
-		<hull id="viking" modification="0" path="viking/m0"/>
-		<hull id="viking" modification="1" path="viking/m1"/>
-		<hull id="viking" modification="2" path="viking/m2"/>
-		<hull id="viking" modification="3" path="viking/m3"/>
-		<hull id="dictator" modification="0" path="dictator/m0"/>
-		<hull id="dictator" modification="1" path="dictator/m1"/>
-		<hull id="dictator" modification="2" path="dictator/m2"/>
-		<hull id="dictator" modification="3" path="dictator/m3"/>
-		<hull id="titan" modification="0" path="titan/m0"/>
-		<hull id="titan" modification="1" path="titan/m1"/>
-		<hull id="titan" modification="2" path="titan/m2"/>
-		<hull id="titan" modification="3" path="titan/m3"/>
-		<hull id="mammoth" modification="0" path="mammoth/m0"/>
-		<hull id="mammoth" modification="1" path="mammoth/m1"/>
-		<hull id="mammoth" modification="2" path="mammoth/m2"/>
-		<hull id="mammoth" modification="3" path="mammoth/m3"/>
+		<hull id="wasp" modification="0" path="wasp/m0" />
+		<hull id="wasp" modification="1" path="wasp/m1" />
+		<hull id="wasp" modification="2" path="wasp/m2" />
+		<hull id="wasp" modification="3" path="wasp/m3" />
+		<hull id="hornet" modification="0" path="hornet/m0" />
+		<hull id="hornet" modification="1" path="hornet/m1" />
+		<hull id="hornet" modification="2" path="hornet/m2" />
+		<hull id="hornet" modification="3" path="hornet/m3" />
+		<hull id="hunter" modification="0" path="hunter/m0" />
+		<hull id="hunter" modification="1" path="hunter/m1" />
+		<hull id="hunter" modification="2" path="hunter/m2" />
+		<hull id="hunter" modification="3" path="hunter/m3" />
+		<hull id="viking" modification="0" path="viking/m0" />
+		<hull id="viking" modification="1" path="viking/m1" />
+		<hull id="viking" modification="2" path="viking/m2" />
+		<hull id="viking" modification="3" path="viking/m3" />
+		<hull id="dictator" modification="0" path="dictator/m0" />
+		<hull id="dictator" modification="1" path="dictator/m1" />
+		<hull id="dictator" modification="2" path="dictator/m2" />
+		<hull id="dictator" modification="3" path="dictator/m3" />
+		<hull id="titan" modification="0" path="titan/m0" />
+		<hull id="titan" modification="1" path="titan/m1" />
+		<hull id="titan" modification="2" path="titan/m2" />
+		<hull id="titan" modification="3" path="titan/m3" />
+		<hull id="mammoth" modification="0" path="mammoth/m0" />
+		<hull id="mammoth" modification="1" path="mammoth/m1" />
+		<hull id="mammoth" modification="2" path="mammoth/m2" />
+		<hull id="mammoth" modification="3" path="mammoth/m3" />
+		<hull id="hornet_xt" modification="0" path="hornet_xt/m0" />
+		<hull id="hornet_xt" modification="1" path="hornet_xt/m1" />
+		<hull id="hornet_xt" modification="2" path="hornet_xt/m2" />
+		<hull id="hornet_xt" modification="3" path="hornet_xt/m3" />
 	</hulls>
 	<turrets path="data/turrets">
-		<turret id="smoky" modification="0" rotationSpeed="71.5" turnAcceleration="133.0" path="smoky/m0"/>
-		<turret id="smoky" modification="1" rotationSpeed="87.1" turnAcceleration="153.2" path="smoky/m1"/>
-		<turret id="smoky" modification="2" rotationSpeed="102.6" turnAcceleration="173.4" path="smoky/m2"/>
-		<turret id="smoky" modification="3" rotationSpeed="122.6" turnAcceleration="199.4" path="smoky/m3"/>
-		<turret id="flamethrower" modification="0" rotationSpeed="95.3" turnAcceleration="169.5" path="flamethrower/m0"/>
-		<turret id="flamethrower" modification="1" rotationSpeed="116.9" turnAcceleration="190.1" path="flamethrower/m1"/>
-		<turret id="flamethrower" modification="2" rotationSpeed="138.4" turnAcceleration="210.7" path="flamethrower/m2"/>
-		<turret id="flamethrower" modification="3" rotationSpeed="166.2" turnAcceleration="237.2" path="flamethrower/m3"/>
-		<turret id="twins" modification="0" rotationSpeed="89.6" turnAcceleration="162.7" path="twins/m0"/>
-		<turret id="twins" modification="1" rotationSpeed="103.9" turnAcceleration="181.1" path="twins/m1"/>
-		<turret id="twins" modification="2" rotationSpeed="118.3" turnAcceleration="199.5" path="twins/m2"/>
-		<turret id="twins" modification="3" rotationSpeed="134.7" turnAcceleration="220.6" path="twins/m3"/>
-		<turret id="railgun" modification="0" rotationSpeed="56.2" turnAcceleration="69.6" path="railgun/m0"/>
-		<turret id="railgun" modification="1" rotationSpeed="70.0" turnAcceleration="80.0" path="railgun/m1"/>
-		<turret id="railgun" modification="2" rotationSpeed="78.5" turnAcceleration="90.4" path="railgun/m2"/>
-		<turret id="railgun" modification="3" rotationSpeed="97.4" turnAcceleration="100.8" path="railgun/m3"/>
-		<turret id="isida" modification="0" rotationSpeed="91.7" turnAcceleration="165.1" path="isida/m0"/>
-		<turret id="isida" modification="1" rotationSpeed="106.7" turnAcceleration="184.6" path="isida/m1"/>
-		<turret id="isida" modification="2" rotationSpeed="121.8" turnAcceleration="203.6" path="isida/m2"/>
-		<turret id="isida" modification="3" rotationSpeed="134.7" turnAcceleration="220.5" path="isida/m3"/>
-		<turret id="freeze" modification="0" rotationSpeed="125.1" turnAcceleration="197.9" path="freeze/m0"/>
-		<turret id="freeze" modification="1" rotationSpeed="151.2" turnAcceleration="218.7" path="freeze/m1"/>
-		<turret id="freeze" modification="2" rotationSpeed="177.3" turnAcceleration="239.5" path="freeze/m2"/>
-		<turret id="freeze" modification="3" rotationSpeed="196.0" turnAcceleration="254.3" path="freeze/m3"/>
-		<turret id="ricochet" modification="0" rotationSpeed="91.3" turnAcceleration="77.6" path="ricochet/m0"/>
-		<turret id="ricochet" modification="1" rotationSpeed="110.2" turnAcceleration="100.2" path="ricochet/m1"/>
-		<turret id="ricochet" modification="2" rotationSpeed="129.0" turnAcceleration="122.9" path="ricochet/m2"/>
-		<turret id="ricochet" modification="3" rotationSpeed="139.8" turnAcceleration="135.8" path="ricochet/m3"/>
-		<turret id="thunder" modification="0" rotationSpeed="77.0" turnAcceleration="111.7" path="thunder/m0"/>
-		<turret id="thunder" modification="1" rotationSpeed="94.6" turnAcceleration="129.7" path="thunder/m1"/>
-		<turret id="thunder" modification="2" rotationSpeed="112.3" turnAcceleration="147.6" path="thunder/m2"/>
-		<turret id="thunder" modification="3" rotationSpeed="124.9" turnAcceleration="160.4" path="thunder/m3"/>
-		<turret id="shaft" modification="0" rotationSpeed="71.5" turnAcceleration="76.0" path="shaft/m0"/>
-		<turret id="shaft" modification="1" rotationSpeed="86.8" turnAcceleration="87.2" path="shaft/m1"/>
-		<turret id="shaft" modification="2" rotationSpeed="102.1" turnAcceleration="98.3" path="shaft/m2"/>
-		<turret id="shaft" modification="3" rotationSpeed="108.7" turnAcceleration="103.1" path="shaft/m3"/>
-		<turret id="shotgun" modification="0" rotationSpeed="87.2" turnAcceleration="133.0" path="shotgun/m0"/>
-		<turret id="shotgun" modification="1" rotationSpeed="104.0" turnAcceleration="149.8" path="shotgun/m1"/>
-		<turret id="shotgun" modification="2" rotationSpeed="120.8" turnAcceleration="166.6" path="shotgun/m2"/>
-		<turret id="shotgun" modification="3" rotationSpeed="137.5" turnAcceleration="183.4" path="shotgun/m3"/>
+		<turret id="smoky" modification="0" rotationSpeed="71.5" turnAcceleration="133.0"
+			path="smoky/m0" />
+		<turret id="smoky" modification="1" rotationSpeed="87.1" turnAcceleration="153.2"
+			path="smoky/m1" />
+		<turret id="smoky" modification="2" rotationSpeed="102.6" turnAcceleration="173.4"
+			path="smoky/m2" />
+		<turret id="smoky" modification="3" rotationSpeed="122.6" turnAcceleration="199.4"
+			path="smoky/m3" />
+		<turret id="flamethrower" modification="0" rotationSpeed="95.3" turnAcceleration="169.5"
+			path="flamethrower/m0" />
+		<turret id="flamethrower" modification="1" rotationSpeed="116.9" turnAcceleration="190.1"
+			path="flamethrower/m1" />
+		<turret id="flamethrower" modification="2" rotationSpeed="138.4" turnAcceleration="210.7"
+			path="flamethrower/m2" />
+		<turret id="flamethrower" modification="3" rotationSpeed="166.2" turnAcceleration="237.2"
+			path="flamethrower/m3" />
+		<turret id="twins" modification="0" rotationSpeed="89.6" turnAcceleration="162.7"
+			path="twins/m0" />
+		<turret id="twins" modification="1" rotationSpeed="103.9" turnAcceleration="181.1"
+			path="twins/m1" />
+		<turret id="twins" modification="2" rotationSpeed="118.3" turnAcceleration="199.5"
+			path="twins/m2" />
+		<turret id="twins" modification="3" rotationSpeed="134.7" turnAcceleration="220.6"
+			path="twins/m3" />
+		<turret id="railgun" modification="0" rotationSpeed="56.2" turnAcceleration="69.6"
+			path="railgun/m0" />
+		<turret id="railgun" modification="1" rotationSpeed="70.0" turnAcceleration="80.0"
+			path="railgun/m1" />
+		<turret id="railgun" modification="2" rotationSpeed="78.5" turnAcceleration="90.4"
+			path="railgun/m2" />
+		<turret id="railgun" modification="3" rotationSpeed="97.4" turnAcceleration="100.8"
+			path="railgun/m3" />
+		<turret id="isida" modification="0" rotationSpeed="91.7" turnAcceleration="165.1"
+			path="isida/m0" />
+		<turret id="isida" modification="1" rotationSpeed="106.7" turnAcceleration="184.6"
+			path="isida/m1" />
+		<turret id="isida" modification="2" rotationSpeed="121.8" turnAcceleration="203.6"
+			path="isida/m2" />
+		<turret id="isida" modification="3" rotationSpeed="134.7" turnAcceleration="220.5"
+			path="isida/m3" />
+		<turret id="freeze" modification="0" rotationSpeed="125.1" turnAcceleration="197.9"
+			path="freeze/m0" />
+		<turret id="freeze" modification="1" rotationSpeed="151.2" turnAcceleration="218.7"
+			path="freeze/m1" />
+		<turret id="freeze" modification="2" rotationSpeed="177.3" turnAcceleration="239.5"
+			path="freeze/m2" />
+		<turret id="freeze" modification="3" rotationSpeed="196.0" turnAcceleration="254.3"
+			path="freeze/m3" />
+		<turret id="ricochet" modification="0" rotationSpeed="91.3" turnAcceleration="77.6"
+			path="ricochet/m0" />
+		<turret id="ricochet" modification="1" rotationSpeed="110.2" turnAcceleration="100.2"
+			path="ricochet/m1" />
+		<turret id="ricochet" modification="2" rotationSpeed="129.0" turnAcceleration="122.9"
+			path="ricochet/m2" />
+		<turret id="ricochet" modification="3" rotationSpeed="139.8" turnAcceleration="135.8"
+			path="ricochet/m3" />
+		<turret id="thunder" modification="0" rotationSpeed="77.0" turnAcceleration="111.7"
+			path="thunder/m0" />
+		<turret id="thunder" modification="1" rotationSpeed="94.6" turnAcceleration="129.7"
+			path="thunder/m1" />
+		<turret id="thunder" modification="2" rotationSpeed="112.3" turnAcceleration="147.6"
+			path="thunder/m2" />
+		<turret id="thunder" modification="3" rotationSpeed="124.9" turnAcceleration="160.4"
+			path="thunder/m3" />
+		<turret id="shaft" modification="0" rotationSpeed="71.5" turnAcceleration="76.0"
+			path="shaft/m0" />
+		<turret id="shaft" modification="1" rotationSpeed="86.8" turnAcceleration="87.2"
+			path="shaft/m1" />
+		<turret id="shaft" modification="2" rotationSpeed="102.1" turnAcceleration="98.3"
+			path="shaft/m2" />
+		<turret id="shaft" modification="3" rotationSpeed="108.7" turnAcceleration="103.1"
+			path="shaft/m3" />
+		<turret id="shotgun" modification="0" rotationSpeed="87.2" turnAcceleration="133.0"
+			path="shotgun/m0" />
+		<turret id="shotgun" modification="1" rotationSpeed="104.0" turnAcceleration="149.8"
+			path="shotgun/m1" />
+		<turret id="shotgun" modification="2" rotationSpeed="120.8" turnAcceleration="166.6"
+			path="shotgun/m2" />
+		<turret id="shotgun" modification="3" rotationSpeed="137.5" turnAcceleration="183.4"
+			path="shotgun/m3" />
+		<turret id="railgun_xt" modification="0" rotationSpeed="56.2" turnAcceleration="69.6"
+			path="railgun_xt/m0" />
+		<turret id="railgun_xt" modification="1" rotationSpeed="70.0" turnAcceleration="80.0"
+			path="railgun_xt/m1" />
+		<turret id="railgun_xt" modification="2" rotationSpeed="78.5" turnAcceleration="90.4"
+			path="railgun_xt/m2" />
+		<turret id="railgun_xt" modification="3" rotationSpeed="97.4" turnAcceleration="100.8"
+			path="railgun_xt/m3" />
 	</turrets>
 	<colormaps path="data/colormaps">
 		<colormap id="green" file="Green.jpg" />
@@ -757,6 +900,7 @@
 		<colormap id="marine" file="Marine.jpg" />
 		<colormap id="swamp" file="Swamp.jpg" />
 		<colormap id="forester" file="Forester.jpg" />
+		<colormap id="magma" file="Magma.jpg" />
 		<colormap id="safari" file="Safari.jpg" />
 		<colormap id="metallic" file="Metallic.jpg" />
 		<colormap id="lava" file="Lava.jpg" />
@@ -766,10 +910,12 @@
 		<colormap id="storm" file="Storm.jpg" />
 		<colormap id="carbon" file="Carbon.jpg" />
 		<colormap id="roger" file="Roger.jpg" />
+		<colormap id="chainmail" file="Сhainmail.jpg" />
 		<colormap id="corrosion" file="Corrosion.jpg" />
 		<colormap id="tundra" file="Tundra.jpg" />
 		<colormap id="alien" file="Alien.jpg" />
 		<colormap id="swash" file="Swash.jpg" />
+		<colormap id="pixel" file="Pixel.jpg" />
 		<colormap id="cedar" file="Cedar.jpg" />
 		<colormap id="in_love" file="In-Love.jpg" />
 		<colormap id="desert" file="Desert.jpg" />
@@ -778,6 +924,7 @@
 		<colormap id="savanna" file="Savanna.jpg" />
 		<colormap id="loam" file="Loam.jpg" />
 		<colormap id="urban" file="Urban.jpg" />
+		<colormap id="atom" file="Atom.jpg" />
 		<colormap id="digital" file="Digital.jpg" />
 		<colormap id="hohloma" file="Hohloma.jpg" />
 		<colormap id="electra" file="Electra.jpg" />
@@ -789,15 +936,50 @@
 		<colormap id="needle" file="Needle.jpg" />
 		<colormap id="zeus" file="Zeus.jpg" />
 		<colormap id="rock" file="Rock.jpg" />
+		<colormap id="mars" file="Mars.jpg" />
 		<colormap id="prodigi" file="Prodigi.jpg" />
 		<colormap id="irbis" file="Irbis.jpg" />
 		<colormap id="emerald" file="Emerald.jpg" />
 		<colormap id="inferno" file="Inferno.jpg" />
+		<colormap id="nano" file="Nano.jpg" />
 		<colormap id="clay" file="Clay.jpg" />
 		<colormap id="taiga" file="Taiga.jpg" />
+		<colormap id="tiger" file="Tiger.jpg" />
 		<colormap id="jade" file="Jade.jpg" />
 		<colormap id="picasso" file="Picasso.jpg" />
 		<colormap id="dead" file="special\Dead.jpg" />
+		<colormap id="football_wales" file="football\Football_wales.jpg" />
+		<colormap id="football_korea" file="football\Football_korea.jpg" />
+		<colormap id="football_america" file="football\Football_america.jpg" />
+		<colormap id="football_iran" file="football\Football_iran.jpg" />
+		<colormap id="football_australia" file="football\Football_australia.jpg" />
+		<colormap id="football_netherlands" file="football\Football_netherlands.jpg" />
+		<colormap id="football_saudi" file="football\Football_saudi.jpg" />
+		<colormap id="football_germany" file="football\Football_germany.jpg" />
+		<colormap id="football_senegal" file="football\Football_senegal.jpg" />
+		<colormap id="football_belgium" file="football\Football_belgium.jpg" />
+		<colormap id="football_uruguay" file="football\Football_uruguay.jpg" />
+		<colormap id="football_mexico" file="football\Football_mexico.jpg" />
+		<colormap id="football_brazil" file="football\Football_brazil.jpg" />
+		<colormap id="football_argentina" file="football\Football_argentina.jpg" />
+		<colormap id="football_england" file="football\Football_england.jpg" />
+		<colormap id="football_spain" file="football\Football_spain.jpg" />
+		<colormap id="football_croatia" file="football\Football_croatia.jpg" />
+		<colormap id="football_qatar" file="football\Football_qatar.jpg" />
+		<colormap id="football_canada" file="football\Football_canada.jpg" />
+		<colormap id="football_cameroon" file="football\Football_cameroon.jpg" />
+		<colormap id="football_poland" file="football\Football_poland.jpg" />
+		<colormap id="football_denmark" file="football\Football_denmark.jpg" />
+		<colormap id="football_ecuador" file="football\Football_ecuador.jpg" />
+		<colormap id="football_tunisia" file="football\Football_tunisia.jpg" />
+		<colormap id="football_morocco" file="football\Football_morocco.jpg" />
+		<colormap id="football_ghana" file="football\Football_ghana.jpg" />
+		<colormap id="football_serbia" file="football\Football_serbia.jpg" />
+		<colormap id="football_costarica" file="football\Football_costarica.jpg" />
+		<colormap id="football_portugal" file="football\Football_portugal.jpg" />
+		<colormap id="football_france" file="football\Football_france.jpg" />
+		<colormap id="football_switzerland" file="football\Football_switzerland.jpg" />
+		<colormap id="football_japan" file="football\Football_japan.jpg" />
 		<colormap id="acid" file="special\Acid.jpg" />
 		<colormap id="alligator" file="special\Alligator.jpg" />
 		<colormap id="microchip" file="special\Microchip.jpg" />
@@ -816,6 +998,7 @@
 		<colormap id="youtuber" file="special\Youtuber.jpg" />
 		<colormap id="cobalt" file="special\Cobalt.jpg" />
 		<colormap id="eternity" file="special\Eternity.jpg" />
+		<colormap id="frost" file="special\Frost.jpg" />
 		<colormap id="premium" file="special\Premium.jpg" />
 		<colormap id="holiday" file="holiday\Absent.jpg" />
 		<colormap id="holiday_1" file="holiday\21_12_NewYear.jpg" />
@@ -829,6 +1012,8 @@
 		<colormap id="holiday_9" file="holiday\22_08_RailwayWorkersDay.jpg" />
 		<colormap id="holiday_10" file="holiday\22_09_TankersDay.jpg" />
 		<colormap id="holiday_11" file="holiday\22_10_Halloween.jpg" />
+		<colormap id="holiday_12" file="holiday\22_11_BlackFriday.jpg" />
+		<colormap id="holiday_13" file="holiday\22_12_NewYear.jpg" />
 		<colormap id="user_1" file="user\1.jpg" />
 		<colormap id="user_2" file="user\2.jpg" />
 		<colormap id="user_3" file="user\3.jpg" />
